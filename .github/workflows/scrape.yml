@@ -16,6 +16,12 @@ jobs:
   scrape:
     runs-on: ubuntu-latest
     timeout-minutes: 30
+    env:
+      # Set these in Settings > Secrets and variables > Actions. Until they exist the
+      # scraper still runs and saves data/, it just doesn't send anything to WordPress.
+      AUM_WP_URL: ${{ vars.AUM_WP_URL || 'https://approvedusedmobility.co.uk' }}
+      AUM_WP_USER: ${{ secrets.AUM_WP_USER }}
+      AUM_WP_APP_PASSWORD: ${{ secrets.AUM_WP_APP_PASSWORD }}
     steps:
       - uses: actions/checkout@v4
 
@@ -31,7 +37,13 @@ jobs:
         run: python -m pytest -q
 
       - name: Scrape all dealers
+        id: scrape
         run: python -m aum_scraper run --out data --geocode
+
+      # Runs even if one dealer failed: WordPress only takes stock down for dealers read successfully.
+      - name: Send to WordPress
+        if: ${{ !cancelled() && steps.scrape.outcome != 'skipped' && env.AUM_WP_APP_PASSWORD != '' }}
+        run: python -m aum_scraper push --data data
 
       - name: Save results
         if: always()

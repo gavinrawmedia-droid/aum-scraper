@@ -52,7 +52,7 @@ python -m aum_scraper run                    # live run, all dealers
 python -m aum_scraper run --only aspire2     # one dealer
 python -m aum_scraper run --geocode          # also look up dealer postcodes (postcodes.io)
 python -m aum_scraper run --offline fixtures # re-run on the saved test captures, no internet
-python -m pytest -q                          # 23 tests; run after any change
+python -m pytest -q                          # 26 tests; run after any change
 ```
 
 ## Running it every day automatically
@@ -61,6 +61,17 @@ This repository's `.github/workflows/scrape.yml` runs it
 every morning at 05:17 (UK winter time) and commits the updated `data/` folder. You can
 also start it by hand from the Actions tab. If any dealer errors, the run is marked as
 failed and GitHub emails you.
+
+## Sending stock to WordPress
+
+The `wordpress-plugin/aum-directory` plugin gives the site real pages for listings, dealers
+and equipment types, and an import endpoint. After each scrape the daily run sends the data
+there, once two GitHub secrets exist (`AUM_WP_USER`, `AUM_WP_APP_PASSWORD`).
+`wordpress-plugin/README.md` has the setup steps. By hand:
+
+```bash
+AUM_WP_USER=stock-importer AUM_WP_APP_PASSWORD='...' python -m aum_scraper push
+```
 
 ## Adding a dealer
 

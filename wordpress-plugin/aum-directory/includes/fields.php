@@ -1,0 +1,88 @@
+<?php
+/**
+ * One place that defines every field the scraper sends, so registering,
+ * importing and displaying all agree.
+ */
+
+defined( 'ABSPATH' ) || exit;
+
+/**
+ * Listing fields: meta key => [type, label, scraper key].
+ * Meta keys have no leading underscore so page builders (Breakdance) can pick them.
+ */
+function aum_listing_fields(): array {
+	return array(
+		'aum_source_id'          => array( 'string', 'Scraper ID', 'id' ),
+		'aum_dealer_ext_id'      => array( 'string', 'Dealer ID', 'dealer_id' ),
+		'aum_title_as_listed'    => array( 'string', "Dealer's own title", 'title' ),
+		'aum_year'               => array( 'integer', 'Year', 'year' ),
+		'aum_price_gbp'          => array( 'number', 'Price (£)', 'price_gbp' ),
+		'aum_price_is_from'      => array( 'boolean', '"From" price', 'price_is_from' ),
+		'aum_was_price_gbp'      => array( 'number', 'Was price (£)', 'was_price_gbp' ),
+		'aum_previous_price_gbp' => array( 'number', 'Previous price (£)', 'previous_price_gbp' ),
+		'aum_price_basis'        => array( 'string', 'Price basis', 'price_basis' ),
+		'aum_warranty_months'    => array( 'integer', 'Warranty (months)', 'warranty_months' ),
+		'aum_warranty_source'    => array( 'string', 'Warranty source', 'warranty_source' ),
+		'aum_max_user_weight_kg' => array( 'number', 'Max user weight (kg)', 'max_user_weight_kg' ),
+		'aum_range_miles'        => array( 'number', 'Range (miles)', 'range_miles' ),
+		'aum_top_speed_mph'      => array( 'number', 'Top speed (mph)', 'top_speed_mph' ),
+		'aum_heaviest_part_kg'   => array( 'number', 'Heaviest part (kg)', 'heaviest_part_kg' ),
+		'aum_spec_note'          => array( 'string', 'Spec note', 'spec_note' ),
+		'aum_dealer_url'         => array( 'string', "Dealer's page for this item", 'url' ),
+		'aum_image_url'          => array( 'string', 'Main photo URL', null ),
+		'aum_image_urls'         => array( 'array', 'Photo URLs', 'image_urls' ),
+		'aum_first_seen'         => array( 'string', 'First seen', 'first_seen' ),
+		'aum_last_seen'          => array( 'string', 'Last seen', 'last_seen' ),
+		'aum_removed_at'         => array( 'string', 'Removed at', null ),
+	);
+}
+
+function aum_dealer_fields(): array {
+	return array(
+		'aum_ext_id'         => array( 'string', 'Dealer ID', 'id' ),
+		'aum_website'        => array( 'string', 'Website', 'website' ),
+		'aum_address'        => array( 'string', 'Address', 'address' ),
+		'aum_town'           => array( 'string', 'Town', 'town' ),
+		'aum_postcode'       => array( 'string', 'Postcode', 'postcode' ),
+		'aum_phone'          => array( 'string', 'Phone', 'phone' ),
+		'aum_other_branches' => array( 'string', 'Other branches', 'other_branches' ),
+		'aum_price_basis'    => array( 'string', 'Price basis', 'price_basis' ),
+		'aum_lat'            => array( 'number', 'Latitude', 'lat' ),
+		'aum_lng'            => array( 'number', 'Longitude', 'lng' ),
+		'aum_listing_count'  => array( 'integer', 'Live listings', 'listing_count' ),
+	);
+}
+
+/** Scraper category text => equipment term slug and name. */
+function aum_equipment_terms(): array {
+	return array(
+		'Road scooter (8mph)'                 => array( 'road-scooters', 'Road scooters (8mph)' ),
+		'Pavement scooter (4mph)'             => array( 'pavement-scooters', 'Pavement scooters (4mph)' ),
+		'Boot / folding scooter'              => array( 'boot-scooters', 'Boot and folding scooters' ),
+		'Mobility scooter (speed not stated)' => array( 'mobility-scooters', 'Mobility scooters' ),
+		'Powerchair'                          => array( 'powerchairs', 'Powerchairs' ),
+		'Manual wheelchair'                   => array( 'wheelchairs', 'Wheelchairs' ),
+		'Other'                               => array( 'other', 'Other equipment' ),
+	);
+}
+
+function aum_condition_terms(): array {
+	return array(
+		'Ex-demo'       => array( 'ex-demo', 'Ex-demo' ),
+		'Used'          => array( 'used', 'Used' ),
+		'Reconditioned' => array( 'reconditioned', 'Reconditioned' ),
+		'Not stated'    => array( 'not-stated', 'Condition not stated' ),
+	);
+}
+
+/** How each dealer's prices should be described to buyers. */
+function aum_price_basis_label( string $basis ): string {
+	switch ( $basis ) {
+		case 'vat_relief':
+			return 'Price with VAT relief. If you don\'t qualify, the dealer adds 20% VAT.';
+		case 'no_vat':
+			return 'The dealer says there is no VAT to add.';
+		default:
+			return 'Check with the dealer whether VAT is added.';
+	}
+}
