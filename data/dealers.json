@@ -9,8 +9,8 @@
   "phone": "01789 339 738",
   "other_branches": null,
   "price_basis": "vat_relief",
-  "lat": null,
-  "lng": null,
+  "lat": 52.201098,
+  "lng": -1.722163,
   "listing_count": 46
  },
  {
@@ -23,8 +23,8 @@
   "phone": "01572 755204",
   "other_branches": null,
   "price_basis": "vat_relief",
-  "lat": null,
-  "lng": null,
+  "lat": 52.678875,
+  "lng": -0.734028,
   "listing_count": 22
  },
  {
@@ -37,8 +37,8 @@
   "phone": "0800 916 3037",
   "other_branches": null,
   "price_basis": "vat_relief",
-  "lat": null,
-  "lng": null,
+  "lat": 55.886959,
+  "lng": -4.251486,
   "listing_count": 34
  },
  {
@@ -53,8 +53,8 @@
    "78-80 Station Road, Harrow, HA1 2RX (020 3958 4328)"
   ],
   "price_basis": "vat_relief",
-  "lat": null,
-  "lng": null,
+  "lat": 51.982375,
+  "lng": -0.219895,
   "listing_count": 9
  },
  {
@@ -69,8 +69,8 @@
    "Showrooms across Lincolnshire and Nottingham, including Wragby Road, Lincoln"
   ],
   "price_basis": "check",
-  "lat": null,
-  "lng": null,
+  "lat": 53.11106,
+  "lng": 0.24569,
   "listing_count": 30
  },
  {
@@ -83,8 +83,8 @@
   "phone": "01732 446 488",
   "other_branches": null,
   "price_basis": "no_vat",
-  "lat": null,
-  "lng": null,
-  "listing_count": 67
+  "lat": 51.29538,
+  "lng": 0.195154,
+  "listing_count": 82
  }
 ]
