@@ -1,0 +1,112 @@
+# Dealers the scraper collects approved-used stock from.
+#
+# To add a dealer: copy a block, change the details, and pick the platform:
+#   shopify          - the dealer's site runs on Shopify (most do). List the used/ex-demo
+#                      collection handles, or set whole_store: true and add an include rule.
+#   mobility_giant   - Mobility Giant's own site (HTML listing pages).
+#
+# price_basis tells the site how to label prices:
+#   vat_relief - the price shown is before VAT; buyers who don't qualify for VAT relief pay 20% more
+#   no_vat     - the dealer says there is no VAT to add
+#   check      - it varies by item; tell buyers to confirm with the dealer
+#
+# warranty_policy is only for a warranty the dealer states for ALL its used stock.
+# The scraper prefers a warranty stated on the item itself.
+
+defaults:
+  min_price: 300          # ignore anything cheaper (accessories, spares)
+  user_agent: "ApprovedUsedMobilityBot/0.1 (+https://approvedusedmobility.co.uk/about-our-listings)"
+  delay_seconds: 3        # pause between requests to the same site
+
+dealers:
+  - id: active-mobility
+    name: Active Mobility
+    website: https://activemob.co.uk
+    address: Unit 3 & 4, Avenue Fields Industrial Estate, Birmingham Rd
+    town: Stratford-upon-Avon
+    postcode: CV37 0HT
+    phone: "01789 339 738"
+    platform: shopify
+    collections:
+      - pre-owned-mobility-scooters-uk
+      - pre-owned-electric-wheelchairs-uk
+    price_basis: vat_relief
+
+  - id: aspire2
+    name: Aspire2 Mobility
+    website: https://aspire2.co.uk
+    address: 30 Pillings Rd
+    town: Oakham
+    postcode: LE15 6QF
+    phone: "01572 755204"
+    platform: shopify
+    whole_store: true
+    include:
+      text_matches: "used|ex[- ]?demo|pre[- ]?owned|pre[- ]?loved|recondition|refurb|second[- ]hand|2nd hand|showroom model|ex[- ]showroom"
+    price_basis: vat_relief
+
+  - id: mobility-solutions
+    name: Mobility Solutions
+    website: https://shop.mobilitysolutions.co.uk
+    address: 75 Hawthorn Street
+    town: Glasgow
+    postcode: G22 6HY
+    phone: "0800 916 3037"
+    platform: shopify
+    whole_store: true
+    include:
+      product_type: ["Used"]      # their "Trade" items are for trade buyers only
+    condition_default: Used        # the whole shop is pre-owned stock
+    warranty_policy:
+      months: 12
+      source: "Dealer policy: 'All of our Scooters include: 12 Month Free Warranty'"
+    price_basis: vat_relief
+
+  - id: mobility-world
+    name: Mobility World
+    website: https://www.mobilityworld.co.uk
+    address: Birds Hill
+    town: Letchworth Garden City
+    postcode: SG6 1HX
+    phone: "01462 418478"
+    other_branches:
+      - "78-80 Station Road, Harrow, HA1 2RX (020 3958 4328)"
+    platform: shopify
+    collections:
+      - approved-used-mobility-scooters
+      - approved-used-power-wheelchairs-for-sale
+    price_basis: vat_relief
+
+  - id: seacroft-mobility
+    name: Seacroft Mobility
+    website: https://www.seacroftmobility.com
+    address: Batemans Court, Croft Bank
+    town: Skegness
+    postcode: PE24 4SZ
+    phone: "01754 882327"
+    other_branches:
+      - "Showrooms across Lincolnshire and Nottingham, including Wragby Road, Lincoln"
+    platform: shopify
+    collections:
+      - all-used-products
+    condition_default: Used        # everything comes from their "All Used Products" collection
+    price_basis: check
+
+  - id: mobility-giant
+    name: Mobility Giant
+    website: https://www.mobilitygiant.co.uk
+    address: Unit 5 Connections Business Park, Vestry Trading Estate
+    town: Sevenoaks
+    postcode: TN14 5DF
+    phone: "01732 446 488"
+    platform: mobility_giant
+    categories:
+      - foldable-travel-mobility-scooters
+      - pavement-4mph-mobility-scooters
+      - road-8mph-mobility-scooters
+      - all-terrain-mobility-scooters
+    condition_default: Used        # they only sell used stock
+    warranty_policy:
+      months: 12
+      source: "Dealer policy: '12 Month Fully Comprehensive Warranty included'"
+    price_basis: no_vat

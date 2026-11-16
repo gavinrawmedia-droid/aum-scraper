@@ -1,0 +1,51 @@
+{
+ "run_at": "2026-11-11T17:48:02+00:00",
+ "mode": "offline",
+ "dealers": {
+  "active-mobility": {
+   "status": "ok",
+   "count": 46,
+   "previous_count": null,
+   "dropped": {},
+   "messages": []
+  },
+  "aspire2": {
+   "status": "ok",
+   "count": 22,
+   "previous_count": null,
+   "dropped": {},
+   "messages": []
+  },
+  "mobility-solutions": {
+   "status": "ok",
+   "count": 34,
+   "previous_count": null,
+   "dropped": {},
+   "messages": []
+  },
+  "mobility-world": {
+   "status": "ok",
+   "count": 9,
+   "previous_count": null,
+   "dropped": {},
+   "messages": []
+  },
+  "seacroft-mobility": {
+   "status": "ok",
+   "count": 30,
+   "previous_count": null,
+   "dropped": {
+    "listed as new": 1,
+    "spare part or accessory": 1
+   },
+   "messages": []
+  },
+  "mobility-giant": {
+   "status": "ok",
+   "count": 67,
+   "previous_count": null,
+   "dropped": {},
+   "messages": []
+  }
+ }
+}
