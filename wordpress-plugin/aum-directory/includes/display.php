@@ -16,7 +16,7 @@ defined( 'ABSPATH' ) || exit;
 add_action( 'wp_enqueue_scripts', function () {
 	if ( is_singular( array( 'aum_listing', 'aum_dealer' ) ) || is_post_type_archive( array( 'aum_listing', 'aum_dealer' ) )
 		|| is_tax( array( 'aum_equipment', 'aum_brand' ) ) || aum_page_has_shortcode() ) {
-		wp_enqueue_style( 'aum-directory', AUM_DIR_URL . 'assets/aum.css', array(), AUM_DIR_VERSION );
+		wp_enqueue_style( 'aumd-directory', AUM_DIR_URL . 'assets/aum.css', array(), AUM_DIR_VERSION );
 	}
 } );
 
@@ -57,7 +57,7 @@ function aum_render_go_button( int $id, string $placement = 'listing' ): string 
 	$dealer_post = aum_dealer_post_for( (string) aum_meta( $id, 'aum_dealer_ext_id' ) );
 	$dealer      = $dealer_post ? get_the_title( $dealer_post ) : 'the dealer';
 	return sprintf(
-		'<a class="aum-go" href="%s" rel="nofollow noopener" target="_blank">%s<span class="screen-reader-text"> (opens in a new tab)</span></a>',
+		'<a class="aumd-go" href="%s" rel="nofollow noopener" target="_blank">%s<span class="screen-reader-text"> (opens in a new tab)</span></a>',
 		esc_url( aum_go_url( $id, $placement ) ),
 		esc_html( sprintf( 'See it on %s\'s website', $dealer ) )
 	);
@@ -93,40 +93,40 @@ function aum_render_listing_details( int $id ): string {
 
 	ob_start();
 	?>
-	<div class="aum-listing">
+	<div class="aumd-listing">
 		<?php if ( $image ) : ?>
-			<figure class="aum-photo">
+			<figure class="aumd-photo">
 				<img src="<?php echo esc_url( $image ); ?>" alt="<?php echo esc_attr( get_the_title( $id ) ); ?>" loading="lazy" decoding="async" referrerpolicy="no-referrer">
 				<figcaption>Photo: <?php echo esc_html( $dealer_post ? get_the_title( $dealer_post ) : 'dealer' ); ?></figcaption>
 			</figure>
 		<?php endif; ?>
 
-		<div class="aum-buy">
+		<div class="aumd-buy">
 			<?php if ( $price ) : ?>
-				<p class="aum-price"><?php echo $from ? 'From ' : ''; ?><?php echo esc_html( aum_money( $price ) ); ?>
-					<?php if ( $was ) : ?><span class="aum-was">Was <?php echo esc_html( aum_money( $was ) ); ?></span><?php endif; ?>
+				<p class="aumd-price"><?php echo $from ? 'From ' : ''; ?><?php echo esc_html( aum_money( $price ) ); ?>
+					<?php if ( $was ) : ?><span class="aumd-was">Was <?php echo esc_html( aum_money( $was ) ); ?></span><?php endif; ?>
 				</p>
-				<p class="aum-basis"><?php echo esc_html( aum_price_basis_label( $basis ) ); ?></p>
+				<p class="aumd-basis"><?php echo esc_html( aum_price_basis_label( $basis ) ); ?></p>
 			<?php endif; ?>
 			<?php echo aum_render_go_button( $id ); // phpcs:ignore WordPress.Security.EscapeOutput ?>
-			<p class="aum-checked"><?php echo esc_html( aum_last_checked_text( $id ) ); ?> Price and availability can change, so confirm with the dealer.</p>
+			<p class="aumd-checked"><?php echo esc_html( aum_last_checked_text( $id ) ); ?> Price and availability can change, so confirm with the dealer.</p>
 		</div>
 
-		<h2 class="aum-h">Key facts</h2>
-		<dl class="aum-facts">
+		<h2 class="aumd-h">Key facts</h2>
+		<dl class="aumd-facts">
 			<?php foreach ( $facts as $label => $value ) : ?>
-				<div><dt><?php echo esc_html( $label ); ?></dt><dd><?php echo $value ? esc_html( (string) $value ) : '<span class="aum-ns">Not stated</span>'; ?></dd></div>
+				<div><dt><?php echo esc_html( $label ); ?></dt><dd><?php echo $value ? esc_html( (string) $value ) : '<span class="aumd-ns">Not stated</span>'; ?></dd></div>
 			<?php endforeach; ?>
 		</dl>
 		<?php if ( aum_meta( $id, 'aum_spec_note' ) ) : ?>
-			<p class="aum-note" role="note"><?php echo esc_html( (string) aum_meta( $id, 'aum_spec_note' ) ); ?></p>
+			<p class="aumd-note" role="note"><?php echo esc_html( (string) aum_meta( $id, 'aum_spec_note' ) ); ?></p>
 		<?php endif; ?>
 		<?php if ( aum_meta( $id, 'aum_warranty_source' ) && 'Listing' !== aum_meta( $id, 'aum_warranty_source' ) ) : ?>
-			<p class="aum-small">Warranty: <?php echo esc_html( (string) aum_meta( $id, 'aum_warranty_source' ) ); ?></p>
+			<p class="aumd-small">Warranty: <?php echo esc_html( (string) aum_meta( $id, 'aum_warranty_source' ) ); ?></p>
 		<?php endif; ?>
 
-		<h2 class="aum-h">Questions to ask the dealer</h2>
-		<ul class="aum-questions">
+		<h2 class="aumd-h">Questions to ask the dealer</h2>
+		<ul class="aumd-questions">
 			<li>How old are the batteries, and have they been load-tested?</li>
 			<li>What does the warranty cover, and who carries out repairs?</li>
 			<li>Is delivery and a home demonstration included?</li>
@@ -149,10 +149,10 @@ function aum_render_dealer_box( int $dealer_id, bool $with_link = true ): string
 	$address = implode( ', ', array_filter( array( $m( 'aum_address' ), $m( 'aum_town' ), $m( 'aum_postcode' ) ) ) );
 	ob_start();
 	?>
-	<section class="aum-dealer" aria-label="Dealer">
-		<h2 class="aum-h">Sold by <?php echo esc_html( get_the_title( $dealer_id ) ); ?></h2>
+	<section class="aumd-dealer" aria-label="Dealer">
+		<h2 class="aumd-h">Sold by <?php echo esc_html( get_the_title( $dealer_id ) ); ?></h2>
 		<?php if ( $address ) : ?><p><?php echo esc_html( $address ); ?></p><?php endif; ?>
-		<?php if ( $m( 'aum_other_branches' ) ) : ?><p class="aum-small">Also: <?php echo esc_html( $m( 'aum_other_branches' ) ); ?></p><?php endif; ?>
+		<?php if ( $m( 'aum_other_branches' ) ) : ?><p class="aumd-small">Also: <?php echo esc_html( $m( 'aum_other_branches' ) ); ?></p><?php endif; ?>
 		<?php if ( $m( 'aum_phone' ) ) : ?>
 			<p><a href="tel:<?php echo esc_attr( preg_replace( '/[^0-9+]/', '', $m( 'aum_phone' ) ) ); ?>">Call <?php echo esc_html( $m( 'aum_phone' ) ); ?></a></p>
 		<?php endif; ?>
@@ -170,7 +170,7 @@ function aum_render_dealer_details( int $dealer_id ): string {
 	if ( $website ) {
 		$out .= '<p><a href="' . esc_url( $website ) . '" rel="nofollow noopener" target="_blank">Visit the dealer\'s website<span class="screen-reader-text"> (opens in a new tab)</span></a></p>';
 	}
-	$out .= '<h2 class="aum-h">Approved used stock</h2>';
+	$out .= '<h2 class="aumd-h">Approved used stock</h2>';
 	$out .= aum_render_listing_grid( array( 'dealer' => (string) get_post_meta( $dealer_id, 'aum_ext_id', true ), 'limit' => 60 ) );
 	return $out;
 }
@@ -205,9 +205,9 @@ function aum_render_listing_grid( array $atts ): string {
 	}
 	$posts = get_posts( $query );
 	if ( ! $posts ) {
-		return '<p class="aum-empty">No listings at the moment.</p>';
+		return '<p class="aumd-empty">No listings at the moment.</p>';
 	}
-	$out = '<ul class="aum-grid">';
+	$out = '<ul class="aumd-grid">';
 	foreach ( $posts as $p ) {
 		$out .= aum_render_card( $p->ID );
 	}
@@ -223,13 +223,13 @@ function aum_render_card( int $id ): string {
 	$cond   = ( ! is_wp_error( $cond ) && $cond && 'Condition not stated' !== $cond[0] ) ? $cond[0] : '';
 	ob_start();
 	?>
-	<li class="aum-card">
+	<li class="aumd-card">
 		<a href="<?php echo esc_url( get_permalink( $id ) ); ?>">
 			<?php if ( $image ) : ?><img src="<?php echo esc_url( $image ); ?>" alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer"><?php endif; ?>
-			<span class="aum-card-title"><?php echo esc_html( get_the_title( $id ) ); ?></span>
+			<span class="aumd-card-title"><?php echo esc_html( get_the_title( $id ) ); ?></span>
 		</a>
-		<?php if ( $price ) : ?><span class="aum-card-price"><?php echo esc_html( ( aum_meta( $id, 'aum_price_is_from' ) ? 'From ' : '' ) . aum_money( $price ) ); ?></span><?php endif; ?>
-		<span class="aum-card-meta"><?php echo esc_html( implode( ' · ', array_filter( array( $cond, $dealer ? get_the_title( $dealer ) : '', $town ) ) ) ); ?></span>
+		<?php if ( $price ) : ?><span class="aumd-card-price"><?php echo esc_html( ( aum_meta( $id, 'aum_price_is_from' ) ? 'From ' : '' ) . aum_money( $price ) ); ?></span><?php endif; ?>
+		<span class="aumd-card-meta"><?php echo esc_html( implode( ' · ', array_filter( array( $cond, $dealer ? get_the_title( $dealer ) : '', $town ) ) ) ); ?></span>
 	</li>
 	<?php
 	return (string) ob_get_clean();
