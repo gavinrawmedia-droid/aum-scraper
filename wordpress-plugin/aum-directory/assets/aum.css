@@ -15,7 +15,7 @@
 .aum-facts dt { font-weight: 600; }
 .aum-facts dd { margin: 0; text-align: right; }
 .aum-ns { color: #666; font-style: italic; }
-.aum-note { background: #fff6d6; border-left: 4px solid #e0a800; padding: 0.75rem 1rem; }
+.aum-note { background: #fff6d6; border: 1px solid #e8c766; border-radius: 8px; padding: 0.75rem 1rem; }
 .aum-questions { padding-left: 1.25rem; }
 .aum-dealer { background: #f4f4f2; padding: 1.25rem; border-radius: 10px; margin-top: 2rem; }
 .aum-dealer .aum-h { margin-top: 0; }
