@@ -13,11 +13,10 @@
 
 defined( 'ABSPATH' ) || exit;
 
+// Breakdance keeps shortcodes in its own data rather than the post content, so the small
+// stylesheet loads on every page instead of only where a shortcode is spotted.
 add_action( 'wp_enqueue_scripts', function () {
-	if ( is_singular( array( 'aum_listing', 'aum_dealer' ) ) || is_post_type_archive( array( 'aum_listing', 'aum_dealer' ) )
-		|| is_tax( array( 'aum_equipment', 'aum_brand' ) ) || aum_page_has_shortcode() ) {
-		wp_enqueue_style( 'aumd-directory', AUM_DIR_URL . 'assets/aum.css', array(), AUM_DIR_VERSION );
-	}
+	wp_enqueue_style( 'aumd-directory', AUM_DIR_URL . 'assets/aum.css', array(), AUM_DIR_VERSION );
 } );
 
 function aum_page_has_shortcode(): bool {
@@ -178,13 +177,31 @@ function aum_render_dealer_details( int $dealer_id ): string {
 /* ------------------------------------------------------------------ grid */
 
 function aum_render_listing_grid( array $atts ): string {
-	$atts  = shortcode_atts( array( 'equipment' => '', 'brand' => '', 'dealer' => '', 'limit' => 12, 'orderby' => 'price' ), $atts, 'aum_listings' );
+	$atts = shortcode_atts( array( 'equipment' => '', 'brand' => '', 'dealer' => '', 'limit' => 12, 'orderby' => 'price', 'exclude' => '', 'empty' => 'No listings at the moment.' ), $atts, 'aum_listings' );
+	// "current" means: the same as the listing or dealer page being viewed.
+	$here = get_queried_object_id();
+	if ( 'current' === $atts['dealer'] ) {
+		$atts['dealer'] = 'aum_dealer' === get_post_type( $here ) ? (string) get_post_meta( $here, 'aum_ext_id', true ) : (string) get_post_meta( $here, 'aum_dealer_ext_id', true );
+	}
+	if ( 'current' === $atts['equipment'] ) {
+		$atts['equipment'] = 'aum_listing' === get_post_type( $here ) ? aum_first_term( $here, 'aum_equipment', 'slug' ) : '';
+	}
+	if ( 'current' === $atts['brand'] ) {
+		$atts['brand'] = 'aum_listing' === get_post_type( $here ) ? aum_first_term( $here, 'aum_brand', 'slug' ) : '';
+	}
 	$query = array(
 		'post_type'      => 'aum_listing',
 		'post_status'    => 'publish',
 		'posts_per_page' => max( 1, min( 100, (int) $atts['limit'] ) ),
 		'no_found_rows'  => true,
 	);
+	if ( 'current' === $atts['exclude'] && $here ) {
+		$query['post__not_in'] = array( $here );
+	}
+	if ( 'newest' === $atts['orderby'] ) {
+		$query['orderby'] = 'date';
+		$query['order']   = 'DESC';
+	}
 	$tax = array();
 	if ( $atts['equipment'] ) {
 		$tax[] = array( 'taxonomy' => 'aum_equipment', 'field' => 'slug', 'terms' => array_map( 'sanitize_title', explode( ',', $atts['equipment'] ) ) );
@@ -205,31 +222,40 @@ function aum_render_listing_grid( array $atts ): string {
 	}
 	$posts = get_posts( $query );
 	if ( ! $posts ) {
-		return '<p class="aumd-empty">No listings at the moment.</p>';
+		return '<p class="aumd-empty-line">' . esc_html( (string) $atts['empty'] ) . '</p>';
 	}
-	$out = '<ul class="aumd-grid">';
+	$out = '<ul class="aum-grid aumd-grid">';
 	foreach ( $posts as $p ) {
 		$out .= aum_render_card( $p->ID );
 	}
 	return $out . '</ul>';
 }
 
+/** The same card the Breakdance listing templates use, so both look alike. */
 function aum_render_card( int $id ): string {
-	$image  = aum_meta( $id, 'aum_image_url' );
-	$price  = aum_meta( $id, 'aum_price_gbp' );
-	$dealer = aum_dealer_post_for( (string) aum_meta( $id, 'aum_dealer_ext_id' ) );
-	$town   = $dealer ? (string) get_post_meta( $dealer, 'aum_town', true ) : '';
-	$cond   = wp_get_post_terms( $id, 'aum_condition', array( 'fields' => 'names' ) );
-	$cond   = ( ! is_wp_error( $cond ) && $cond && 'Condition not stated' !== $cond[0] ) ? $cond[0] : '';
+	$image = aum_meta( $id, 'aum_image_url' );
+	$link  = get_permalink( $id );
+	$v     = static fn( string $k ) => (string) aum_listing_virtual( $id, $k );
 	ob_start();
 	?>
-	<li class="aumd-card">
-		<a href="<?php echo esc_url( get_permalink( $id ) ); ?>">
-			<?php if ( $image ) : ?><img src="<?php echo esc_url( $image ); ?>" alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer"><?php endif; ?>
-			<span class="aumd-card-title"><?php echo esc_html( get_the_title( $id ) ); ?></span>
+	<li class="aum-card">
+		<?php echo function_exists( 'aum_render_compare_button' ) ? aum_render_compare_button( $id ) : ''; // phpcs:ignore WordPress.Security.EscapeOutput -- escaped inside. ?>
+		<a class="aum-card-media" href="<?php echo esc_url( $link ); ?>" tabindex="-1" aria-hidden="true">
+			<?php if ( $image ) : ?><img class="aum-card-img" src="<?php echo esc_url( $image ); ?>" alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer"><?php endif; ?>
 		</a>
-		<?php if ( $price ) : ?><span class="aumd-card-price"><?php echo esc_html( ( aum_meta( $id, 'aum_price_is_from' ) ? 'From ' : '' ) . aum_money( $price ) ); ?></span><?php endif; ?>
-		<span class="aumd-card-meta"><?php echo esc_html( implode( ' · ', array_filter( array( $cond, $dealer ? get_the_title( $dealer ) : '', $town ) ) ) ); ?></span>
+		<div class="aum-card-body">
+			<div class="aum-card-tags">
+				<span class="aum-pill"><?php echo esc_html( $v( 'aum_condition_name' ) ); ?></span>
+				<span class="aum-pill-green"><?php echo esc_html( $v( 'aum_warranty_text' ) ); ?></span>
+			</div>
+			<h3 class="aum-card-title"><a class="aum-card-link" href="<?php echo esc_url( $link ); ?>"><?php echo esc_html( get_the_title( $id ) ); ?></a></h3>
+			<p class="aum-card-specs"><?php echo esc_html( $v( 'aum_card_specs' ) ); ?></p>
+			<p class="aum-card-meta"><?php echo esc_html( $v( 'aum_dealer_place' ) ); ?></p>
+			<div class="aum-card-foot">
+				<span class="aum-card-price"><?php echo esc_html( $v( 'aum_price_text' ) ); ?></span>
+				<span class="aum-card-was"><?php echo esc_html( $v( 'aum_was_text' ) ); ?></span>
+			</div>
+		</div>
 	</li>
 	<?php
 	return (string) ob_get_clean();
