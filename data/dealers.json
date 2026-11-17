@@ -71,7 +71,7 @@
   "price_basis": "check",
   "lat": 53.11106,
   "lng": 0.24569,
-  "listing_count": 30
+  "listing_count": 29
  },
  {
   "id": "mobility-giant",
@@ -85,6 +85,6 @@
   "price_basis": "no_vat",
   "lat": 51.29538,
   "lng": 0.195154,
-  "listing_count": 82
+  "listing_count": 69
  }
 ]
