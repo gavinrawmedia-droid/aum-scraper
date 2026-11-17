@@ -37,6 +37,36 @@ Turns the scraper's data into real pages on approvedusedmobility.co.uk.
 - The dealer's description text is **not** copied (it's their copyright). Photos are shown from
   the dealer's own site, credited. Get each dealer's OK before launch.
 
+## New in 0.3.0: compare
+
+- Visitors tick **Compare** on up to 3 listings (on listing cards and in the price box on a listing page). A bar along the bottom of the screen shows their picks, with a button to compare them side by side.
+- `[aum_compare]` shows the comparison. Put it on a page with the address `/compare/`. Picks are read from the address (`/compare/?ids=12,34,56`), so a comparison can be bookmarked or sent to someone.
+- The table marks the lowest price, furthest range, highest weight limit, lightest part to lift and longest warranty. Rows nobody states are left out, and an "Only show differences" switch hides rows that match.
+- `[aum_compare_button]` adds the tick box to a Breakdance listing card (it uses the listing in the loop). `[aum_compare_button style="wide"]` gives a full-width version.
+- Picks are kept in the visitor's own browser. Nothing is stored on the server and no cookies are set. The compare page is hidden from search engines.
+- Distances on the dealer map now say they are straight-line distances.
+
+## New in 0.2.0 (for the Breakdance design)
+
+- **Filters from the address bar** on `/listings/`, `/used/<type>/` and `/brand/<brand>/`:
+  `?type=road-scooters&brand=pride&dealer=mobility-world&condition=ex-demo&min_price=500&max_price=2000&warranty=1&sort=price_desc`
+  (`sort` is `price_asc`, `price_desc`, `newest` or `year`). Items with no price go last when sorting by price.
+- **Filter shortcodes** with live counts: `[aum_filters]`, `[aum_active_filters]`, `[aum_results_count]`, `[aum_no_results]`.
+- **Dealer map**: `[aum_dealer_map]` shows every dealer on an OpenStreetMap map with a "nearest to my postcode"
+  search (postcodes.io, nothing stored) and a list. `[aum_dealer_map dealer="current" search="no" list="no" height="320"]`
+  on a dealer page shows just that dealer. Leaflet 1.9.4 is bundled (BSD licence), so no map code loads from other sites;
+  only the map tiles come from OpenStreetMap.
+- **Listing page blocks**: `[aum_gallery]` (all the dealer's photos with thumbnails), `[aum_buy_box]`, `[aum_key_facts]`,
+  `[aum_questions]`, `[aum_dealer_box]`; dealer page: `[aum_dealer_contact]`.
+- `[aum_listings]` accepts `equipment="current"`, `brand="current"`, `dealer="current"`, `exclude="current"` and `orderby="newest"`,
+  and uses the same card as the Breakdance templates.
+- **Ready-to-show fields** that Breakdance can bind as custom fields (worked out on the fly, nothing extra stored):
+  listings `aum_price_text`, `aum_was_text`, `aum_saving_text`, `aum_year_text`, `aum_warranty_text`, `aum_card_specs`,
+  `aum_condition_name`, `aum_equipment_name`, `aum_brand_name`, `aum_dealer_name`, `aum_dealer_town`, `aum_dealer_place`,
+  `aum_dealer_link`, `aum_go_url`, `aum_photo_credit`; dealers `aum_address_full`, `aum_directions_url`, `aum_phone_link`,
+  `aum_website_host`, `aum_listing_count_text`, `aum_stock_url`.
+- The stylesheet now uses the brand colours and loads on every page (Breakdance keeps shortcodes outside the post content).
+
 ## Installing
 
 1. Zip the `aum-directory` folder (or use `aum-directory.zip` from a release).
