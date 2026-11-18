@@ -124,18 +124,35 @@ function aum_register_meta( string $post_type, string $key, string $type ): void
 	register_post_meta( $post_type, $key, $args );
 }
 
+/**
+ * Make sure every equipment type and condition exists with its proper name.
+ * A term that was created on the fly gets its web address as its name ("riser-recliners"),
+ * so such a name is put right; a name a person has changed by hand is left alone.
+ */
 function aum_create_default_terms(): void {
-	foreach ( aum_equipment_terms() as [ $slug, $name ] ) {
-		if ( ! term_exists( $slug, 'aum_equipment' ) ) {
-			wp_insert_term( $name, 'aum_equipment', array( 'slug' => $slug ) );
-		}
-	}
-	foreach ( aum_condition_terms() as [ $slug, $name ] ) {
-		if ( ! term_exists( $slug, 'aum_condition' ) ) {
-			wp_insert_term( $name, 'aum_condition', array( 'slug' => $slug ) );
+	foreach ( array( 'aum_equipment' => aum_equipment_terms(), 'aum_condition' => aum_condition_terms() ) as $tax => $terms ) {
+		foreach ( $terms as [ $slug, $name ] ) {
+			$term = get_term_by( 'slug', $slug, $tax );
+			if ( ! $term ) {
+				wp_insert_term( $name, $tax, array( 'slug' => $slug ) );
+			} elseif ( $term->name === $slug && $name !== $slug ) {
+				wp_update_term( $term->term_id, $tax, array( 'name' => $name ) );
+			}
 		}
 	}
 }
+
+/** Uploading a new version doesn't run the activation step, so check the terms once per version. */
+add_action(
+	'init',
+	function () {
+		if ( get_option( 'aum_terms_version' ) !== AUM_DIR_VERSION && taxonomy_exists( 'aum_equipment' ) ) {
+			aum_create_default_terms();
+			update_option( 'aum_terms_version', AUM_DIR_VERSION );
+		}
+	},
+	30
+);
 
 /**
  * The scraper signs in as its own user with the "Stock importer" role. That role can

@@ -37,6 +37,14 @@ Turns the scraper's data into real pages on approvedusedmobility.co.uk.
 - The dealer's description text is **not** copied (it's their copyright). Photos are shown from
   the dealer's own site, credited. Get each dealer's OK before launch.
 
+## New in 0.4.2
+
+- "Questions to ask the dealer" fit the equipment: stairlifts (survey, fitting, rail, buy-back), riser recliners (seat size, weight, delivery), beds, hoists and bath lifts; scooters and chairs keep the battery questions.
+
+## New in 0.4.1
+
+- Equipment types and conditions are checked once per plugin version and before each import, so a new type always has its proper name (0.4.0 named new types after their web address, such as "riser-recliners"). Names someone has changed by hand are kept.
+
 ## New in 0.4.0: equipment for the home
 
 - New equipment types: stairlifts, riser recliner chairs, profiling beds, hoists and bath lifts. Their pages appear at `/used/stairlifts/`, `/used/riser-recliners/` and so on as soon as stock arrives.
