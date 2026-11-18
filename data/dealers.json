@@ -8,6 +8,7 @@
   "postcode": "CV37 0HT",
   "phone": "01789 339 738",
   "other_branches": null,
+  "visit_note": null,
   "price_basis": "vat_relief",
   "lat": 52.201098,
   "lng": -1.722163,
@@ -22,6 +23,7 @@
   "postcode": "LE15 6QF",
   "phone": "01572 755204",
   "other_branches": null,
+  "visit_note": null,
   "price_basis": "vat_relief",
   "lat": 52.678875,
   "lng": -0.734028,
@@ -36,6 +38,7 @@
   "postcode": "G22 6HY",
   "phone": "0800 916 3037",
   "other_branches": null,
+  "visit_note": null,
   "price_basis": "vat_relief",
   "lat": 55.886959,
   "lng": -4.251486,
@@ -52,6 +55,7 @@
   "other_branches": [
    "78-80 Station Road, Harrow, HA1 2RX (020 3958 4328)"
   ],
+  "visit_note": null,
   "price_basis": "vat_relief",
   "lat": 51.982375,
   "lng": -0.219895,
@@ -68,6 +72,7 @@
   "other_branches": [
    "Showrooms across Lincolnshire and Nottingham, including Wragby Road, Lincoln"
   ],
+  "visit_note": null,
   "price_basis": "check",
   "lat": 53.11106,
   "lng": 0.24569,
@@ -82,9 +87,74 @@
   "postcode": "TN14 5DF",
   "phone": "01732 446 488",
   "other_branches": null,
+  "visit_note": null,
   "price_basis": "no_vat",
   "lat": 51.29538,
   "lng": 0.195154,
-  "listing_count": 66
+  "listing_count": 65
+ },
+ {
+  "id": "mobility-station",
+  "name": "Mobility Station",
+  "website": "https://mobilitystation.co.uk",
+  "address": "2 Old Forge Road",
+  "town": "Ferndown",
+  "postcode": "BH21 7RR",
+  "phone": "01202 287361",
+  "other_branches": [
+   "Heathrow: 1-2 Horton Close, West Drayton, UB7 8EB (01895 520361)"
+  ],
+  "visit_note": null,
+  "price_basis": "vat_relief",
+  "lat": 50.806106,
+  "lng": -1.918664,
+  "listing_count": 10
+ },
+ {
+  "id": "multicare",
+  "name": "Multicare Mobility",
+  "website": "https://www.multicare.co.uk",
+  "address": "Mobility House, North Valley Road",
+  "town": "Colne",
+  "postcode": "BB8 9AG",
+  "phone": "0808 239 6687",
+  "other_branches": null,
+  "visit_note": null,
+  "price_basis": "check",
+  "lat": 53.858929,
+  "lng": -2.173593,
+  "listing_count": 15
+ },
+ {
+  "id": "millercare",
+  "name": "Millercare",
+  "website": "https://www.millercare.co.uk",
+  "address": "Paddock Mill, Moscow Mill Street",
+  "town": "Oswaldtwistle",
+  "postcode": "BB5 0EP",
+  "phone": "01254 233426",
+  "other_branches": [
+   "Showrooms across Lancashire, Greater Manchester and Cheshire, including Blackburn, Preston, Blackpool, Leyland and Southport"
+  ],
+  "visit_note": null,
+  "price_basis": "vat_relief",
+  "lat": 53.748157,
+  "lng": -2.389567,
+  "listing_count": 4
+ },
+ {
+  "id": "fenetic-wellbeing",
+  "name": "Fenetic Wellbeing",
+  "website": "https://www.feneticwellbeing.com",
+  "address": "Healthcare House, Snaygill Industrial Estate, Keighley Road",
+  "town": "Skipton",
+  "postcode": "BD23 2QR",
+  "phone": "0800 567 7618",
+  "other_branches": null,
+  "visit_note": "Viewing by appointment only. Call before you visit.",
+  "price_basis": "vat_relief",
+  "lat": 53.945759,
+  "lng": -2.016909,
+  "listing_count": 12
  }
 ]
