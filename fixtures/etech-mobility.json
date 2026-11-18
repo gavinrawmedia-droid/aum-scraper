@@ -1,0 +1,1538 @@
+{
+"fetched_at": "2026-11-18T14:00:00Z",
+"raw": {
+"products": [
+{
+"id": 16523655217501,
+"title": "Grade B Refurbished Purple Enterprise 200 | Bariatric Folding Electric Wheelchair",
+"handle": "grade-b-refurbished-purple-enterprise-200-bariatric-folding-electric-wheelchair",
+"body_html": "<h2 class=\"PDq2pG_selectionAnchorContainer\">Heavy-Duty Comfort and Brushless Performance<span class=\"PDq2pG_selectionAnchor\"></span>\n</h2>\n<p>Discover the <strong>Grade B Refurbished Enterprise 200 in Purple</strong>, a bariatric folding electric wheelchair designed for users who need higher weight capacity without moving to a large, bulky traditional powerchair.</p>\n<p>The Enterprise 200 supports users up to <strong>200 kg</strong> and features a generous <strong>53 cm wide seat</strong>, combining additional space and stability with a foldable aluminium frame designed for easier transport and storage. <span class=\"contents\"><span class=\"\"></span></span></p>\n<p>Powered by premium <strong>350W sine-wave brushless motors</strong>, the Enterprise 200 delivers smooth acceleration, responsive control and strong performance across everyday outdoor surfaces. Its <strong>advanced front-axle suspension</strong> helps absorb shocks and vibrations, while large 12.5-inch rear tyres provide additional traction and stability. <span class=\"contents\"><span class=\"\"></span></span></p>\n<p>The <strong>front-access twin battery system</strong> makes charging and battery removal more convenient. A standard <strong>24V 12Ah airline-friendly lithium battery</strong> is available, with a second battery slot allowing users to extend their range when required. <span class=\"contents\"><span class=\"\"></span></span></p>\n<p>Comfort and practicality are further supported by a telescopic footplate, removable anti-tip wheels, LCD joystick controller, handheld remote and flexible joystick positioning on either the left or right armrest. <span class=\"contents\"><span class=\"\"></span></span></p>\n<p><strong>Grade B Condition:</strong> This individual Purple Enterprise 200 shows more noticeable cosmetic wear than a Grade A model, with <strong>scratches to the footplate and scuffs to the main frame</strong>. These marks are cosmetic only and do not affect the chair's intended operation or performance. Please review the product images carefully for the exact condition of this individual chair.</p>",
+"published_at": "2026-09-10T10:26:44+01:00",
+"created_at": "2026-09-10T10:18:37+01:00",
+"updated_at": "2026-11-18T12:55:46+00:00",
+"vendor": "Etech Mobility UK",
+"product_type": "Electric Wheelchair",
+"tags": [
+"airline-friendly",
+"refurbished"
+],
+"variants": [
+{
+"id": 65881718325597,
+"title": "x1 Standard 24v 12Ah (Airline Friendly)",
+"option1": "x1 Standard 24v 12Ah (Airline Friendly)",
+"option2": null,
+"option3": null,
+"sku": "HXR-LS53-350-PUR-RF8",
+"requires_shipping": true,
+"taxable": true,
+"featured_image": {
+"id": 80238686667101,
+"product_id": 16523655217501,
+"position": 1,
+"created_at": "2025-11-18T10:09:38+00:00",
+"updated_at": "2026-03-03T16:43:48+00:00",
+"alt": "Enterprise 200 \u2013 Bariatric Folding Electric Wheelchair with Premium 350W Brushless Motors (200kg Load, 53cm Seat) - Etech Mobility UK",
+"width": 1080,
+"height": 1080,
+"src": "https://cdn.shopify.com/s/files/1/0786/4408/5085/files/enterprise-200-bariatric-folding-electric-wheelchair-with-premium-350w-brushless-motors-200kg-load-53cm-seat-6442421.png?v=1772556228",
+"variant_ids": [
+65881718325597,
+65881718358365
+]
+},
+"available": false,
+"price": "1359.99",
+"grams": 0,
+"compare_at_price": null,
+"position": 1,
+"product_id": 16523655217501,
+"created_at": "2026-09-10T10:25:43+01:00",
+"updated_at": "2026-11-18T12:55:46+00:00"
+},
+{
+"id": 65881718358365,
+"title": "x2 Standard 24v 12Ah (Airline Friendly)",
+"option1": "x2 Standard 24v 12Ah (Airline Friendly)",
+"option2": null,
+"option3": null,
+"sku": "HXR-LS53-350-24-PUR-RF8",
+"requires_shipping": true,
+"taxable": true,
+"featured_image": {
+"id": 80238686667101,
+"product_id": 16523655217501,
+"position": 1,
+"created_at": "2025-11-18T10:09:38+00:00",
+"updated_at": "2026-03-03T16:43:48+00:00",
+"alt": "Enterprise 200 \u2013 Bariatric Folding Electric Wheelchair with Premium 350W Brushless Motors (200kg Load, 53cm Seat) - Etech Mobility UK",
+"width": 1080,
+"height": 1080,
+"src": "https://cdn.shopify.com/s/files/1/0786/4408/5085/files/enterprise-200-bariatric-folding-electric-wheelchair-with-premium-350w-brushless-motors-200kg-load-53cm-seat-6442421.png?v=1772556228",
+"variant_ids": [
+65881718325597,
+65881718358365
+]
+},
+"available": false,
+"price": "1519.99",
+"grams": 0,
+"compare_at_price": null,
+"position": 2,
+"product_id": 16523655217501,
+"created_at": "2026-09-10T10:25:43+01:00",
+"updated_at": "2026-11-18T12:55:46+00:00"
+}
+],
+"images": [
+{
+"id": 80238686667101,
+"created_at": "2025-11-18T10:09:38+00:00",
+"position": 1,
+"updated_at": "2026-03-03T16:43:48+00:00",
+"product_id": 16523655217501,
+"variant_ids": [
+65881718325597,
+65881718358365
+],
+"src": "https://cdn.shopify.com/s/files/1/0786/4408/5085/files/enterprise-200-bariatric-folding-electric-wheelchair-with-premium-350w-brushless-motors-200kg-load-53cm-seat-6442421.png?v=1772556228",
+"width": 1080,
+"height": 1080
+},
+{
+"id": 80238686372189,
+"created_at": "2025-11-18T10:09:38+00:00",
+"position": 2,
+"updated_at": "2026-03-03T16:43:48+00:00",
+"product_id": 16523655217501,
+"variant_ids": [],
+"src": "https://cdn.shopify.com/s/files/1/0786/4408/5085/files/enterprise-200-bariatric-folding-electric-wheelchair-with-premium-350w-brushless-motors-200kg-load-53cm-seat-1841721.png?v=1772556228",
+"width": 1080,
+"height": 1080
+}
+]
+},
+{
+"id": 16522027336029,
+"title": "Grade A Refurbished Champagne Freedom Elite AF | Automatic Folding Brushless Electric Wheelchair",
+"handle": "grade-a-refurbished-champagne-freedom-elite-af-automatic-folding-electric-wheelchair",
+"body_html": "<h2 class=\"PDq2pG_selectionAnchorContainer\">Premium Automatic Folding Mobility<span class=\"PDq2pG_selectionAnchor\"></span>\n</h2>\n<p>Discover the <strong>Grade A Refurbished Freedom Elite AF in Champagne</strong>, a premium automatic folding electric wheelchair designed for users looking for a combination of effortless portability, comfort and smooth brushless performance.</p>\n<p>The Freedom Elite AF features <strong>remote-controlled automatic folding</strong>, allowing the chair to fold and unfold at the touch of a button. This makes storage and transport considerably easier, particularly for users who may find manually folding a powerchair difficult. Its folded dimensions are approximately 44 \u00d7 62 \u00d7 76 cm. <span class=\"contents\"><span class=\"\"></span></span></p>\n<p>Powered by <strong>dual 300W brushless motors</strong>, delivering 600W of combined power, the Freedom Elite AF provides quiet, responsive and efficient performance. Its reinforced aluminium frame supports users up to <strong>160 kg</strong>, while solid tyres and anti-tip wheels provide additional practicality and stability for everyday use. <span class=\"contents\"><span class=\"\"></span></span></p>\n<p>The twin battery slot system allows users to tailor the chair to their needs. The standard <strong>24V 12Ah lithium battery is airline-friendly</strong>, while larger 20Ah battery options are available for users prioritising additional range. Batteries can also be removed for convenient off-board charging. <span class=\"contents\"><span class=\"\"></span></span></p>\n<p>A <strong>wide seat option is available</strong>, with the distance between the armrests configurable up to approximately 52 cm. The joystick can also be positioned on either the left or right side, allowing the chair to be better configured around the user. <span class=\"contents\"><span class=\"\"></span></span></p>\n<p><strong>Grade A Condition:</strong> This individual Champagne Freedom Elite AF is in very good overall condition with only <strong>minor cosmetic scratches to the anti-tip wheel bar</strong>. These marks are cosmetic only and do not affect the chair's intended operation or performance. Please review the product images carefully for its exact condition.</p>",
+"published_at": "2026-09-09T12:25:28+01:00",
+"created_at": "2026-09-09T12:04:29+01:00",
+"updated_at": "2026-11-18T12:55:46+00:00",
+"vendor": "Etech Mobility UK",
+"product_type": "Electric Wheelchair",
+"tags": [
+"airline-friendly",
+"F9V3",
+"refurbished"
+],
+"variants": [
+{
+"id": 65872378003805,
+"title": "Standard 12Ah 24V (Airline Friendly)",
+"option1": "Standard 12Ah 24V (Airline Friendly)",
+"option2": null,
+"option3": null,
+"sku": "FE9A-AF-46-PO-12-CPN-RF34",
+"requires_shipping": true,
+"taxable": true,
+"featured_image": {
+"id": 78115127329117,
+"product_id": 16522027336029,
+"position": 1,
+"created_at": "2025-08-13T10:41:08+01:00",
+"updated_at": "2026-03-06T11:05:30+00:00",
+"alt": "Champagne Freedom Elite electric wheelchair, front three-quarter view",
+"width": 1080,
+"height": 1080,
+"src": "https://cdn.shopify.com/s/files/1/0786/4408/5085/files/wide-seat-automatic-folding-electric-wheelchair-freedom-elite-af-4480281.png?v=1772795130",
+"variant_ids": [
+65872378003805,
+65872378036573,
+65872378069341,
+65872378102109
+]
+},
+"available": true,
+"price": "1135.72",
+"grams": 0,
+"compare_at_price": null,
+"position": 1,
+"product_id": 16522027336029,
+"created_at": "2026-09-09T12:21:38+01:00",
+"updated_at": "2026-11-18T12:55:46+00:00"
+},
+{
+"id": 65872378036573,
+"title": "Upgraded 20Ah 24V (Non-Airline Friendly)",
+"option1": "Upgraded 20Ah 24V (Non-Airline Friendly)",
+"option2": null,
+"option3": null,
+"sku": "FE9A-AF-46-PO-20-CPN-RF34",
+"requires_shipping": true,
+"taxable": true,
+"featured_image": {
+"id": 78115127329117,
+"product_id": 16522027336029,
+"position": 1,
+"created_at": "2025-08-13T10:41:08+01:00",
+"updated_at": "2026-03-06T11:05:30+00:00",
+"alt": "Champagne Freedom Elite electric wheelchair, front three-quarter view",
+"width": 1080,
+"height": 1080,
+"src": "https://cdn.shopify.com/s/files/1/0786/4408/5085/files/wide-seat-automatic-folding-electric-wheelchair-freedom-elite-af-4480281.png?v=1772795130",
+"variant_ids": [
+65872378003805,
+65872378036573,
+65872378069341,
+65872378102109
+]
+},
+"available": true,
+"price": "1230.72",
+"grams": 0,
+"compare_at_price": null,
+"position": 2,
+"product_id": 16522027336029,
+"created_at": "2026-09-09T12:21:38+01:00",
+"updated_at": "2026-11-18T12:55:46+00:00"
+},
+{
+"id": 65872378069341,
+"title": "2 x Standard 12Ah 24V (Airline Friendly)",
+"option1": "2 x Standard 12Ah 24V (Airline Friendly)",
+"option2": null,
+"option3": null,
+"sku": "FE9A-AF-46-PO-24-CPN-RF34",
+"requires_shipping": true,
+"taxable": true,
+"featured_image": {
+"id": 78115127329117,
+"product_id": 16522027336029,
+"position": 1,
+"created_at": "2025-08-13T10:41:08+01:00",
+"updated_at": "2026-03-06T11:05:30+00:00",
+"alt": "Champagne Freedom Elite electric wheelchair, front three-quarter view",
+"width": 1080,
+"height": 1080,
+"src": "https://cdn.shopify.com/s/files/1/0786/4408/5085/files/wide-seat-automatic-folding-electric-wheelchair-freedom-elite-af-4480281.png?v=1772795130",
+"variant_ids": [
+65872378003805,
+65872378036573,
+65872378069341,
+65872378102109
+]
+},
+"available": true,
+"price": "1325.72",
+"grams": 0,
+"compare_at_price": null,
+"position": 3,
+"product_id": 16522027336029,
+"created_at": "2026-09-09T12:21:38+01:00",
+"updated_at": "2026-11-18T12:55:46+00:00"
+},
+{
+"id": 65872378102109,
+"title": "2 x Upgraded 20Ah 24V (Non-airline friendly)",
+"option1": "2 x Upgraded 20Ah 24V (Non-airline friendly)",
+"option2": null,
+"option3": null,
+"sku": "FE9A-AF-46-PO-40-CPN-RF34",
+"requires_shipping": true,
+"taxable": true,
+"featured_image": {
+"id": 78115127329117,
+"product_id": 16522027336029,
+"position": 1,
+"created_at": "2025-08-13T10:41:08+01:00",
+"updated_at": "2026-03-06T11:05:30+00:00",
+"alt": "Champagne Freedom Elite electric wheelchair, front three-quarter view",
+"width": 1080,
+"height": 1080,
+"src": "https://cdn.shopify.com/s/files/1/0786/4408/5085/files/wide-seat-automatic-folding-electric-wheelchair-freedom-elite-af-4480281.png?v=1772795130",
+"variant_ids": [
+65872378003805,
+65872378036573,
+65872378069341,
+65872378102109
+]
+},
+"available": true,
+"price": "1468.22",
+"grams": 0,
+"compare_at_price": null,
+"position": 4,
+"product_id": 16522027336029,
+"created_at": "2026-09-09T12:21:38+01:00",
+"updated_at": "2026-11-18T12:55:46+00:00"
+}
+],
+"images": [
+{
+"id": 78115127329117,
+"created_at": "2025-08-13T10:41:08+01:00",
+"position": 1,
+"updated_at": "2026-03-06T11:05:30+00:00",
+"product_id": 16522027336029,
+"variant_ids": [
+65872378003805,
+65872378036573,
+65872378069341,
+65872378102109
+],
+"src": "https://cdn.shopify.com/s/files/1/0786/4408/5085/files/wide-seat-automatic-folding-electric-wheelchair-freedom-elite-af-4480281.png?v=1772795130",
+"width": 1080,
+"height": 1080
+},
+{
+"id": 78115127001437,
+"created_at": "2025-08-13T10:41:08+01:00",
+"position": 2,
+"updated_at": "2025-08-13T15:03:18+01:00",
+"product_id": 16522027336029,
+"variant_ids": [],
+"src": "https://cdn.shopify.com/s/files/1/0786/4408/5085/files/wide-seat-automatic-folding-electric-wheelchair-freedom-elite-af-2819518.png?v=1755093798",
+"width": 1080,
+"height": 1080
+}
+]
+},
+{
+"id": 16521918284125,
+"title": "Grade A Refurbished Silver LiteMax 2 | Ultra-Lightweight Folding Electric Wheelchair",
+"handle": "grade-a-refurbished-silver-litemax-2-ultra-lightweight-folding-electric-wheelchair",
+"body_html": "<h2 class=\"PDq2pG_selectionAnchorContainer\">\n<strong>Ultra-Lightweight Mobility for Everyday Independence</strong><span class=\"PDq2pG_selectionAnchor\"></span>\n</h2>\n<p>Discover the <strong>Grade A Refurbished LiteMax 2 in Silver</strong>, an ultra-lightweight folding electric wheelchair built for users who prioritise portability, convenient transport and everyday independence.</p>\n<p>With a minimum lifting weight of just <strong>20 kg</strong> and a compact <strong>58 cm overall width</strong>, the LiteMax 2 is one of Etech Mobility's lightest folding electric wheelchairs, making it easier to lift into suitable car boots, store at home and take on everyday journeys. Despite its lightweight construction, it supports users up to <strong>120 kg</strong>. <span class=\"contents\"><span class=\"\"></span></span></p>\n<p>Large <strong>12.5-inch rear wheels</strong> help provide improved stability, while the extended footplate and lift-up armrests add comfort and practicality. The chair is designed for indoor use and light outdoor terrain such as pavements, shopping areas and other smoother surfaces. <span class=\"contents\"><span class=\"\"></span></span></p>\n<p>The standard <strong>12Ah lithium battery is airline-friendly</strong>, making the LiteMax 2 particularly suited to travel, while an optional <strong>20Ah battery</strong> provides additional range for longer journeys. The battery uses a removable slide-in design for convenient off-board charging. A handheld remote control is also included, allowing a carer to assist with steering and manoeuvring when required. <span class=\"contents\"><span class=\"\"></span></span></p>\n<p>The joystick can be positioned on either the <strong>left or right armrest</strong>. If a left-hand joystick is required, this can be requested when ordering. <span class=\"contents\"><span class=\"\"></span></span></p>\n<p><strong>Grade A Condition:</strong> This individual Silver LiteMax 2 is in very good overall condition with only <strong>minor cosmetic scratches to the footplate and wheel axles</strong>. These marks are cosmetic only and do not affect the chair's intended operation or performance. Please review the product images carefully for the exact condition of this individual chair.</p>",
+"published_at": "2026-09-09T11:09:13+01:00",
+"created_at": "2026-09-09T10:53:30+01:00",
+"updated_at": "2026-11-18T12:55:46+00:00",
+"vendor": "Etech Mobility UK",
+"product_type": "Electric Wheelchair",
+"tags": [
+"airline-friendly",
+"LM5 2",
+"refurbished"
+],
+"variants": [
+{
+"id": 65871681814877,
+"title": "12Ah 24V | airline-friendly",
+"option1": "12Ah 24V | airline-friendly",
+"option2": null,
+"option3": null,
+"sku": "LM5S-V2-SIL-12A-RF37",
+"requires_shipping": true,
+"taxable": true,
+"featured_image": {
+"id": 78121525739869,
+"product_id": 16521918284125,
+"position": 1,
+"created_at": "2025-08-13T14:06:19+01:00",
+"updated_at": "2025-08-13T15:04:12+01:00",
+"alt": "Ultra - Lightweight Folding Electric Wheelchair | EtechMobility LiteMax 2 - Etech Mobility UK",
+"width": 1080,
+"height": 1080,
+"src": "https://cdn.shopify.com/s/files/1/0786/4408/5085/files/ultra-lightweight-folding-electric-wheelchair-etechmobility-litemax-2-6872761.png?v=1755093852",
+"variant_ids": [
+65871681814877,
+65871681847645
+]
+},
+"available": false,
+"price": "715.49",
+"grams": 0,
+"compare_at_price": null,
+"position": 1,
+"product_id": 16521918284125,
+"created_at": "2026-09-09T11:08:43+01:00",
+"updated_at": "2026-11-18T12:55:46+00:00"
+},
+{
+"id": 65871681847645,
+"title": "20Ah 24V | not airline-friendly",
+"option1": "20Ah 24V | not airline-friendly",
+"option2": null,
+"option3": null,
+"sku": "LM5S-V2-SIL-20A-RF37",
+"requires_shipping": true,
+"taxable": true,
+"featured_image": {
+"id": 78121525739869,
+"product_id": 16521918284125,
+"position": 1,
+"created_at": "2025-08-13T14:06:19+01:00",
+"updated_at": "2025-08-13T15:04:12+01:00",
+"alt": "Ultra - Lightweight Folding Electric Wheelchair | EtechMobility LiteMax 2 - Etech Mobility UK",
+"width": 1080,
+"height": 1080,
+"src": "https://cdn.shopify.com/s/files/1/0786/4408/5085/files/ultra-lightweight-folding-electric-wheelchair-etechmobility-litemax-2-6872761.png?v=1755093852",
+"variant_ids": [
+65871681814877,
+65871681847645
+]
+},
+"available": false,
+"price": "805.49",
+"grams": 0,
+"compare_at_price": null,
+"position": 2,
+"product_id": 16521918284125,
+"created_at": "2026-09-09T11:08:43+01:00",
+"updated_at": "2026-11-18T12:55:46+00:00"
+}
+],
+"images": [
+{
+"id": 78121525739869,
+"created_at": "2025-08-13T14:06:19+01:00",
+"position": 1,
+"updated_at": "2025-08-13T15:04:12+01:00",
+"product_id": 16521918284125,
+"variant_ids": [
+65871681814877,
+65871681847645
+],
+"src": "https://cdn.shopify.com/s/files/1/0786/4408/5085/files/ultra-lightweight-folding-electric-wheelchair-etechmobility-litemax-2-6872761.png?v=1755093852",
+"width": 1080,
+"height": 1080
+},
+{
+"id": 100325801197917,
+"created_at": "2026-09-09T10:48:57+01:00",
+"position": 2,
+"updated_at": "2026-09-10T10:03:18+01:00",
+"product_id": 16521918284125,
+"variant_ids": [],
+"src": "https://cdn.shopify.com/s/files/1/0786/4408/5085/files/grade-a-refurbished-silver-litemax-2-ultra-lightweight-folding-electric-wheelchair-1105556.png?v=1789030998",
+"width": 1080,
+"height": 1080
+}
+]
+},
+{
+"id": 16416263995741,
+"title": "Grade A Refurbished Champagne Freedom Pro AF | Lightweight Automatic Folding Electric Wheelchair",
+"handle": "grade-a-refurbished-champagne-freedom-pro-af-lightweight-automatic-folding-electric-wheelchair",
+"body_html": "<h2>\n<meta charset=\"utf-8\">Grade A Refurbished Champagne Freedom Pro AF</h2>\n<p class=\"PDq2pG_selectionAnchorContainer\">Discover the <strong>Grade A Refurbished Freedom Pro AF in Champagne</strong>, a lightweight automatic folding electric wheelchair designed for convenient travel, storage and everyday mobility. Its automatic folding system allows the chair to fold at the touch of a button, making it easier to transport and store in suitable car boots and compact spaces.<span class=\"PDq2pG_selectionAnchor\"></span></p>\n<p>The Freedom Pro AF combines strong electric performance with a comfortable, practical design, making it ideal for users looking for a portable automatic folding powerchair without compromising on everyday usability.</p>\n<p>This individual <strong>Grade A refurbished electric wheelchair</strong> has light cosmetic scratches to the <strong>footplate, main frame and wheel axles</strong>. These marks are cosmetic only and do not affect the chair's intended operation or performance. Please review the product images carefully for its exact condition.</p>",
+"published_at": "2026-09-09T10:20:31+01:00",
+"created_at": "2026-08-14T14:09:55+01:00",
+"updated_at": "2026-11-18T12:55:46+00:00",
+"vendor": "Etech Mobility UK",
+"product_type": "Electric Wheelchair",
+"tags": [
+"airline-friendly",
+"F9V3",
+"refurbished"
+],
+"variants": [
+{
+"id": 65574591168861,
+"title": "Standard 12Ah 24V (Airline Friendly)",
+"option1": "Standard 12Ah 24V (Airline Friendly)",
+"option2": null,
+"option3": null,
+"sku": "FP9A-AF-46-PO-12-CPM-RF29",
+"requires_shipping": true,
+"taxable": true,
+"featured_image": {
+"id": 74470283411805,
+"product_id": 16416263995741,
+"position": 1,
+"created_at": "2025-04-10T16:27:43+01:00",
+"updated_at": "2026-03-06T11:05:30+00:00",
+"alt": "Champagne Etech Mobility Freedom electric wheelchair, front three-quarter view",
+"width": 1080,
+"height": 1080,
+"src": "https://cdn.shopify.com/s/files/1/0786/4408/5085/files/lightweight-electric-wheelchair-folding-powerchair-freedom-pro-st-131085.png?v=1772795130",
+"variant_ids": [
+65574591168861,
+65574591201629,
+65574591234397,
+65574591267165
+]
+},
+"available": true,
+"price": "846.25",
+"grams": 0,
+"compare_at_price": null,
+"position": 1,
+"product_id": 16416263995741,
+"created_at": "2026-08-14T14:09:55+01:00",
+"updated_at": "2026-11-18T12:55:46+00:00"
+},
+{
+"id": 65574591201629,
+"title": "Upgraded 20Ah 24V (Non-Airline Friendly)",
+"option1": "Upgraded 20Ah 24V (Non-Airline Friendly)",
+"option2": null,
+"option3": null,
+"sku": "FP9A-AF-46-PO-20-CPM-RF29",
+"requires_shipping": true,
+"taxable": true,
+"featured_image": {
+"id": 74470283411805,
+"product_id": 16416263995741,
+"position": 1,
+"created_at": "2025-04-10T16:27:43+01:00",
+"updated_at": "2026-03-06T11:05:30+00:00",
+"alt": "Champagne Etech Mobility Freedom electric wheelchair, front three-quarter view",
+"width": 1080,
+"height": 1080,
+"src": "https://cdn.shopify.com/s/files/1/0786/4408/5085/files/lightweight-electric-wheelchair-folding-powerchair-freedom-pro-st-131085.png?v=1772795130",
+"variant_ids": [
+65574591168861,
+65574591201629,
+65574591234397,
+65574591267165
+]
+},
+"available": true,
+"price": "946.25",
+"grams": 0,
+"compare_at_price": null,
+"position": 2,
+"product_id": 16416263995741,
+"created_at": "2026-08-14T14:09:55+01:00",
+"updated_at": "2026-11-18T12:55:46+00:00"
+},
+{
+"id": 65574591234397,
+"title": "2x Standard 12Ah 24V (Airline Friendly)",
+"option1": "2x Standard 12Ah 24V (Airline Friendly)",
+"option2": null,
+"option3": null,
+"sku": "FP9A-AF-46-PO-24-CPM-RF29",
+"requires_shipping": true,
+"taxable": true,
+"featured_image": {
+"id": 74470283411805,
+"product_id": 16416263995741,
+"position": 1,
+"created_at": "2025-04-10T16:27:43+01:00",
+"updated_at": "2026-03-06T11:05:30+00:00",
+"alt": "Champagne Etech Mobility Freedom electric wheelchair, front three-quarter view",
+"width": 1080,
+"height": 1080,
+"src": "https://cdn.shopify.com/s/files/1/0786/4408/5085/files/lightweight-electric-wheelchair-folding-powerchair-freedom-pro-st-131085.png?v=1772795130",
+"variant_ids": [
+65574591168861,
+65574591201629,
+65574591234397,
+65574591267165
+]
+},
+"available": true,
+"price": "1046.25",
+"grams": 0,
+"compare_at_price": null,
+"position": 3,
+"product_id": 16416263995741,
+"created_at": "2026-08-14T14:09:55+01:00",
+"updated_at": "2026-11-18T12:55:46+00:00"
+},
+{
+"id": 65574591267165,
+"title": "2x Upgraded 20Ah 24V (Non-Airline Friendly)",
+"option1": "2x Upgraded 20Ah 24V (Non-Airline Friendly)",
+"option2": null,
+"option3": null,
+"sku": "FP9A-AF-46-PO-40-CPM-RF29",
+"requires_shipping": true,
+"taxable": true,
+"featured_image": {
+"id": 74470283411805,
+"product_id": 16416263995741,
+"position": 1,
+"created_at": "2025-04-10T16:27:43+01:00",
+"updated_at": "2026-03-06T11:05:30+00:00",
+"alt": "Champagne Etech Mobility Freedom electric wheelchair, front three-quarter view",
+"width": 1080,
+"height": 1080,
+"src": "https://cdn.shopify.com/s/files/1/0786/4408/5085/files/lightweight-electric-wheelchair-folding-powerchair-freedom-pro-st-131085.png?v=1772795130",
+"variant_ids": [
+65574591168861,
+65574591201629,
+65574591234397,
+65574591267165
+]
+},
+"available": true,
+"price": "1196.25",
+"grams": 0,
+"compare_at_price": null,
+"position": 4,
+"product_id": 16416263995741,
+"created_at": "2026-08-14T14:09:55+01:00",
+"updated_at": "2026-11-18T12:55:46+00:00"
+}
+],
+"images": [
+{
+"id": 74470283411805,
+"created_at": "2025-04-10T16:27:43+01:00",
+"position": 1,
+"updated_at": "2026-03-06T11:05:30+00:00",
+"product_id": 16416263995741,
+"variant_ids": [
+65574591168861,
+65574591201629,
+65574591234397,
+65574591267165
+],
+"src": "https://cdn.shopify.com/s/files/1/0786/4408/5085/files/lightweight-electric-wheelchair-folding-powerchair-freedom-pro-st-131085.png?v=1772795130",
+"width": 1080,
+"height": 1080
+},
+{
+"id": 93871444885853,
+"created_at": "2026-08-14T12:08:15+01:00",
+"position": 2,
+"updated_at": "2026-08-14T13:37:33+01:00",
+"product_id": 16416263995741,
+"variant_ids": [],
+"src": "https://cdn.shopify.com/s/files/1/0786/4408/5085/files/grade-b-refurbished-champagne-freedom-pro-st-lightweight-folding-electric-wheelchair-3376668.png?v=1786711053",
+"width": 1080,
+"height": 1080
+}
+]
+},
+{
+"id": 16416177324381,
+"title": "Grade A Refurbished Blue Freedom Pro ST | Lightweight Folding Electric Wheelchair",
+"handle": "grade-a-refurbished-blue-freedom-pro-st-lightweight-folding-electric-wheelchair",
+"body_html": "<h2 class=\"PDq2pG_selectionAnchorContainer\">\n<meta charset=\"utf-8\">Grade A Refurbished Blue Freedom Pro ST</h2>\n<p class=\"PDq2pG_selectionAnchorContainer\">Discover the\u00a0<strong>Grade A Refurbished Freedom Pro ST in Blue</strong>, our flagship foldable electric wheelchair combining power, comfort and portability. Its <strong>dual 350W motors</strong> provide strong, controlled performance across everyday surfaces including pavements, gravel, short grass and hard sand, while the compact folding design makes storage and transport simple.<span class=\"PDq2pG_selectionAnchor\"></span></p>\n<p>With a <strong>160 kg weight capacity</strong>, the Freedom Pro ST also features suspension, puncture-proof tyres, flip-up armrests, a 3-level telescopic footplate, twin battery slots and handheld remote control. A wide seat option is available on request for users who require additional seating space.</p>\n<p>This individual <strong>Grade A refurbished powerchair</strong> has slight cosmetic marking to the <strong>main frame</strong>. The marking is cosmetic only and does not affect the chair's intended operation or performance. Please refer to the product images for its exact condition.</p>",
+"published_at": "2026-08-14T14:01:14+01:00",
+"created_at": "2026-08-14T13:17:36+01:00",
+"updated_at": "2026-11-18T12:55:46+00:00",
+"vendor": "Etech Mobility UK",
+"product_type": "Electric Wheelchair",
+"tags": [
+"airline-friendly",
+"F9V3",
+"refurbished"
+],
+"variants": [
+{
+"id": 65574056952157,
+"title": "Standard 12Ah 24V (Airline Friendly)",
+"option1": "Standard 12Ah 24V (Airline Friendly)",
+"option2": null,
+"option3": null,
+"sku": "FP9X-ST46-350-12-BLU-RF23",
+"requires_shipping": true,
+"taxable": true,
+"featured_image": {
+"id": 74470283313501,
+"product_id": 16416177324381,
+"position": 1,
+"created_at": "2025-04-10T16:27:43+01:00",
+"updated_at": "2026-03-06T11:05:30+00:00",
+"alt": "Blue Etech Mobility Freedom electric wheelchair, front three-quarter view",
+"width": 1080,
+"height": 1080,
+"src": "https://cdn.shopify.com/s/files/1/0786/4408/5085/files/lightweight-electric-wheelchair-folding-powerchair-freedom-pro-st-416632.png?v=1772795130",
+"variant_ids": [
+65574056952157,
+65574056984925,
+65574057017693,
+65574057050461
+]
+},
+"available": false,
+"price": "718.67",
+"grams": 0,
+"compare_at_price": "845.50",
+"position": 1,
+"product_id": 16416177324381,
+"created_at": "2026-08-14T13:17:36+01:00",
+"updated_at": "2026-11-18T12:55:46+00:00"
+},
+{
+"id": 65574056984925,
+"title": "Upgraded 20Ah 24V (Non-Airline Friendly)",
+"option1": "Upgraded 20Ah 24V (Non-Airline Friendly)",
+"option2": null,
+"option3": null,
+"sku": "FP9X-ST46-350-20-BLU-RF23",
+"requires_shipping": true,
+"taxable": true,
+"featured_image": {
+"id": 74470283313501,
+"product_id": 16416177324381,
+"position": 1,
+"created_at": "2025-04-10T16:27:43+01:00",
+"updated_at": "2026-03-06T11:05:30+00:00",
+"alt": "Blue Etech Mobility Freedom electric wheelchair, front three-quarter view",
+"width": 1080,
+"height": 1080,
+"src": "https://cdn.shopify.com/s/files/1/0786/4408/5085/files/lightweight-electric-wheelchair-folding-powerchair-freedom-pro-st-416632.png?v=1772795130",
+"variant_ids": [
+65574056952157,
+65574056984925,
+65574057017693,
+65574057050461
+]
+},
+"available": false,
+"price": "818.67",
+"grams": 0,
+"compare_at_price": "945.50",
+"position": 2,
+"product_id": 16416177324381,
+"created_at": "2026-08-14T13:17:36+01:00",
+"updated_at": "2026-11-18T12:55:46+00:00"
+},
+{
+"id": 65574057017693,
+"title": "2x Standard 12Ah 24V (Airline Friendly)",
+"option1": "2x Standard 12Ah 24V (Airline Friendly)",
+"option2": null,
+"option3": null,
+"sku": "FP9X-ST46-350-24-BLU-RF23",
+"requires_shipping": true,
+"taxable": true,
+"featured_image": {
+"id": 74470283313501,
+"product_id": 16416177324381,
+"position": 1,
+"created_at": "2025-04-10T16:27:43+01:00",
+"updated_at": "2026-03-06T11:05:30+00:00",
+"alt": "Blue Etech Mobility Freedom electric wheelchair, front three-quarter view",
+"width": 1080,
+"height": 1080,
+"src": "https://cdn.shopify.com/s/files/1/0786/4408/5085/files/lightweight-electric-wheelchair-folding-powerchair-freedom-pro-st-416632.png?v=1772795130",
+"variant_ids": [
+65574056952157,
+65574056984925,
+65574057017693,
+65574057050461
+]
+},
+"available": false,
+"price": "918.67",
+"grams": 0,
+"compare_at_price": "1045.50",
+"position": 3,
+"product_id": 16416177324381,
+"created_at": "2026-08-14T13:17:36+01:00",
+"updated_at": "2026-11-18T12:55:46+00:00"
+},
+{
+"id": 65574057050461,
+"title": "2x Upgraded 20Ah 24V (Non-Airline Friendly)",
+"option1": "2x Upgraded 20Ah 24V (Non-Airline Friendly)",
+"option2": null,
+"option3": null,
+"sku": "FP9X-ST46-350-40-BLU-RF23",
+"requires_shipping": true,
+"taxable": true,
+"featured_image": {
+"id": 74470283313501,
+"product_id": 16416177324381,
+"position": 1,
+"created_at": "2025-04-10T16:27:43+01:00",
+"updated_at": "2026-03-06T11:05:30+00:00",
+"alt": "Blue Etech Mobility Freedom electric wheelchair, front three-quarter view",
+"width": 1080,
+"height": 1080,
+"src": "https://cdn.shopify.com/s/files/1/0786/4408/5085/files/lightweight-electric-wheelchair-folding-powerchair-freedom-pro-st-416632.png?v=1772795130",
+"variant_ids": [
+65574056952157,
+65574056984925,
+65574057017693,
+65574057050461
+]
+},
+"available": false,
+"price": "1068.67",
+"grams": 0,
+"compare_at_price": "1195.50",
+"position": 4,
+"product_id": 16416177324381,
+"created_at": "2026-08-14T13:17:36+01:00",
+"updated_at": "2026-11-18T12:55:46+00:00"
+}
+],
+"images": [
+{
+"id": 74470283313501,
+"created_at": "2025-04-10T16:27:43+01:00",
+"position": 1,
+"updated_at": "2026-03-06T11:05:30+00:00",
+"product_id": 16416177324381,
+"variant_ids": [
+65574056952157,
+65574056984925,
+65574057017693,
+65574057050461
+],
+"src": "https://cdn.shopify.com/s/files/1/0786/4408/5085/files/lightweight-electric-wheelchair-folding-powerchair-freedom-pro-st-416632.png?v=1772795130",
+"width": 1080,
+"height": 1080
+},
+{
+"id": 93910802268509,
+"created_at": "2026-08-14T13:20:52+01:00",
+"position": 2,
+"updated_at": "2026-08-15T12:45:27+01:00",
+"product_id": 16416177324381,
+"variant_ids": [],
+"src": "https://cdn.shopify.com/s/files/1/0786/4408/5085/files/grade-a-refurbished-blue-freedom-pro-st-lightweight-folding-electric-wheelchair-2774955.png?v=1786794327",
+"width": 1080,
+"height": 1080
+}
+]
+},
+{
+"id": 16416147308893,
+"title": "Grade A Refurbished Red Freedom Pro ST | Lightweight Folding Electric Wheelchair",
+"handle": "grade-a-refurbished-red-freedom-pro-st-lightweight-folding-electric-wheelchair",
+"body_html": "<h2 class=\"PDq2pG_selectionAnchorContainer\">Powerful, Portable Everyday Mobility<span class=\"PDq2pG_selectionAnchor\"></span>\n</h2>\n<p>Discover the <strong>Grade A Refurbished Freedom Pro ST in Red</strong>, a lightweight folding electric wheelchair designed to combine powerful performance, comfortable everyday mobility and convenient portability.</p>\n<p>Powered by <strong>dual 350W motors</strong>, delivering 700W of combined power, the Freedom Pro ST provides confident performance across pavements, gravel, short grass, hard sand and other suitable everyday surfaces. Its folding aluminium frame makes it practical for transport and storage, while supporting users up to <strong>160 kg</strong>. The current listing also offers multiple 12Ah and 20Ah battery configurations. <span class=\"contents\"><span class=\"\"></span></span></p>\n<p>The Freedom Pro ST features front and rear suspension, puncture-proof tyres, flip-up armrests and a telescopic footplate for improved comfort and practicality. Its twin battery slot system also allows batteries to be removed conveniently for charging while the chair remains folded or stored. <span class=\"contents\"><span class=\"\"></span></span></p>\n<p>A <strong>wide seat option is available on request</strong>, providing additional seating space where required. Customers should contact the team before ordering so availability and suitability can be confirmed. <span class=\"contents\"><span class=\"\"></span></span></p>\n<p><strong>Grade A Condition:</strong> This individual Red Freedom Pro ST is in very good overall condition with light cosmetic scratches to the <strong>main frame, footplate and joystick</strong>. These marks are cosmetic only and do not affect the chair's intended operation or performance. Please review the product images carefully for its exact condition.</p>",
+"published_at": "2026-09-10T10:40:36+01:00",
+"created_at": "2026-08-14T12:50:25+01:00",
+"updated_at": "2026-11-18T12:55:46+00:00",
+"vendor": "Etech Mobility UK",
+"product_type": "Electric Wheelchair",
+"tags": [
+"airline-friendly",
+"F9V3",
+"refurbished"
+],
+"variants": [
+{
+"id": 65573946655069,
+"title": "Standard 12Ah 24V (Airline Friendly)",
+"option1": "Standard 12Ah 24V (Airline Friendly)",
+"option2": null,
+"option3": null,
+"sku": "FP9A-ST-46-PO-12-RED-RF39",
+"requires_shipping": true,
+"taxable": true,
+"featured_image": {
+"id": 74470283641181,
+"product_id": 16416147308893,
+"position": 1,
+"created_at": "2025-04-10T16:27:43+01:00",
+"updated_at": "2026-03-06T11:05:30+00:00",
+"alt": "Red Etech Mobility Freedom electric wheelchair, front three-quarter view",
+"width": 1080,
+"height": 1080,
+"src": "https://cdn.shopify.com/s/files/1/0786/4408/5085/files/lightweight-electric-wheelchair-folding-powerchair-freedom-pro-st-287674.png?v=1772795130",
+"variant_ids": [
+65573946655069,
+65573946687837,
+65573946720605,
+65573946753373
+]
+},
+"available": false,
+"price": "718.67",
+"grams": 0,
+"compare_at_price": "845.50",
+"position": 1,
+"product_id": 16416147308893,
+"created_at": "2026-08-14T12:50:25+01:00",
+"updated_at": "2026-11-18T12:55:46+00:00"
+},
+{
+"id": 65573946687837,
+"title": "Upgraded 20Ah 24V (Non-Airline Friendly)",
+"option1": "Upgraded 20Ah 24V (Non-Airline Friendly)",
+"option2": null,
+"option3": null,
+"sku": "FP9X-ST46-350-20-RED-RF39",
+"requires_shipping": true,
+"taxable": true,
+"featured_image": {
+"id": 74470283641181,
+"product_id": 16416147308893,
+"position": 1,
+"created_at": "2025-04-10T16:27:43+01:00",
+"updated_at": "2026-03-06T11:05:30+00:00",
+"alt": "Red Etech Mobility Freedom electric wheelchair, front three-quarter view",
+"width": 1080,
+"height": 1080,
+"src": "https://cdn.shopify.com/s/files/1/0786/4408/5085/files/lightweight-electric-wheelchair-folding-powerchair-freedom-pro-st-287674.png?v=1772795130",
+"variant_ids": [
+65573946655069,
+65573946687837,
+65573946720605,
+65573946753373
+]
+},
+"available": false,
+"price": "818.67",
+"grams": 0,
+"compare_at_price": "945.50",
+"position": 2,
+"product_id": 16416147308893,
+"created_at": "2026-08-14T12:50:25+01:00",
+"updated_at": "2026-11-18T12:55:46+00:00"
+},
+{
+"id": 65573946720605,
+"title": "2x Standard 12Ah 24V (Airline Friendly)",
+"option1": "2x Standard 12Ah 24V (Airline Friendly)",
+"option2": null,
+"option3": null,
+"sku": "FP9X-ST46-350-24-RED-RF39",
+"requires_shipping": true,
+"taxable": true,
+"featured_image": {
+"id": 74470283641181,
+"product_id": 16416147308893,
+"position": 1,
+"created_at": "2025-04-10T16:27:43+01:00",
+"updated_at": "2026-03-06T11:05:30+00:00",
+"alt": "Red Etech Mobility Freedom electric wheelchair, front three-quarter view",
+"width": 1080,
+"height": 1080,
+"src": "https://cdn.shopify.com/s/files/1/0786/4408/5085/files/lightweight-electric-wheelchair-folding-powerchair-freedom-pro-st-287674.png?v=1772795130",
+"variant_ids": [
+65573946655069,
+65573946687837,
+65573946720605,
+65573946753373
+]
+},
+"available": false,
+"price": "918.67",
+"grams": 0,
+"compare_at_price": "1045.50",
+"position": 3,
+"product_id": 16416147308893,
+"created_at": "2026-08-14T12:50:25+01:00",
+"updated_at": "2026-11-18T12:55:46+00:00"
+},
+{
+"id": 65573946753373,
+"title": "2x Upgraded 20Ah 24V (Non-Airline Friendly)",
+"option1": "2x Upgraded 20Ah 24V (Non-Airline Friendly)",
+"option2": null,
+"option3": null,
+"sku": "FP9X-ST46-350-40-RED-RF39",
+"requires_shipping": true,
+"taxable": true,
+"featured_image": {
+"id": 74470283641181,
+"product_id": 16416147308893,
+"position": 1,
+"created_at": "2025-04-10T16:27:43+01:00",
+"updated_at": "2026-03-06T11:05:30+00:00",
+"alt": "Red Etech Mobility Freedom electric wheelchair, front three-quarter view",
+"width": 1080,
+"height": 1080,
+"src": "https://cdn.shopify.com/s/files/1/0786/4408/5085/files/lightweight-electric-wheelchair-folding-powerchair-freedom-pro-st-287674.png?v=1772795130",
+"variant_ids": [
+65573946655069,
+65573946687837,
+65573946720605,
+65573946753373
+]
+},
+"available": false,
+"price": "1068.67",
+"grams": 0,
+"compare_at_price": "1195.50",
+"position": 4,
+"product_id": 16416147308893,
+"created_at": "2026-08-14T12:50:25+01:00",
+"updated_at": "2026-11-18T12:55:46+00:00"
+}
+],
+"images": [
+{
+"id": 74470283641181,
+"created_at": "2025-04-10T16:27:43+01:00",
+"position": 1,
+"updated_at": "2026-03-06T11:05:30+00:00",
+"product_id": 16416147308893,
+"variant_ids": [
+65573946655069,
+65573946687837,
+65573946720605,
+65573946753373
+],
+"src": "https://cdn.shopify.com/s/files/1/0786/4408/5085/files/lightweight-electric-wheelchair-folding-powerchair-freedom-pro-st-287674.png?v=1772795130",
+"width": 1080,
+"height": 1080
+},
+{
+"id": 93899581260125,
+"created_at": "2026-08-14T12:57:12+01:00",
+"position": 2,
+"updated_at": "2026-08-14T13:37:29+01:00",
+"product_id": 16416147308893,
+"variant_ids": [],
+"src": "https://cdn.shopify.com/s/files/1/0786/4408/5085/files/grade-a-refurbished-red-freedom-pro-st-lightweight-folding-electric-wheelchair-6808893.png?v=1786711049",
+"width": 1080,
+"height": 1080
+}
+]
+},
+{
+"id": 16416045760861,
+"title": "Grade B Refurbished Champagne Freedom Pro ST | Lightweight Folding Electric Wheelchair",
+"handle": "grade-b-refurbished-champagne-freedom-pro-st-lightweight-folding-electric-wheelchair",
+"body_html": "<h2>\n<meta charset=\"utf-8\">Grade B Refurbished Freedom Pro ST</h2>\n<p class=\"PDq2pG_selectionAnchorContainer\">Enjoy the performance and versatility of the <strong>Grade B Refurbished Freedom Pro ST</strong> at a reduced price. This lightweight foldable electric wheelchair is powered by <strong>dual 350W motors</strong>, providing 700W of combined power for confident everyday use across pavements, gravel, short grass and other suitable outdoor surfaces.<span class=\"PDq2pG_selectionAnchor\"></span></p>\n<p>The Freedom Pro ST supports up to <strong>160 kg</strong> and includes front and rear suspension, puncture-proof tyres, a telescopic footplate, flip-up armrests, twin battery slots and handheld remote control. A wide seat option is also available on request.</p>\n<p>As a <strong>Grade B refurbished electric wheelchair</strong>, this chair shows more noticeable cosmetic wear than our Grade A models. This may include visible scratches, scuffs or marks, but these cosmetic imperfections do not affect its intended functionality. Please review the individual product images carefully before purchasing.</p>",
+"published_at": "2026-08-14T12:36:28+01:00",
+"created_at": "2026-08-14T11:43:53+01:00",
+"updated_at": "2026-11-18T12:55:46+00:00",
+"vendor": "Etech Mobility UK",
+"product_type": "Electric Wheelchair",
+"tags": [
+"airline-friendly",
+"F9V3",
+"refurbished"
+],
+"variants": [
+{
+"id": 65573358174557,
+"title": "Standard 12Ah 24V (Airline Friendly)",
+"option1": "Standard 12Ah 24V (Airline Friendly)",
+"option2": null,
+"option3": null,
+"sku": "FP9A-ST-46-PO-12-CHM-RF19",
+"requires_shipping": true,
+"taxable": true,
+"featured_image": {
+"id": 74470283411805,
+"product_id": 16416045760861,
+"position": 1,
+"created_at": "2025-04-10T16:27:43+01:00",
+"updated_at": "2026-03-06T11:05:30+00:00",
+"alt": "Champagne Etech Mobility Freedom electric wheelchair, front three-quarter view",
+"width": 1080,
+"height": 1080,
+"src": "https://cdn.shopify.com/s/files/1/0786/4408/5085/files/lightweight-electric-wheelchair-folding-powerchair-freedom-pro-st-131085.png?v=1772795130",
+"variant_ids": [
+65573358174557,
+65573358207325,
+65573358240093,
+65573358272861
+]
+},
+"available": false,
+"price": "676.40",
+"grams": 0,
+"compare_at_price": "845.50",
+"position": 1,
+"product_id": 16416045760861,
+"created_at": "2026-08-14T11:43:53+01:00",
+"updated_at": "2026-11-18T12:55:46+00:00"
+},
+{
+"id": 65573358207325,
+"title": "Upgraded 20Ah 24V (Non-Airline Friendly)",
+"option1": "Upgraded 20Ah 24V (Non-Airline Friendly)",
+"option2": null,
+"option3": null,
+"sku": "FP9X-ST46-350-20-CHM-RF19",
+"requires_shipping": true,
+"taxable": true,
+"featured_image": {
+"id": 74470283411805,
+"product_id": 16416045760861,
+"position": 1,
+"created_at": "2025-04-10T16:27:43+01:00",
+"updated_at": "2026-03-06T11:05:30+00:00",
+"alt": "Champagne Etech Mobility Freedom electric wheelchair, front three-quarter view",
+"width": 1080,
+"height": 1080,
+"src": "https://cdn.shopify.com/s/files/1/0786/4408/5085/files/lightweight-electric-wheelchair-folding-powerchair-freedom-pro-st-131085.png?v=1772795130",
+"variant_ids": [
+65573358174557,
+65573358207325,
+65573358240093,
+65573358272861
+]
+},
+"available": false,
+"price": "776.40",
+"grams": 0,
+"compare_at_price": "945.50",
+"position": 2,
+"product_id": 16416045760861,
+"created_at": "2026-08-14T11:43:53+01:00",
+"updated_at": "2026-11-18T12:55:46+00:00"
+},
+{
+"id": 65573358240093,
+"title": "2x Standard 12Ah 24V (Airline Friendly)",
+"option1": "2x Standard 12Ah 24V (Airline Friendly)",
+"option2": null,
+"option3": null,
+"sku": "FP9X-ST46-350-24-CHM-RF19",
+"requires_shipping": true,
+"taxable": true,
+"featured_image": {
+"id": 74470283411805,
+"product_id": 16416045760861,
+"position": 1,
+"created_at": "2025-04-10T16:27:43+01:00",
+"updated_at": "2026-03-06T11:05:30+00:00",
+"alt": "Champagne Etech Mobility Freedom electric wheelchair, front three-quarter view",
+"width": 1080,
+"height": 1080,
+"src": "https://cdn.shopify.com/s/files/1/0786/4408/5085/files/lightweight-electric-wheelchair-folding-powerchair-freedom-pro-st-131085.png?v=1772795130",
+"variant_ids": [
+65573358174557,
+65573358207325,
+65573358240093,
+65573358272861
+]
+},
+"available": false,
+"price": "876.40",
+"grams": 0,
+"compare_at_price": "1045.50",
+"position": 3,
+"product_id": 16416045760861,
+"created_at": "2026-08-14T11:43:53+01:00",
+"updated_at": "2026-11-18T12:55:46+00:00"
+},
+{
+"id": 65573358272861,
+"title": "2x Upgraded 20Ah 24V (Non-Airline Friendly)",
+"option1": "2x Upgraded 20Ah 24V (Non-Airline Friendly)",
+"option2": null,
+"option3": null,
+"sku": "FP9X-ST46-350-40-CHM-RF19",
+"requires_shipping": true,
+"taxable": true,
+"featured_image": {
+"id": 74470283411805,
+"product_id": 16416045760861,
+"position": 1,
+"created_at": "2025-04-10T16:27:43+01:00",
+"updated_at": "2026-03-06T11:05:30+00:00",
+"alt": "Champagne Etech Mobility Freedom electric wheelchair, front three-quarter view",
+"width": 1080,
+"height": 1080,
+"src": "https://cdn.shopify.com/s/files/1/0786/4408/5085/files/lightweight-electric-wheelchair-folding-powerchair-freedom-pro-st-131085.png?v=1772795130",
+"variant_ids": [
+65573358174557,
+65573358207325,
+65573358240093,
+65573358272861
+]
+},
+"available": false,
+"price": "1026.40",
+"grams": 0,
+"compare_at_price": "1245.50",
+"position": 4,
+"product_id": 16416045760861,
+"created_at": "2026-08-14T11:43:53+01:00",
+"updated_at": "2026-11-18T12:55:46+00:00"
+}
+],
+"images": [
+{
+"id": 74470283411805,
+"created_at": "2025-04-10T16:27:43+01:00",
+"position": 1,
+"updated_at": "2026-03-06T11:05:30+00:00",
+"product_id": 16416045760861,
+"variant_ids": [
+65573358174557,
+65573358207325,
+65573358240093,
+65573358272861
+],
+"src": "https://cdn.shopify.com/s/files/1/0786/4408/5085/files/lightweight-electric-wheelchair-folding-powerchair-freedom-pro-st-131085.png?v=1772795130",
+"width": 1080,
+"height": 1080
+},
+{
+"id": 93871444885853,
+"created_at": "2026-08-14T12:08:15+01:00",
+"position": 2,
+"updated_at": "2026-08-14T13:37:33+01:00",
+"product_id": 16416045760861,
+"variant_ids": [],
+"src": "https://cdn.shopify.com/s/files/1/0786/4408/5085/files/grade-b-refurbished-champagne-freedom-pro-st-lightweight-folding-electric-wheelchair-3376668.png?v=1786711053",
+"width": 1080,
+"height": 1080
+}
+]
+},
+{
+"id": 16416038814045,
+"title": "Grade A Refurbished Purple Freedom Pro ST | Lightweight Folding Electric Wheelchair",
+"handle": "grade-a-refurbished-purple-freedom-pro-st-lightweight-folding-electric-wheelchair",
+"body_html": "<h2 class=\"PDq2pG_selectionAnchorContainer\">\n<meta charset=\"utf-8\">Grade A Refurbished Purple Freedom Pro ST</h2>\n<p class=\"PDq2pG_selectionAnchorContainer\">Discover the\u00a0<strong>Grade A Refurbished Purple Freedom Pro ST\u00a0</strong>, a powerful and portable foldable electric wheelchair designed for everyday independence and travel. Powered by <strong>dual 350W motors</strong>, it delivers confident performance across pavements, gravel, short grass and hard sand, while its compact folding frame makes it easy to transport in most car boots.<span class=\"PDq2pG_selectionAnchor\"></span></p>\n<p>Supporting up to <strong>160 kg</strong>, the Freedom Pro ST features front and rear suspension, a telescopic footplate, flip-up armrests, twin battery slots and handheld remote control. A wide seat option is also available on request.</p>\n<p>This individual <strong>Grade A refurbished electric wheelchair</strong> has slight cosmetic scratches to the <strong>footplate and main frame</strong>. These marks are cosmetic only and do not affect the chair's intended operation or performance. Please review the product images for its exact condition.</p>",
+"published_at": "2026-08-14T11:41:52+01:00",
+"created_at": "2026-08-14T11:38:16+01:00",
+"updated_at": "2026-11-18T12:55:46+00:00",
+"vendor": "Etech Mobility UK",
+"product_type": "Electric Wheelchair",
+"tags": [
+"airline-friendly",
+"F9V3",
+"refurbished"
+],
+"variants": [
+{
+"id": 65573316165981,
+"title": "Standard 12Ah 24V (Airline Friendly)",
+"option1": "Standard 12Ah 24V (Airline Friendly)",
+"option2": null,
+"option3": null,
+"sku": "FP9X-ST46-350-12-PUR-RF16",
+"requires_shipping": true,
+"taxable": true,
+"featured_image": {
+"id": 76135879999837,
+"product_id": 16416038814045,
+"position": 1,
+"created_at": "2025-06-12T18:14:23+01:00",
+"updated_at": "2025-11-26T00:05:21+00:00",
+"alt": "Purple limited edition Etech Mobility Freedom electric wheelchair, front three-quarter view with footplate down",
+"width": 1080,
+"height": 1080,
+"src": "https://cdn.shopify.com/s/files/1/0786/4408/5085/files/limited-edition-purple-lightweight-electric-wheelchair-freedom-pro-st-541510.png?v=1764115521",
+"variant_ids": [
+65573316165981,
+65573316198749,
+65573316231517,
+65573316264285
+]
+},
+"available": false,
+"price": "847.88",
+"grams": 0,
+"compare_at_price": "997.50",
+"position": 1,
+"product_id": 16416038814045,
+"created_at": "2026-08-14T11:38:17+01:00",
+"updated_at": "2026-11-18T12:55:46+00:00"
+},
+{
+"id": 65573316198749,
+"title": "Upgraded 20Ah 24V (Non-Airline Friendly)",
+"option1": "Upgraded 20Ah 24V (Non-Airline Friendly)",
+"option2": null,
+"option3": null,
+"sku": "FP9X-ST46-350-20-PUR-RF16",
+"requires_shipping": true,
+"taxable": true,
+"featured_image": {
+"id": 76135879999837,
+"product_id": 16416038814045,
+"position": 1,
+"created_at": "2025-06-12T18:14:23+01:00",
+"updated_at": "2025-11-26T00:05:21+00:00",
+"alt": "Purple limited edition Etech Mobility Freedom electric wheelchair, front three-quarter view with footplate down",
+"width": 1080,
+"height": 1080,
+"src": "https://cdn.shopify.com/s/files/1/0786/4408/5085/files/limited-edition-purple-lightweight-electric-wheelchair-freedom-pro-st-541510.png?v=1764115521",
+"variant_ids": [
+65573316165981,
+65573316198749,
+65573316231517,
+65573316264285
+]
+},
+"available": false,
+"price": "947.88",
+"grams": 0,
+"compare_at_price": "997.50",
+"position": 2,
+"product_id": 16416038814045,
+"created_at": "2026-08-14T11:38:17+01:00",
+"updated_at": "2026-11-18T12:55:46+00:00"
+},
+{
+"id": 65573316231517,
+"title": "2x Standard 12Ah 24V (Airline Friendly)",
+"option1": "2x Standard 12Ah 24V (Airline Friendly)",
+"option2": null,
+"option3": null,
+"sku": "FP9X-ST46-350-24-PUR-RF16",
+"requires_shipping": true,
+"taxable": true,
+"featured_image": {
+"id": 76135879999837,
+"product_id": 16416038814045,
+"position": 1,
+"created_at": "2025-06-12T18:14:23+01:00",
+"updated_at": "2025-11-26T00:05:21+00:00",
+"alt": "Purple limited edition Etech Mobility Freedom electric wheelchair, front three-quarter view with footplate down",
+"width": 1080,
+"height": 1080,
+"src": "https://cdn.shopify.com/s/files/1/0786/4408/5085/files/limited-edition-purple-lightweight-electric-wheelchair-freedom-pro-st-541510.png?v=1764115521",
+"variant_ids": [
+65573316165981,
+65573316198749,
+65573316231517,
+65573316264285
+]
+},
+"available": false,
+"price": "1047.88",
+"grams": 0,
+"compare_at_price": null,
+"position": 3,
+"product_id": 16416038814045,
+"created_at": "2026-08-14T11:38:17+01:00",
+"updated_at": "2026-11-18T12:55:46+00:00"
+},
+{
+"id": 65573316264285,
+"title": "2x Upgraded 20Ah 24V (Non-Airline Friendly)",
+"option1": "2x Upgraded 20Ah 24V (Non-Airline Friendly)",
+"option2": null,
+"option3": null,
+"sku": "FP9X-ST46-350-40-PUR-RF16",
+"requires_shipping": true,
+"taxable": true,
+"featured_image": {
+"id": 76135879999837,
+"product_id": 16416038814045,
+"position": 1,
+"created_at": "2025-06-12T18:14:23+01:00",
+"updated_at": "2025-11-26T00:05:21+00:00",
+"alt": "Purple limited edition Etech Mobility Freedom electric wheelchair, front three-quarter view with footplate down",
+"width": 1080,
+"height": 1080,
+"src": "https://cdn.shopify.com/s/files/1/0786/4408/5085/files/limited-edition-purple-lightweight-electric-wheelchair-freedom-pro-st-541510.png?v=1764115521",
+"variant_ids": [
+65573316165981,
+65573316198749,
+65573316231517,
+65573316264285
+]
+},
+"available": false,
+"price": "1197.88",
+"grams": 0,
+"compare_at_price": null,
+"position": 4,
+"product_id": 16416038814045,
+"created_at": "2026-08-14T11:38:17+01:00",
+"updated_at": "2026-11-18T12:55:46+00:00"
+}
+],
+"images": [
+{
+"id": 76135879999837,
+"created_at": "2025-06-12T18:14:23+01:00",
+"position": 1,
+"updated_at": "2025-11-26T00:05:21+00:00",
+"product_id": 16416038814045,
+"variant_ids": [
+65573316165981,
+65573316198749,
+65573316231517,
+65573316264285
+],
+"src": "https://cdn.shopify.com/s/files/1/0786/4408/5085/files/limited-edition-purple-lightweight-electric-wheelchair-freedom-pro-st-541510.png?v=1764115521",
+"width": 1080,
+"height": 1080
+},
+{
+"id": 76135879573853,
+"created_at": "2025-06-12T18:14:23+01:00",
+"position": 2,
+"updated_at": "2025-11-24T11:38:00+00:00",
+"product_id": 16416038814045,
+"variant_ids": [],
+"src": "https://cdn.shopify.com/s/files/1/0786/4408/5085/files/limited-edition-purple-lightweight-electric-wheelchair-freedom-pro-st-562130.png?v=1763984280",
+"width": 1080,
+"height": 1080
+}
+]
+},
+{
+"id": 16397369934173,
+"title": "Grade A Refurbished Purple Lightweight Folding Electric Wheelchair | Freedom Pro ST",
+"handle": "refurbished-grade-a-purple-freedom-pro-st-electric-wheelchair",
+"body_html": "<h2 class=\"PDq2pG_selectionAnchorContainer\">\n<meta charset=\"utf-8\">Grade A Refurbished Purple Freedom Pro ST</h2>\n<p class=\"PDq2pG_selectionAnchorContainer\">Discover the\u00a0<strong>Grade A Refurbished Freedom Pro ST in Purple</strong>, a powerful and portable foldable electric wheelchair designed for everyday independence and travel. Powered by <strong>dual 350W motors</strong>, it delivers confident performance across pavements, gravel, short grass and hard sand, while its compact folding frame makes it easy to transport in most car boots.<span class=\"PDq2pG_selectionAnchor\"></span></p>\n<p>Supporting up to <strong>160 kg</strong>, the Freedom Pro ST features front and rear suspension, a telescopic footplate, flip-up armrests, twin battery slots and handheld remote control. A wide seat option is also available on request.</p>\n<p>This individual <strong>Grade A refurbished electric wheelchair</strong> has slight cosmetic scratches to the <strong>footplate and main frame</strong>. These marks are cosmetic only and do not affect the chair's intended operation or performance. Please review the product images for its exact condition.</p>",
+"published_at": "2026-08-10T11:54:07+01:00",
+"created_at": "2026-08-07T16:34:52+01:00",
+"updated_at": "2026-11-18T12:55:46+00:00",
+"vendor": "Etech Mobility UK",
+"product_type": "Electric Wheelchair",
+"tags": [
+"airline-friendly",
+"F9V3",
+"refurbished"
+],
+"variants": [
+{
+"id": 65573043306845,
+"title": "Standard 12Ah 24V (Airline Friendly)",
+"option1": "Standard 12Ah 24V (Airline Friendly)",
+"option2": null,
+"option3": null,
+"sku": "FP9X-ST46-350-12-PUR-RF7",
+"requires_shipping": true,
+"taxable": true,
+"featured_image": {
+"id": 76135879999837,
+"product_id": 16397369934173,
+"position": 1,
+"created_at": "2025-06-12T18:14:23+01:00",
+"updated_at": "2025-11-26T00:05:21+00:00",
+"alt": "Purple limited edition Etech Mobility Freedom electric wheelchair, front three-quarter view with footplate down",
+"width": 1080,
+"height": 1080,
+"src": "https://cdn.shopify.com/s/files/1/0786/4408/5085/files/limited-edition-purple-lightweight-electric-wheelchair-freedom-pro-st-541510.png?v=1764115521",
+"variant_ids": [
+65573043306845,
+65573043339613,
+65573043372381,
+65573043405149
+]
+},
+"available": false,
+"price": "847.88",
+"grams": 0,
+"compare_at_price": "997.50",
+"position": 1,
+"product_id": 16397369934173,
+"created_at": "2026-08-14T11:08:22+01:00",
+"updated_at": "2026-11-18T12:55:46+00:00"
+},
+{
+"id": 65573043339613,
+"title": "Upgraded 20Ah 24V (Non-Airline Friendly)",
+"option1": "Upgraded 20Ah 24V (Non-Airline Friendly)",
+"option2": null,
+"option3": null,
+"sku": "FP9X-ST46-350-20-PUR-RF7",
+"requires_shipping": true,
+"taxable": true,
+"featured_image": {
+"id": 76135879999837,
+"product_id": 16397369934173,
+"position": 1,
+"created_at": "2025-06-12T18:14:23+01:00",
+"updated_at": "2025-11-26T00:05:21+00:00",
+"alt": "Purple limited edition Etech Mobility Freedom electric wheelchair, front three-quarter view with footplate down",
+"width": 1080,
+"height": 1080,
+"src": "https://cdn.shopify.com/s/files/1/0786/4408/5085/files/limited-edition-purple-lightweight-electric-wheelchair-freedom-pro-st-541510.png?v=1764115521",
+"variant_ids": [
+65573043306845,
+65573043339613,
+65573043372381,
+65573043405149
+]
+},
+"available": false,
+"price": "947.88",
+"grams": 0,
+"compare_at_price": "997.50",
+"position": 2,
+"product_id": 16397369934173,
+"created_at": "2026-08-14T11:08:22+01:00",
+"updated_at": "2026-11-18T12:55:46+00:00"
+},
+{
+"id": 65573043372381,
+"title": "2x Standard 12Ah 24V (Airline Friendly)",
+"option1": "2x Standard 12Ah 24V (Airline Friendly)",
+"option2": null,
+"option3": null,
+"sku": "FP9X-ST46-350-24-PUR-RF7",
+"requires_shipping": true,
+"taxable": true,
+"featured_image": {
+"id": 76135879999837,
+"product_id": 16397369934173,
+"position": 1,
+"created_at": "2025-06-12T18:14:23+01:00",
+"updated_at": "2025-11-26T00:05:21+00:00",
+"alt": "Purple limited edition Etech Mobility Freedom electric wheelchair, front three-quarter view with footplate down",
+"width": 1080,
+"height": 1080,
+"src": "https://cdn.shopify.com/s/files/1/0786/4408/5085/files/limited-edition-purple-lightweight-electric-wheelchair-freedom-pro-st-541510.png?v=1764115521",
+"variant_ids": [
+65573043306845,
+65573043339613,
+65573043372381,
+65573043405149
+]
+},
+"available": false,
+"price": "1047.88",
+"grams": 0,
+"compare_at_price": null,
+"position": 3,
+"product_id": 16397369934173,
+"created_at": "2026-08-14T11:08:22+01:00",
+"updated_at": "2026-11-18T12:55:46+00:00"
+},
+{
+"id": 65573043405149,
+"title": "2x Upgraded 20Ah 24V (Non-Airline Friendly)",
+"option1": "2x Upgraded 20Ah 24V (Non-Airline Friendly)",
+"option2": null,
+"option3": null,
+"sku": "FP9X-ST46-350-40-PUR-RF7",
+"requires_shipping": true,
+"taxable": true,
+"featured_image": {
+"id": 76135879999837,
+"product_id": 16397369934173,
+"position": 1,
+"created_at": "2025-06-12T18:14:23+01:00",
+"updated_at": "2025-11-26T00:05:21+00:00",
+"alt": "Purple limited edition Etech Mobility Freedom electric wheelchair, front three-quarter view with footplate down",
+"width": 1080,
+"height": 1080,
+"src": "https://cdn.shopify.com/s/files/1/0786/4408/5085/files/limited-edition-purple-lightweight-electric-wheelchair-freedom-pro-st-541510.png?v=1764115521",
+"variant_ids": [
+65573043306845,
+65573043339613,
+65573043372381,
+65573043405149
+]
+},
+"available": false,
+"price": "1197.88",
+"grams": 0,
+"compare_at_price": null,
+"position": 4,
+"product_id": 16397369934173,
+"created_at": "2026-08-14T11:08:22+01:00",
+"updated_at": "2026-11-18T12:55:46+00:00"
+}
+],
+"images": [
+{
+"id": 76135879999837,
+"created_at": "2025-06-12T18:14:23+01:00",
+"position": 1,
+"updated_at": "2025-11-26T00:05:21+00:00",
+"product_id": 16397369934173,
+"variant_ids": [
+65573043306845,
+65573043339613,
+65573043372381,
+65573043405149
+],
+"src": "https://cdn.shopify.com/s/files/1/0786/4408/5085/files/limited-edition-purple-lightweight-electric-wheelchair-freedom-pro-st-541510.png?v=1764115521",
+"width": 1080,
+"height": 1080
+},
+{
+"id": 76135879573853,
+"created_at": "2025-06-12T18:14:23+01:00",
+"position": 2,
+"updated_at": "2025-11-24T11:38:00+00:00",
+"product_id": 16397369934173,
+"variant_ids": [],
+"src": "https://cdn.shopify.com/s/files/1/0786/4408/5085/files/limited-edition-purple-lightweight-electric-wheelchair-freedom-pro-st-562130.png?v=1763984280",
+"width": 1080,
+"height": 1080
+}
+]
+}
+],
+"warnings": []
+}
+}

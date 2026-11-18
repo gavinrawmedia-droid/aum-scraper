@@ -336,3 +336,35 @@ def test_shopify_url_encodes_emoji_handles():
                  handle="✅-careco-zoom-portable-mobility-scooter")
     item = shopify.parse(dealer, {"products": [p]})[0]
     assert item["url"] == "https://d.co.uk/products/%E2%9C%85-careco-zoom-portable-mobility-scooter"
+
+
+# ---- 18 Nov, second batch: Unique, Easy Living, Etech, Hearing & Mobility, ARB
+
+def test_titles_and_condition_second_batch():
+    assert clean_title("Quantum Q6 Edge 2 Powerchair: Approved Used") == "Quantum Q6 Edge 2 Powerchair"
+    assert clean_title("Used Approved Kymco Maxi XLS | 8mph Road Mobility Scooter") == "Kymco Maxi XLS – 8mph Road Mobility Scooter"
+    assert clean_title("Pre Loved & Refurbished Aero Mobility Scooter") == "Aero Mobility Scooter"
+    assert clean_title("Second Hand Kymco Komfy 4 Mobility Scooter") == "Kymco Komfy 4 Mobility Scooter"
+    # The title decides over a collection-wide tag
+    assert detect_condition("Quantum Q6 Edge 2 Powerchair: Approved Used", ["ex-display"]) == "Used"
+    assert detect_condition("Bespoke Riser Recliner - Ex-Display Model", ["Used approved"]) == "Ex-demo"
+
+
+def test_woocommerce_parse():
+    from aum_scraper.adapters import woocommerce
+    dealer = {"id": "w", "website": "https://w.co.uk"}
+    raw = {"products": [
+        {"id": 7, "name": "Second Hand Kymco Komfy 4 Mobility Scooter", "permalink": "https://w.co.uk/product/x/",
+         "is_in_stock": True, "is_purchasable": True, "description": "<p>A Class 2 scooter. 3 month warranty.</p>",
+         "prices": {"price": "115000", "regular_price": "125000", "currency_code": "GBP", "currency_minor_unit": 2},
+         "categories": [{"name": "Used Mobility Scooters"}], "tags": [], "images": [{"src": "https://w.co.uk/a.jpg"}]},
+        {"id": 8, "name": "Sold one", "permalink": "https://w.co.uk/product/y/", "is_in_stock": False,
+         "prices": {"price": "90000", "currency_code": "GBP", "currency_minor_unit": 2}},
+        {"id": 9, "name": "Euro one", "permalink": "https://w.co.uk/product/z/", "is_in_stock": True,
+         "prices": {"price": "90000", "currency_code": "EUR", "currency_minor_unit": 2}},
+    ]}
+    items = woocommerce.parse(dealer, raw)
+    assert [i["source_id"] for i in items] == ["7"]
+    assert items[0]["price"] == 1150.0 and items[0]["was_price"] == 1250.0
+    assert "Used Mobility Scooters" in items[0]["product_type"]
+    assert "3 month warranty" in items[0]["text"]
