@@ -300,3 +300,31 @@ def test_shopify_price_variants_vat_relief():
     a, b = shopify.parse(dealer, {"products": [both, only_full]})
     assert (a["price"], a["was_price"], a["price_varies"], a["price_basis"]) == (499.99, 849.99, False, None)
     assert (b["price"], b["price_basis"]) == (442.80, "check")
+
+
+# ---- 18 Nov: GMS Mobility, The Mobility Shop, Eden Mobility
+
+def test_clean_title_pipes_and_battery_notes():
+    assert clean_title("Pride GoGo Elite Traveller | Refurbished Mobility Scooter Stockport") == "Pride GoGo Elite Traveller – Stockport"
+    assert clean_title("Roma Paris Mobility Scooter | Refurbished") == "Roma Paris Mobility Scooter"
+    assert clean_title("Motion Etravel | Refurbished Scooter Bridlington") == "Motion Etravel – Bridlington"
+    assert clean_title("CareCo Frontier Boot Mobility Scooter in Silver | Ex-Demo Clearance") == "CareCo Frontier Boot Mobility Scooter in Silver"
+    assert clean_title("Used Komfi Rider 8 Mobility Scooter – Red, 8mph, New 50Ah Batteries") == "Komfi Rider 8 Mobility Scooter – Red, 8mph"
+
+
+def test_warranty_ignores_part_warranties_and_no_warranty():
+    assert extract_warranty_months("Comes with a 5-year frame warranty for peace of mind.") is None
+    assert extract_warranty_months("Sold in our clearance section without warranty. A 5-year frame warranty when new.") is None
+    assert extract_warranty_months("Fully serviced with a 6-month warranty. The maker gives a 5-year frame warranty.") == 6
+    assert extract_warranty_months("Includes our 12 month warranty") == 12
+
+
+def test_category_falls_back_to_the_description():
+    assert detect_category("Excel Galaxy mobility scooter", text="A Class 3 road legal scooter.") == "Road scooter (8mph)"
+    assert detect_category("Sterling S400 mobility scooter", text="A Class 2 scooter for pavements.") == "Pavement scooter (4mph)"
+    assert detect_category("Pride Apex mobility scooter", text="Unlike a Class 3 scooter, this Class 2 one stays on pavements.") \
+        == "Mobility scooter (speed not stated)"
+    assert detect_category("Roma Paris mobility scooter", text="It dismantles easily to fit in a car boot.") \
+        == "Boot / folding scooter"
+    assert detect_category("Roma Sovereign scooter", text="Not suitable for a car boot.") \
+        == "Mobility scooter (speed not stated)"

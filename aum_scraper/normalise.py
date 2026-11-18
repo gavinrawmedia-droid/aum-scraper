@@ -192,7 +192,7 @@ _ROAD = r"8\s?mph|class[- ]?3|road|all[- ]terrain|6-8 ?mph"
 
 
 def detect_category(title: str, tags: list[str] | None = None, product_type: str = "",
-                    extra: str = "", top_speed_mph: float | None = None) -> str:
+                    extra: str = "", top_speed_mph: float | None = None, text: str = "") -> str:
     title_l = (title or "").lower()
     meta = " ".join([" ".join(tags or []), product_type or "", extra or ""]).lower()
     both = title_l + " " + meta
@@ -218,6 +218,16 @@ def detect_category(title: str, tags: list[str] | None = None, product_type: str
             return "Road scooter (8mph)"
         if (top_speed_mph and top_speed_mph < 6) or re.search(r"pavement|4\s?mph|class[- ]?2", both):
             return "Pavement scooter (4mph)"
+        # Last, the description, but only when it names one class (some compare the two).
+        desc = (text or "").lower()
+        road, pavement = re.search(r"class[- ]?3|road[- ]legal", desc), re.search(r"class[- ]?2\b", desc)
+        if road and not pavement:
+            return "Road scooter (8mph)"
+        if pavement and not road:
+            return "Pavement scooter (4mph)"
+        if (re.search(r"dismantl|\bfold(?:s|ing)?\b|car boot|into (?:the |a |your )?(?:car )?boot|transportable|portable", desc)
+                and not re.search(r"not (?:suitable|designed|made) for (?:a |the )?(?:car )?boot|too (?:big|large|heavy) for", desc)):
+            return "Boot / folding scooter"
         return "Mobility scooter (speed not stated)"
     return "Other"
 
@@ -337,16 +347,24 @@ def extract_specs(text: str) -> dict:
     }
 
 
+_PART_WARRANTY = r"frame|chassis|motor|batter|structur|gearbox|upholster|electronic|manufacturer"
+
+
 def extract_warranty_months(*texts: str) -> int | None:
+    """The dealer's warranty on this item, in months. A warranty on one part (a "5-year frame
+    warranty") is the maker's, not the dealer's, so it doesn't count. An item the dealer says
+    comes without a warranty gets none."""
     for text in texts:
         t = re.sub(r"\s+", " ", text or "")
-        m = (re.search(r"(\d{1,2})[\s-]*months?\b[^.|]{0,40}?warrant", t, re.I)
-             or re.search(r"warrant[^.|]{0,40}?(\d{1,2})[\s-]*months?", t, re.I))
-        if m and 1 <= int(m.group(1)) <= 36:
-            return int(m.group(1))
-        y = re.search(r"(\d)[\s-]*years?\b[^.|]{0,30}?warrant", t, re.I)
-        if y and 1 <= int(y.group(1)) <= 5:
-            return int(y.group(1)) * 12
+        if re.search(r"\b(?:without|no)\s+(?:a\s+|any\s+)?warranty\b|\bsold as seen\b", t, re.I):
+            return None
+        for pat in (r"(\d{1,2})[\s-]*months?\b[^.|]{0,40}?warrant", r"warrant[^.|]{0,40}?(\d{1,2})[\s-]*months?"):
+            for m in re.finditer(pat, t, re.I):
+                if 1 <= int(m.group(1)) <= 36 and not re.search(_PART_WARRANTY, m.group(0), re.I):
+                    return int(m.group(1))
+        for y in re.finditer(r"(\d)[\s-]*years?\b[^.|]{0,30}?warrant", t, re.I):
+            if 1 <= int(y.group(1)) <= 5 and not re.search(_PART_WARRANTY, y.group(0), re.I):
+                return int(y.group(1)) * 12
     return None
 
 
@@ -357,6 +375,7 @@ _TITLE_NOISE = [
     r"\bex[- ]?demo\b", r"\bex[- ]?display\b", r"\bex[- ]?showroom\b", r"- ?showroom model",
     r"\breconditioned\b", r"\brefurbished\b", r"\bdemo\s*$",
     r"\b\d{1,2} months? (back to shop |on-?site )?warranty\b", r"\bnew batts?\b", r"\bnew batteries\b",
+    r"\bnew (?:\d+\s?ah |lithium )batter(?:y|ies)\b", r"\bclearance\b",
 ]
 
 
@@ -364,6 +383,9 @@ def clean_title(title: str) -> str:
     t = title or ""
     for pat in _TITLE_NOISE:
         t = re.sub(pat, " ", t, flags=re.I)
+    # "Pride GoGo | Refurbished Mobility Scooter Stockport" -> "Pride GoGo – Stockport"
+    t = re.sub(r"\|\s*(?:mobility\s+)?(?:scooter|powerchair|electric wheelchair)\b", "|", t, flags=re.I)
+    t = re.sub(r"\s*\|\s*", " – ", t)
     t = re.sub(r"\s*[-–,]\s*(?=[-–,]|$)", " ", t)
     t = re.sub(r"^\s*[-–,:]+\s*", "", t)
     t = re.sub(r"\s+", " ", t).strip(" -–,")
