@@ -164,6 +164,7 @@ function aum_compare_rows( array $ids, array $winners ): array {
 		}
 		$rows['Price'][ $id ] = array( $html, $price . $was );
 
+		$rows['__detail'][ $id ]        = $cell( trim( (string) get_post_meta( $id, 'aum_type_detail', true ) ), $id );
 		$rows['Condition'][ $id ]       = $cell( aum_first_term( $id, 'aum_condition' ), $id );
 		$months                         = (int) get_post_meta( $id, 'aum_warranty_months', true );
 		$rows['Warranty'][ $id ]        = $cell( $months > 0 ? $months . ( 1 === $months ? ' month' : ' months' ) : '', $id, 'aum_warranty_months' );
@@ -191,6 +192,12 @@ function aum_compare_rows( array $ids, array $winners ): array {
 		$ts                         = $seen ? strtotime( (string) $seen ) : 0;
 		$rows['Last checked'][ $id ] = $cell( $ts ? wp_date( 'j F Y', $ts ) : '', $id );
 	}
+
+	// The type-detail row is "Stairlift type" or "Motors" when every machine is that kind.
+	$slugs = array_unique( array_map( 'aum_equipment_slug', $ids ) );
+	$label = 1 === count( $slugs ) ? aum_type_detail_label( (string) reset( $slugs ) ) : 'Details';
+	$rows  = array_slice( $rows, 0, 1, true ) + array( $label => $rows['__detail'] ) + array_slice( $rows, 1, null, true );
+	unset( $rows['__detail'] );
 
 	return array_filter(
 		$rows,

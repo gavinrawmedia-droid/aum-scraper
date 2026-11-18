@@ -66,6 +66,14 @@ BRANDS: list[tuple[str, str]] = [
     ("Roma Medical", r"\broma\b"),
     ("Betty & Berty", r"\bbetty ?(&|and) ?berty\b"),
     ("Sunrise Medical", r"\bsunrise( medical)?\b"),
+    ("Mini Crosser", r"\bmini ?crosser\b"),
+    # stairlifts
+    ("Stannah", r"\bstannah\b"),
+    ("Acorn", r"\bacorn\b"),
+    ("Handicare", r"\bhandicare\b"),
+    ("Platinum Stairlifts", r"\bplatinum\b(?=.*\bstair)"),
+    ("Access BDD", r"\baccess bdd\b"),
+    ("Otolift", r"\botolift\b"),
 ]
 
 # Model name -> brand, for titles that name only the model ("Colt Executive").
@@ -85,7 +93,8 @@ MODELS: list[tuple[str, str]] = [
     ("Drive", r"\b(royale|envoy|scout|aerocarbon|autofold|sport rider|valiant|zoome)\b"),
     ("Shoprider", r"\b(cadiz|sovereign|cameo|bolero|navigator)\b"),
     ("Ottobock", r"\bjuvo\b"),
-    ("Karma", r"\b(blazer|leon r|ergo)\b"),
+    ("Karma", r"\b(blazer|leon r|ergo)\b(?!.*\bstair)"),
+    ("Stannah", r"\b(siena|starla|solus|sofia)\b(?=.*\bstair)"),
 ]
 
 
@@ -138,11 +147,11 @@ def detect_year(title: str) -> int | None:
 def detect_condition(title: str, tags: list[str] | None = None, product_type: str = "",
                      default: str | None = None) -> str:
     t = " ".join([title or "", " ".join(tags or []), product_type or ""]).lower()
-    if re.search(r"ex[- ]?demo|ex[- ]?display|showroom model|ex[- ]showroom|demonstrator", t):
+    if re.search(r"ex[- ]?demo|ex[- ]?display|showroom model|ex[- ]?showroom|demonstrator|\bdemo\b", t):
         return "Ex-demo"
     if re.search(r"recondition|refurbish", t):
         return "Reconditioned"
-    if re.search(r"\bused\b|pre[- ]?owned|preowned|pre[- ]?loved|second[- ]hand|2nd hand", t):
+    if re.search(r"\bused\b|pre[- ]?owned|preowned|pre[- ]?loved|pre[- ]?used|second[- ]hand|2nd hand", t):
         return "Used"
     if re.match(r"\s*new\b(?!\s*batt)", (title or "").lower()):
         return "New"
@@ -158,8 +167,22 @@ CATEGORIES = [
     "Boot / folding scooter",
     "Powerchair",
     "Manual wheelchair",
+    "Stairlift",
+    "Riser recliner chair",
+    "Profiling bed",
+    "Patient hoist",
+    "Bath lift",
     "Other",
 ]
+
+_STAIRLIFT = r"stair ?-?lift|stair ?-?climber lift|perch stairlift"
+_RISER = (r"riser[- ]?recliner|rise[- ]?(and|&|n)[- ]?recline|riser chair|lift chair|"
+          r"\b(single|dual|twin|\d|four|five) motor\b.*\b(chair|recliner|sofa)\b|recliner chair")
+_BED = r"profiling bed|care bed|hospital bed|nursing bed|homecare bed|adjustable bed|community bed"
+_HOIST = (r"(patient|mobile|ceiling|standing|folding|compact|portable|transfer|gantry) hoist|"
+          r"stand(ing)? aid|sara stedy|birdie")
+_NOT_PATIENT_HOIST = r"\b(boot|car|vehicle|scooter|wheelchair|autochair|rear seats?)\b|smart ?lifter"
+_BATH_LIFT = r"bath ?-?lift|bath ?lifter|bathing cushion|bath cushion"
 
 _POWERCHAIR = r"electric wheelchair|power ?chair|power(ed)? wheelchair|electric-wheelchair"
 _POWERCHAIR_MODELS = (r"\b(q\d{2,3}\s?[rm]|q\d{2,3}r|sedeo|edge (2|3|hd|z)|4front|stretto|q6 edge|tdx|storm ?\d|"
@@ -174,6 +197,16 @@ def detect_category(title: str, tags: list[str] | None = None, product_type: str
     meta = " ".join([" ".join(tags or []), product_type or "", extra or ""]).lower()
     both = title_l + " " + meta
     is_scooter_title = "scooter" in title_l
+    if re.search(_STAIRLIFT, title_l) or (not is_scooter_title and re.search(_STAIRLIFT, meta)):
+        return "Stairlift"
+    if not is_scooter_title and re.search(_RISER, both):
+        return "Riser recliner chair"
+    if not is_scooter_title and re.search(_BATH_LIFT, title_l):
+        return "Bath lift"
+    if not is_scooter_title and re.search(_BED, both):
+        return "Profiling bed"
+    if not is_scooter_title and re.search(_HOIST, title_l) and not re.search(_NOT_PATIENT_HOIST, title_l):
+        return "Patient hoist"
     if not is_scooter_title and (re.search(_POWERCHAIR, both) or re.search(_POWERCHAIR_MODELS, title_l)):
         return "Powerchair"
     if not is_scooter_title and re.search(r"wheelchair", both):
@@ -187,6 +220,35 @@ def detect_category(title: str, tags: list[str] | None = None, product_type: str
             return "Pavement scooter (4mph)"
         return "Mobility scooter (speed not stated)"
     return "Other"
+
+
+# ---------------------------------------------------------------- type details
+
+def detect_type_detail(category: str, title: str, text: str = "") -> str | None:
+    """The one detail that matters most for a type, when the dealer states it:
+    straight or curved for a stairlift, how many motors for a riser recliner."""
+    t = (title or "").lower()
+    if category == "Stairlift":
+        if re.search(r"\bcurved?\b|\bcurve\b", t):
+            return "Curved"
+        if re.search(r"\bstraight\b|slide track|perch", t):
+            return "Straight"
+        if re.search(r"\boutdoor\b", t):
+            return "Outdoor"
+        return None
+    if category == "Riser recliner chair":
+        hay = t + " " + (text or "").lower()[:600]
+        words = {"single": 1, "one": 1, "1": 1, "dual": 2, "twin": 2, "two": 2, "2": 2,
+                 "three": 3, "3": 3, "four": 4, "4": 4, "five": 5, "5": 5}
+        m = (re.search(r"\b(single|one|dual|twin|two|three|four|five|[1-5])[- ]motors?\b", hay)
+             or re.search(r"\b(single|dual|twin)[- ](?:riser|rise|lift)\b", hay))
+        if m:
+            n = words[m.group(1)]
+            return "Single motor" if n == 1 else f"{'Dual' if n == 2 else n} motor"
+        if re.search(r"tilt[- ]in[- ]space", hay):
+            return "Tilt in space"
+        return None
+    return None
 
 
 # ---------------------------------------------------------------- specs
@@ -291,8 +353,9 @@ def extract_warranty_months(*texts: str) -> int | None:
 # ---------------------------------------------------------------- titles
 
 _TITLE_NOISE = [
-    r"\bapproved used\b", r"\bpre[- ]?owned\b", r"\bpreowned\b", r"\bpre[- ]?loved\b", r"\bused\b",
-    r"\bex[- ]?demo\b", r"\bex[- ]?display\b", r"\bex showroom\b", r"- ?showroom model",
+    r"\bpre[- ]?used\b", r"\bapproved used\b", r"\bpre[- ]?owned\b", r"\bpreowned\b", r"\bpre[- ]?loved\b", r"\bused\b",
+    r"\bex[- ]?demo\b", r"\bex[- ]?display\b", r"\bex[- ]?showroom\b", r"- ?showroom model",
+    r"\breconditioned\b", r"\brefurbished\b", r"\bdemo\s*$",
     r"\b\d{1,2} months? (back to shop |on-?site )?warranty\b", r"\bnew batts?\b", r"\bnew batteries\b",
 ]
 

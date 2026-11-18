@@ -121,6 +121,7 @@ function aum_rest_dealers( WP_REST_Request $req ) {
 			$result['created']++;
 		}
 		$d['id'] = $ext_id;
+		$d['visit_note'] = $d['visit_note'] ?? '';   // clear a note the dealer config no longer has
 		if ( isset( $d['other_branches'] ) && is_array( $d['other_branches'] ) ) {
 			$d['other_branches'] = implode( '; ', $d['other_branches'] );
 		}

@@ -110,3 +110,71 @@ dealers:
       months: 12
       source: "Dealer policy: '12 Month Fully Comprehensive Warranty included'"
     price_basis: no_vat
+
+  # ---- added 18 Nov 2026 (shortlist "quick to add"; permission emails still to go)
+
+  - id: mobility-station
+    name: Mobility Station
+    website: https://mobilitystation.co.uk
+    address: 2 Old Forge Road
+    town: Ferndown
+    postcode: BH21 7RR
+    phone: "01202 287361"
+    other_branches:
+      - "Heathrow: 1-2 Horton Close, West Drayton, UB7 8EB (01895 520361)"
+    platform: mobility_station     # their own shop (not Shopify): see adapters/mobility_station.py
+    pages:
+      - /clearance                 # graded used and ex-demo stock
+    price_basis: vat_relief        # shown "ex. VAT" / "No VAT"
+
+  - id: multicare
+    name: Multicare Mobility
+    website: https://www.multicare.co.uk
+    address: Mobility House, North Valley Road
+    town: Colne
+    postcode: BB8 9AG
+    phone: "0808 239 6687"
+    platform: shopify
+    collections:
+      - used-stairlifts
+      - refurbished-stairlifts
+    # Many pages sell a stairlift "reconditioned or new": keep only the reconditioned option.
+    used_variants: "recondition|refurb|pre[- ]?used|\\bused\\b|pre[- ]?owned|second[- ]hand"
+    condition_default: Reconditioned
+    price_basis: check
+
+  - id: millercare
+    name: Millercare
+    website: https://www.millercare.co.uk
+    address: Paddock Mill, Moscow Mill Street
+    town: Oswaldtwistle
+    postcode: BB5 0EP
+    phone: "01254 233426"
+    other_branches:
+      - "Showrooms across Lancashire, Greater Manchester and Cheshire, including Blackburn, Preston, Blackpool, Leyland and Southport"
+    platform: shopify
+    collections:
+      - reconditioned-stairlifts
+    condition_default: Reconditioned
+    warranty_policy:
+      months: 3
+      source: "Dealer policy: 'All of our reconditioned stairlifts come with a 3 month warranty'"
+    price_basis: vat_relief
+
+  - id: fenetic-wellbeing
+    name: Fenetic Wellbeing
+    website: https://www.feneticwellbeing.com
+    address: Healthcare House, Snaygill Industrial Estate, Keighley Road
+    town: Skipton
+    postcode: BD23 2QR
+    phone: "0800 567 7618"
+    visit_note: "Viewing by appointment only. Call before you visit."
+    platform: shopify
+    whole_store: true              # ex-demo stock is mixed in with new, so pick it out by title
+    include:
+      title_matches: "ex[- ]?demo|ex[- ]?display|ex[- ]?showroom|\\bdemo\\b|refurb|recondition|pre[- ]?owned|\\bused\\b"
+      title_excludes: "\\bnew\\b(?!\\s*batt)"
+    # Each item is listed twice, "VAT Exempt: Yes" and "No": show the VAT-relief price.
+    price_variants: "VAT Exempt: Yes"
+    drop_categories: ["Other"]     # sofas and other furniture
+    price_basis: vat_relief

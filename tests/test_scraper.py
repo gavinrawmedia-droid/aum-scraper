@@ -176,9 +176,13 @@ def test_mobility_giant_parse_merges_categories():
 
 # ------------------------------------------------------------------ whole pipeline
 
+# Every dealer that has a saved capture in fixtures/ (a new dealer gets one from a test run).
+CAPTURED = sorted(p.stem for p in FIXTURES.glob("*.json"))
+
+
 def test_pipeline_offline_and_history(tmp_path):
     out = tmp_path / "data"
-    h = run(ROOT / "dealers.yaml", out, offline_dir=FIXTURES)
+    h = run(ROOT / "dealers.yaml", out, offline_dir=FIXTURES, only=CAPTURED)
     assert all(d["status"] == "ok" for d in h["dealers"].values())
     listings = json.loads((out / "listings.json").read_text())["listings"]
     assert len(listings) > 150
@@ -196,11 +200,101 @@ def test_pipeline_offline_and_history(tmp_path):
     mw = json.loads((fx_dir / "mobility-world.json").read_text())
     gone_id = "mobility-world:" + str(mw["collections"]["approved-used-mobility-scooters"].pop(0)["id"])
     (fx_dir / "mobility-world.json").write_text(json.dumps(mw))
-    run(ROOT / "dealers.yaml", out, offline_dir=fx_dir)
+    run(ROOT / "dealers.yaml", out, offline_dir=fx_dir, only=CAPTURED)
     ids = {r["id"] for r in json.loads((out / "listings.json").read_text())["listings"]}
     assert gone_id in ids and gone_id in first_ids
-    run(ROOT / "dealers.yaml", out, offline_dir=fx_dir)
+    run(ROOT / "dealers.yaml", out, offline_dir=fx_dir, only=CAPTURED)
     ids = {r["id"] for r in json.loads((out / "listings.json").read_text())["listings"]}
     assert gone_id not in ids
     state = json.loads((out / "state.json").read_text())
     assert state["listings"][gone_id]["status"] == "removed"
+
+
+# ------------------------------------------------------------------ equipment for the home (18 Nov 2026)
+
+from aum_scraper.normalise import detect_type_detail  # noqa: E402
+
+
+@pytest.mark.parametrize("title,category,brand,condition,detail", [
+    ("Reconditioned Stannah Siena 260 Curved Stairlift", "Stairlift", "Stannah", "Reconditioned", "Curved"),
+    ("Acorn 130 Straight Stairlift - Red", "Stairlift", "Acorn", "Not stated", "Straight"),
+    ("Platinum Ergo Curve Stairlift", "Stairlift", "Platinum Stairlifts", "Not stated", "Curved"),
+    ("Multicare Pre-Used Straight Stairlifts", "Stairlift", None, "Used", "Straight"),
+    ("Handicare 1000 Perch Stairlift", "Stairlift", "Handicare", "Not stated", "Straight"),
+    ("Burlington fabric dual motor riser recliner chair - Blue - Ex Demo", "Riser recliner chair", None, "Ex-demo", "Dual motor"),
+    ("Bronte 4 Motor chair Compact Size Stafford oatmeal Fabric - Ex Demo", "Riser recliner chair", None, "Ex-demo", "4 motor"),
+    ("The Leather Ultra 5 Motor High leg Lift Rise Recliner Chair with Heat and Massage-Medium Demo",
+     "Riser recliner chair", None, "Ex-demo", "5 motor"),
+    ("Drive Neptune Bath Lift - Ex Demo", "Bath lift", "Drive", "Ex-demo", None),
+    ("Ex Demo Birdie Folding Hoists", "Patient hoist", None, "Ex-demo", None),
+    ("Smart Lifter LC Compact Hoist", "Other", None, "Not stated", None),          # a car boot hoist
+    ("Invacare Medley Ergo Medical Profiling Bed", "Profiling bed", "Invacare", "Not stated", None),
+    ("Sterling Sapphire 2 Portable Travel Mobility Scooter Ex Display - Red", "Boot / folding scooter", "Sterling", "Ex-demo", None),
+    ("Mini Crosser M2 8 Mph Mobility Scooter USED", "Road scooter (8mph)", "Mini Crosser", "Used", None),
+])
+def test_home_equipment(title, category, brand, condition, detail):
+    cat = detect_category(title)
+    assert cat == category
+    assert detect_brand(title) == brand
+    assert detect_condition(title) == condition
+    assert detect_type_detail(cat, title) == detail
+
+
+def test_clean_title_home_equipment():
+    assert clean_title("Multicare Pre-Used Straight Stairlifts") == "Multicare Straight Stairlifts"
+    assert clean_title("Reconditioned Stannah Siena 600 Straight Stairlift") == "Stannah Siena 600 Straight Stairlift"
+
+
+def _product(title, variants, **kw):
+    return {"id": 1, "handle": "x", "title": title, "body_html": "", "tags": [], "product_type": "",
+            "vendor": "", "images": [], "variants": variants, **kw}
+
+
+def test_shopify_keeps_only_reconditioned_variants_and_from_price():
+    dealer = {"id": "d", "website": "https://d.co.uk", "used_variants": r"recondition|pre[- ]?used"}
+    p = _product("Acorn 130 Straight Stairlift", [
+        {"title": "New", "option1": "New", "price": "2995.00", "available": True},
+        {"title": "Reconditioned / Red", "option1": "Reconditioned", "price": "1595.00", "available": True},
+        {"title": "Reconditioned / Green", "option1": "Reconditioned", "price": "1695.00", "available": True},
+    ])
+    [item] = shopify.parse(dealer, {"products": [p]})
+    assert item["price"] == 1595.0 and item["price_varies"] is True
+    assert item["variant_titles"] == ["Reconditioned / Red", "Reconditioned / Green"]
+    # a page sold new only is skipped
+    new_only = _product("Acorn 180 Curved Stairlift", [{"title": "New", "price": "4995", "available": True}])
+    assert shopify.parse(dealer, {"products": [new_only]}) == []
+
+
+def test_shopify_title_rules():
+    dealer = {"id": "d", "website": "https://d.co.uk",
+              "include": {"title_matches": r"ex[- ]?demo|\bdemo\b", "title_excludes": r"\bnew\b(?!\s*batt)"}}
+    keep = _product("Burlington Riser Recliner - Ex Demo", [{"title": "Default Title", "price": "399.99", "available": True}])
+    drop = _product("Kelbrook Rise Recliner Chair Dual Motor - NEW", [{"title": "Default Title", "price": "999", "available": True}])
+    assert [i["title"] for i in shopify.parse(dealer, {"products": [keep, drop]})] == ["Burlington Riser Recliner - Ex Demo"]
+
+
+def test_mobility_station_cards():
+    from aum_scraper.adapters import mobility_station
+    fx = json.loads((FIXTURES / "mobility-station.json").read_text())["raw"]
+    items = mobility_station.parse({"id": "mobility-station", "website": "https://mobilitystation.co.uk"}, fx)
+    assert len(items) == 10                                   # 16 on the page, 6 out of stock
+    mc = next(i for i in items if i["source_id"] == "mini-crosser-m2-8-mph-mobility-scooter-used")
+    assert mc["price"] == 1800.0 and mc["grade"] == "C" and "Grade C" in mc["tags"]
+    assert mc["url"] == "https://mobilitystation.co.uk/products/mini-crosser-m2-8-mph-mobility-scooter-used"
+    assert len(mc["images"]) > 1 and mc["text"]               # photos and description from the product page
+    assert all(i["images"][0].startswith("https://") for i in items)
+
+
+def test_shopify_price_variants_vat_relief():
+    dealer = {"id": "d", "website": "https://d.co.uk", "price_variants": "VAT Exempt: Yes"}
+    both = _product("Oakworth dual motor riser recliner chair - Ex Demo", [
+        {"title": "VAT Exempt: No", "price": "599.99", "compare_at_price": "1019.99", "available": True},
+        {"title": "VAT Exempt: Yes", "price": "499.99", "compare_at_price": "849.99", "available": True},
+    ])
+    only_full = _product("Karma Ergo 3 - Ex Demo", [
+        {"title": "Silver / VAT Exempt: No", "price": "442.80", "available": True},
+        {"title": "Silver / VAT Exempt: Yes", "price": "369.00", "available": False},
+    ])
+    a, b = shopify.parse(dealer, {"products": [both, only_full]})
+    assert (a["price"], a["was_price"], a["price_varies"], a["price_basis"]) == (499.99, 849.99, False, None)
+    assert (b["price"], b["price_basis"]) == (442.80, "check")

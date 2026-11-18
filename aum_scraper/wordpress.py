@@ -15,7 +15,7 @@ import httpx
 
 BATCH_SIZE = 50
 LISTING_FIELDS = [
-    "id", "dealer_id", "title", "clean_title", "brand", "year", "category", "condition",
+    "id", "dealer_id", "title", "clean_title", "brand", "year", "category", "type_detail", "condition",
     "price_gbp", "price_is_from", "was_price_gbp", "previous_price_gbp", "price_basis",
     "warranty_months", "warranty_source", "max_user_weight_kg", "range_miles", "top_speed_mph",
     "heaviest_part_kg", "spec_note", "url", "image_urls", "first_seen", "last_seen",

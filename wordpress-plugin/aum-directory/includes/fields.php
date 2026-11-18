@@ -16,6 +16,7 @@ function aum_listing_fields(): array {
 		'aum_dealer_ext_id'      => array( 'string', 'Dealer ID', 'dealer_id' ),
 		'aum_title_as_listed'    => array( 'string', "Dealer's own title", 'title' ),
 		'aum_year'               => array( 'integer', 'Year', 'year' ),
+		'aum_type_detail'        => array( 'string', 'Type detail (e.g. curved, dual motor)', 'type_detail' ),
 		'aum_price_gbp'          => array( 'number', 'Price (£)', 'price_gbp' ),
 		'aum_price_is_from'      => array( 'boolean', '"From" price', 'price_is_from' ),
 		'aum_was_price_gbp'      => array( 'number', 'Was price (£)', 'was_price_gbp' ),
@@ -46,6 +47,7 @@ function aum_dealer_fields(): array {
 		'aum_postcode'       => array( 'string', 'Postcode', 'postcode' ),
 		'aum_phone'          => array( 'string', 'Phone', 'phone' ),
 		'aum_other_branches' => array( 'string', 'Other branches', 'other_branches' ),
+		'aum_visit_note'     => array( 'string', 'Before visiting', 'visit_note' ),
 		'aum_price_basis'    => array( 'string', 'Price basis', 'price_basis' ),
 		'aum_lat'            => array( 'number', 'Latitude', 'lat' ),
 		'aum_lng'            => array( 'number', 'Longitude', 'lng' ),
@@ -62,6 +64,11 @@ function aum_equipment_terms(): array {
 		'Mobility scooter (speed not stated)' => array( 'mobility-scooters', 'Mobility scooters' ),
 		'Powerchair'                          => array( 'powerchairs', 'Powerchairs' ),
 		'Manual wheelchair'                   => array( 'wheelchairs', 'Wheelchairs' ),
+		'Stairlift'                           => array( 'stairlifts', 'Stairlifts' ),
+		'Riser recliner chair'                => array( 'riser-recliners', 'Riser recliner chairs' ),
+		'Profiling bed'                       => array( 'profiling-beds', 'Profiling beds' ),
+		'Patient hoist'                       => array( 'hoists', 'Hoists' ),
+		'Bath lift'                           => array( 'bath-lifts', 'Bath lifts' ),
 		'Other'                               => array( 'other', 'Other equipment' ),
 	);
 }
@@ -84,5 +91,35 @@ function aum_price_basis_label( string $basis ): string {
 			return 'The dealer says there is no VAT to add.';
 		default:
 			return 'Check with the dealer whether VAT is added.';
+	}
+}
+
+
+/**
+ * Equipment you ride (scooters, chairs) has speed, range and a heaviest part to lift.
+ * Equipment for the home (stairlifts, riser recliners, beds, hoists, bath lifts) doesn't.
+ */
+function aum_home_equipment_slugs(): array {
+	return array( 'stairlifts', 'riser-recliners', 'profiling-beds', 'hoists', 'bath-lifts' );
+}
+
+function aum_equipment_slug( int $listing_id ): string {
+	$terms = get_the_terms( $listing_id, 'aum_equipment' );
+	return ( $terms && ! is_wp_error( $terms ) ) ? (string) $terms[0]->slug : '';
+}
+
+function aum_is_home_equipment( int $listing_id ): bool {
+	return in_array( aum_equipment_slug( $listing_id ), aum_home_equipment_slugs(), true );
+}
+
+/** What the type-detail field means for this kind of equipment. */
+function aum_type_detail_label( string $equipment_slug ): string {
+	switch ( $equipment_slug ) {
+		case 'stairlifts':
+			return 'Stairlift type';
+		case 'riser-recliners':
+			return 'Motors';
+		default:
+			return 'Details';
 	}
 }
