@@ -353,7 +353,7 @@ def extract_warranty_months(*texts: str) -> int | None:
 # ---------------------------------------------------------------- titles
 
 _TITLE_NOISE = [
-    r"\bpre[- ]?used\b", r"\bapproved used\b", r"\bpre[- ]?owned\b", r"\bpreowned\b", r"\bpre[- ]?loved\b", r"\bused\b",
+    r"\bex[- ]?(?:demo|display|showroom) model\b", r"\bpre[- ]?used\b", r"\bapproved used\b", r"\bpre[- ]?owned\b", r"\bpreowned\b", r"\bpre[- ]?loved\b", r"\bused\b",
     r"\bex[- ]?demo\b", r"\bex[- ]?display\b", r"\bex[- ]?showroom\b", r"- ?showroom model",
     r"\breconditioned\b", r"\brefurbished\b", r"\bdemo\s*$",
     r"\b\d{1,2} months? (back to shop |on-?site )?warranty\b", r"\bnew batts?\b", r"\bnew batteries\b",

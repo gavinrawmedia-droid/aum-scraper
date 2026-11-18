@@ -243,6 +243,8 @@ def test_home_equipment(title, category, brand, condition, detail):
 def test_clean_title_home_equipment():
     assert clean_title("Multicare Pre-Used Straight Stairlifts") == "Multicare Straight Stairlifts"
     assert clean_title("Reconditioned Stannah Siena 600 Straight Stairlift") == "Stannah Siena 600 Straight Stairlift"
+    assert clean_title("Queensbury beige dual riser recliner chair - Ex Showroom Model") == "Queensbury beige dual riser recliner chair"
+    assert clean_title("Envoy 4 Mobility Scooter 4mph - Blue - Ex Display Model") == "Envoy 4 Mobility Scooter 4mph - Blue"
 
 
 def _product(title, variants, **kw):

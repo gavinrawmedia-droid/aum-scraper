@@ -147,6 +147,7 @@ function aum_rest_listings( WP_REST_Request $req ) {
 	if ( count( $listings ) > AUM_MAX_LISTINGS_PER_CALL ) {
 		return new WP_Error( 'aum_too_many', 'Send at most ' . AUM_MAX_LISTINGS_PER_CALL . ' listings per call.', array( 'status' => 413 ) );
 	}
+	aum_create_default_terms();   // new types arrive with their proper names, not their web addresses
 	wp_defer_term_counting( true );
 	$result = array( 'created' => 0, 'updated' => 0, 'republished' => 0, 'errors' => array() );
 	foreach ( $listings as $i => $l ) {

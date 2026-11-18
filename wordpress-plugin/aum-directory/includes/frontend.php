@@ -843,13 +843,51 @@ function aum_render_key_facts( int $id ): string {
 	return (string) ob_get_clean();
 }
 
-function aum_render_questions(): string {
+/** Questions worth asking, by kind of equipment. */
+function aum_questions_for( string $equipment_slug ): array {
+	switch ( $equipment_slug ) {
+		case 'stairlifts':
+			return array(
+				'Will you survey my stairs before confirming the price?',
+				'Is fitting included, and how long does it take?',
+				'Is the rail new or reconditioned, and how old is the lift?',
+				'What does the warranty cover, and who carries out repairs and servicing?',
+				'Do you offer a buy-back if we no longer need it?',
+			);
+		case 'riser-recliners':
+			return array(
+				'Is the seat height and width right for me? Can I try it first?',
+				'What is the maximum user weight?',
+				'Is delivery and setting it up in the room included?',
+				'What does the warranty cover, including the motors and handset?',
+				'Can I return it if it doesn\'t suit me?',
+			);
+		case 'profiling-beds':
+		case 'hoists':
+		case 'bath-lifts':
+			return array(
+				'Has it been fully serviced and safety-checked, and when?',
+				'What is the maximum user weight?',
+				'Is delivery, setting up and a demonstration included?',
+				'What does the warranty cover, and who carries out repairs?',
+				'Can I return it if it doesn\'t suit me?',
+			);
+		default:
+			return array(
+				'How old are the batteries, and have they been load-tested?',
+				'What does the warranty cover, and who carries out repairs?',
+				'Is delivery and a home demonstration included?',
+				'When was it last serviced, and is there a service record?',
+				'Can I return it if it doesn\'t suit me?',
+			);
+	}
+}
+
+function aum_render_questions( int $id = 0 ): string {
+	$id    = $id ?: (int) get_the_ID();
+	$items = aum_questions_for( $id ? aum_equipment_slug( $id ) : '' );
 	return '<section class="aumd-questions-block"><h2 class="aumd-h">Questions to ask the dealer</h2><ul class="aumd-questions">'
-		. '<li>How old are the batteries, and have they been load-tested?</li>'
-		. '<li>What does the warranty cover, and who carries out repairs?</li>'
-		. '<li>Is delivery and a home demonstration included?</li>'
-		. '<li>When was it last serviced, and is there a service record?</li>'
-		. '<li>Can I return it if it doesn\'t suit me?</li>'
+		. implode( '', array_map( static fn( string $q ) => '<li>' . esc_html( $q ) . '</li>', $items ) )
 		. '</ul></section>';
 }
 
