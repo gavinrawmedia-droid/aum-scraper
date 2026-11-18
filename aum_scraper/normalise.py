@@ -144,15 +144,24 @@ def detect_year(title: str) -> int | None:
     return int(m.group(1)) if m else None
 
 
-def detect_condition(title: str, tags: list[str] | None = None, product_type: str = "",
-                     default: str | None = None) -> str:
-    t = " ".join([title or "", " ".join(tags or []), product_type or ""]).lower()
+def _condition_in(t: str) -> str | None:
     if re.search(r"ex[- ]?demo|ex[- ]?display|showroom model|ex[- ]?showroom|demonstrator|\bdemo\b", t):
         return "Ex-demo"
     if re.search(r"recondition|refurbish", t):
         return "Reconditioned"
     if re.search(r"\bused\b|pre[- ]?owned|preowned|pre[- ]?loved|pre[- ]?used|second[- ]hand|2nd hand", t):
         return "Used"
+    return None
+
+
+def detect_condition(title: str, tags: list[str] | None = None, product_type: str = "",
+                     default: str | None = None) -> str:
+    """What the title says wins; tags and the product type come next (a shop may tag a whole
+    collection "ex-display" while the title says "Approved Used")."""
+    found = (_condition_in((title or "").lower())
+             or _condition_in(" ".join([" ".join(tags or []), product_type or ""]).lower()))
+    if found:
+        return found
     if re.match(r"\s*new\b(?!\s*batt)", (title or "").lower()):
         return "New"
     return default or "Not stated"
@@ -371,7 +380,8 @@ def extract_warranty_months(*texts: str) -> int | None:
 # ---------------------------------------------------------------- titles
 
 _TITLE_NOISE = [
-    r"\bex[- ]?(?:demo|display|showroom) model\b", r"\bpre[- ]?used\b", r"\bapproved used\b", r"\bpre[- ]?owned\b", r"\bpreowned\b", r"\bpre[- ]?loved\b", r"\bused\b",
+    r"\bex[- ]?(?:demo|display|showroom) model\b", r"\bpre[- ]?used\b", r"\bapproved used\b", r"\bused approved\b",
+    r"\bpre[- ]?owned\b", r"\bpreowned\b", r"\bpre[- ]?loved\b", r"\bsecond[- ]hand\b", r"\bused\b",
     r"\bex[- ]?demo\b", r"\bex[- ]?display\b", r"\bex[- ]?showroom\b", r"- ?showroom model",
     r"\breconditioned\b", r"\brefurbished\b", r"\bdemo\s*$",
     r"\b\d{1,2} months? (back to shop |on-?site )?warranty\b", r"\bnew batts?\b", r"\bnew batteries\b",
@@ -387,6 +397,6 @@ def clean_title(title: str) -> str:
     t = re.sub(r"\|\s*(?:mobility\s+)?(?:scooter|powerchair|electric wheelchair)\b", "|", t, flags=re.I)
     t = re.sub(r"\s*\|\s*", " – ", t)
     t = re.sub(r"\s*[-–,]\s*(?=[-–,]|$)", " ", t)
-    t = re.sub(r"^\s*[-–,:]+\s*", "", t)
-    t = re.sub(r"\s+", " ", t).strip(" -–,")
+    t = re.sub(r"^\s*[-–,:&]+\s*", "", t)
+    t = re.sub(r"\s+", " ", t).strip(" -–,:")
     return t or (title or "").strip()

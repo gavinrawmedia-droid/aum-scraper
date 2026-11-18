@@ -4,6 +4,7 @@
 #   shopify          - the dealer's site runs on Shopify (most do). List the used/ex-demo
 #                      collection handles, or set whole_store: true and add an include rule.
 #   mobility_giant   - Mobility Giant's own site (HTML listing pages).
+#   woocommerce      - a WordPress (WooCommerce) shop: list the used/ex-demo category slugs.
 #
 # price_basis tells the site how to label prices:
 #   vat_relief - the price shown is before VAT; buyers who don't qualify for VAT relief pay 20% more
@@ -229,3 +230,82 @@ dealers:
     # Some items are listed twice, "VAT Exempt" and "VAT Included": show the VAT-relief price.
     price_variants: "VAT Exempt"
     price_basis: vat_relief
+
+  # ---- added 18 Nov 2026, second batch (ticked on the shortlist; permission emails still to go)
+
+  - id: unique-mobility
+    name: Unique Mobility
+    website: https://uniquemobility.co.uk
+    address: 2a Scarne Industrial Estate, Hurdon Road
+    town: Launceston
+    postcode: PL15 9HS
+    phone: "01566 774030"
+    other_branches:
+      - "Exeter: Unit 5 Merriott House, Hennock Road, Marsh Barton, EX2 8NP (01392 824428)"
+      - "Plymouth: Units 1 & 2 Drake Mill Business Park, Estover, PL6 7PS (01752 546222)"
+    platform: shopify
+    collections:
+      - ex-display-clearance-stock   # ex-display riser recliners and approved used scooters
+    price_basis: check
+
+  - id: easy-living-mobility
+    name: Easy Living Mobility
+    website: https://store.easylivingmobility.co.uk
+    address: 11 Castle Walk
+    town: Newcastle-under-Lyme
+    postcode: ST5 1AN
+    phone: "0333 577 8085"
+    other_branches:
+      - "15 stores in Staffordshire, the West Midlands and Shropshire, including Wolverhampton, Telford, Cannock and Hanley"
+    visit_note: "Used items are sold online and delivered. To see one first, ask which store has it."
+    platform: shopify
+    collections:
+      - pre-loved-refurbished       # graded As New / Gold / Silver: shown as a "From" price
+    condition_default: Used
+    drop_categories: ["Other"]       # rollators and shopping trolleys
+    price_basis: check
+
+  - id: etech-mobility
+    name: Etech Mobility
+    website: https://etechmobility.co.uk
+    address: Unit 7 Mount Street Business Park
+    town: Birmingham
+    postcode: B7 5QU
+    phone: "0121 661 4336"
+    other_branches:
+      - "Glasgow: 74 Brand Street, G51 1DG (0141 673 6558); no stock kept there"
+    platform: shopify
+    collections:
+      - refurbished-powerchairs-mobility-scooters   # Grade A / B refurbished folding powerchairs
+    condition_default: Reconditioned
+    price_basis: check
+
+  - id: hearing-and-mobility-store
+    name: The Hearing & Mobility Store
+    website: https://thehearingandmobilitystore.co.uk
+    address: 6 Devizes Road, Wroughton
+    town: Swindon
+    postcode: SN4 0RZ
+    phone: "01793 815083"
+    other_branches:
+      - "Marlborough: 56 George Lane, SN8 4BY (01672 511550)"
+      - "Bourton-on-the-Water: Lansdowne, GL54 2AR"
+    platform: woocommerce
+    categories:
+      - used-mobility-scooters
+      - used-power-wheelchairs
+    condition_default: Used
+    price_basis: check
+
+  - id: arb-mobility
+    name: ARB Mobility
+    website: https://www.arbmobility.co.uk
+    address: The Carpenters, Cheats Road, Ruishton
+    town: Taunton
+    postcode: TA3 5JE
+    phone: "01823 442363"
+    platform: woocommerce
+    categories:
+      - refurbished-mobility-scooters
+    condition_default: Reconditioned
+    price_basis: check

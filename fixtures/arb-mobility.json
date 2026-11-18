@@ -1,0 +1,2166 @@
+{
+"fetched_at": "2026-11-18T14:00:00Z",
+"raw": {
+"products": [
+{
+"id": 4054,
+"name": "Refurbished Vita E Mobility Scooter",
+"slug": "refurbished-vita-e-mobility-scooter",
+"parent": 0,
+"type": "simple",
+"variation": "",
+"permalink": "https://www.arbmobility.co.uk/products/refurbished-vita-e-mobility-scooter/",
+"sku": "",
+"short_description": "<p data-pm-slice=\"1 1 []\">Enjoy comfort, freedom and excellent value with this refurbished Vita E 8mph Mobility Scooter. Featuring full suspension, pneumatic tyres, a comfortable rotating seat and a powerful motor offering a potential range of up to 25 miles. With a 23-stone user weight capacity, adjustable tiller, water bottle holder and convenient charging sockets, the Vita E is an excellent choice for comfortable everyday mobility and outdoor adventures.</p>",
+"description": "<p data-pm-slice=\"1 1 []\">Enjoy greater freedom, independence and flexibility with our refurbished Vita E Mobility Scooter. Designed to deliver impressive performance at an affordable price, the Vita E combines powerful outdoor capability with a stylish, practical design that makes everyday journeys easier and more enjoyable.</p>\n<p>Whether you&#8217;re exploring the countryside, heading into town or visiting friends and family, the Vita E offers the versatility to enjoy life at your own pace.</p>\n<h3>Excellent Outdoor Performance</h3>\n<p>The Vita E combines strength and stability with a slim, agile design. Its compact profile makes manoeuvring through crowded places and tighter spaces easier, while its powerful motor and robust construction help it tackle a variety of outdoor surfaces.</p>\n<p>With a maximum speed of 8mph and a potential range of up to 25 miles on a single charge, this scooter is ideal for longer journeys and everyday trips alike.</p>\n<h3>Comfort on Every Journey</h3>\n<p>Enjoy a smoother, more comfortable ride thanks to the full-suspension system and pneumatic tyres, which help absorb bumps and uneven surfaces.</p>\n<p>The ergonomic rotating seat provides excellent comfort and support, while making getting on and off the scooter more convenient. The adjustable tiller allows you to find a comfortable driving position to suit your needs.</p>\n<h3>Clever Features for Everyday Convenience</h3>\n<p>The Vita E comes packed with practical features to make life easier. Enjoy the convenience of a built-in water bottle holder, handy charging sockets and easy tiller adjustment.</p>\n<p>These thoughtful additions make the Vita E an excellent companion for everyday mobility and longer adventures.</p>\n<h3>Refurbished \u2013 Excellent Value for Money</h3>\n<p>Our refurbished Vita E offers a fantastic opportunity to enjoy a comfortable, capable 8mph mobility scooter without paying the price of a brand-new model.</p>\n<p>Carefully refurbished and checked, it&#8217;s an excellent choice for anyone looking for affordable, dependable mobility.</p>\n<h3>Enjoy More Freedom Every Day</h3>\n<p>With its impressive combination of comfort, manoeuvrability and outdoor performance, the Vita E is a great choice for maintaining your independence.</p>\n<p><strong><a href=\"/contact\">Contact us today</a> to check availability, arrange a viewing or discuss delivery options.</strong></p>",
+"on_sale": false,
+"prices": {
+"price": "119500",
+"regular_price": "119500",
+"sale_price": "119500",
+"price_range": null,
+"currency_code": "GBP",
+"currency_symbol": "\u00a3",
+"currency_minor_unit": 2,
+"currency_decimal_separator": ".",
+"currency_thousand_separator": ",",
+"currency_prefix": "\u00a3",
+"currency_suffix": ""
+},
+"price_html": "<span class=\"woocommerce-Price-amount amount\"><span class=\"woocommerce-Price-currencySymbol\" dir=\"auto\">&pound;</span>1,195.00</span>",
+"average_rating": "0",
+"review_count": 0,
+"images": [
+{
+"id": 4059,
+"src": "https://www.arbmobility.co.uk/wp-content/uploads/2026/11/vita-r-scaled.jpeg",
+"thumbnail": "https://www.arbmobility.co.uk/wp-content/uploads/2026/11/vita-r-300x300.jpeg",
+"srcset": "https://www.arbmobility.co.uk/wp-content/uploads/2026/11/vita-r-scaled.jpeg 1920w, https://www.arbmobility.co.uk/wp-content/uploads/2026/11/vita-r-225x300.jpeg 225w, https://www.arbmobility.co.uk/wp-content/uploads/2026/11/vita-r-768x1024.jpeg 768w, https://www.arbmobility.co.uk/wp-content/uploads/2026/11/vita-r-1800x2400.jpeg 1800w, https://www.arbmobility.co.uk/wp-content/uploads/2026/11/vita-r-1400x1867.jpeg 1400w, https://www.arbmobility.co.uk/wp-content/uploads/2026/11/vita-r-1000x1333.jpeg 1000w, https://www.arbmobility.co.uk/wp-content/uploads/2026/11/vita-r-900x1200.jpeg 900w, https://www.arbmobility.co.uk/wp-content/uploads/2026/11/vita-r-700x933.jpeg 700w, https://www.arbmobility.co.uk/wp-content/uploads/2026/11/vita-r-500x667.jpeg 500w, https://www.arbmobility.co.uk/wp-content/uploads/2026/11/vita-r-400x533.jpeg 400w, https://www.arbmobility.co.uk/wp-content/uploads/2026/11/vita-r-1152x1536.jpeg 1152w, https://www.arbmobility.co.uk/wp-content/uploads/2026/11/vita-r-1536x2048.jpeg 1536w, https://www.arbmobility.co.uk/wp-content/uploads/2026/11/vita-r-600x800.jpeg 600w",
+"sizes": "(max-width: 1920px) 100vw, 1920px",
+"thumbnail_srcset": "https://www.arbmobility.co.uk/wp-content/uploads/2026/11/vita-r-300x300.jpeg 300w, https://www.arbmobility.co.uk/wp-content/uploads/2026/11/vita-r-150x150.jpeg 150w, https://www.arbmobility.co.uk/wp-content/uploads/2026/11/vita-r-800x800.jpeg 800w, https://www.arbmobility.co.uk/wp-content/uploads/2026/11/vita-r-100x100.jpeg 100w",
+"thumbnail_sizes": "(max-width: 300px) 100vw, 300px",
+"name": "vita r",
+"alt": ""
+},
+{
+"id": 4055,
+"src": "https://www.arbmobility.co.uk/wp-content/uploads/2026/11/vita-r-5-scaled.jpeg",
+"thumbnail": "https://www.arbmobility.co.uk/wp-content/uploads/2026/11/vita-r-5-300x300.jpeg",
+"srcset": "https://www.arbmobility.co.uk/wp-content/uploads/2026/11/vita-r-5-scaled.jpeg 1920w, https://www.arbmobility.co.uk/wp-content/uploads/2026/11/vita-r-5-225x300.jpeg 225w, https://www.arbmobility.co.uk/wp-content/uploads/2026/11/vita-r-5-768x1024.jpeg 768w, https://www.arbmobility.co.uk/wp-content/uploads/2026/11/vita-r-5-1800x2400.jpeg 1800w, https://www.arbmobility.co.uk/wp-content/uploads/2026/11/vita-r-5-1400x1867.jpeg 1400w, https://www.arbmobility.co.uk/wp-content/uploads/2026/11/vita-r-5-1000x1333.jpeg 1000w, https://www.arbmobility.co.uk/wp-content/uploads/2026/11/vita-r-5-900x1200.jpeg 900w, https://www.arbmobility.co.uk/wp-content/uploads/2026/11/vita-r-5-700x933.jpeg 700w, https://www.arbmobility.co.uk/wp-content/uploads/2026/11/vita-r-5-500x667.jpeg 500w, https://www.arbmobility.co.uk/wp-content/uploads/2026/11/vita-r-5-400x533.jpeg 400w, https://www.arbmobility.co.uk/wp-content/uploads/2026/11/vita-r-5-1152x1536.jpeg 1152w, https://www.arbmobility.co.uk/wp-content/uploads/2026/11/vita-r-5-1536x2048.jpeg 1536w, https://www.arbmobility.co.uk/wp-content/uploads/2026/11/vita-r-5-600x800.jpeg 600w",
+"sizes": "(max-width: 1920px) 100vw, 1920px",
+"thumbnail_srcset": "https://www.arbmobility.co.uk/wp-content/uploads/2026/11/vita-r-5-300x300.jpeg 300w, https://www.arbmobility.co.uk/wp-content/uploads/2026/11/vita-r-5-150x150.jpeg 150w, https://www.arbmobility.co.uk/wp-content/uploads/2026/11/vita-r-5-800x800.jpeg 800w, https://www.arbmobility.co.uk/wp-content/uploads/2026/11/vita-r-5-100x100.jpeg 100w",
+"thumbnail_sizes": "(max-width: 300px) 100vw, 300px",
+"name": "vita r 5",
+"alt": ""
+}
+],
+"categories": [
+{
+"id": 928,
+"name": "Refurbished Mobility Scooters",
+"slug": "refurbished-mobility-scooters",
+"link": "https://www.arbmobility.co.uk/shop/refurbished-mobility-scooters/"
+}
+],
+"tags": [
+{
+"id": 1092,
+"name": "23 Stone Mobility Scooter",
+"slug": "23-stone-mobility-scooter",
+"link": "https://www.arbmobility.co.uk/product-tag/23-stone-mobility-scooter/"
+},
+{
+"id": 1088,
+"name": "25 Mile Range Mobility Scooter",
+"slug": "25-mile-range-mobility-scooter",
+"link": "https://www.arbmobility.co.uk/product-tag/25-mile-range-mobility-scooter/"
+},
+{
+"id": 412,
+"name": "8mph mobility scooter",
+"slug": "8mph-mobility-scooter",
+"link": "https://www.arbmobility.co.uk/product-tag/8mph-mobility-scooter/"
+},
+{
+"id": 1091,
+"name": "Adjustable Tiller Mobility Scooter",
+"slug": "adjustable-tiller-mobility-scooter",
+"link": "https://www.arbmobility.co.uk/product-tag/adjustable-tiller-mobility-scooter/"
+},
+{
+"id": 954,
+"name": "Affordable Mobility Scooter",
+"slug": "affordable-mobility-scooter",
+"link": "https://www.arbmobility.co.uk/product-tag/affordable-mobility-scooter/"
+},
+{
+"id": 1093,
+"name": "Agile Mobility Scooter",
+"slug": "agile-mobility-scooter",
+"link": "https://www.arbmobility.co.uk/product-tag/agile-mobility-scooter/"
+},
+{
+"id": 1031,
+"name": "Class 3 Mobility Scooter",
+"slug": "class-3-mobility-scooter",
+"link": "https://www.arbmobility.co.uk/product-tag/class-3-mobility-scooter/"
+},
+{
+"id": 869,
+"name": "Comfortable Mobility Scooter",
+"slug": "comfortable-mobility-scooter",
+"link": "https://www.arbmobility.co.uk/product-tag/comfortable-mobility-scooter/"
+},
+{
+"id": 598,
+"name": "compact mobility scooter",
+"slug": "compact-mobility-scooter",
+"link": "https://www.arbmobility.co.uk/product-tag/compact-mobility-scooter/"
+},
+{
+"id": 741,
+"name": "electric mobility scooter",
+"slug": "electric-mobility-scooter",
+"link": "https://www.arbmobility.co.uk/product-tag/electric-mobility-scooter/"
+},
+{
+"id": 1060,
+"name": "Full Suspension Mobility Scooter",
+"slug": "full-suspension-mobility-scooter",
+"link": "https://www.arbmobility.co.uk/product-tag/full-suspension-mobility-scooter/"
+},
+{
+"id": 1023,
+"name": "Independent Living",
+"slug": "independent-living",
+"link": "https://www.arbmobility.co.uk/product-tag/independent-living/"
+},
+{
+"id": 867,
+"name": "Long Range Mobility Scooter",
+"slug": "long-range-mobility-scooter",
+"link": "https://www.arbmobility.co.uk/product-tag/long-range-mobility-scooter/"
+},
+{
+"id": 924,
+"name": "Mobility equipment",
+"slug": "mobility-equipment",
+"link": "https://www.arbmobility.co.uk/product-tag/mobility-equipment/"
+},
+{
+"id": 1020,
+"name": "Mobility Scooter for Sale",
+"slug": "mobility-scooter-for-sale",
+"link": "https://www.arbmobility.co.uk/product-tag/mobility-scooter-for-sale/"
+},
+{
+"id": 1024,
+"name": "Mobility Scooters UK",
+"slug": "mobility-scooters-uk",
+"link": "https://www.arbmobility.co.uk/product-tag/mobility-scooters-uk/"
+},
+{
+"id": 967,
+"name": "Outdoor Mobility Scooter",
+"slug": "outdoor-mobility-scooter",
+"link": "https://www.arbmobility.co.uk/product-tag/outdoor-mobility-scooter/"
+},
+{
+"id": 1089,
+"name": "Pneumatic Tyre Mobility Scooter",
+"slug": "pneumatic-tyre-mobility-scooter",
+"link": "https://www.arbmobility.co.uk/product-tag/pneumatic-tyre-mobility-scooter/"
+},
+{
+"id": 1019,
+"name": "Reconditioned Mobility Scooter",
+"slug": "reconditioned-mobility-scooter",
+"link": "https://www.arbmobility.co.uk/product-tag/reconditioned-mobility-scooter/"
+},
+{
+"id": 442,
+"name": "refurbished mobility scooter",
+"slug": "refurbished-mobility-scooter",
+"link": "https://www.arbmobility.co.uk/product-tag/refurbished-mobility-scooter/"
+},
+{
+"id": 1025,
+"name": "Refurbished Mobility Scooters UK",
+"slug": "refurbished-mobility-scooters-uk",
+"link": "https://www.arbmobility.co.uk/product-tag/refurbished-mobility-scooters-uk/"
+},
+{
+"id": 1085,
+"name": "Refurbished Vita E",
+"slug": "refurbished-vita-e",
+"link": "https://www.arbmobility.co.uk/product-tag/refurbished-vita-e/"
+},
+{
+"id": 583,
+"name": "road legal mobility scooter",
+"slug": "road-legal-mobility-scooter",
+"link": "https://www.arbmobility.co.uk/product-tag/road-legal-mobility-scooter/"
+},
+{
+"id": 1090,
+"name": "Rotating Seat Mobility Scooter",
+"slug": "rotating-seat-mobility-scooter",
+"link": "https://www.arbmobility.co.uk/product-tag/rotating-seat-mobility-scooter/"
+},
+{
+"id": 946,
+"name": "Second Hand Mobility Scooter",
+"slug": "second-hand-mobility-scooter",
+"link": "https://www.arbmobility.co.uk/product-tag/second-hand-mobility-scooter/"
+},
+{
+"id": 942,
+"name": "Used Mobility Scooter",
+"slug": "used-mobility-scooter",
+"link": "https://www.arbmobility.co.uk/product-tag/used-mobility-scooter/"
+},
+{
+"id": 1086,
+"name": "Vita E Mobility Scooter",
+"slug": "vita-e-mobility-scooter",
+"link": "https://www.arbmobility.co.uk/product-tag/vita-e-mobility-scooter/"
+},
+{
+"id": 1087,
+"name": "Vita E Scooter",
+"slug": "vita-e-scooter",
+"link": "https://www.arbmobility.co.uk/product-tag/vita-e-scooter/"
+}
+],
+"brands": [],
+"attributes": [],
+"variations": [],
+"grouped_products": [],
+"has_options": false,
+"is_purchasable": true,
+"is_in_stock": true,
+"is_on_backorder": false,
+"low_stock_remaining": null,
+"stock_availability": {
+"text": "",
+"class": "in-stock"
+},
+"sold_individually": false,
+"weight": "",
+"dimensions": {
+"length": "",
+"width": "",
+"height": ""
+},
+"formatted_weight": "N/A",
+"formatted_dimensions": "N/A",
+"add_to_cart": {
+"text": "Add to basket",
+"description": "Add to basket: &ldquo;Refurbished Vita E Mobility Scooter&rdquo;",
+"url": "/wp-json/wc/store/v1/products?category=refurbished-mobility-scooters&#038;per_page=100&#038;add-to-cart=4054",
+"single_text": "Add to basket",
+"minimum": 1,
+"maximum": 9999,
+"multiple_of": 1
+},
+"is_password_protected": false,
+"extensions": {},
+"_links": {
+"self": [
+{
+"href": "https://www.arbmobility.co.uk/wp-json/wc/store/v1/products/4054",
+"targetHints": {
+"allow": [
+"GET"
+]
+}
+}
+],
+"collection": [
+{
+"href": "https://www.arbmobility.co.uk/wp-json/wc/store/v1/products"
+}
+],
+"related": [
+{
+"embeddable": true,
+"href": "https://www.arbmobility.co.uk/wp-json/wc/store/v1/products?related=4054&per_page=10"
+}
+]
+}
+},
+{
+"id": 4010,
+"name": "Refurbished Vecta Sport Mobility Scooter",
+"slug": "refurbished-vecta-sport-mobility-scooter",
+"parent": 0,
+"type": "simple",
+"variation": "",
+"permalink": "https://www.arbmobility.co.uk/products/refurbished-vecta-sport-mobility-scooter/",
+"sku": "",
+"short_description": "<p data-pm-slice=\"1 1 []\">Enjoy powerful performance and modern styling with this refurbished Electric Mobility Vecta Sport 8mph Mobility Scooter. Featuring a powerful 600W motor, innovative RunOn pneumatic tyres, Max Grip Limited Slip Differential gearbox, comfortable seating and a waterproof USB charging outlet. With a 25-stone maximum user weight capacity, this compact yet powerful road scooter offers excellent mobility and independence.</p>",
+"description": "<p data-pm-slice=\"1 1 []\">Enjoy greater freedom, independence and confidence with our refurbished Vecta Sport Mobility Scooter from Electric Mobility. Combining modern styling, impressive power and a compact design, the Vecta Sport delivers an excellent balance of performance, comfort and practicality.</p>\n<p>Designed for everyday use and outdoor adventures, this stylish 8mph road scooter offers an impressive range of features to make every journey more enjoyable.</p>\n<h3>Powerful Performance &amp; Advanced Technology</h3>\n<p>The Vecta Sport packs plenty of power into its compact design. Its high-performance 600W motor delivers impressive torque, while the unique Max Grip Limited Slip Differential gearbox helps provide excellent traction and control.</p>\n<p>The innovative RunOn pneumatic tyres offer additional reassurance and help deliver a comfortable driving experience across different surfaces.</p>\n<p>With a generous maximum user weight capacity of 25 stone, the Vecta Sport provides a practical mobility solution for a wide range of users.</p>\n<h3>Comfort &amp; Practical Design</h3>\n<p>Enjoy exceptional legroom, a super-comfortable seat and an adjustable tiller that allows you to find your ideal driving position.</p>\n<p>Its compact overall dimensions make the Vecta Sport a practical choice for everyday journeys, while its modern styling ensures it looks just as good as it performs.</p>\n<h3>Modern Features &amp; Easy-to-Use Controls</h3>\n<p>The showerproof dashboard and controls make operating the scooter straightforward. The waterproof USB power outlet allows you to charge your mobile phone or power a compatible GPS device while you&#8217;re out and about.</p>\n<h3>Refurbished \u2013 Excellent Value for Money</h3>\n<p>This refurbished Vecta Sport offers an excellent opportunity to enjoy a powerful, modern road scooter at a more affordable price than buying new.</p>\n<p>Please note that this scooter has a few minor cosmetic marks consistent with general use and wear and tear. These are signs of previous use, so please refer to the photographs for an accurate representation of its condition.</p>\n<h3>Enjoy More Freedom Every Day</h3>\n<p>If you&#8217;re looking for a compact, powerful and stylish 8mph mobility scooter, the refurbished Vecta Sport is well worth considering.</p>\n<p><strong><a href=\"/contact\">Contact us today</a> to check availability or to arrange a viewing.\u00a0</strong></p>",
+"on_sale": false,
+"prices": {
+"price": "79500",
+"regular_price": "79500",
+"sale_price": "79500",
+"price_range": null,
+"currency_code": "GBP",
+"currency_symbol": "\u00a3",
+"currency_minor_unit": 2,
+"currency_decimal_separator": ".",
+"currency_thousand_separator": ",",
+"currency_prefix": "\u00a3",
+"currency_suffix": ""
+},
+"price_html": "<span class=\"woocommerce-Price-amount amount\"><span class=\"woocommerce-Price-currencySymbol\" dir=\"auto\">&pound;</span>795.00</span>",
+"average_rating": "0",
+"review_count": 0,
+"images": [
+{
+"id": 4018,
+"src": "https://www.arbmobility.co.uk/wp-content/uploads/2026/11/vec-scaled.jpeg",
+"thumbnail": "https://www.arbmobility.co.uk/wp-content/uploads/2026/11/vec-300x300.jpeg",
+"srcset": "https://www.arbmobility.co.uk/wp-content/uploads/2026/11/vec-scaled.jpeg 1920w, https://www.arbmobility.co.uk/wp-content/uploads/2026/11/vec-225x300.jpeg 225w, https://www.arbmobility.co.uk/wp-content/uploads/2026/11/vec-768x1024.jpeg 768w, https://www.arbmobility.co.uk/wp-content/uploads/2026/11/vec-1800x2400.jpeg 1800w, https://www.arbmobility.co.uk/wp-content/uploads/2026/11/vec-1400x1867.jpeg 1400w, https://www.arbmobility.co.uk/wp-content/uploads/2026/11/vec-1000x1333.jpeg 1000w, https://www.arbmobility.co.uk/wp-content/uploads/2026/11/vec-900x1200.jpeg 900w, https://www.arbmobility.co.uk/wp-content/uploads/2026/11/vec-700x933.jpeg 700w, https://www.arbmobility.co.uk/wp-content/uploads/2026/11/vec-500x667.jpeg 500w, https://www.arbmobility.co.uk/wp-content/uploads/2026/11/vec-400x533.jpeg 400w, https://www.arbmobility.co.uk/wp-content/uploads/2026/11/vec-1152x1536.jpeg 1152w, https://www.arbmobility.co.uk/wp-content/uploads/2026/11/vec-1536x2048.jpeg 1536w, https://www.arbmobility.co.uk/wp-content/uploads/2026/11/vec-600x800.jpeg 600w",
+"sizes": "(max-width: 1920px) 100vw, 1920px",
+"thumbnail_srcset": "https://www.arbmobility.co.uk/wp-content/uploads/2026/11/vec-300x300.jpeg 300w, https://www.arbmobility.co.uk/wp-content/uploads/2026/11/vec-150x150.jpeg 150w, https://www.arbmobility.co.uk/wp-content/uploads/2026/11/vec-800x800.jpeg 800w, https://www.arbmobility.co.uk/wp-content/uploads/2026/11/vec-100x100.jpeg 100w",
+"thumbnail_sizes": "(max-width: 300px) 100vw, 300px",
+"name": "vec",
+"alt": ""
+},
+{
+"id": 4011,
+"src": "https://www.arbmobility.co.uk/wp-content/uploads/2026/11/vec-7-scaled.jpeg",
+"thumbnail": "https://www.arbmobility.co.uk/wp-content/uploads/2026/11/vec-7-300x300.jpeg",
+"srcset": "https://www.arbmobility.co.uk/wp-content/uploads/2026/11/vec-7-scaled.jpeg 2560w, https://www.arbmobility.co.uk/wp-content/uploads/2026/11/vec-7-300x225.jpeg 300w, https://www.arbmobility.co.uk/wp-content/uploads/2026/11/vec-7-1024x768.jpeg 1024w, https://www.arbmobility.co.uk/wp-content/uploads/2026/11/vec-7-768x576.jpeg 768w, https://www.arbmobility.co.uk/wp-content/uploads/2026/11/vec-7-1800x1350.jpeg 1800w, https://www.arbmobility.co.uk/wp-content/uploads/2026/11/vec-7-1400x1050.jpeg 1400w, https://www.arbmobility.co.uk/wp-content/uploads/2026/11/vec-7-1000x750.jpeg 1000w, https://www.arbmobility.co.uk/wp-content/uploads/2026/11/vec-7-900x675.jpeg 900w, https://www.arbmobility.co.uk/wp-content/uploads/2026/11/vec-7-700x525.jpeg 700w, https://www.arbmobility.co.uk/wp-content/uploads/2026/11/vec-7-500x375.jpeg 500w, https://www.arbmobility.co.uk/wp-content/uploads/2026/11/vec-7-400x300.jpeg 400w, https://www.arbmobility.co.uk/wp-content/uploads/2026/11/vec-7-1536x1152.jpeg 1536w, https://www.arbmobility.co.uk/wp-content/uploads/2026/11/vec-7-2048x1536.jpeg 2048w, https://www.arbmobility.co.uk/wp-content/uploads/2026/11/vec-7-800x600.jpeg 800w, https://www.arbmobility.co.uk/wp-content/uploads/2026/11/vec-7-600x450.jpeg 600w",
+"sizes": "(max-width: 2560px) 100vw, 2560px",
+"thumbnail_srcset": "https://www.arbmobility.co.uk/wp-content/uploads/2026/11/vec-7-300x300.jpeg 300w, https://www.arbmobility.co.uk/wp-content/uploads/2026/11/vec-7-150x150.jpeg 150w, https://www.arbmobility.co.uk/wp-content/uploads/2026/11/vec-7-800x800.jpeg 800w, https://www.arbmobility.co.uk/wp-content/uploads/2026/11/vec-7-100x100.jpeg 100w",
+"thumbnail_sizes": "(max-width: 300px) 100vw, 300px",
+"name": "vec 7",
+"alt": ""
+}
+],
+"categories": [
+{
+"id": 928,
+"name": "Refurbished Mobility Scooters",
+"slug": "refurbished-mobility-scooters",
+"link": "https://www.arbmobility.co.uk/shop/refurbished-mobility-scooters/"
+}
+],
+"tags": [
+{
+"id": 1055,
+"name": "25 Stone Mobility Scooter",
+"slug": "25-stone-mobility-scooter",
+"link": "https://www.arbmobility.co.uk/product-tag/25-stone-mobility-scooter/"
+},
+{
+"id": 1051,
+"name": "600W Motor Mobility Scooter",
+"slug": "600w-motor-mobility-scooter",
+"link": "https://www.arbmobility.co.uk/product-tag/600w-motor-mobility-scooter/"
+},
+{
+"id": 412,
+"name": "8mph mobility scooter",
+"slug": "8mph-mobility-scooter",
+"link": "https://www.arbmobility.co.uk/product-tag/8mph-mobility-scooter/"
+},
+{
+"id": 954,
+"name": "Affordable Mobility Scooter",
+"slug": "affordable-mobility-scooter",
+"link": "https://www.arbmobility.co.uk/product-tag/affordable-mobility-scooter/"
+},
+{
+"id": 1031,
+"name": "Class 3 Mobility Scooter",
+"slug": "class-3-mobility-scooter",
+"link": "https://www.arbmobility.co.uk/product-tag/class-3-mobility-scooter/"
+},
+{
+"id": 869,
+"name": "Comfortable Mobility Scooter",
+"slug": "comfortable-mobility-scooter",
+"link": "https://www.arbmobility.co.uk/product-tag/comfortable-mobility-scooter/"
+},
+{
+"id": 598,
+"name": "compact mobility scooter",
+"slug": "compact-mobility-scooter",
+"link": "https://www.arbmobility.co.uk/product-tag/compact-mobility-scooter/"
+},
+{
+"id": 741,
+"name": "electric mobility scooter",
+"slug": "electric-mobility-scooter",
+"link": "https://www.arbmobility.co.uk/product-tag/electric-mobility-scooter/"
+},
+{
+"id": 1048,
+"name": "Electric Mobility Vecta Sport",
+"slug": "electric-mobility-vecta-sport",
+"link": "https://www.arbmobility.co.uk/product-tag/electric-mobility-vecta-sport/"
+},
+{
+"id": 693,
+"name": "heavy duty mobility scooter",
+"slug": "heavy-duty-mobility-scooter",
+"link": "https://www.arbmobility.co.uk/product-tag/heavy-duty-mobility-scooter/"
+},
+{
+"id": 1053,
+"name": "Max Grip Differential",
+"slug": "max-grip-differential",
+"link": "https://www.arbmobility.co.uk/product-tag/max-grip-differential/"
+},
+{
+"id": 1020,
+"name": "Mobility Scooter for Sale",
+"slug": "mobility-scooter-for-sale",
+"link": "https://www.arbmobility.co.uk/product-tag/mobility-scooter-for-sale/"
+},
+{
+"id": 1024,
+"name": "Mobility Scooters UK",
+"slug": "mobility-scooters-uk",
+"link": "https://www.arbmobility.co.uk/product-tag/mobility-scooters-uk/"
+},
+{
+"id": 967,
+"name": "Outdoor Mobility Scooter",
+"slug": "outdoor-mobility-scooter",
+"link": "https://www.arbmobility.co.uk/product-tag/outdoor-mobility-scooter/"
+},
+{
+"id": 1050,
+"name": "Powerful Mobility Scooter",
+"slug": "powerful-mobility-scooter",
+"link": "https://www.arbmobility.co.uk/product-tag/powerful-mobility-scooter/"
+},
+{
+"id": 1019,
+"name": "Reconditioned Mobility Scooter",
+"slug": "reconditioned-mobility-scooter",
+"link": "https://www.arbmobility.co.uk/product-tag/reconditioned-mobility-scooter/"
+},
+{
+"id": 442,
+"name": "refurbished mobility scooter",
+"slug": "refurbished-mobility-scooter",
+"link": "https://www.arbmobility.co.uk/product-tag/refurbished-mobility-scooter/"
+},
+{
+"id": 1025,
+"name": "Refurbished Mobility Scooters UK",
+"slug": "refurbished-mobility-scooters-uk",
+"link": "https://www.arbmobility.co.uk/product-tag/refurbished-mobility-scooters-uk/"
+},
+{
+"id": 1046,
+"name": "Refurbished Vecta Sport",
+"slug": "refurbished-vecta-sport",
+"link": "https://www.arbmobility.co.uk/product-tag/refurbished-vecta-sport/"
+},
+{
+"id": 583,
+"name": "road legal mobility scooter",
+"slug": "road-legal-mobility-scooter",
+"link": "https://www.arbmobility.co.uk/product-tag/road-legal-mobility-scooter/"
+},
+{
+"id": 1052,
+"name": "RunOn Pneumatic Tyres",
+"slug": "runon-pneumatic-tyres",
+"link": "https://www.arbmobility.co.uk/product-tag/runon-pneumatic-tyres/"
+},
+{
+"id": 946,
+"name": "Second Hand Mobility Scooter",
+"slug": "second-hand-mobility-scooter",
+"link": "https://www.arbmobility.co.uk/product-tag/second-hand-mobility-scooter/"
+},
+{
+"id": 1056,
+"name": "Stylish Mobility Scooter",
+"slug": "stylish-mobility-scooter",
+"link": "https://www.arbmobility.co.uk/product-tag/stylish-mobility-scooter/"
+},
+{
+"id": 1054,
+"name": "USB Charging Mobility Scooter",
+"slug": "usb-charging-mobility-scooter",
+"link": "https://www.arbmobility.co.uk/product-tag/usb-charging-mobility-scooter/"
+},
+{
+"id": 942,
+"name": "Used Mobility Scooter",
+"slug": "used-mobility-scooter",
+"link": "https://www.arbmobility.co.uk/product-tag/used-mobility-scooter/"
+},
+{
+"id": 1049,
+"name": "Vecta Sport 8mph",
+"slug": "vecta-sport-8mph",
+"link": "https://www.arbmobility.co.uk/product-tag/vecta-sport-8mph/"
+},
+{
+"id": 1047,
+"name": "Vecta Sport Mobility Scooter",
+"slug": "vecta-sport-mobility-scooter",
+"link": "https://www.arbmobility.co.uk/product-tag/vecta-sport-mobility-scooter/"
+}
+],
+"brands": [],
+"attributes": [],
+"variations": [],
+"grouped_products": [],
+"has_options": false,
+"is_purchasable": true,
+"is_in_stock": true,
+"is_on_backorder": false,
+"low_stock_remaining": null,
+"stock_availability": {
+"text": "",
+"class": "in-stock"
+},
+"sold_individually": false,
+"weight": "",
+"dimensions": {
+"length": "",
+"width": "",
+"height": ""
+},
+"formatted_weight": "N/A",
+"formatted_dimensions": "N/A",
+"add_to_cart": {
+"text": "Add to basket",
+"description": "Add to basket: &ldquo;Refurbished Vecta Sport Mobility Scooter&rdquo;",
+"url": "/wp-json/wc/store/v1/products?category=refurbished-mobility-scooters&#038;per_page=100&#038;add-to-cart=4010",
+"single_text": "Add to basket",
+"minimum": 1,
+"maximum": 9999,
+"multiple_of": 1
+},
+"is_password_protected": false,
+"extensions": {},
+"_links": {
+"self": [
+{
+"href": "https://www.arbmobility.co.uk/wp-json/wc/store/v1/products/4010",
+"targetHints": {
+"allow": [
+"GET"
+]
+}
+}
+],
+"collection": [
+{
+"href": "https://www.arbmobility.co.uk/wp-json/wc/store/v1/products"
+}
+],
+"related": [
+{
+"embeddable": true,
+"href": "https://www.arbmobility.co.uk/wp-json/wc/store/v1/products?related=4010&per_page=10"
+}
+]
+}
+},
+{
+"id": 4002,
+"name": "Refurbished TGA Breeze S4 Mobility Scooter",
+"slug": "refurbished-tga-breeze-s4-mobility-scooter",
+"parent": 0,
+"type": "simple",
+"variation": "",
+"permalink": "https://www.arbmobility.co.uk/products/refurbished-tga-breeze-s4-mobility-scooter/",
+"sku": "",
+"short_description": "<p data-pm-slice=\"1 1 []\">Enjoy award-winning comfort and outdoor performance with this refurbished TGA Breeze S4 Mobility Scooter. Featuring all-round suspension, large alloy wheels, adjustable luxury seating, generous legroom and secure waterproof storage compartments. With a potential range of up to 34 miles, depending on battery configuration, it&#8217;s an excellent choice for enjoying greater freedom and independence. This scooter has a few minor cosmetic marks from general wear and tear.</p>",
+"description": "<p>Experience outstanding comfort, capability and independence with our refurbished TGA Breeze S4 Mobility Scooter. An award-winning model designed to excel in a variety of environments, the Breeze S4 combines impressive outdoor performance with exceptional comfort and practical features.</p>\n<p>Whether you&#8217;re enjoying a trip into town, visiting friends or exploring the countryside, the TGA Breeze S4 gives you the freedom and confidence to enjoy every journey.</p>\n<h3>Exceptional Outdoor Performance</h3>\n<p>The Breeze S4 features an advanced all-round suspension system that delivers excellent comfort, stability and control. Its large alloy wheels and tyres provide impressive ground clearance, helping you tackle uneven surfaces and more challenging outdoor terrain with confidence.</p>\n<p>Designed to handle a variety of conditions, this scooter makes outdoor adventures and everyday journeys more enjoyable.</p>\n<h3>Comfort Designed Around You</h3>\n<p>Enjoy a comfortable driving experience with generous legroom, a supportive adjustable seat and an adjustable tiller. Find your ideal driving position and enjoy greater comfort, even on longer journeys.</p>\n<p>Easy-to-use controls sit conveniently at your fingertips, while integrated safety systems provide additional confidence and reassurance whenever you&#8217;re out and about.</p>\n<h3>Practical Storage &amp; Impressive Range</h3>\n<p>The Breeze S4 offers generous storage with secure, lockable and waterproof compartments at both the front and rear. Keep your shopping and personal belongings protected and close at hand.</p>\n<p>Depending on the battery configuration, the Breeze S4 can offer an impressive potential range of up to 34 miles on a single charge.</p>\n<h3>Refurbished \u2013 Excellent Value for Money</h3>\n<p>This refurbished TGA Breeze S4 offers a fantastic opportunity to enjoy premium mobility at a more affordable price than buying new.</p>\n<p>Please note that the scooter has a few minor cosmetic marks consistent with general wear and tear. These are signs of previous use and do not detract from its excellent practical features. Please see the photographs for details of its cosmetic condition.</p>\n<h3>Enjoy Freedom &amp; Independence</h3>\n<p>If you&#8217;re looking for a comfortable, capable and versatile outdoor mobility scooter, the TGA Breeze S4 is an excellent choice.</p>\n<p data-pm-slice=\"1 1 []\"><strong><a href=\"/contact\">Contact us today</a> to arrange a viewing, or find out more.</strong></p>",
+"on_sale": false,
+"prices": {
+"price": "175000",
+"regular_price": "175000",
+"sale_price": "175000",
+"price_range": null,
+"currency_code": "GBP",
+"currency_symbol": "\u00a3",
+"currency_minor_unit": 2,
+"currency_decimal_separator": ".",
+"currency_thousand_separator": ",",
+"currency_prefix": "\u00a3",
+"currency_suffix": ""
+},
+"price_html": "<span class=\"woocommerce-Price-amount amount\"><span class=\"woocommerce-Price-currencySymbol\" dir=\"auto\">&pound;</span>1,750.00</span>",
+"average_rating": "0",
+"review_count": 0,
+"images": [
+{
+"id": 4004,
+"src": "https://www.arbmobility.co.uk/wp-content/uploads/2026/11/breeze-4-scaled.jpeg",
+"thumbnail": "https://www.arbmobility.co.uk/wp-content/uploads/2026/11/breeze-4-300x300.jpeg",
+"srcset": "https://www.arbmobility.co.uk/wp-content/uploads/2026/11/breeze-4-scaled.jpeg 1920w, https://www.arbmobility.co.uk/wp-content/uploads/2026/11/breeze-4-225x300.jpeg 225w, https://www.arbmobility.co.uk/wp-content/uploads/2026/11/breeze-4-768x1024.jpeg 768w, https://www.arbmobility.co.uk/wp-content/uploads/2026/11/breeze-4-1800x2400.jpeg 1800w, https://www.arbmobility.co.uk/wp-content/uploads/2026/11/breeze-4-1400x1867.jpeg 1400w, https://www.arbmobility.co.uk/wp-content/uploads/2026/11/breeze-4-1000x1333.jpeg 1000w, https://www.arbmobility.co.uk/wp-content/uploads/2026/11/breeze-4-900x1200.jpeg 900w, https://www.arbmobility.co.uk/wp-content/uploads/2026/11/breeze-4-700x933.jpeg 700w, https://www.arbmobility.co.uk/wp-content/uploads/2026/11/breeze-4-500x667.jpeg 500w, https://www.arbmobility.co.uk/wp-content/uploads/2026/11/breeze-4-400x533.jpeg 400w, https://www.arbmobility.co.uk/wp-content/uploads/2026/11/breeze-4-1152x1536.jpeg 1152w, https://www.arbmobility.co.uk/wp-content/uploads/2026/11/breeze-4-1536x2048.jpeg 1536w, https://www.arbmobility.co.uk/wp-content/uploads/2026/11/breeze-4-600x800.jpeg 600w",
+"sizes": "(max-width: 1920px) 100vw, 1920px",
+"thumbnail_srcset": "https://www.arbmobility.co.uk/wp-content/uploads/2026/11/breeze-4-300x300.jpeg 300w, https://www.arbmobility.co.uk/wp-content/uploads/2026/11/breeze-4-150x150.jpeg 150w, https://www.arbmobility.co.uk/wp-content/uploads/2026/11/breeze-4-800x800.jpeg 800w, https://www.arbmobility.co.uk/wp-content/uploads/2026/11/breeze-4-100x100.jpeg 100w",
+"thumbnail_sizes": "(max-width: 300px) 100vw, 300px",
+"name": "breeze 4",
+"alt": ""
+},
+{
+"id": 4003,
+"src": "https://www.arbmobility.co.uk/wp-content/uploads/2026/11/breeze-5-scaled.jpeg",
+"thumbnail": "https://www.arbmobility.co.uk/wp-content/uploads/2026/11/breeze-5-300x300.jpeg",
+"srcset": "https://www.arbmobility.co.uk/wp-content/uploads/2026/11/breeze-5-scaled.jpeg 1920w, https://www.arbmobility.co.uk/wp-content/uploads/2026/11/breeze-5-225x300.jpeg 225w, https://www.arbmobility.co.uk/wp-content/uploads/2026/11/breeze-5-768x1024.jpeg 768w, https://www.arbmobility.co.uk/wp-content/uploads/2026/11/breeze-5-1800x2400.jpeg 1800w, https://www.arbmobility.co.uk/wp-content/uploads/2026/11/breeze-5-1400x1867.jpeg 1400w, https://www.arbmobility.co.uk/wp-content/uploads/2026/11/breeze-5-1000x1333.jpeg 1000w, https://www.arbmobility.co.uk/wp-content/uploads/2026/11/breeze-5-900x1200.jpeg 900w, https://www.arbmobility.co.uk/wp-content/uploads/2026/11/breeze-5-700x933.jpeg 700w, https://www.arbmobility.co.uk/wp-content/uploads/2026/11/breeze-5-500x667.jpeg 500w, https://www.arbmobility.co.uk/wp-content/uploads/2026/11/breeze-5-400x533.jpeg 400w, https://www.arbmobility.co.uk/wp-content/uploads/2026/11/breeze-5-1152x1536.jpeg 1152w, https://www.arbmobility.co.uk/wp-content/uploads/2026/11/breeze-5-1536x2048.jpeg 1536w, https://www.arbmobility.co.uk/wp-content/uploads/2026/11/breeze-5-600x800.jpeg 600w",
+"sizes": "(max-width: 1920px) 100vw, 1920px",
+"thumbnail_srcset": "https://www.arbmobility.co.uk/wp-content/uploads/2026/11/breeze-5-300x300.jpeg 300w, https://www.arbmobility.co.uk/wp-content/uploads/2026/11/breeze-5-150x150.jpeg 150w, https://www.arbmobility.co.uk/wp-content/uploads/2026/11/breeze-5-800x800.jpeg 800w, https://www.arbmobility.co.uk/wp-content/uploads/2026/11/breeze-5-100x100.jpeg 100w",
+"thumbnail_sizes": "(max-width: 300px) 100vw, 300px",
+"name": "breeze 5",
+"alt": ""
+}
+],
+"categories": [
+{
+"id": 928,
+"name": "Refurbished Mobility Scooters",
+"slug": "refurbished-mobility-scooters",
+"link": "https://www.arbmobility.co.uk/shop/refurbished-mobility-scooters/"
+}
+],
+"tags": [
+{
+"id": 1032,
+"name": "34 Mile Range Mobility Scooter",
+"slug": "34-mile-range-mobility-scooter",
+"link": "https://www.arbmobility.co.uk/product-tag/34-mile-range-mobility-scooter/"
+},
+{
+"id": 412,
+"name": "8mph mobility scooter",
+"slug": "8mph-mobility-scooter",
+"link": "https://www.arbmobility.co.uk/product-tag/8mph-mobility-scooter/"
+},
+{
+"id": 1036,
+"name": "Adjustable Seating Mobility Scooter",
+"slug": "adjustable-seating-mobility-scooter",
+"link": "https://www.arbmobility.co.uk/product-tag/adjustable-seating-mobility-scooter/"
+},
+{
+"id": 954,
+"name": "Affordable Mobility Scooter",
+"slug": "affordable-mobility-scooter",
+"link": "https://www.arbmobility.co.uk/product-tag/affordable-mobility-scooter/"
+},
+{
+"id": 1042,
+"name": "All Round Suspension",
+"slug": "all-round-suspension",
+"link": "https://www.arbmobility.co.uk/product-tag/all-round-suspension/"
+},
+{
+"id": 1043,
+"name": "Alloy Wheel Mobility Scooter",
+"slug": "alloy-wheel-mobility-scooter",
+"link": "https://www.arbmobility.co.uk/product-tag/alloy-wheel-mobility-scooter/"
+},
+{
+"id": 1041,
+"name": "Award Winning Mobility Scooter",
+"slug": "award-winning-mobility-scooter",
+"link": "https://www.arbmobility.co.uk/product-tag/award-winning-mobility-scooter/"
+},
+{
+"id": 1031,
+"name": "Class 3 Mobility Scooter",
+"slug": "class-3-mobility-scooter",
+"link": "https://www.arbmobility.co.uk/product-tag/class-3-mobility-scooter/"
+},
+{
+"id": 869,
+"name": "Comfortable Mobility Scooter",
+"slug": "comfortable-mobility-scooter",
+"link": "https://www.arbmobility.co.uk/product-tag/comfortable-mobility-scooter/"
+},
+{
+"id": 741,
+"name": "electric mobility scooter",
+"slug": "electric-mobility-scooter",
+"link": "https://www.arbmobility.co.uk/product-tag/electric-mobility-scooter/"
+},
+{
+"id": 693,
+"name": "heavy duty mobility scooter",
+"slug": "heavy-duty-mobility-scooter",
+"link": "https://www.arbmobility.co.uk/product-tag/heavy-duty-mobility-scooter/"
+},
+{
+"id": 867,
+"name": "Long Range Mobility Scooter",
+"slug": "long-range-mobility-scooter",
+"link": "https://www.arbmobility.co.uk/product-tag/long-range-mobility-scooter/"
+},
+{
+"id": 690,
+"name": "luxury mobility scooter",
+"slug": "luxury-mobility-scooter",
+"link": "https://www.arbmobility.co.uk/product-tag/luxury-mobility-scooter/"
+},
+{
+"id": 1020,
+"name": "Mobility Scooter for Sale",
+"slug": "mobility-scooter-for-sale",
+"link": "https://www.arbmobility.co.uk/product-tag/mobility-scooter-for-sale/"
+},
+{
+"id": 1024,
+"name": "Mobility Scooters UK",
+"slug": "mobility-scooters-uk",
+"link": "https://www.arbmobility.co.uk/product-tag/mobility-scooters-uk/"
+},
+{
+"id": 967,
+"name": "Outdoor Mobility Scooter",
+"slug": "outdoor-mobility-scooter",
+"link": "https://www.arbmobility.co.uk/product-tag/outdoor-mobility-scooter/"
+},
+{
+"id": 1019,
+"name": "Reconditioned Mobility Scooter",
+"slug": "reconditioned-mobility-scooter",
+"link": "https://www.arbmobility.co.uk/product-tag/reconditioned-mobility-scooter/"
+},
+{
+"id": 442,
+"name": "refurbished mobility scooter",
+"slug": "refurbished-mobility-scooter",
+"link": "https://www.arbmobility.co.uk/product-tag/refurbished-mobility-scooter/"
+},
+{
+"id": 1025,
+"name": "Refurbished Mobility Scooters UK",
+"slug": "refurbished-mobility-scooters-uk",
+"link": "https://www.arbmobility.co.uk/product-tag/refurbished-mobility-scooters-uk/"
+},
+{
+"id": 1038,
+"name": "Refurbished TGA Breeze S4",
+"slug": "refurbished-tga-breeze-s4",
+"link": "https://www.arbmobility.co.uk/product-tag/refurbished-tga-breeze-s4/"
+},
+{
+"id": 946,
+"name": "Second Hand Mobility Scooter",
+"slug": "second-hand-mobility-scooter",
+"link": "https://www.arbmobility.co.uk/product-tag/second-hand-mobility-scooter/"
+},
+{
+"id": 1040,
+"name": "TGA Breeze Mobility Scooter",
+"slug": "tga-breeze-mobility-scooter",
+"link": "https://www.arbmobility.co.uk/product-tag/tga-breeze-mobility-scooter/"
+},
+{
+"id": 1039,
+"name": "TGA Breeze S4 Mobility Scooter",
+"slug": "tga-breeze-s4-mobility-scooter",
+"link": "https://www.arbmobility.co.uk/product-tag/tga-breeze-s4-mobility-scooter/"
+},
+{
+"id": 1045,
+"name": "TGA Mobility Scooters",
+"slug": "tga-mobility-scooters",
+"link": "https://www.arbmobility.co.uk/product-tag/tga-mobility-scooters/"
+},
+{
+"id": 942,
+"name": "Used Mobility Scooter",
+"slug": "used-mobility-scooter",
+"link": "https://www.arbmobility.co.uk/product-tag/used-mobility-scooter/"
+},
+{
+"id": 1044,
+"name": "Waterproof Storage Mobility Scooter",
+"slug": "waterproof-storage-mobility-scooter",
+"link": "https://www.arbmobility.co.uk/product-tag/waterproof-storage-mobility-scooter/"
+}
+],
+"brands": [],
+"attributes": [],
+"variations": [],
+"grouped_products": [],
+"has_options": false,
+"is_purchasable": true,
+"is_in_stock": true,
+"is_on_backorder": false,
+"low_stock_remaining": null,
+"stock_availability": {
+"text": "",
+"class": "in-stock"
+},
+"sold_individually": false,
+"weight": "",
+"dimensions": {
+"length": "",
+"width": "",
+"height": ""
+},
+"formatted_weight": "N/A",
+"formatted_dimensions": "N/A",
+"add_to_cart": {
+"text": "Add to basket",
+"description": "Add to basket: &ldquo;Refurbished TGA Breeze S4 Mobility Scooter&rdquo;",
+"url": "/wp-json/wc/store/v1/products?category=refurbished-mobility-scooters&#038;per_page=100&#038;add-to-cart=4002",
+"single_text": "Add to basket",
+"minimum": 1,
+"maximum": 9999,
+"multiple_of": 1
+},
+"is_password_protected": false,
+"extensions": {},
+"_links": {
+"self": [
+{
+"href": "https://www.arbmobility.co.uk/wp-json/wc/store/v1/products/4002",
+"targetHints": {
+"allow": [
+"GET"
+]
+}
+}
+],
+"collection": [
+{
+"href": "https://www.arbmobility.co.uk/wp-json/wc/store/v1/products"
+}
+],
+"related": [
+{
+"embeddable": true,
+"href": "https://www.arbmobility.co.uk/wp-json/wc/store/v1/products?related=4002&per_page=10"
+}
+]
+}
+},
+{
+"id": 3995,
+"name": "Refurbished Sterling S700 Mobility Scooter",
+"slug": "refurbished-sterling-s700-mobility-scooter",
+"parent": 0,
+"type": "simple",
+"variation": "",
+"permalink": "https://www.arbmobility.co.uk/products/refurbished-sterling-s700-mobility-scooter/",
+"sku": "",
+"short_description": "<p data-pm-slice=\"1 1 []\">Enjoy premium comfort and outstanding outdoor performance with this refurbished Starling S700 8mph Mobility Scooter. Featuring all-round independent suspension, large 33cm pneumatic tyres, luxurious adjustable seating and powerful 75Ah batteries offering a potential range of up to 34 miles. A fantastic opportunity to enjoy premium mobility, comfort and independence at an affordable price.</p>",
+"description": "<p data-pm-slice=\"1 1 []\">Experience outstanding comfort, freedom and outdoor performance with our refurbished Sterling S700 Mobility Scooter. Designed for those who want to travel further and tackle a variety of outdoor terrain, the S700 combines powerful performance, advanced suspension and luxurious seating to make every journey more enjoyable.</p>\n<h3>Exceptional Outdoor Performance</h3>\n<p>The Sterling S700 features an advanced all-round independent suspension system, with individual suspension on every wheel. This helps absorb bumps and uneven surfaces, delivering a smoother, more comfortable ride whether you&#8217;re travelling around town or exploring more varied terrain.</p>\n<p>Its large 33cm pneumatic tyres provide excellent grip and help the scooter handle obstacles and uneven ground with greater confidence.</p>\n<h3>Luxury Comfort for Longer Journeys</h3>\n<p>Enjoy impressive potential travel distances of up to 55km (34 miles) from its high-performance 75Ah batteries. The luxurious adjustable seating allows you to find your ideal driving position with ease.</p>\n<p>Adjust the seat height, depth and recline to suit your individual needs. The flip-up comfort armrests also adjust for width, angle and depth, helping you find the perfect seating position. Combined with a rotating seat, getting on and off the scooter becomes much easier.</p>\n<h3>Easy-to-Use Controls</h3>\n<p>The ergonomic delta handlebars and infinitely adjustable tiller put everything comfortably within reach. The clever design automatically adjusts the headlight angle as you move the tiller, helping maintain visibility.</p>\n<p>The intuitive wig-wag control system lets you operate the scooter using either your fingers or thumb, making acceleration and braking simple and convenient.</p>\n<h3>Professionally Refurbished \u2013 Excellent Value</h3>\n<p>Our refurbished Sterling S700 offers an excellent opportunity to enjoy premium mobility at a more affordable price than buying new.</p>\n<p>Enjoy greater independence, exceptional comfort and the confidence to get out and about.</p>\n<p><strong>Contact us today to enquire about availability, arrange a viewing or discuss delivery.</strong></p>",
+"on_sale": false,
+"prices": {
+"price": "99500",
+"regular_price": "99500",
+"sale_price": "99500",
+"price_range": null,
+"currency_code": "GBP",
+"currency_symbol": "\u00a3",
+"currency_minor_unit": 2,
+"currency_decimal_separator": ".",
+"currency_thousand_separator": ",",
+"currency_prefix": "\u00a3",
+"currency_suffix": ""
+},
+"price_html": "<span class=\"woocommerce-Price-amount amount\"><span class=\"woocommerce-Price-currencySymbol\" dir=\"auto\">&pound;</span>995.00</span>",
+"average_rating": "0",
+"review_count": 0,
+"images": [
+{
+"id": 3982,
+"src": "https://www.arbmobility.co.uk/wp-content/uploads/2026/11/star-4-scaled.jpeg",
+"thumbnail": "https://www.arbmobility.co.uk/wp-content/uploads/2026/11/star-4-300x300.jpeg",
+"srcset": "https://www.arbmobility.co.uk/wp-content/uploads/2026/11/star-4-scaled.jpeg 1920w, https://www.arbmobility.co.uk/wp-content/uploads/2026/11/star-4-225x300.jpeg 225w, https://www.arbmobility.co.uk/wp-content/uploads/2026/11/star-4-768x1024.jpeg 768w, https://www.arbmobility.co.uk/wp-content/uploads/2026/11/star-4-1800x2400.jpeg 1800w, https://www.arbmobility.co.uk/wp-content/uploads/2026/11/star-4-1400x1867.jpeg 1400w, https://www.arbmobility.co.uk/wp-content/uploads/2026/11/star-4-1000x1333.jpeg 1000w, https://www.arbmobility.co.uk/wp-content/uploads/2026/11/star-4-900x1200.jpeg 900w, https://www.arbmobility.co.uk/wp-content/uploads/2026/11/star-4-700x933.jpeg 700w, https://www.arbmobility.co.uk/wp-content/uploads/2026/11/star-4-500x667.jpeg 500w, https://www.arbmobility.co.uk/wp-content/uploads/2026/11/star-4-400x533.jpeg 400w, https://www.arbmobility.co.uk/wp-content/uploads/2026/11/star-4-1152x1536.jpeg 1152w, https://www.arbmobility.co.uk/wp-content/uploads/2026/11/star-4-1536x2048.jpeg 1536w, https://www.arbmobility.co.uk/wp-content/uploads/2026/11/star-4-600x800.jpeg 600w",
+"sizes": "(max-width: 1920px) 100vw, 1920px",
+"thumbnail_srcset": "https://www.arbmobility.co.uk/wp-content/uploads/2026/11/star-4-300x300.jpeg 300w, https://www.arbmobility.co.uk/wp-content/uploads/2026/11/star-4-150x150.jpeg 150w, https://www.arbmobility.co.uk/wp-content/uploads/2026/11/star-4-800x800.jpeg 800w, https://www.arbmobility.co.uk/wp-content/uploads/2026/11/star-4-100x100.jpeg 100w",
+"thumbnail_sizes": "(max-width: 300px) 100vw, 300px",
+"name": "star 4",
+"alt": ""
+},
+{
+"id": 3986,
+"src": "https://www.arbmobility.co.uk/wp-content/uploads/2026/11/star-scaled.jpeg",
+"thumbnail": "https://www.arbmobility.co.uk/wp-content/uploads/2026/11/star-300x300.jpeg",
+"srcset": "https://www.arbmobility.co.uk/wp-content/uploads/2026/11/star-scaled.jpeg 1920w, https://www.arbmobility.co.uk/wp-content/uploads/2026/11/star-225x300.jpeg 225w, https://www.arbmobility.co.uk/wp-content/uploads/2026/11/star-768x1024.jpeg 768w, https://www.arbmobility.co.uk/wp-content/uploads/2026/11/star-1800x2400.jpeg 1800w, https://www.arbmobility.co.uk/wp-content/uploads/2026/11/star-1400x1867.jpeg 1400w, https://www.arbmobility.co.uk/wp-content/uploads/2026/11/star-1000x1333.jpeg 1000w, https://www.arbmobility.co.uk/wp-content/uploads/2026/11/star-900x1200.jpeg 900w, https://www.arbmobility.co.uk/wp-content/uploads/2026/11/star-700x933.jpeg 700w, https://www.arbmobility.co.uk/wp-content/uploads/2026/11/star-500x667.jpeg 500w, https://www.arbmobility.co.uk/wp-content/uploads/2026/11/star-400x533.jpeg 400w, https://www.arbmobility.co.uk/wp-content/uploads/2026/11/star-1152x1536.jpeg 1152w, https://www.arbmobility.co.uk/wp-content/uploads/2026/11/star-1536x2048.jpeg 1536w, https://www.arbmobility.co.uk/wp-content/uploads/2026/11/star-600x800.jpeg 600w",
+"sizes": "(max-width: 1920px) 100vw, 1920px",
+"thumbnail_srcset": "https://www.arbmobility.co.uk/wp-content/uploads/2026/11/star-300x300.jpeg 300w, https://www.arbmobility.co.uk/wp-content/uploads/2026/11/star-150x150.jpeg 150w, https://www.arbmobility.co.uk/wp-content/uploads/2026/11/star-800x800.jpeg 800w, https://www.arbmobility.co.uk/wp-content/uploads/2026/11/star-100x100.jpeg 100w",
+"thumbnail_sizes": "(max-width: 300px) 100vw, 300px",
+"name": "star",
+"alt": ""
+}
+],
+"categories": [
+{
+"id": 928,
+"name": "Refurbished Mobility Scooters",
+"slug": "refurbished-mobility-scooters",
+"link": "https://www.arbmobility.co.uk/shop/refurbished-mobility-scooters/"
+}
+],
+"tags": [
+{
+"id": 1032,
+"name": "34 Mile Range Mobility Scooter",
+"slug": "34-mile-range-mobility-scooter",
+"link": "https://www.arbmobility.co.uk/product-tag/34-mile-range-mobility-scooter/"
+},
+{
+"id": 937,
+"name": "75Ah Battery Mobility Scooter",
+"slug": "75ah-battery-mobility-scooter",
+"link": "https://www.arbmobility.co.uk/product-tag/75ah-battery-mobility-scooter/"
+},
+{
+"id": 412,
+"name": "8mph mobility scooter",
+"slug": "8mph-mobility-scooter",
+"link": "https://www.arbmobility.co.uk/product-tag/8mph-mobility-scooter/"
+},
+{
+"id": 1036,
+"name": "Adjustable Seating Mobility Scooter",
+"slug": "adjustable-seating-mobility-scooter",
+"link": "https://www.arbmobility.co.uk/product-tag/adjustable-seating-mobility-scooter/"
+},
+{
+"id": 954,
+"name": "Affordable Mobility Scooter",
+"slug": "affordable-mobility-scooter",
+"link": "https://www.arbmobility.co.uk/product-tag/affordable-mobility-scooter/"
+},
+{
+"id": 1031,
+"name": "Class 3 Mobility Scooter",
+"slug": "class-3-mobility-scooter",
+"link": "https://www.arbmobility.co.uk/product-tag/class-3-mobility-scooter/"
+},
+{
+"id": 869,
+"name": "Comfortable Mobility Scooter",
+"slug": "comfortable-mobility-scooter",
+"link": "https://www.arbmobility.co.uk/product-tag/comfortable-mobility-scooter/"
+},
+{
+"id": 741,
+"name": "electric mobility scooter",
+"slug": "electric-mobility-scooter",
+"link": "https://www.arbmobility.co.uk/product-tag/electric-mobility-scooter/"
+},
+{
+"id": 1034,
+"name": "Independent Suspension",
+"slug": "independent-suspension",
+"link": "https://www.arbmobility.co.uk/product-tag/independent-suspension/"
+},
+{
+"id": 867,
+"name": "Long Range Mobility Scooter",
+"slug": "long-range-mobility-scooter",
+"link": "https://www.arbmobility.co.uk/product-tag/long-range-mobility-scooter/"
+},
+{
+"id": 690,
+"name": "luxury mobility scooter",
+"slug": "luxury-mobility-scooter",
+"link": "https://www.arbmobility.co.uk/product-tag/luxury-mobility-scooter/"
+},
+{
+"id": 1020,
+"name": "Mobility Scooter for Sale",
+"slug": "mobility-scooter-for-sale",
+"link": "https://www.arbmobility.co.uk/product-tag/mobility-scooter-for-sale/"
+},
+{
+"id": 1024,
+"name": "Mobility Scooters UK",
+"slug": "mobility-scooters-uk",
+"link": "https://www.arbmobility.co.uk/product-tag/mobility-scooters-uk/"
+},
+{
+"id": 967,
+"name": "Outdoor Mobility Scooter",
+"slug": "outdoor-mobility-scooter",
+"link": "https://www.arbmobility.co.uk/product-tag/outdoor-mobility-scooter/"
+},
+{
+"id": 1035,
+"name": "Pneumatic Tyres",
+"slug": "pneumatic-tyres",
+"link": "https://www.arbmobility.co.uk/product-tag/pneumatic-tyres/"
+},
+{
+"id": 1037,
+"name": "Premium Mobility Scooter",
+"slug": "premium-mobility-scooter",
+"link": "https://www.arbmobility.co.uk/product-tag/premium-mobility-scooter/"
+},
+{
+"id": 1019,
+"name": "Reconditioned Mobility Scooter",
+"slug": "reconditioned-mobility-scooter",
+"link": "https://www.arbmobility.co.uk/product-tag/reconditioned-mobility-scooter/"
+},
+{
+"id": 442,
+"name": "refurbished mobility scooter",
+"slug": "refurbished-mobility-scooter",
+"link": "https://www.arbmobility.co.uk/product-tag/refurbished-mobility-scooter/"
+},
+{
+"id": 1025,
+"name": "Refurbished Mobility Scooters UK",
+"slug": "refurbished-mobility-scooters-uk",
+"link": "https://www.arbmobility.co.uk/product-tag/refurbished-mobility-scooters-uk/"
+},
+{
+"id": 1028,
+"name": "Refurbished Starling S700",
+"slug": "refurbished-starling-s700",
+"link": "https://www.arbmobility.co.uk/product-tag/refurbished-starling-s700/"
+},
+{
+"id": 1030,
+"name": "S700 Mobility Scooter",
+"slug": "s700-mobility-scooter",
+"link": "https://www.arbmobility.co.uk/product-tag/s700-mobility-scooter/"
+},
+{
+"id": 946,
+"name": "Second Hand Mobility Scooter",
+"slug": "second-hand-mobility-scooter",
+"link": "https://www.arbmobility.co.uk/product-tag/second-hand-mobility-scooter/"
+},
+{
+"id": 1029,
+"name": "Starling S700 Mobility Scooter",
+"slug": "starling-s700-mobility-scooter",
+"link": "https://www.arbmobility.co.uk/product-tag/starling-s700-mobility-scooter/"
+},
+{
+"id": 1033,
+"name": "Suspension Mobility Scooter",
+"slug": "suspension-mobility-scooter",
+"link": "https://www.arbmobility.co.uk/product-tag/suspension-mobility-scooter/"
+},
+{
+"id": 942,
+"name": "Used Mobility Scooter",
+"slug": "used-mobility-scooter",
+"link": "https://www.arbmobility.co.uk/product-tag/used-mobility-scooter/"
+}
+],
+"brands": [],
+"attributes": [],
+"variations": [],
+"grouped_products": [],
+"has_options": false,
+"is_purchasable": true,
+"is_in_stock": true,
+"is_on_backorder": false,
+"low_stock_remaining": null,
+"stock_availability": {
+"text": "",
+"class": "in-stock"
+},
+"sold_individually": false,
+"weight": "",
+"dimensions": {
+"length": "",
+"width": "",
+"height": ""
+},
+"formatted_weight": "N/A",
+"formatted_dimensions": "N/A",
+"add_to_cart": {
+"text": "Add to basket",
+"description": "Add to basket: &ldquo;Refurbished Sterling S700 Mobility Scooter&rdquo;",
+"url": "/wp-json/wc/store/v1/products?category=refurbished-mobility-scooters&#038;per_page=100&#038;add-to-cart=3995",
+"single_text": "Add to basket",
+"minimum": 1,
+"maximum": 9999,
+"multiple_of": 1
+},
+"is_password_protected": false,
+"extensions": {},
+"_links": {
+"self": [
+{
+"href": "https://www.arbmobility.co.uk/wp-json/wc/store/v1/products/3995",
+"targetHints": {
+"allow": [
+"GET"
+]
+}
+}
+],
+"collection": [
+{
+"href": "https://www.arbmobility.co.uk/wp-json/wc/store/v1/products"
+}
+],
+"related": [
+{
+"embeddable": true,
+"href": "https://www.arbmobility.co.uk/wp-json/wc/store/v1/products?related=3995&per_page=10"
+}
+]
+}
+},
+{
+"id": 3922,
+"name": "Refurbished Defender Mobility Scooter",
+"slug": "refurbished-defender-mobility-scooter",
+"parent": 0,
+"type": "simple",
+"variation": "",
+"permalink": "https://www.arbmobility.co.uk/products/refurbished-defender-mobility-scooter/",
+"sku": "",
+"short_description": "<p data-pm-slice=\"1 1 []\">The refurbished Defender Mobility Scooter with canopy offers powerful, long-range mobility with added protection from the weather. With a top speed of 8 mph, a range of up to 36 miles and a maximum user weight of 39 stone, it provides a practical solution for longer journeys. The heavy-duty canopy helps protect you from rain, wind, glare and UV rays in sunny weather.</p>",
+"description": "<p data-pm-slice=\"1 1 []\">Enjoy greater freedom and independence with this refurbished Defender Mobility Scooter with canopy. Designed for users who need a robust mobility solution, it combines a high weight capacity with an impressive range and added weather protection.</p>\n<p>With a top speed of 8 mph, the Defender helps you travel further and enjoy greater flexibility on your journeys. Whether you are visiting local shops, meeting friends or exploring your local area, it offers a practical way to get out and about.</p>\n<p>The scooter provides a range of up to 36 miles on a full charge, making it suitable for longer outings without frequent recharging. Your actual range will depend on factors such as terrain, user weight, battery condition, weather and driving style.</p>\n<p>One of the standout features is its heavy-duty canopy, which provides extra protection when the weather changes. It helps shield you from rain and wind, while also reducing glare and offering UV protection during the summer months. This makes the Defender a useful option for people who want to enjoy outdoor mobility in a variety of conditions.</p>\n<p>With a generous maximum user weight of 39 stone, the Defender can accommodate users who need a higher weight capacity. Its sturdy design makes it a practical choice for everyday journeys and longer trips.</p>\n<p>Choosing a refurbished Defender Mobility Scooter offers a more affordable alternative to buying new while helping you maintain your independence. <a href=\"https://www.arbmobility.co.uk/contact/\">Contact us</a> for more information about the scooter&#8217;s refurbished condition, specifications and suitability for your needs.</p>",
+"on_sale": false,
+"prices": {
+"price": "350000",
+"regular_price": "350000",
+"sale_price": "350000",
+"price_range": null,
+"currency_code": "GBP",
+"currency_symbol": "\u00a3",
+"currency_minor_unit": 2,
+"currency_decimal_separator": ".",
+"currency_thousand_separator": ",",
+"currency_prefix": "\u00a3",
+"currency_suffix": ""
+},
+"price_html": "<span class=\"woocommerce-Price-amount amount\"><span class=\"woocommerce-Price-currencySymbol\" dir=\"auto\">&pound;</span>3,500.00</span>",
+"average_rating": "0",
+"review_count": 0,
+"images": [
+{
+"id": 3928,
+"src": "https://www.arbmobility.co.uk/wp-content/uploads/2026/10/def-scaled.jpeg",
+"thumbnail": "https://www.arbmobility.co.uk/wp-content/uploads/2026/10/def-300x300.jpeg",
+"srcset": "https://www.arbmobility.co.uk/wp-content/uploads/2026/10/def-scaled.jpeg 1920w, https://www.arbmobility.co.uk/wp-content/uploads/2026/10/def-225x300.jpeg 225w, https://www.arbmobility.co.uk/wp-content/uploads/2026/10/def-768x1024.jpeg 768w, https://www.arbmobility.co.uk/wp-content/uploads/2026/10/def-1800x2400.jpeg 1800w, https://www.arbmobility.co.uk/wp-content/uploads/2026/10/def-1400x1867.jpeg 1400w, https://www.arbmobility.co.uk/wp-content/uploads/2026/10/def-1000x1333.jpeg 1000w, https://www.arbmobility.co.uk/wp-content/uploads/2026/10/def-900x1200.jpeg 900w, https://www.arbmobility.co.uk/wp-content/uploads/2026/10/def-700x933.jpeg 700w, https://www.arbmobility.co.uk/wp-content/uploads/2026/10/def-500x667.jpeg 500w, https://www.arbmobility.co.uk/wp-content/uploads/2026/10/def-400x533.jpeg 400w, https://www.arbmobility.co.uk/wp-content/uploads/2026/10/def-1152x1536.jpeg 1152w, https://www.arbmobility.co.uk/wp-content/uploads/2026/10/def-1536x2048.jpeg 1536w, https://www.arbmobility.co.uk/wp-content/uploads/2026/10/def-600x800.jpeg 600w",
+"sizes": "(max-width: 1920px) 100vw, 1920px",
+"thumbnail_srcset": "https://www.arbmobility.co.uk/wp-content/uploads/2026/10/def-300x300.jpeg 300w, https://www.arbmobility.co.uk/wp-content/uploads/2026/10/def-150x150.jpeg 150w, https://www.arbmobility.co.uk/wp-content/uploads/2026/10/def-800x800.jpeg 800w, https://www.arbmobility.co.uk/wp-content/uploads/2026/10/def-100x100.jpeg 100w",
+"thumbnail_sizes": "(max-width: 300px) 100vw, 300px",
+"name": "def",
+"alt": ""
+},
+{
+"id": 3923,
+"src": "https://www.arbmobility.co.uk/wp-content/uploads/2026/10/def-1-scaled.jpeg",
+"thumbnail": "https://www.arbmobility.co.uk/wp-content/uploads/2026/10/def-1-300x300.jpeg",
+"srcset": "https://www.arbmobility.co.uk/wp-content/uploads/2026/10/def-1-scaled.jpeg 1920w, https://www.arbmobility.co.uk/wp-content/uploads/2026/10/def-1-225x300.jpeg 225w, https://www.arbmobility.co.uk/wp-content/uploads/2026/10/def-1-768x1024.jpeg 768w, https://www.arbmobility.co.uk/wp-content/uploads/2026/10/def-1-1800x2400.jpeg 1800w, https://www.arbmobility.co.uk/wp-content/uploads/2026/10/def-1-1400x1867.jpeg 1400w, https://www.arbmobility.co.uk/wp-content/uploads/2026/10/def-1-1000x1333.jpeg 1000w, https://www.arbmobility.co.uk/wp-content/uploads/2026/10/def-1-900x1200.jpeg 900w, https://www.arbmobility.co.uk/wp-content/uploads/2026/10/def-1-700x933.jpeg 700w, https://www.arbmobility.co.uk/wp-content/uploads/2026/10/def-1-500x667.jpeg 500w, https://www.arbmobility.co.uk/wp-content/uploads/2026/10/def-1-400x533.jpeg 400w, https://www.arbmobility.co.uk/wp-content/uploads/2026/10/def-1-1152x1536.jpeg 1152w, https://www.arbmobility.co.uk/wp-content/uploads/2026/10/def-1-1536x2048.jpeg 1536w, https://www.arbmobility.co.uk/wp-content/uploads/2026/10/def-1-600x800.jpeg 600w",
+"sizes": "(max-width: 1920px) 100vw, 1920px",
+"thumbnail_srcset": "https://www.arbmobility.co.uk/wp-content/uploads/2026/10/def-1-300x300.jpeg 300w, https://www.arbmobility.co.uk/wp-content/uploads/2026/10/def-1-150x150.jpeg 150w, https://www.arbmobility.co.uk/wp-content/uploads/2026/10/def-1-800x800.jpeg 800w, https://www.arbmobility.co.uk/wp-content/uploads/2026/10/def-1-100x100.jpeg 100w",
+"thumbnail_sizes": "(max-width: 300px) 100vw, 300px",
+"name": "def 1",
+"alt": ""
+}
+],
+"categories": [
+{
+"id": 928,
+"name": "Refurbished Mobility Scooters",
+"slug": "refurbished-mobility-scooters",
+"link": "https://www.arbmobility.co.uk/shop/refurbished-mobility-scooters/"
+}
+],
+"tags": [
+{
+"id": 963,
+"name": "36 Mile Range Mobility Scooter",
+"slug": "36-mile-range-mobility-scooter",
+"link": "https://www.arbmobility.co.uk/product-tag/36-mile-range-mobility-scooter/"
+},
+{
+"id": 962,
+"name": "39 Stone Mobility Scooter",
+"slug": "39-stone-mobility-scooter",
+"link": "https://www.arbmobility.co.uk/product-tag/39-stone-mobility-scooter/"
+},
+{
+"id": 412,
+"name": "8mph mobility scooter",
+"slug": "8mph-mobility-scooter",
+"link": "https://www.arbmobility.co.uk/product-tag/8mph-mobility-scooter/"
+},
+{
+"id": 954,
+"name": "Affordable Mobility Scooter",
+"slug": "affordable-mobility-scooter",
+"link": "https://www.arbmobility.co.uk/product-tag/affordable-mobility-scooter/"
+},
+{
+"id": 940,
+"name": "All Weather Mobility Scooter",
+"slug": "all-weather-mobility-scooter",
+"link": "https://www.arbmobility.co.uk/product-tag/all-weather-mobility-scooter/"
+},
+{
+"id": 970,
+"name": "Canopy Mobility Scooter",
+"slug": "canopy-mobility-scooter",
+"link": "https://www.arbmobility.co.uk/product-tag/canopy-mobility-scooter/"
+},
+{
+"id": 958,
+"name": "Defender Mobility Scooter",
+"slug": "defender-mobility-scooter",
+"link": "https://www.arbmobility.co.uk/product-tag/defender-mobility-scooter/"
+},
+{
+"id": 959,
+"name": "Defender Scooter with Canopy",
+"slug": "defender-scooter-with-canopy",
+"link": "https://www.arbmobility.co.uk/product-tag/defender-scooter-with-canopy/"
+},
+{
+"id": 968,
+"name": "Heavy Duty Electric Scooter",
+"slug": "heavy-duty-electric-scooter",
+"link": "https://www.arbmobility.co.uk/product-tag/heavy-duty-electric-scooter/"
+},
+{
+"id": 693,
+"name": "heavy duty mobility scooter",
+"slug": "heavy-duty-mobility-scooter",
+"link": "https://www.arbmobility.co.uk/product-tag/heavy-duty-mobility-scooter/"
+},
+{
+"id": 961,
+"name": "High Weight Capacity Mobility Scooter",
+"slug": "high-weight-capacity-mobility-scooter",
+"link": "https://www.arbmobility.co.uk/product-tag/high-weight-capacity-mobility-scooter/"
+},
+{
+"id": 498,
+"name": "large mobility scooter",
+"slug": "large-mobility-scooter",
+"link": "https://www.arbmobility.co.uk/product-tag/large-mobility-scooter/"
+},
+{
+"id": 969,
+"name": "Long Distance Mobility Scooter",
+"slug": "long-distance-mobility-scooter",
+"link": "https://www.arbmobility.co.uk/product-tag/long-distance-mobility-scooter/"
+},
+{
+"id": 867,
+"name": "Long Range Mobility Scooter",
+"slug": "long-range-mobility-scooter",
+"link": "https://www.arbmobility.co.uk/product-tag/long-range-mobility-scooter/"
+},
+{
+"id": 971,
+"name": "Mobility Scooter for Higher Weight Capacity",
+"slug": "mobility-scooter-for-higher-weight-capacity",
+"link": "https://www.arbmobility.co.uk/product-tag/mobility-scooter-for-higher-weight-capacity/"
+},
+{
+"id": 945,
+"name": "Mobility Scooter UK",
+"slug": "mobility-scooter-uk",
+"link": "https://www.arbmobility.co.uk/product-tag/mobility-scooter-uk/"
+},
+{
+"id": 964,
+"name": "Mobility Scooter with Canopy",
+"slug": "mobility-scooter-with-canopy",
+"link": "https://www.arbmobility.co.uk/product-tag/mobility-scooter-with-canopy/"
+},
+{
+"id": 966,
+"name": "Mobility Scooter with UV Protection",
+"slug": "mobility-scooter-with-uv-protection",
+"link": "https://www.arbmobility.co.uk/product-tag/mobility-scooter-with-uv-protection/"
+},
+{
+"id": 965,
+"name": "Mobility Scooter with Weather Protection",
+"slug": "mobility-scooter-with-weather-protection",
+"link": "https://www.arbmobility.co.uk/product-tag/mobility-scooter-with-weather-protection/"
+},
+{
+"id": 967,
+"name": "Outdoor Mobility Scooter",
+"slug": "outdoor-mobility-scooter",
+"link": "https://www.arbmobility.co.uk/product-tag/outdoor-mobility-scooter/"
+},
+{
+"id": 957,
+"name": "Refurbished Defender Mobility Scooter",
+"slug": "refurbished-defender-mobility-scooter",
+"link": "https://www.arbmobility.co.uk/product-tag/refurbished-defender-mobility-scooter/"
+},
+{
+"id": 960,
+"name": "Refurbished Defender Scooter",
+"slug": "refurbished-defender-scooter",
+"link": "https://www.arbmobility.co.uk/product-tag/refurbished-defender-scooter/"
+},
+{
+"id": 442,
+"name": "refurbished mobility scooter",
+"slug": "refurbished-mobility-scooter",
+"link": "https://www.arbmobility.co.uk/product-tag/refurbished-mobility-scooter/"
+},
+{
+"id": 946,
+"name": "Second Hand Mobility Scooter",
+"slug": "second-hand-mobility-scooter",
+"link": "https://www.arbmobility.co.uk/product-tag/second-hand-mobility-scooter/"
+},
+{
+"id": 942,
+"name": "Used Mobility Scooter",
+"slug": "used-mobility-scooter",
+"link": "https://www.arbmobility.co.uk/product-tag/used-mobility-scooter/"
+},
+{
+"id": 939,
+"name": "Weatherproof Mobility Scooter",
+"slug": "weatherproof-mobility-scooter",
+"link": "https://www.arbmobility.co.uk/product-tag/weatherproof-mobility-scooter/"
+}
+],
+"brands": [],
+"attributes": [],
+"variations": [],
+"grouped_products": [],
+"has_options": false,
+"is_purchasable": true,
+"is_in_stock": true,
+"is_on_backorder": false,
+"low_stock_remaining": null,
+"stock_availability": {
+"text": "",
+"class": "in-stock"
+},
+"sold_individually": false,
+"weight": "",
+"dimensions": {
+"length": "",
+"width": "",
+"height": ""
+},
+"formatted_weight": "N/A",
+"formatted_dimensions": "N/A",
+"add_to_cart": {
+"text": "Add to basket",
+"description": "Add to basket: &ldquo;Refurbished Defender Mobility Scooter&rdquo;",
+"url": "/wp-json/wc/store/v1/products?category=refurbished-mobility-scooters&#038;per_page=100&#038;add-to-cart=3922",
+"single_text": "Add to basket",
+"minimum": 1,
+"maximum": 9999,
+"multiple_of": 1
+},
+"is_password_protected": false,
+"extensions": {},
+"_links": {
+"self": [
+{
+"href": "https://www.arbmobility.co.uk/wp-json/wc/store/v1/products/3922",
+"targetHints": {
+"allow": [
+"GET"
+]
+}
+}
+],
+"collection": [
+{
+"href": "https://www.arbmobility.co.uk/wp-json/wc/store/v1/products"
+}
+],
+"related": [
+{
+"embeddable": true,
+"href": "https://www.arbmobility.co.uk/wp-json/wc/store/v1/products?related=3922&per_page=10"
+}
+]
+}
+},
+{
+"id": 3913,
+"name": "Refurbished Illusion Mobility Scooter",
+"slug": "refurbished-illusion-mobility-scooter",
+"parent": 0,
+"type": "simple",
+"variation": "",
+"permalink": "https://www.arbmobility.co.uk/products/refurbished-illusion-mobility-scooter/",
+"sku": "",
+"short_description": "<p data-pm-slice=\"1 1 []\">The refurbished Illusion Mobility Scooter offers comfortable and convenient mobility for everyday journeys. With a top speed of 4 mph, a range of up to 10 miles and built-in suspension, it provides a practical way to enjoy greater independence. It also dismantles for transport, with the heaviest part weighing just 9.9kg.</p>",
+"description": "<p data-pm-slice=\"1 1 []\">Enjoy greater independence with this refurbished Illusion Mobility Scooter. Designed for everyday mobility, it helps you get out and about, whether you are visiting local shops, meeting friends or enjoying a trip around your neighbourhood.</p>\n<p>With a top speed of 4 mph, the Illusion Mobility Scooter is a practical choice for journeys at a comfortable pace. Its compact and transportable design makes it suitable for people who want to maintain their independence and enjoy greater freedom in their daily lives.</p>\n<p>The scooter offers a range of up to 10 miles on a full charge, giving you the flexibility to enjoy local outings without needing to recharge after every short journey. Please remember that the actual range will depend on factors such as terrain, user weight, battery condition and driving style.</p>\n<p>The built-in suspension system helps absorb bumps and vibrations as you travel. This can make journeys more comfortable, particularly when moving across uneven surfaces.</p>\n<p>One of the key benefits of the Illusion Mobility Scooter is its convenient dismantling design. You can take it apart into smaller sections to make storage and transport easier. The heaviest part weighs just 9.9kg, making it easier to lift into a suitable vehicle when you want to take your scooter further afield.</p>\n<p>With a maximum user weight of 18 stone, the refurbished Illusion offers a practical mobility solution for eligible users looking for an affordable alternative to buying new.</p>\n<p>Choosing a refurbished Illusion Mobility Scooter can help you save money while enjoying greater independence. Contact us for more information about its condition and suitability for your needs.</p>",
+"on_sale": false,
+"prices": {
+"price": "65000",
+"regular_price": "65000",
+"sale_price": "65000",
+"price_range": null,
+"currency_code": "GBP",
+"currency_symbol": "\u00a3",
+"currency_minor_unit": 2,
+"currency_decimal_separator": ".",
+"currency_thousand_separator": ",",
+"currency_prefix": "\u00a3",
+"currency_suffix": ""
+},
+"price_html": "<span class=\"woocommerce-Price-amount amount\"><span class=\"woocommerce-Price-currencySymbol\" dir=\"auto\">&pound;</span>650.00</span>",
+"average_rating": "0",
+"review_count": 0,
+"images": [
+{
+"id": 3915,
+"src": "https://www.arbmobility.co.uk/wp-content/uploads/2026/10/lus-2.jpg",
+"thumbnail": "https://www.arbmobility.co.uk/wp-content/uploads/2026/10/lus-2-300x300.jpg",
+"srcset": "https://www.arbmobility.co.uk/wp-content/uploads/2026/10/lus-2.jpg 1162w, https://www.arbmobility.co.uk/wp-content/uploads/2026/10/lus-2-215x300.jpg 215w, https://www.arbmobility.co.uk/wp-content/uploads/2026/10/lus-2-733x1024.jpg 733w, https://www.arbmobility.co.uk/wp-content/uploads/2026/10/lus-2-768x1073.jpg 768w, https://www.arbmobility.co.uk/wp-content/uploads/2026/10/lus-2-1000x1398.jpg 1000w, https://www.arbmobility.co.uk/wp-content/uploads/2026/10/lus-2-900x1258.jpg 900w, https://www.arbmobility.co.uk/wp-content/uploads/2026/10/lus-2-700x978.jpg 700w, https://www.arbmobility.co.uk/wp-content/uploads/2026/10/lus-2-500x699.jpg 500w, https://www.arbmobility.co.uk/wp-content/uploads/2026/10/lus-2-400x559.jpg 400w, https://www.arbmobility.co.uk/wp-content/uploads/2026/10/lus-2-1099x1536.jpg 1099w, https://www.arbmobility.co.uk/wp-content/uploads/2026/10/lus-2-600x839.jpg 600w",
+"sizes": "(max-width: 1162px) 100vw, 1162px",
+"thumbnail_srcset": "https://www.arbmobility.co.uk/wp-content/uploads/2026/10/lus-2-300x300.jpg 300w, https://www.arbmobility.co.uk/wp-content/uploads/2026/10/lus-2-150x150.jpg 150w, https://www.arbmobility.co.uk/wp-content/uploads/2026/10/lus-2-800x800.jpg 800w, https://www.arbmobility.co.uk/wp-content/uploads/2026/10/lus-2-100x100.jpg 100w",
+"thumbnail_sizes": "(max-width: 300px) 100vw, 300px",
+"name": "Screenshot",
+"alt": ""
+},
+{
+"id": 3914,
+"src": "https://www.arbmobility.co.uk/wp-content/uploads/2026/10/lus-1.jpg",
+"thumbnail": "https://www.arbmobility.co.uk/wp-content/uploads/2026/10/lus-1-300x300.jpg",
+"srcset": "https://www.arbmobility.co.uk/wp-content/uploads/2026/10/lus-1.jpg 1170w, https://www.arbmobility.co.uk/wp-content/uploads/2026/10/lus-1-179x300.jpg 179w, https://www.arbmobility.co.uk/wp-content/uploads/2026/10/lus-1-612x1024.jpg 612w, https://www.arbmobility.co.uk/wp-content/uploads/2026/10/lus-1-768x1286.jpg 768w, https://www.arbmobility.co.uk/wp-content/uploads/2026/10/lus-1-1000x1674.jpg 1000w, https://www.arbmobility.co.uk/wp-content/uploads/2026/10/lus-1-900x1507.jpg 900w, https://www.arbmobility.co.uk/wp-content/uploads/2026/10/lus-1-700x1172.jpg 700w, https://www.arbmobility.co.uk/wp-content/uploads/2026/10/lus-1-500x837.jpg 500w, https://www.arbmobility.co.uk/wp-content/uploads/2026/10/lus-1-400x670.jpg 400w, https://www.arbmobility.co.uk/wp-content/uploads/2026/10/lus-1-917x1536.jpg 917w, https://www.arbmobility.co.uk/wp-content/uploads/2026/10/lus-1-600x1005.jpg 600w",
+"sizes": "(max-width: 1170px) 100vw, 1170px",
+"thumbnail_srcset": "https://www.arbmobility.co.uk/wp-content/uploads/2026/10/lus-1-300x300.jpg 300w, https://www.arbmobility.co.uk/wp-content/uploads/2026/10/lus-1-150x150.jpg 150w, https://www.arbmobility.co.uk/wp-content/uploads/2026/10/lus-1-800x800.jpg 800w, https://www.arbmobility.co.uk/wp-content/uploads/2026/10/lus-1-100x100.jpg 100w",
+"thumbnail_sizes": "(max-width: 300px) 100vw, 300px",
+"name": "Screenshot",
+"alt": ""
+}
+],
+"categories": [
+{
+"id": 928,
+"name": "Refurbished Mobility Scooters",
+"slug": "refurbished-mobility-scooters",
+"link": "https://www.arbmobility.co.uk/shop/refurbished-mobility-scooters/"
+}
+],
+"tags": [
+{
+"id": 950,
+"name": "10 Mile Range Mobility Scooter",
+"slug": "10-mile-range-mobility-scooter",
+"link": "https://www.arbmobility.co.uk/product-tag/10-mile-range-mobility-scooter/"
+},
+{
+"id": 951,
+"name": "18 Stone Mobility Scooter",
+"slug": "18-stone-mobility-scooter",
+"link": "https://www.arbmobility.co.uk/product-tag/18-stone-mobility-scooter/"
+},
+{
+"id": 452,
+"name": "4mph mobility scooter",
+"slug": "4mph-mobility-scooter",
+"link": "https://www.arbmobility.co.uk/product-tag/4mph-mobility-scooter/"
+},
+{
+"id": 954,
+"name": "Affordable Mobility Scooter",
+"slug": "affordable-mobility-scooter",
+"link": "https://www.arbmobility.co.uk/product-tag/affordable-mobility-scooter/"
+},
+{
+"id": 598,
+"name": "compact mobility scooter",
+"slug": "compact-mobility-scooter",
+"link": "https://www.arbmobility.co.uk/product-tag/compact-mobility-scooter/"
+},
+{
+"id": 949,
+"name": "Dismantling Mobility Scooter",
+"slug": "dismantling-mobility-scooter",
+"link": "https://www.arbmobility.co.uk/product-tag/dismantling-mobility-scooter/"
+},
+{
+"id": 952,
+"name": "Easy Transport Mobility Scooter",
+"slug": "easy-transport-mobility-scooter",
+"link": "https://www.arbmobility.co.uk/product-tag/easy-transport-mobility-scooter/"
+},
+{
+"id": 741,
+"name": "electric mobility scooter",
+"slug": "electric-mobility-scooter",
+"link": "https://www.arbmobility.co.uk/product-tag/electric-mobility-scooter/"
+},
+{
+"id": 404,
+"name": "folding mobility scooter",
+"slug": "folding-mobility-scooter",
+"link": "https://www.arbmobility.co.uk/product-tag/folding-mobility-scooter/"
+},
+{
+"id": 451,
+"name": "illusion mobility scooter",
+"slug": "illusion-mobility-scooter",
+"link": "https://www.arbmobility.co.uk/product-tag/illusion-mobility-scooter/"
+},
+{
+"id": 948,
+"name": "Illusion Scooter",
+"slug": "illusion-scooter",
+"link": "https://www.arbmobility.co.uk/product-tag/illusion-scooter/"
+},
+{
+"id": 388,
+"name": "lightweight mobility scooter",
+"slug": "lightweight-mobility-scooter",
+"link": "https://www.arbmobility.co.uk/product-tag/lightweight-mobility-scooter/"
+},
+{
+"id": 953,
+"name": "Lightweight Travel Scooter",
+"slug": "lightweight-travel-scooter",
+"link": "https://www.arbmobility.co.uk/product-tag/lightweight-travel-scooter/"
+},
+{
+"id": 945,
+"name": "Mobility Scooter UK",
+"slug": "mobility-scooter-uk",
+"link": "https://www.arbmobility.co.uk/product-tag/mobility-scooter-uk/"
+},
+{
+"id": 870,
+"name": "Mobility Scooter with Suspension",
+"slug": "mobility-scooter-with-suspension",
+"link": "https://www.arbmobility.co.uk/product-tag/mobility-scooter-with-suspension/"
+},
+{
+"id": 386,
+"name": "portable mobility scooter",
+"slug": "portable-mobility-scooter",
+"link": "https://www.arbmobility.co.uk/product-tag/portable-mobility-scooter/"
+},
+{
+"id": 955,
+"name": "Refurbished Electric Scooter",
+"slug": "refurbished-electric-scooter",
+"link": "https://www.arbmobility.co.uk/product-tag/refurbished-electric-scooter/"
+},
+{
+"id": 947,
+"name": "Refurbished Illusion Mobility Scooter",
+"slug": "refurbished-illusion-mobility-scooter",
+"link": "https://www.arbmobility.co.uk/product-tag/refurbished-illusion-mobility-scooter/"
+},
+{
+"id": 442,
+"name": "refurbished mobility scooter",
+"slug": "refurbished-mobility-scooter",
+"link": "https://www.arbmobility.co.uk/product-tag/refurbished-mobility-scooter/"
+},
+{
+"id": 946,
+"name": "Second Hand Mobility Scooter",
+"slug": "second-hand-mobility-scooter",
+"link": "https://www.arbmobility.co.uk/product-tag/second-hand-mobility-scooter/"
+},
+{
+"id": 956,
+"name": "Small Mobility Scooter",
+"slug": "small-mobility-scooter",
+"link": "https://www.arbmobility.co.uk/product-tag/small-mobility-scooter/"
+},
+{
+"id": 507,
+"name": "transportable mobility scooter",
+"slug": "transportable-mobility-scooter",
+"link": "https://www.arbmobility.co.uk/product-tag/transportable-mobility-scooter/"
+},
+{
+"id": 385,
+"name": "Travel Mobility Scooter",
+"slug": "travel-mobility-scooter",
+"link": "https://www.arbmobility.co.uk/product-tag/travel-mobility-scooter/"
+},
+{
+"id": 942,
+"name": "Used Mobility Scooter",
+"slug": "used-mobility-scooter",
+"link": "https://www.arbmobility.co.uk/product-tag/used-mobility-scooter/"
+}
+],
+"brands": [],
+"attributes": [],
+"variations": [],
+"grouped_products": [],
+"has_options": false,
+"is_purchasable": true,
+"is_in_stock": true,
+"is_on_backorder": false,
+"low_stock_remaining": null,
+"stock_availability": {
+"text": "",
+"class": "in-stock"
+},
+"sold_individually": false,
+"weight": "",
+"dimensions": {
+"length": "",
+"width": "",
+"height": ""
+},
+"formatted_weight": "N/A",
+"formatted_dimensions": "N/A",
+"add_to_cart": {
+"text": "Add to basket",
+"description": "Add to basket: &ldquo;Refurbished Illusion Mobility Scooter&rdquo;",
+"url": "/wp-json/wc/store/v1/products?category=refurbished-mobility-scooters&#038;per_page=100&#038;add-to-cart=3913",
+"single_text": "Add to basket",
+"minimum": 1,
+"maximum": 9999,
+"multiple_of": 1
+},
+"is_password_protected": false,
+"extensions": {},
+"_links": {
+"self": [
+{
+"href": "https://www.arbmobility.co.uk/wp-json/wc/store/v1/products/3913",
+"targetHints": {
+"allow": [
+"GET"
+]
+}
+}
+],
+"collection": [
+{
+"href": "https://www.arbmobility.co.uk/wp-json/wc/store/v1/products"
+}
+],
+"related": [
+{
+"embeddable": true,
+"href": "https://www.arbmobility.co.uk/wp-json/wc/store/v1/products?related=3913&per_page=10"
+}
+]
+}
+},
+{
+"id": 3904,
+"name": "Refurbished Cabin Car",
+"slug": "refurbished-cabin-car",
+"parent": 0,
+"type": "simple",
+"variation": "",
+"permalink": "https://www.arbmobility.co.uk/products/refurbished-cabin-car/",
+"sku": "",
+"short_description": "<p data-pm-slice=\"1 1 []\">The refurbished Scooterpac Cabin Car offers comfortable, enclosed mobility with heating, a top speed of 8 mph and a range of up to 22 miles. It features a reversing camera and brand-new 75Ah batteries for practical, everyday travel.</p>",
+"description": "<p data-pm-slice=\"1 1 []\">Enjoy greater independence in all seasons with this refurbished Scooterpac Cabin Car. Designed to combine the freedom of a mobility scooter with the comfort of an enclosed cabin, it helps you get out and about in different weather conditions.</p>\n<p>With a top speed of 8 mph, the Scooterpac Cabin Car makes everyday journeys more convenient. Whether you are visiting the shops, meeting friends or enjoying a trip outdoors, its enclosed design provides shelter from wind and rain.</p>\n<p>The built-in heating system adds extra comfort on colder days, helping you stay warm while travelling. Combined with the enclosed cabin, it makes this Scooterpac Cabin Car a practical option for year-round mobility.</p>\n<p>This refurbished model comes with brand-new 75Ah batteries and offers a range of up to 22 miles on a full charge. This gives you the freedom to enjoy longer outings, although the actual range will depend on factors such as terrain, user weight, weather and driving style.</p>\n<p>The built-in reversing camera helps you see behind the vehicle when reversing. This useful feature can make manoeuvring easier and help you judge your surroundings when parking or moving in tighter spaces.</p>\n<p>Choosing a refurbished Scooterpac Cabin Car offers a more affordable way to enjoy enclosed mobility. With heating, new batteries and a reversing camera, it combines comfort and practical features to support your everyday journeys.</p>\n<p><a href=\"https://www.arbmobility.co.uk/contact/\">Contact us</a> for more information about the vehicle&#8217;s refurbished condition, available features and delivery options.</p>",
+"on_sale": false,
+"prices": {
+"price": "350000",
+"regular_price": "350000",
+"sale_price": "350000",
+"price_range": null,
+"currency_code": "GBP",
+"currency_symbol": "\u00a3",
+"currency_minor_unit": 2,
+"currency_decimal_separator": ".",
+"currency_thousand_separator": ",",
+"currency_prefix": "\u00a3",
+"currency_suffix": ""
+},
+"price_html": "<span class=\"woocommerce-Price-amount amount\"><span class=\"woocommerce-Price-currencySymbol\" dir=\"auto\">&pound;</span>3,500.00</span>",
+"average_rating": "0",
+"review_count": 0,
+"images": [
+{
+"id": 3911,
+"src": "https://www.arbmobility.co.uk/wp-content/uploads/2026/10/cab-scaled.jpeg",
+"thumbnail": "https://www.arbmobility.co.uk/wp-content/uploads/2026/10/cab-300x300.jpeg",
+"srcset": "https://www.arbmobility.co.uk/wp-content/uploads/2026/10/cab-scaled.jpeg 1920w, https://www.arbmobility.co.uk/wp-content/uploads/2026/10/cab-225x300.jpeg 225w, https://www.arbmobility.co.uk/wp-content/uploads/2026/10/cab-768x1024.jpeg 768w, https://www.arbmobility.co.uk/wp-content/uploads/2026/10/cab-1800x2400.jpeg 1800w, https://www.arbmobility.co.uk/wp-content/uploads/2026/10/cab-1400x1867.jpeg 1400w, https://www.arbmobility.co.uk/wp-content/uploads/2026/10/cab-1000x1333.jpeg 1000w, https://www.arbmobility.co.uk/wp-content/uploads/2026/10/cab-900x1200.jpeg 900w, https://www.arbmobility.co.uk/wp-content/uploads/2026/10/cab-700x933.jpeg 700w, https://www.arbmobility.co.uk/wp-content/uploads/2026/10/cab-500x667.jpeg 500w, https://www.arbmobility.co.uk/wp-content/uploads/2026/10/cab-400x533.jpeg 400w, https://www.arbmobility.co.uk/wp-content/uploads/2026/10/cab-1152x1536.jpeg 1152w, https://www.arbmobility.co.uk/wp-content/uploads/2026/10/cab-1536x2048.jpeg 1536w, https://www.arbmobility.co.uk/wp-content/uploads/2026/10/cab-600x800.jpeg 600w",
+"sizes": "(max-width: 1920px) 100vw, 1920px",
+"thumbnail_srcset": "https://www.arbmobility.co.uk/wp-content/uploads/2026/10/cab-300x300.jpeg 300w, https://www.arbmobility.co.uk/wp-content/uploads/2026/10/cab-150x150.jpeg 150w, https://www.arbmobility.co.uk/wp-content/uploads/2026/10/cab-800x800.jpeg 800w, https://www.arbmobility.co.uk/wp-content/uploads/2026/10/cab-100x100.jpeg 100w",
+"thumbnail_sizes": "(max-width: 300px) 100vw, 300px",
+"name": "cab",
+"alt": ""
+},
+{
+"id": 3905,
+"src": "https://www.arbmobility.co.uk/wp-content/uploads/2026/10/cab-1.jpg",
+"thumbnail": "https://www.arbmobility.co.uk/wp-content/uploads/2026/10/cab-1-300x300.jpg",
+"srcset": "https://www.arbmobility.co.uk/wp-content/uploads/2026/10/cab-1.jpg 1155w, https://www.arbmobility.co.uk/wp-content/uploads/2026/10/cab-1-169x300.jpg 169w, https://www.arbmobility.co.uk/wp-content/uploads/2026/10/cab-1-576x1024.jpg 576w, https://www.arbmobility.co.uk/wp-content/uploads/2026/10/cab-1-768x1364.jpg 768w, https://www.arbmobility.co.uk/wp-content/uploads/2026/10/cab-1-1000x1777.jpg 1000w, https://www.arbmobility.co.uk/wp-content/uploads/2026/10/cab-1-900x1599.jpg 900w, https://www.arbmobility.co.uk/wp-content/uploads/2026/10/cab-1-700x1244.jpg 700w, https://www.arbmobility.co.uk/wp-content/uploads/2026/10/cab-1-500x888.jpg 500w, https://www.arbmobility.co.uk/wp-content/uploads/2026/10/cab-1-400x711.jpg 400w, https://www.arbmobility.co.uk/wp-content/uploads/2026/10/cab-1-865x1536.jpg 865w, https://www.arbmobility.co.uk/wp-content/uploads/2026/10/cab-1-1153x2048.jpg 1153w, https://www.arbmobility.co.uk/wp-content/uploads/2026/10/cab-1-600x1066.jpg 600w",
+"sizes": "(max-width: 1155px) 100vw, 1155px",
+"thumbnail_srcset": "https://www.arbmobility.co.uk/wp-content/uploads/2026/10/cab-1-300x300.jpg 300w, https://www.arbmobility.co.uk/wp-content/uploads/2026/10/cab-1-150x150.jpg 150w, https://www.arbmobility.co.uk/wp-content/uploads/2026/10/cab-1-800x800.jpg 800w, https://www.arbmobility.co.uk/wp-content/uploads/2026/10/cab-1-100x100.jpg 100w",
+"thumbnail_sizes": "(max-width: 300px) 100vw, 300px",
+"name": "Screenshot",
+"alt": ""
+}
+],
+"categories": [
+{
+"id": 928,
+"name": "Refurbished Mobility Scooters",
+"slug": "refurbished-mobility-scooters",
+"link": "https://www.arbmobility.co.uk/shop/refurbished-mobility-scooters/"
+}
+],
+"tags": [
+{
+"id": 938,
+"name": "22 Mile Range Mobility Scooter",
+"slug": "22-mile-range-mobility-scooter",
+"link": "https://www.arbmobility.co.uk/product-tag/22-mile-range-mobility-scooter/"
+},
+{
+"id": 937,
+"name": "75Ah Battery Mobility Scooter",
+"slug": "75ah-battery-mobility-scooter",
+"link": "https://www.arbmobility.co.uk/product-tag/75ah-battery-mobility-scooter/"
+},
+{
+"id": 412,
+"name": "8mph mobility scooter",
+"slug": "8mph-mobility-scooter",
+"link": "https://www.arbmobility.co.uk/product-tag/8mph-mobility-scooter/"
+},
+{
+"id": 940,
+"name": "All Weather Mobility Scooter",
+"slug": "all-weather-mobility-scooter",
+"link": "https://www.arbmobility.co.uk/product-tag/all-weather-mobility-scooter/"
+},
+{
+"id": 932,
+"name": "Cabin Mobility Scooter",
+"slug": "cabin-mobility-scooter",
+"link": "https://www.arbmobility.co.uk/product-tag/cabin-mobility-scooter/"
+},
+{
+"id": 944,
+"name": "Enclosed Cabin Scooter",
+"slug": "enclosed-cabin-scooter",
+"link": "https://www.arbmobility.co.uk/product-tag/enclosed-cabin-scooter/"
+},
+{
+"id": 931,
+"name": "Enclosed Mobility Scooter",
+"slug": "enclosed-mobility-scooter",
+"link": "https://www.arbmobility.co.uk/product-tag/enclosed-mobility-scooter/"
+},
+{
+"id": 941,
+"name": "Four Wheel Mobility Scooter",
+"slug": "four-wheel-mobility-scooter",
+"link": "https://www.arbmobility.co.uk/product-tag/four-wheel-mobility-scooter/"
+},
+{
+"id": 934,
+"name": "Heated Mobility Scooter",
+"slug": "heated-mobility-scooter",
+"link": "https://www.arbmobility.co.uk/product-tag/heated-mobility-scooter/"
+},
+{
+"id": 867,
+"name": "Long Range Mobility Scooter",
+"slug": "long-range-mobility-scooter",
+"link": "https://www.arbmobility.co.uk/product-tag/long-range-mobility-scooter/"
+},
+{
+"id": 945,
+"name": "Mobility Scooter UK",
+"slug": "mobility-scooter-uk",
+"link": "https://www.arbmobility.co.uk/product-tag/mobility-scooter-uk/"
+},
+{
+"id": 933,
+"name": "Mobility Scooter with Heating",
+"slug": "mobility-scooter-with-heating",
+"link": "https://www.arbmobility.co.uk/product-tag/mobility-scooter-with-heating/"
+},
+{
+"id": 936,
+"name": "Mobility Scooter with New Batteries",
+"slug": "mobility-scooter-with-new-batteries",
+"link": "https://www.arbmobility.co.uk/product-tag/mobility-scooter-with-new-batteries/"
+},
+{
+"id": 935,
+"name": "Mobility Scooter with Reversing Camera",
+"slug": "mobility-scooter-with-reversing-camera",
+"link": "https://www.arbmobility.co.uk/product-tag/mobility-scooter-with-reversing-camera/"
+},
+{
+"id": 442,
+"name": "refurbished mobility scooter",
+"slug": "refurbished-mobility-scooter",
+"link": "https://www.arbmobility.co.uk/product-tag/refurbished-mobility-scooter/"
+},
+{
+"id": 943,
+"name": "Refurbished Scooterpac",
+"slug": "refurbished-scooterpac",
+"link": "https://www.arbmobility.co.uk/product-tag/refurbished-scooterpac/"
+},
+{
+"id": 929,
+"name": "Refurbished Scooterpac Cabin Car",
+"slug": "refurbished-scooterpac-cabin-car",
+"link": "https://www.arbmobility.co.uk/product-tag/refurbished-scooterpac-cabin-car/"
+},
+{
+"id": 514,
+"name": "SCOOTERPAC CABIN CAR",
+"slug": "scooterpac-cabin-car",
+"link": "https://www.arbmobility.co.uk/product-tag/scooterpac-cabin-car/"
+},
+{
+"id": 930,
+"name": "Scooterpac Cabin Car 8mph",
+"slug": "scooterpac-cabin-car-8mph",
+"link": "https://www.arbmobility.co.uk/product-tag/scooterpac-cabin-car-8mph/"
+},
+{
+"id": 512,
+"name": "scooterpac mobility scooter",
+"slug": "scooterpac-mobility-scooter",
+"link": "https://www.arbmobility.co.uk/product-tag/scooterpac-mobility-scooter/"
+},
+{
+"id": 946,
+"name": "Second Hand Mobility Scooter",
+"slug": "second-hand-mobility-scooter",
+"link": "https://www.arbmobility.co.uk/product-tag/second-hand-mobility-scooter/"
+},
+{
+"id": 942,
+"name": "Used Mobility Scooter",
+"slug": "used-mobility-scooter",
+"link": "https://www.arbmobility.co.uk/product-tag/used-mobility-scooter/"
+},
+{
+"id": 939,
+"name": "Weatherproof Mobility Scooter",
+"slug": "weatherproof-mobility-scooter",
+"link": "https://www.arbmobility.co.uk/product-tag/weatherproof-mobility-scooter/"
+}
+],
+"brands": [],
+"attributes": [],
+"variations": [],
+"grouped_products": [],
+"has_options": false,
+"is_purchasable": true,
+"is_in_stock": true,
+"is_on_backorder": false,
+"low_stock_remaining": null,
+"stock_availability": {
+"text": "",
+"class": "in-stock"
+},
+"sold_individually": false,
+"weight": "",
+"dimensions": {
+"length": "",
+"width": "",
+"height": ""
+},
+"formatted_weight": "N/A",
+"formatted_dimensions": "N/A",
+"add_to_cart": {
+"text": "Add to basket",
+"description": "Add to basket: &ldquo;Refurbished Cabin Car&rdquo;",
+"url": "/wp-json/wc/store/v1/products?category=refurbished-mobility-scooters&#038;per_page=100&#038;add-to-cart=3904",
+"single_text": "Add to basket",
+"minimum": 1,
+"maximum": 9999,
+"multiple_of": 1
+},
+"is_password_protected": false,
+"extensions": {},
+"_links": {
+"self": [
+{
+"href": "https://www.arbmobility.co.uk/wp-json/wc/store/v1/products/3904",
+"targetHints": {
+"allow": [
+"GET"
+]
+}
+}
+],
+"collection": [
+{
+"href": "https://www.arbmobility.co.uk/wp-json/wc/store/v1/products"
+}
+],
+"related": [
+{
+"embeddable": true,
+"href": "https://www.arbmobility.co.uk/wp-json/wc/store/v1/products?related=3904&per_page=10"
+}
+]
+}
+},
+{
+"id": 3282,
+"name": "Refurbished Alpha 8 Mobility Scooter",
+"slug": "refurbished-alpha-8-mobility-scooter",
+"parent": 0,
+"type": "simple",
+"variation": "",
+"permalink": "https://www.arbmobility.co.uk/products/refurbished-alpha-8-mobility-scooter/",
+"sku": "",
+"short_description": "<p>The refurbished Alpha 8 mobility scooter is a powerful yet compact road scooter offering comfort, long range, and confidence on every journey. With large 12\u201d tyres, a heavy-duty battery, and a comfortable captain\u2019s seat, it\u2019s perfect for everyday use and longer adventures alike.</p>",
+"description": "<p data-start=\"502\" data-end=\"771\">The refurbished Alpha 8 mobility scooter offers the perfect balance between performance and practicality. Designed as a compact, narrower road scooter, it\u2019s easy to manoeuvre in busy areas while still delivering the power and stability you need for longer journeys.</p>\n<p data-start=\"773\" data-end=\"1128\">Thanks to its large 12\u201d tyres and excellent ground clearance, this scooter is ideal for days out with family, whether you\u2019re heading to the high street, the countryside, or even the seaside. In addition, the heavy-duty battery provides an impressive range of up to 25 miles per charge, giving you the freedom to travel further with confidence.</p>\n<p data-start=\"1130\" data-end=\"1379\">Despite being a road scooter, the Alpha 8\u2019s narrow width means doorways, shops, and crowded pavements are no problem at all. However, when you want to venture off the beaten path, the powerful motor handles hills and uneven ground with ease.</p>\n<p data-start=\"1381\" data-end=\"1784\">Comfort is a priority too. The generous captain\u2019s chair, unique suspension system, and adjustable armrests ensure a smooth and supportive ride wherever you\u2019re going. For simple, user-friendly control, the delta handlebar makes steering effortless, while the easy-to-use controls sit right at your fingertips. There\u2019s also a handy front basket for carrying shopping or personal items.</p>\n<p data-start=\"1786\" data-end=\"1986\">\u00a0Overall, the refurbished Alpha 8 mobility scooter delivers outstanding comfort, range, and value in one reliable package.</p>",
+"on_sale": false,
+"prices": {
+"price": "89500",
+"regular_price": "89500",
+"sale_price": "89500",
+"price_range": null,
+"currency_code": "GBP",
+"currency_symbol": "\u00a3",
+"currency_minor_unit": 2,
+"currency_decimal_separator": ".",
+"currency_thousand_separator": ",",
+"currency_prefix": "\u00a3",
+"currency_suffix": ""
+},
+"price_html": "<span class=\"woocommerce-Price-amount amount\"><span class=\"woocommerce-Price-currencySymbol\" dir=\"auto\">&pound;</span>895.00</span>",
+"average_rating": "0",
+"review_count": 0,
+"images": [
+{
+"id": 3992,
+"src": "https://www.arbmobility.co.uk/wp-content/uploads/2026/01/alpha-1-1-scaled.jpeg",
+"thumbnail": "https://www.arbmobility.co.uk/wp-content/uploads/2026/01/alpha-1-1-300x300.jpeg",
+"srcset": "https://www.arbmobility.co.uk/wp-content/uploads/2026/01/alpha-1-1-scaled.jpeg 1920w, https://www.arbmobility.co.uk/wp-content/uploads/2026/01/alpha-1-1-225x300.jpeg 225w, https://www.arbmobility.co.uk/wp-content/uploads/2026/01/alpha-1-1-768x1024.jpeg 768w, https://www.arbmobility.co.uk/wp-content/uploads/2026/01/alpha-1-1-1800x2400.jpeg 1800w, https://www.arbmobility.co.uk/wp-content/uploads/2026/01/alpha-1-1-1400x1867.jpeg 1400w, https://www.arbmobility.co.uk/wp-content/uploads/2026/01/alpha-1-1-1000x1333.jpeg 1000w, https://www.arbmobility.co.uk/wp-content/uploads/2026/01/alpha-1-1-900x1200.jpeg 900w, https://www.arbmobility.co.uk/wp-content/uploads/2026/01/alpha-1-1-700x933.jpeg 700w, https://www.arbmobility.co.uk/wp-content/uploads/2026/01/alpha-1-1-500x667.jpeg 500w, https://www.arbmobility.co.uk/wp-content/uploads/2026/01/alpha-1-1-400x533.jpeg 400w, https://www.arbmobility.co.uk/wp-content/uploads/2026/01/alpha-1-1-1152x1536.jpeg 1152w, https://www.arbmobility.co.uk/wp-content/uploads/2026/01/alpha-1-1-1536x2048.jpeg 1536w, https://www.arbmobility.co.uk/wp-content/uploads/2026/01/alpha-1-1-600x800.jpeg 600w",
+"sizes": "(max-width: 1920px) 100vw, 1920px",
+"thumbnail_srcset": "https://www.arbmobility.co.uk/wp-content/uploads/2026/01/alpha-1-1-300x300.jpeg 300w, https://www.arbmobility.co.uk/wp-content/uploads/2026/01/alpha-1-1-150x150.jpeg 150w, https://www.arbmobility.co.uk/wp-content/uploads/2026/01/alpha-1-1-800x800.jpeg 800w, https://www.arbmobility.co.uk/wp-content/uploads/2026/01/alpha-1-1-100x100.jpeg 100w",
+"thumbnail_sizes": "(max-width: 300px) 100vw, 300px",
+"name": "alpha 1",
+"alt": ""
+},
+{
+"id": 3987,
+"src": "https://www.arbmobility.co.uk/wp-content/uploads/2026/01/alpha-6-scaled.jpeg",
+"thumbnail": "https://www.arbmobility.co.uk/wp-content/uploads/2026/01/alpha-6-300x300.jpeg",
+"srcset": "https://www.arbmobility.co.uk/wp-content/uploads/2026/01/alpha-6-scaled.jpeg 1920w, https://www.arbmobility.co.uk/wp-content/uploads/2026/01/alpha-6-225x300.jpeg 225w, https://www.arbmobility.co.uk/wp-content/uploads/2026/01/alpha-6-768x1024.jpeg 768w, https://www.arbmobility.co.uk/wp-content/uploads/2026/01/alpha-6-1800x2400.jpeg 1800w, https://www.arbmobility.co.uk/wp-content/uploads/2026/01/alpha-6-1400x1867.jpeg 1400w, https://www.arbmobility.co.uk/wp-content/uploads/2026/01/alpha-6-1000x1333.jpeg 1000w, https://www.arbmobility.co.uk/wp-content/uploads/2026/01/alpha-6-900x1200.jpeg 900w, https://www.arbmobility.co.uk/wp-content/uploads/2026/01/alpha-6-700x933.jpeg 700w, https://www.arbmobility.co.uk/wp-content/uploads/2026/01/alpha-6-500x667.jpeg 500w, https://www.arbmobility.co.uk/wp-content/uploads/2026/01/alpha-6-400x533.jpeg 400w, https://www.arbmobility.co.uk/wp-content/uploads/2026/01/alpha-6-1152x1536.jpeg 1152w, https://www.arbmobility.co.uk/wp-content/uploads/2026/01/alpha-6-1536x2048.jpeg 1536w, https://www.arbmobility.co.uk/wp-content/uploads/2026/01/alpha-6-600x800.jpeg 600w",
+"sizes": "(max-width: 1920px) 100vw, 1920px",
+"thumbnail_srcset": "https://www.arbmobility.co.uk/wp-content/uploads/2026/01/alpha-6-300x300.jpeg 300w, https://www.arbmobility.co.uk/wp-content/uploads/2026/01/alpha-6-150x150.jpeg 150w, https://www.arbmobility.co.uk/wp-content/uploads/2026/01/alpha-6-800x800.jpeg 800w, https://www.arbmobility.co.uk/wp-content/uploads/2026/01/alpha-6-100x100.jpeg 100w",
+"thumbnail_sizes": "(max-width: 300px) 100vw, 300px",
+"name": "alpha 6",
+"alt": ""
+}
+],
+"categories": [
+{
+"id": 928,
+"name": "Refurbished Mobility Scooters",
+"slug": "refurbished-mobility-scooters",
+"link": "https://www.arbmobility.co.uk/shop/refurbished-mobility-scooters/"
+}
+],
+"tags": [
+{
+"id": 703,
+"name": "8 mph scooter",
+"slug": "8-mph-scooter",
+"link": "https://www.arbmobility.co.uk/product-tag/8-mph-scooter/"
+},
+{
+"id": 954,
+"name": "Affordable Mobility Scooter",
+"slug": "affordable-mobility-scooter",
+"link": "https://www.arbmobility.co.uk/product-tag/affordable-mobility-scooter/"
+},
+{
+"id": 1017,
+"name": "Alpha 8 Mobility Scooter",
+"slug": "alpha-8-mobility-scooter",
+"link": "https://www.arbmobility.co.uk/product-tag/alpha-8-mobility-scooter/"
+},
+{
+"id": 1026,
+"name": "Budget Mobility Scooter",
+"slug": "budget-mobility-scooter",
+"link": "https://www.arbmobility.co.uk/product-tag/budget-mobility-scooter/"
+},
+{
+"id": 816,
+"name": "cheap mobility scooter",
+"slug": "cheap-mobility-scooter",
+"link": "https://www.arbmobility.co.uk/product-tag/cheap-mobility-scooter/"
+},
+{
+"id": 1021,
+"name": "Discount Mobility Scooter",
+"slug": "discount-mobility-scooter",
+"link": "https://www.arbmobility.co.uk/product-tag/discount-mobility-scooter/"
+},
+{
+"id": 741,
+"name": "electric mobility scooter",
+"slug": "electric-mobility-scooter",
+"link": "https://www.arbmobility.co.uk/product-tag/electric-mobility-scooter/"
+},
+{
+"id": 1023,
+"name": "Independent Living",
+"slug": "independent-living",
+"link": "https://www.arbmobility.co.uk/product-tag/independent-living/"
+},
+{
+"id": 366,
+"name": "mobility aids",
+"slug": "mobility-aids",
+"link": "https://www.arbmobility.co.uk/product-tag/mobility-aids/"
+},
+{
+"id": 924,
+"name": "Mobility equipment",
+"slug": "mobility-equipment",
+"link": "https://www.arbmobility.co.uk/product-tag/mobility-equipment/"
+},
+{
+"id": 1020,
+"name": "Mobility Scooter for Sale",
+"slug": "mobility-scooter-for-sale",
+"link": "https://www.arbmobility.co.uk/product-tag/mobility-scooter-for-sale/"
+},
+{
+"id": 1024,
+"name": "Mobility Scooters UK",
+"slug": "mobility-scooters-uk",
+"link": "https://www.arbmobility.co.uk/product-tag/mobility-scooters-uk/"
+},
+{
+"id": 1022,
+"name": "Personal Mobility Scooter",
+"slug": "personal-mobility-scooter",
+"link": "https://www.arbmobility.co.uk/product-tag/personal-mobility-scooter/"
+},
+{
+"id": 1018,
+"name": "Quality Used Mobility Scooter",
+"slug": "quality-used-mobility-scooter",
+"link": "https://www.arbmobility.co.uk/product-tag/quality-used-mobility-scooter/"
+},
+{
+"id": 1019,
+"name": "Reconditioned Mobility Scooter",
+"slug": "reconditioned-mobility-scooter",
+"link": "https://www.arbmobility.co.uk/product-tag/reconditioned-mobility-scooter/"
+},
+{
+"id": 1016,
+"name": "Refurbished Alpha 8",
+"slug": "refurbished-alpha-8",
+"link": "https://www.arbmobility.co.uk/product-tag/refurbished-alpha-8/"
+},
+{
+"id": 442,
+"name": "refurbished mobility scooter",
+"slug": "refurbished-mobility-scooter",
+"link": "https://www.arbmobility.co.uk/product-tag/refurbished-mobility-scooter/"
+},
+{
+"id": 1025,
+"name": "Refurbished Mobility Scooters UK",
+"slug": "refurbished-mobility-scooters-uk",
+"link": "https://www.arbmobility.co.uk/product-tag/refurbished-mobility-scooters-uk/"
+},
+{
+"id": 1027,
+"name": "Reliable Mobility Scooter",
+"slug": "reliable-mobility-scooter",
+"link": "https://www.arbmobility.co.uk/product-tag/reliable-mobility-scooter/"
+},
+{
+"id": 946,
+"name": "Second Hand Mobility Scooter",
+"slug": "second-hand-mobility-scooter",
+"link": "https://www.arbmobility.co.uk/product-tag/second-hand-mobility-scooter/"
+},
+{
+"id": 443,
+"name": "second hand scooter",
+"slug": "second-hand-scooter",
+"link": "https://www.arbmobility.co.uk/product-tag/second-hand-scooter/"
+},
+{
+"id": 942,
+"name": "Used Mobility Scooter",
+"slug": "used-mobility-scooter",
+"link": "https://www.arbmobility.co.uk/product-tag/used-mobility-scooter/"
+}
+],
+"brands": [],
+"attributes": [],
+"variations": [],
+"grouped_products": [],
+"has_options": false,
+"is_purchasable": true,
+"is_in_stock": true,
+"is_on_backorder": false,
+"low_stock_remaining": null,
+"stock_availability": {
+"text": "",
+"class": "in-stock"
+},
+"sold_individually": false,
+"weight": "",
+"dimensions": {
+"length": "",
+"width": "",
+"height": ""
+},
+"formatted_weight": "N/A",
+"formatted_dimensions": "N/A",
+"add_to_cart": {
+"text": "Add to basket",
+"description": "Add to basket: &ldquo;Refurbished Alpha 8 Mobility Scooter&rdquo;",
+"url": "/wp-json/wc/store/v1/products?category=refurbished-mobility-scooters&#038;per_page=100&#038;add-to-cart=3282",
+"single_text": "Add to basket",
+"minimum": 1,
+"maximum": 9999,
+"multiple_of": 1
+},
+"is_password_protected": false,
+"extensions": {},
+"_links": {
+"self": [
+{
+"href": "https://www.arbmobility.co.uk/wp-json/wc/store/v1/products/3282",
+"targetHints": {
+"allow": [
+"GET"
+]
+}
+}
+],
+"collection": [
+{
+"href": "https://www.arbmobility.co.uk/wp-json/wc/store/v1/products"
+}
+],
+"related": [
+{
+"embeddable": true,
+"href": "https://www.arbmobility.co.uk/wp-json/wc/store/v1/products?related=3282&per_page=10"
+}
+]
+}
+}
+],
+"warnings": []
+}
+}

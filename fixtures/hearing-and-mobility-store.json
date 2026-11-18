@@ -1,0 +1,1454 @@
+{
+"fetched_at": "2026-11-18T14:00:00Z",
+"raw": {
+"products": [
+{
+"id": 31003,
+"name": "Second Hand Kymco Komfy 4 Mobility Scooter",
+"slug": "second-hand-kymco-komfy-4-mobility-scooter",
+"parent": 0,
+"type": "simple",
+"variation": "",
+"permalink": "https://thehearingandmobilitystore.co.uk/product/second-hand-kymco-komfy-4-mobility-scooter/",
+"sku": "",
+"short_description": "<p>&nbsp;</p>\n<h4 style=\"text-align: center\"></h4>",
+"description": "<p>This Second hand Komfy mobility scooter has been designed to provide you with the ultimate in comfort style, maneuverability and performance. Designed with particular attention to ergonomics and comfort, Kymco Healthcare has developed one of the most flexible and easy to use scooters on the market.</p>\n<h3>Is it right for you?</h3>\n<p>The Komfy 4 is the ideal pavement scooter if comfort is your priority. The captain&#8217;s seat reclines, swivels 360\u00b0, and is upholstered in breathable fabric; adjustable suspension and pneumatic tyres absorb bumps with ease; and the ergonomic controls and clear display are perfect for hands that prefer simplicity. It also features a USB socket for your phone and rear splash guards for wet conditions.</p>\n<p>It can travel up to 25 miles on a single charge, supports up to 25 stone, and with a top speed of 4 mph, it\u2019s ready to go. This full-size scooter is designed for home use and charges conveniently overnight from a standard plug socket.</p>\n<p>&nbsp;</p>",
+"on_sale": false,
+"prices": {
+"price": "115000",
+"regular_price": "115000",
+"sale_price": "115000",
+"price_range": null,
+"currency_code": "GBP",
+"currency_symbol": "\u00a3",
+"currency_minor_unit": 2,
+"currency_decimal_separator": ".",
+"currency_thousand_separator": ",",
+"currency_prefix": "\u00a3",
+"currency_suffix": ""
+},
+"price_html": "<span class=\"woocommerce-Price-amount amount\"><span class=\"woocommerce-Price-currencySymbol\" dir=\"auto\">&pound;</span>1,150.00</span>  <small> ex. VAT</small><br><div style=\"margin-right: 0.725em\" class=\"pr2row test579\"><span class=\"woocommerce-Price-amount amount\"><span class=\"woocommerce-Price-currencySymbol\" dir=\"auto\">&pound;</span>1,380.00</span> <small>inc. VAT</small></div>",
+"average_rating": "0",
+"review_count": 0,
+"images": [
+{
+"id": 31004,
+"src": "https://thehearingandmobilitystore.co.uk/wp-content/uploads/2026/11/kymco-komfy-4-blue.jpg",
+"thumbnail": "https://thehearingandmobilitystore.co.uk/wp-content/uploads/2026/11/kymco-komfy-4-blue-500x394.jpg",
+"srcset": "https://thehearingandmobilitystore.co.uk/wp-content/uploads/2026/11/kymco-komfy-4-blue-200x158.jpg 200w, https://thehearingandmobilitystore.co.uk/wp-content/uploads/2026/11/kymco-komfy-4-blue-300x237.jpg 300w, https://thehearingandmobilitystore.co.uk/wp-content/uploads/2026/11/kymco-komfy-4-blue-400x315.jpg 400w, https://thehearingandmobilitystore.co.uk/wp-content/uploads/2026/11/kymco-komfy-4-blue-500x394.jpg 500w, https://thehearingandmobilitystore.co.uk/wp-content/uploads/2026/11/kymco-komfy-4-blue-600x473.jpg 600w, https://thehearingandmobilitystore.co.uk/wp-content/uploads/2026/11/kymco-komfy-4-blue.jpg 634w",
+"sizes": "(max-width: 634px) 100vw, 634px",
+"thumbnail_srcset": "https://thehearingandmobilitystore.co.uk/wp-content/uploads/2026/11/kymco-komfy-4-blue-200x158.jpg 200w, https://thehearingandmobilitystore.co.uk/wp-content/uploads/2026/11/kymco-komfy-4-blue-300x237.jpg 300w, https://thehearingandmobilitystore.co.uk/wp-content/uploads/2026/11/kymco-komfy-4-blue-400x315.jpg 400w, https://thehearingandmobilitystore.co.uk/wp-content/uploads/2026/11/kymco-komfy-4-blue-500x394.jpg 500w, https://thehearingandmobilitystore.co.uk/wp-content/uploads/2026/11/kymco-komfy-4-blue-600x473.jpg 600w, https://thehearingandmobilitystore.co.uk/wp-content/uploads/2026/11/kymco-komfy-4-blue.jpg 634w",
+"thumbnail_sizes": "(max-width: 500px) 100vw, 500px",
+"name": "kymco-komfy-4-blue.",
+"alt": ""
+}
+],
+"categories": [
+{
+"id": 182,
+"name": "Used Mobility Scooters",
+"slug": "used-mobility-scooters",
+"link": "https://thehearingandmobilitystore.co.uk/product-category/mobility-scooters/used-mobility-scooters/"
+}
+],
+"tags": [],
+"brands": [],
+"attributes": [],
+"variations": [],
+"grouped_products": [],
+"has_options": false,
+"is_purchasable": true,
+"is_in_stock": true,
+"is_on_backorder": false,
+"low_stock_remaining": null,
+"stock_availability": {
+"text": "",
+"class": "in-stock"
+},
+"sold_individually": false,
+"weight": "",
+"dimensions": {
+"length": "",
+"width": "",
+"height": ""
+},
+"formatted_weight": "N/A",
+"formatted_dimensions": "N/A",
+"add_to_cart": {
+"text": "Add to cart",
+"description": "Add to cart: &ldquo;Second Hand Kymco Komfy 4 Mobility Scooter&rdquo;",
+"url": "/wp-json/wc/store/v1/products?category=used-mobility-scooters&#038;per_page=100&#038;add-to-cart=31003",
+"single_text": "Add to cart",
+"minimum": 1,
+"maximum": 9999,
+"multiple_of": 1
+},
+"is_password_protected": false,
+"extensions": {},
+"_links": {
+"self": [
+{
+"href": "https://thehearingandmobilitystore.co.uk/wp-json/wc/store/v1/products/31003",
+"targetHints": {
+"allow": [
+"GET"
+]
+}
+}
+],
+"collection": [
+{
+"href": "https://thehearingandmobilitystore.co.uk/wp-json/wc/store/v1/products"
+}
+],
+"related": [
+{
+"embeddable": true,
+"href": "https://thehearingandmobilitystore.co.uk/wp-json/wc/store/v1/products?related=31003&per_page=10"
+}
+]
+}
+},
+{
+"id": 30947,
+"name": "Second Hand TGA Vista Lite",
+"slug": "second-hand-tga-vista-lite",
+"parent": 0,
+"type": "simple",
+"variation": "",
+"permalink": "https://thehearingandmobilitystore.co.uk/product/second-hand-tga-vista-lite/",
+"sku": "",
+"short_description": "",
+"description": "<p>The Second Hand TGA Vita Lite is a compact mobility scooter with a sleek metallic red finish and handy features for daily use.Venture out in style with the Vita Lite. Advanced features and a fully adjustable rotating seat provides full support for all day comfort. Ergonomic handlebars, easy to use fingertip controls and an adjustable tiller mean that you can find the perfect fit for you.</p>\n<p>Full suspension for a smooth ride normally associated with much larger scooters. Eye catching alloy wheels with pneumatic tyres provide excellent traction and stability, wherever you want to go.</p>",
+"on_sale": false,
+"prices": {
+"price": "149900",
+"regular_price": "149900",
+"sale_price": "149900",
+"price_range": null,
+"currency_code": "GBP",
+"currency_symbol": "\u00a3",
+"currency_minor_unit": 2,
+"currency_decimal_separator": ".",
+"currency_thousand_separator": ",",
+"currency_prefix": "\u00a3",
+"currency_suffix": ""
+},
+"price_html": "<span class=\"woocommerce-Price-amount amount\"><span class=\"woocommerce-Price-currencySymbol\" dir=\"auto\">&pound;</span>1,499.00</span>  <small> ex. VAT</small><br><div style=\"margin-right: 0.725em\" class=\"pr2row test579\"><span class=\"woocommerce-Price-amount amount\"><span class=\"woocommerce-Price-currencySymbol\" dir=\"auto\">&pound;</span>1,798.80</span> <small>inc. VAT</small></div>",
+"average_rating": "0",
+"review_count": 0,
+"images": [
+{
+"id": 30948,
+"src": "https://thehearingandmobilitystore.co.uk/wp-content/uploads/2026/10/second-hand-tga-vita-lite.jpg",
+"thumbnail": "https://thehearingandmobilitystore.co.uk/wp-content/uploads/2026/10/second-hand-tga-vita-lite.jpg",
+"srcset": "https://thehearingandmobilitystore.co.uk/wp-content/uploads/2026/10/second-hand-tga-vita-lite-200x272.jpg 200w, https://thehearingandmobilitystore.co.uk/wp-content/uploads/2026/10/second-hand-tga-vita-lite-220x300.jpg 220w, https://thehearingandmobilitystore.co.uk/wp-content/uploads/2026/10/second-hand-tga-vita-lite-400x545.jpg 400w, https://thehearingandmobilitystore.co.uk/wp-content/uploads/2026/10/second-hand-tga-vita-lite.jpg 470w",
+"sizes": "(max-width: 470px) 100vw, 470px",
+"thumbnail_srcset": "https://thehearingandmobilitystore.co.uk/wp-content/uploads/2026/10/second-hand-tga-vita-lite-200x272.jpg 200w, https://thehearingandmobilitystore.co.uk/wp-content/uploads/2026/10/second-hand-tga-vita-lite-220x300.jpg 220w, https://thehearingandmobilitystore.co.uk/wp-content/uploads/2026/10/second-hand-tga-vita-lite-400x545.jpg 400w, https://thehearingandmobilitystore.co.uk/wp-content/uploads/2026/10/second-hand-tga-vita-lite.jpg 470w",
+"thumbnail_sizes": "(max-width: 470px) 100vw, 470px",
+"name": "second-hand-tga-vita-lite",
+"alt": "TGA Vita Lite 8mph Mobility Scooter"
+}
+],
+"categories": [
+{
+"id": 182,
+"name": "Used Mobility Scooters",
+"slug": "used-mobility-scooters",
+"link": "https://thehearingandmobilitystore.co.uk/product-category/mobility-scooters/used-mobility-scooters/"
+}
+],
+"tags": [],
+"brands": [],
+"attributes": [],
+"variations": [],
+"grouped_products": [],
+"has_options": false,
+"is_purchasable": true,
+"is_in_stock": true,
+"is_on_backorder": false,
+"low_stock_remaining": null,
+"stock_availability": {
+"text": "",
+"class": "in-stock"
+},
+"sold_individually": false,
+"weight": "",
+"dimensions": {
+"length": "",
+"width": "",
+"height": ""
+},
+"formatted_weight": "N/A",
+"formatted_dimensions": "N/A",
+"add_to_cart": {
+"text": "Add to cart",
+"description": "Add to cart: &ldquo;Second Hand TGA Vista Lite&rdquo;",
+"url": "/wp-json/wc/store/v1/products?category=used-mobility-scooters&#038;per_page=100&#038;add-to-cart=30947",
+"single_text": "Add to cart",
+"minimum": 1,
+"maximum": 9999,
+"multiple_of": 1
+},
+"is_password_protected": false,
+"extensions": {},
+"_links": {
+"self": [
+{
+"href": "https://thehearingandmobilitystore.co.uk/wp-json/wc/store/v1/products/30947",
+"targetHints": {
+"allow": [
+"GET"
+]
+}
+}
+],
+"collection": [
+{
+"href": "https://thehearingandmobilitystore.co.uk/wp-json/wc/store/v1/products"
+}
+],
+"related": [
+{
+"embeddable": true,
+"href": "https://thehearingandmobilitystore.co.uk/wp-json/wc/store/v1/products?related=30947&per_page=10"
+}
+]
+}
+},
+{
+"id": 30944,
+"name": "Second Hand Kymco Komfy 8 Mobility Scooter",
+"slug": "second-hand-kymco-komfy-8-mobility-scooter",
+"parent": 0,
+"type": "simple",
+"variation": "",
+"permalink": "https://thehearingandmobilitystore.co.uk/product/second-hand-kymco-komfy-8-mobility-scooter/",
+"sku": "",
+"short_description": "",
+"description": "<p>The second-hand Komfy 8 scooter from Kymco is built for comfort, offering enhanced power and speed while maintaining the manoeuvrability, style, and comfort.</p>\n<h3>Features &amp; Benefits</h3>\n<ul>\n<li>Recline-able captain style seat with headrest</li>\n<li>Up to 20-mile range</li>\n<li>Standard soft touch delta tiller handlebars</li>\n<li>Standard full lights and indicators</li>\n<li>Sliding swivel seat</li>\n<li>Alloy style wheels with low profile pneumatic tyres</li>\n<li>Fully adjustable suspension system</li>\n<li>LED lights and indicators</li>\n<li>Front and rear bumpers</li>\n<li>USB adaptor to connect your mobile devices</li>\n<li>Front basket</li>\n</ul>",
+"on_sale": false,
+"prices": {
+"price": "129900",
+"regular_price": "129900",
+"sale_price": "129900",
+"price_range": null,
+"currency_code": "GBP",
+"currency_symbol": "\u00a3",
+"currency_minor_unit": 2,
+"currency_decimal_separator": ".",
+"currency_thousand_separator": ",",
+"currency_prefix": "\u00a3",
+"currency_suffix": ""
+},
+"price_html": "<span class=\"woocommerce-Price-amount amount\"><span class=\"woocommerce-Price-currencySymbol\" dir=\"auto\">&pound;</span>1,299.00</span>  <small> ex. VAT</small><br><div style=\"margin-right: 0.725em\" class=\"pr2row test579\"><span class=\"woocommerce-Price-amount amount\"><span class=\"woocommerce-Price-currencySymbol\" dir=\"auto\">&pound;</span>1,558.80</span> <small>inc. VAT</small></div>",
+"average_rating": "0",
+"review_count": 0,
+"images": [
+{
+"id": 30945,
+"src": "https://thehearingandmobilitystore.co.uk/wp-content/uploads/2026/10/second-hand-Kymco-komfy-8.jpg",
+"thumbnail": "https://thehearingandmobilitystore.co.uk/wp-content/uploads/2026/10/second-hand-Kymco-komfy-8-500x602.jpg",
+"srcset": "https://thehearingandmobilitystore.co.uk/wp-content/uploads/2026/10/second-hand-Kymco-komfy-8-200x241.jpg 200w, https://thehearingandmobilitystore.co.uk/wp-content/uploads/2026/10/second-hand-Kymco-komfy-8-249x300.jpg 249w, https://thehearingandmobilitystore.co.uk/wp-content/uploads/2026/10/second-hand-Kymco-komfy-8-400x481.jpg 400w, https://thehearingandmobilitystore.co.uk/wp-content/uploads/2026/10/second-hand-Kymco-komfy-8-500x602.jpg 500w, https://thehearingandmobilitystore.co.uk/wp-content/uploads/2026/10/second-hand-Kymco-komfy-8.jpg 532w",
+"sizes": "(max-width: 532px) 100vw, 532px",
+"thumbnail_srcset": "https://thehearingandmobilitystore.co.uk/wp-content/uploads/2026/10/second-hand-Kymco-komfy-8-200x241.jpg 200w, https://thehearingandmobilitystore.co.uk/wp-content/uploads/2026/10/second-hand-Kymco-komfy-8-249x300.jpg 249w, https://thehearingandmobilitystore.co.uk/wp-content/uploads/2026/10/second-hand-Kymco-komfy-8-400x481.jpg 400w, https://thehearingandmobilitystore.co.uk/wp-content/uploads/2026/10/second-hand-Kymco-komfy-8-500x602.jpg 500w, https://thehearingandmobilitystore.co.uk/wp-content/uploads/2026/10/second-hand-Kymco-komfy-8.jpg 532w",
+"thumbnail_sizes": "(max-width: 500px) 100vw, 500px",
+"name": "second-hand-Kymco-komfy-8",
+"alt": "Kymco Komfy 8mph Mobility Scooter"
+}
+],
+"categories": [
+{
+"id": 182,
+"name": "Used Mobility Scooters",
+"slug": "used-mobility-scooters",
+"link": "https://thehearingandmobilitystore.co.uk/product-category/mobility-scooters/used-mobility-scooters/"
+}
+],
+"tags": [],
+"brands": [],
+"attributes": [],
+"variations": [],
+"grouped_products": [],
+"has_options": false,
+"is_purchasable": true,
+"is_in_stock": true,
+"is_on_backorder": false,
+"low_stock_remaining": null,
+"stock_availability": {
+"text": "",
+"class": "in-stock"
+},
+"sold_individually": false,
+"weight": "",
+"dimensions": {
+"length": "",
+"width": "",
+"height": ""
+},
+"formatted_weight": "N/A",
+"formatted_dimensions": "N/A",
+"add_to_cart": {
+"text": "Add to cart",
+"description": "Add to cart: &ldquo;Second Hand Kymco Komfy 8 Mobility Scooter&rdquo;",
+"url": "/wp-json/wc/store/v1/products?category=used-mobility-scooters&#038;per_page=100&#038;add-to-cart=30944",
+"single_text": "Add to cart",
+"minimum": 1,
+"maximum": 9999,
+"multiple_of": 1
+},
+"is_password_protected": false,
+"extensions": {},
+"_links": {
+"self": [
+{
+"href": "https://thehearingandmobilitystore.co.uk/wp-json/wc/store/v1/products/30944",
+"targetHints": {
+"allow": [
+"GET"
+]
+}
+}
+],
+"collection": [
+{
+"href": "https://thehearingandmobilitystore.co.uk/wp-json/wc/store/v1/products"
+}
+],
+"related": [
+{
+"embeddable": true,
+"href": "https://thehearingandmobilitystore.co.uk/wp-json/wc/store/v1/products?related=30944&per_page=10"
+}
+]
+}
+},
+{
+"id": 30938,
+"name": "Second Hand Kymco Maxi XLS 8mph Mobility Scooter",
+"slug": "second-hand-kymco-maxi-xls-8mph-mobility-scooter",
+"parent": 0,
+"type": "simple",
+"variation": "",
+"permalink": "https://thehearingandmobilitystore.co.uk/product/second-hand-kymco-maxi-xls-8mph-mobility-scooter/",
+"sku": "",
+"short_description": "",
+"description": "<p>This Second Hand Kymco Maxi XLS makes daily travel easy, comfortable, and reassuring. Perfect for longer trips and confident outdoor adventures, this 8mph mobility scooter offers solid road performance paired with a roomy, supportive design.</p>\n<p>Simple controls and responsive steering ensure smooth handling, while full suspension and large pneumatic tyres give a comfortable ride over pavements, roads, and uneven terrain. With comfort and practicality at its core, the Maxi XLS is a great choice for anyone seeking a dependable road-legal scooter with excellent stability, strong performance, and hassle-free everyday use.</p>",
+"on_sale": false,
+"prices": {
+"price": "129900",
+"regular_price": "129900",
+"sale_price": "129900",
+"price_range": null,
+"currency_code": "GBP",
+"currency_symbol": "\u00a3",
+"currency_minor_unit": 2,
+"currency_decimal_separator": ".",
+"currency_thousand_separator": ",",
+"currency_prefix": "\u00a3",
+"currency_suffix": ""
+},
+"price_html": "<span class=\"woocommerce-Price-amount amount\"><span class=\"woocommerce-Price-currencySymbol\" dir=\"auto\">&pound;</span>1,299.00</span>  <small> ex. VAT</small><br><div style=\"margin-right: 0.725em\" class=\"pr2row test579\"><span class=\"woocommerce-Price-amount amount\"><span class=\"woocommerce-Price-currencySymbol\" dir=\"auto\">&pound;</span>1,558.80</span> <small>inc. VAT</small></div>",
+"average_rating": "0",
+"review_count": 0,
+"images": [
+{
+"id": 30939,
+"src": "https://thehearingandmobilitystore.co.uk/wp-content/uploads/2026/10/second-hand-kymco-maxi-xls.jpg",
+"thumbnail": "https://thehearingandmobilitystore.co.uk/wp-content/uploads/2026/10/second-hand-kymco-maxi-xls-500x635.jpg",
+"srcset": "https://thehearingandmobilitystore.co.uk/wp-content/uploads/2026/10/second-hand-kymco-maxi-xls-200x254.jpg 200w, https://thehearingandmobilitystore.co.uk/wp-content/uploads/2026/10/second-hand-kymco-maxi-xls-236x300.jpg 236w, https://thehearingandmobilitystore.co.uk/wp-content/uploads/2026/10/second-hand-kymco-maxi-xls-400x508.jpg 400w, https://thehearingandmobilitystore.co.uk/wp-content/uploads/2026/10/second-hand-kymco-maxi-xls-500x635.jpg 500w, https://thehearingandmobilitystore.co.uk/wp-content/uploads/2026/10/second-hand-kymco-maxi-xls.jpg 504w",
+"sizes": "(max-width: 504px) 100vw, 504px",
+"thumbnail_srcset": "https://thehearingandmobilitystore.co.uk/wp-content/uploads/2026/10/second-hand-kymco-maxi-xls-200x254.jpg 200w, https://thehearingandmobilitystore.co.uk/wp-content/uploads/2026/10/second-hand-kymco-maxi-xls-236x300.jpg 236w, https://thehearingandmobilitystore.co.uk/wp-content/uploads/2026/10/second-hand-kymco-maxi-xls-400x508.jpg 400w, https://thehearingandmobilitystore.co.uk/wp-content/uploads/2026/10/second-hand-kymco-maxi-xls-500x635.jpg 500w, https://thehearingandmobilitystore.co.uk/wp-content/uploads/2026/10/second-hand-kymco-maxi-xls.jpg 504w",
+"thumbnail_sizes": "(max-width: 500px) 100vw, 500px",
+"name": "second-hand-kymco-maxi-xls",
+"alt": "Kymco Maxi XLS 8mph Mobility Scooter"
+}
+],
+"categories": [
+{
+"id": 182,
+"name": "Used Mobility Scooters",
+"slug": "used-mobility-scooters",
+"link": "https://thehearingandmobilitystore.co.uk/product-category/mobility-scooters/used-mobility-scooters/"
+}
+],
+"tags": [],
+"brands": [],
+"attributes": [],
+"variations": [],
+"grouped_products": [],
+"has_options": false,
+"is_purchasable": true,
+"is_in_stock": true,
+"is_on_backorder": false,
+"low_stock_remaining": null,
+"stock_availability": {
+"text": "",
+"class": "in-stock"
+},
+"sold_individually": false,
+"weight": "",
+"dimensions": {
+"length": "",
+"width": "",
+"height": ""
+},
+"formatted_weight": "N/A",
+"formatted_dimensions": "N/A",
+"add_to_cart": {
+"text": "Add to cart",
+"description": "Add to cart: &ldquo;Second Hand Kymco Maxi XLS 8mph Mobility Scooter&rdquo;",
+"url": "/wp-json/wc/store/v1/products?category=used-mobility-scooters&#038;per_page=100&#038;add-to-cart=30938",
+"single_text": "Add to cart",
+"minimum": 1,
+"maximum": 9999,
+"multiple_of": 1
+},
+"is_password_protected": false,
+"extensions": {},
+"_links": {
+"self": [
+{
+"href": "https://thehearingandmobilitystore.co.uk/wp-json/wc/store/v1/products/30938",
+"targetHints": {
+"allow": [
+"GET"
+]
+}
+}
+],
+"collection": [
+{
+"href": "https://thehearingandmobilitystore.co.uk/wp-json/wc/store/v1/products"
+}
+],
+"related": [
+{
+"embeddable": true,
+"href": "https://thehearingandmobilitystore.co.uk/wp-json/wc/store/v1/products?related=30938&per_page=10"
+}
+]
+}
+},
+{
+"id": 30704,
+"name": "Second Hand Shoprider Cadiz 8mph Mobility Scooter",
+"slug": "second-hand-shoprider-cadiz-8mph-mobility-scooter",
+"parent": 0,
+"type": "simple",
+"variation": "",
+"permalink": "https://thehearingandmobilitystore.co.uk/product/second-hand-shoprider-cadiz-8mph-mobility-scooter/",
+"sku": "",
+"short_description": "",
+"description": "<p>This Second hand Shoprider Cadiz is an affordable, full-sized mobility scooter equipped with both front and rear suspension. With a top speed of 8 mph and full suspension, the Cadiz can comfortably handle both roads and pavements. It comes with a complete set of lights to keep it visible and road-legal, along with two mirrors for added safety. The tiller\u2019s angle can be adjusted, and the armrest width is customizable for comfort.</p>\n<h3>Features &amp; Benefits</h3>\n<ul>\n<li>Full suspension</li>\n<li>Captains seat</li>\n<li>Back and height adjustable seat</li>\n<li>Width adjustable arms</li>\n<li>Full lights set</li>\n<li>High/low speed switch</li>\n<li>Front and rear suspension</li>\n<li>Adjustable angle tiller</li>\n</ul>",
+"on_sale": false,
+"prices": {
+"price": "89900",
+"regular_price": "89900",
+"sale_price": "89900",
+"price_range": null,
+"currency_code": "GBP",
+"currency_symbol": "\u00a3",
+"currency_minor_unit": 2,
+"currency_decimal_separator": ".",
+"currency_thousand_separator": ",",
+"currency_prefix": "\u00a3",
+"currency_suffix": ""
+},
+"price_html": "<span class=\"woocommerce-Price-amount amount\"><span class=\"woocommerce-Price-currencySymbol\" dir=\"auto\">&pound;</span>899.00</span>  <small> ex. VAT</small><br><div style=\"margin-right: 0.725em\" class=\"pr2row test579\"><span class=\"woocommerce-Price-amount amount\"><span class=\"woocommerce-Price-currencySymbol\" dir=\"auto\">&pound;</span>1,078.80</span> <small>inc. VAT</small></div>",
+"average_rating": "0",
+"review_count": 0,
+"images": [
+{
+"id": 31006,
+"src": "https://thehearingandmobilitystore.co.uk/wp-content/uploads/2026/04/second-hand-shoprider-cadiz.jpg",
+"thumbnail": "https://thehearingandmobilitystore.co.uk/wp-content/uploads/2026/04/second-hand-shoprider-cadiz.jpg",
+"srcset": "https://thehearingandmobilitystore.co.uk/wp-content/uploads/2026/04/second-hand-shoprider-cadiz-200x262.jpg 200w, https://thehearingandmobilitystore.co.uk/wp-content/uploads/2026/04/second-hand-shoprider-cadiz-229x300.jpg 229w, https://thehearingandmobilitystore.co.uk/wp-content/uploads/2026/04/second-hand-shoprider-cadiz-400x525.jpg 400w, https://thehearingandmobilitystore.co.uk/wp-content/uploads/2026/04/second-hand-shoprider-cadiz.jpg 488w",
+"sizes": "(max-width: 488px) 100vw, 488px",
+"thumbnail_srcset": "https://thehearingandmobilitystore.co.uk/wp-content/uploads/2026/04/second-hand-shoprider-cadiz-200x262.jpg 200w, https://thehearingandmobilitystore.co.uk/wp-content/uploads/2026/04/second-hand-shoprider-cadiz-229x300.jpg 229w, https://thehearingandmobilitystore.co.uk/wp-content/uploads/2026/04/second-hand-shoprider-cadiz-400x525.jpg 400w, https://thehearingandmobilitystore.co.uk/wp-content/uploads/2026/04/second-hand-shoprider-cadiz.jpg 488w",
+"thumbnail_sizes": "(max-width: 488px) 100vw, 488px",
+"name": "second-hand-shoprider-cadiz",
+"alt": "Second Hand Shoprider Cadiz Mobility Scooter"
+}
+],
+"categories": [
+{
+"id": 182,
+"name": "Used Mobility Scooters",
+"slug": "used-mobility-scooters",
+"link": "https://thehearingandmobilitystore.co.uk/product-category/mobility-scooters/used-mobility-scooters/"
+}
+],
+"tags": [],
+"brands": [],
+"attributes": [],
+"variations": [],
+"grouped_products": [],
+"has_options": false,
+"is_purchasable": true,
+"is_in_stock": true,
+"is_on_backorder": false,
+"low_stock_remaining": null,
+"stock_availability": {
+"text": "",
+"class": "in-stock"
+},
+"sold_individually": false,
+"weight": "",
+"dimensions": {
+"length": "",
+"width": "",
+"height": ""
+},
+"formatted_weight": "N/A",
+"formatted_dimensions": "N/A",
+"add_to_cart": {
+"text": "Add to cart",
+"description": "Add to cart: &ldquo;Second Hand Shoprider Cadiz 8mph Mobility Scooter&rdquo;",
+"url": "/wp-json/wc/store/v1/products?category=used-mobility-scooters&#038;per_page=100&#038;add-to-cart=30704",
+"single_text": "Add to cart",
+"minimum": 1,
+"maximum": 9999,
+"multiple_of": 1
+},
+"is_password_protected": false,
+"extensions": {},
+"_links": {
+"self": [
+{
+"href": "https://thehearingandmobilitystore.co.uk/wp-json/wc/store/v1/products/30704",
+"targetHints": {
+"allow": [
+"GET"
+]
+}
+}
+],
+"collection": [
+{
+"href": "https://thehearingandmobilitystore.co.uk/wp-json/wc/store/v1/products"
+}
+],
+"related": [
+{
+"embeddable": true,
+"href": "https://thehearingandmobilitystore.co.uk/wp-json/wc/store/v1/products?related=30704&per_page=10"
+}
+]
+}
+},
+{
+"id": 29924,
+"name": "Second Hand Kymco Agility 8mph Mobility Scooter",
+"slug": "second-hand-kymco-agility-8mph-mobility-scooter",
+"parent": 0,
+"type": "simple",
+"variation": "",
+"permalink": "https://thehearingandmobilitystore.co.uk/product/second-hand-kymco-agility-8mph-mobility-scooter/",
+"sku": "",
+"short_description": "",
+"description": "<p>This Second-hand Agility 8mph mobility scooter from Kymco is agile by name and agile by nature. Designed to give you ultimate manoeuvrability, comfort and style the Agility offers absolute performance and quality at an affordable price.<br />\nThe ride is second to none, with the all-round adjustable suspension, luxury high back seat and large 12in low profile alloy wheels able to cope with more challenging terrain, The Kymco Agility has an abundance of high-end features including, easy access storage, on board mobile phone charger, automotive style LCD dash with service reminder, soft touch waterproof switches.<br />\nSo why not come into the Marlborough showroom and test drive the Agility today.</p>\n<p>User weight: 26st / 165kg<br />\nColours: Sapphire Blue</p>",
+"on_sale": false,
+"prices": {
+"price": "149900",
+"regular_price": "149900",
+"sale_price": "149900",
+"price_range": null,
+"currency_code": "GBP",
+"currency_symbol": "\u00a3",
+"currency_minor_unit": 2,
+"currency_decimal_separator": ".",
+"currency_thousand_separator": ",",
+"currency_prefix": "\u00a3",
+"currency_suffix": ""
+},
+"price_html": "<span class=\"woocommerce-Price-amount amount\"><span class=\"woocommerce-Price-currencySymbol\" dir=\"auto\">&pound;</span>1,499.00</span>  <small> ex. VAT</small><br><div style=\"margin-right: 0.725em\" class=\"pr2row test579\"><span class=\"woocommerce-Price-amount amount\"><span class=\"woocommerce-Price-currencySymbol\" dir=\"auto\">&pound;</span>1,798.80</span> <small>inc. VAT</small></div>",
+"average_rating": "0",
+"review_count": 0,
+"images": [
+{
+"id": 30934,
+"src": "https://thehearingandmobilitystore.co.uk/wp-content/uploads/2025/07/second-hand-kymco-agility.jpg",
+"thumbnail": "https://thehearingandmobilitystore.co.uk/wp-content/uploads/2025/07/second-hand-kymco-agility.jpg",
+"srcset": "https://thehearingandmobilitystore.co.uk/wp-content/uploads/2025/07/second-hand-kymco-agility-200x267.jpg 200w, https://thehearingandmobilitystore.co.uk/wp-content/uploads/2025/07/second-hand-kymco-agility-225x300.jpg 225w, https://thehearingandmobilitystore.co.uk/wp-content/uploads/2025/07/second-hand-kymco-agility-400x533.jpg 400w, https://thehearingandmobilitystore.co.uk/wp-content/uploads/2025/07/second-hand-kymco-agility.jpg 480w",
+"sizes": "(max-width: 480px) 100vw, 480px",
+"thumbnail_srcset": "https://thehearingandmobilitystore.co.uk/wp-content/uploads/2025/07/second-hand-kymco-agility-200x267.jpg 200w, https://thehearingandmobilitystore.co.uk/wp-content/uploads/2025/07/second-hand-kymco-agility-225x300.jpg 225w, https://thehearingandmobilitystore.co.uk/wp-content/uploads/2025/07/second-hand-kymco-agility-400x533.jpg 400w, https://thehearingandmobilitystore.co.uk/wp-content/uploads/2025/07/second-hand-kymco-agility.jpg 480w",
+"thumbnail_sizes": "(max-width: 480px) 100vw, 480px",
+"name": "second-hand-kymco-agility",
+"alt": "Kymco Agility 8mph Mobility Scooter"
+},
+{
+"id": 29926,
+"src": "https://thehearingandmobilitystore.co.uk/wp-content/uploads/2025/07/kymco-agility-controls.jpg",
+"thumbnail": "https://thehearingandmobilitystore.co.uk/wp-content/uploads/2025/07/kymco-agility-controls-500x537.jpg",
+"srcset": "https://thehearingandmobilitystore.co.uk/wp-content/uploads/2025/07/kymco-agility-controls-200x215.jpg 200w, https://thehearingandmobilitystore.co.uk/wp-content/uploads/2025/07/kymco-agility-controls-279x300.jpg 279w, https://thehearingandmobilitystore.co.uk/wp-content/uploads/2025/07/kymco-agility-controls-400x430.jpg 400w, https://thehearingandmobilitystore.co.uk/wp-content/uploads/2025/07/kymco-agility-controls-500x537.jpg 500w, https://thehearingandmobilitystore.co.uk/wp-content/uploads/2025/07/kymco-agility-controls.jpg 596w",
+"sizes": "(max-width: 596px) 100vw, 596px",
+"thumbnail_srcset": "https://thehearingandmobilitystore.co.uk/wp-content/uploads/2025/07/kymco-agility-controls-200x215.jpg 200w, https://thehearingandmobilitystore.co.uk/wp-content/uploads/2025/07/kymco-agility-controls-279x300.jpg 279w, https://thehearingandmobilitystore.co.uk/wp-content/uploads/2025/07/kymco-agility-controls-400x430.jpg 400w, https://thehearingandmobilitystore.co.uk/wp-content/uploads/2025/07/kymco-agility-controls-500x537.jpg 500w, https://thehearingandmobilitystore.co.uk/wp-content/uploads/2025/07/kymco-agility-controls.jpg 596w",
+"thumbnail_sizes": "(max-width: 500px) 100vw, 500px",
+"name": "kymco-agility-controls",
+"alt": "kymco-agility-controls"
+}
+],
+"categories": [
+{
+"id": 182,
+"name": "Used Mobility Scooters",
+"slug": "used-mobility-scooters",
+"link": "https://thehearingandmobilitystore.co.uk/product-category/mobility-scooters/used-mobility-scooters/"
+}
+],
+"tags": [
+{
+"id": 138,
+"name": "8mph Mobility Scooters Swindon | The new Kymco Agility now in stock",
+"slug": "8mph-mobility-scooters-swindon-the-new-kymco-agility-now-in-stock",
+"link": "https://thehearingandmobilitystore.co.uk/product-tag/8mph-mobility-scooters-swindon-the-new-kymco-agility-now-in-stock/"
+}
+],
+"brands": [],
+"attributes": [],
+"variations": [],
+"grouped_products": [],
+"has_options": false,
+"is_purchasable": true,
+"is_in_stock": true,
+"is_on_backorder": false,
+"low_stock_remaining": null,
+"stock_availability": {
+"text": "",
+"class": "in-stock"
+},
+"sold_individually": false,
+"weight": "",
+"dimensions": {
+"length": "",
+"width": "",
+"height": ""
+},
+"formatted_weight": "N/A",
+"formatted_dimensions": "N/A",
+"add_to_cart": {
+"text": "Add to cart",
+"description": "Add to cart: &ldquo;Second Hand Kymco Agility 8mph Mobility Scooter&rdquo;",
+"url": "/wp-json/wc/store/v1/products?category=used-mobility-scooters&#038;per_page=100&#038;add-to-cart=29924",
+"single_text": "Add to cart",
+"minimum": 1,
+"maximum": 9999,
+"multiple_of": 1
+},
+"is_password_protected": false,
+"extensions": {},
+"_links": {
+"self": [
+{
+"href": "https://thehearingandmobilitystore.co.uk/wp-json/wc/store/v1/products/29924",
+"targetHints": {
+"allow": [
+"GET"
+]
+}
+}
+],
+"collection": [
+{
+"href": "https://thehearingandmobilitystore.co.uk/wp-json/wc/store/v1/products"
+}
+],
+"related": [
+{
+"embeddable": true,
+"href": "https://thehearingandmobilitystore.co.uk/wp-json/wc/store/v1/products?related=29924&per_page=10"
+}
+]
+}
+},
+{
+"id": 29914,
+"name": "Second Hand Breeze S4 8mph Mobility Scooter",
+"slug": "second-hand-breeze-s4-8mph-mobility-scooter",
+"parent": 0,
+"type": "simple",
+"variation": "",
+"permalink": "https://thehearingandmobilitystore.co.uk/product/second-hand-breeze-s4-8mph-mobility-scooter/",
+"sku": "",
+"short_description": "",
+"description": "<div class=\"flex-1 overflow-hidden\">\n<div class=\"react-scroll-to-bottom--css-eiaxt-79elbk h-full\">\n<div class=\"react-scroll-to-bottom--css-eiaxt-1n7m0yu\">\n<div class=\"flex flex-col text-sm pb-9\">\n<div class=\"w-full text-token-text-primary\" dir=\"auto\" data-testid=\"conversation-turn-3\">\n<div class=\"px-4 py-2 justify-center text-base md:gap-6 m-auto\">\n<div class=\"flex flex-1 text-base mx-auto gap-3 juice:gap-4 juice:md:gap-6 md:px-5 lg:px-1 xl:px-5 md:max-w-3xl lg:max-w-[40rem] xl:max-w-[48rem]\">\n<div class=\"relative flex w-full flex-col agent-turn\">\n<div class=\"flex-col gap-1 md:gap-3\">\n<div class=\"flex flex-grow flex-col max-w-full\">\n<div class=\"min-h-[20px] text-message flex flex-col items-start gap-3 whitespace-pre-wrap break-words [.text-message+&amp;]:mt-5 overflow-x-auto\" dir=\"auto\" data-message-author-role=\"assistant\" data-message-id=\"b24cc1da-00a5-4318-a4bb-ef0e5e9f6730\">\n<div class=\"markdown prose w-full break-words dark:prose-invert light\">\n<p>This Second Hand TGA Breeze S4 8mph mobility scooter</p>\n<p>Experience an ultra-smooth ride like never before, thanks to its full round motorcycle suspension and re-engineered shock absorbers. Even on bumpy paths, you&#8217;ll stay steady and comfortable, with stability levels that surpass anything you&#8217;ve seen before. Plus, it&#8217;s designed to support users weighing up to 31 stone, ensuring complete control over any terrain.</p>\n<p>The rear transaxle motor packs a punch, delivering the power and performance you expect from a TGA Breeze. Whether you&#8217;re tackling slopes or cruising through town, it effortlessly handles slopes of up to 9 degrees.</p>\n<p>Not only is it powerful, but it&#8217;s also nimble. The more compact chassis enhances manoeuvrability, making it perfect for navigating tight spaces around town.</p>\n<p>Safety is paramount, with an advanced dual braking system that responds quickly in forward motion and engages automatically if the scooter rolls backward. And for a personalized fit, the ergonomically designed tiller can be finely adjusted to meet your exact needs.</p>\n<p>Comfort is key, with a fully adjustable orthopaedic seat that now swivels 360 degrees for effortless side transfers.</p>\n<p>Illuminate your path with powerful LED lights that conserve battery life by dimming when stationary. Plus, enjoy added visibility with indicators and an audible horn for added safety.</p>\n<p>With its large alloy wheels and pneumatic tires, kerbs and rough terrain are a breeze, thanks to excellent ground clearance.</p>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n<h5></h5>\n<p class=\"MsoNormal\" style=\"margin: 0cm 0cm 0.0001pt 18pt;text-align: justify;line-height: 12pt;vertical-align: baseline;background-position: initial initial\">",
+"on_sale": false,
+"prices": {
+"price": "137500",
+"regular_price": "137500",
+"sale_price": "137500",
+"price_range": null,
+"currency_code": "GBP",
+"currency_symbol": "\u00a3",
+"currency_minor_unit": 2,
+"currency_decimal_separator": ".",
+"currency_thousand_separator": ",",
+"currency_prefix": "\u00a3",
+"currency_suffix": ""
+},
+"price_html": "<span class=\"woocommerce-Price-amount amount\"><span class=\"woocommerce-Price-currencySymbol\" dir=\"auto\">&pound;</span>1,375.00</span>  <small> ex. VAT</small><br><div style=\"margin-right: 0.725em\" class=\"pr2row test579\"><span class=\"woocommerce-Price-amount amount\"><span class=\"woocommerce-Price-currencySymbol\" dir=\"auto\">&pound;</span>1,650.00</span> <small>inc. VAT</small></div>",
+"average_rating": "0",
+"review_count": 0,
+"images": [
+{
+"id": 29937,
+"src": "https://thehearingandmobilitystore.co.uk/wp-content/uploads/2025/06/tga-breeze-s4-2.jpg",
+"thumbnail": "https://thehearingandmobilitystore.co.uk/wp-content/uploads/2025/06/tga-breeze-s4-2-500x613.jpg",
+"srcset": "https://thehearingandmobilitystore.co.uk/wp-content/uploads/2025/06/tga-breeze-s4-2-200x245.jpg 200w, https://thehearingandmobilitystore.co.uk/wp-content/uploads/2025/06/tga-breeze-s4-2-245x300.jpg 245w, https://thehearingandmobilitystore.co.uk/wp-content/uploads/2025/06/tga-breeze-s4-2-400x490.jpg 400w, https://thehearingandmobilitystore.co.uk/wp-content/uploads/2025/06/tga-breeze-s4-2-500x613.jpg 500w, https://thehearingandmobilitystore.co.uk/wp-content/uploads/2025/06/tga-breeze-s4-2.jpg 522w",
+"sizes": "(max-width: 522px) 100vw, 522px",
+"thumbnail_srcset": "https://thehearingandmobilitystore.co.uk/wp-content/uploads/2025/06/tga-breeze-s4-2-200x245.jpg 200w, https://thehearingandmobilitystore.co.uk/wp-content/uploads/2025/06/tga-breeze-s4-2-245x300.jpg 245w, https://thehearingandmobilitystore.co.uk/wp-content/uploads/2025/06/tga-breeze-s4-2-400x490.jpg 400w, https://thehearingandmobilitystore.co.uk/wp-content/uploads/2025/06/tga-breeze-s4-2-500x613.jpg 500w, https://thehearingandmobilitystore.co.uk/wp-content/uploads/2025/06/tga-breeze-s4-2.jpg 522w",
+"thumbnail_sizes": "(max-width: 500px) 100vw, 500px",
+"name": "tga-breeze-s4 (2)",
+"alt": "TGA Breeze S4 Mobility Scooter"
+}
+],
+"categories": [
+{
+"id": 182,
+"name": "Used Mobility Scooters",
+"slug": "used-mobility-scooters",
+"link": "https://thehearingandmobilitystore.co.uk/product-category/mobility-scooters/used-mobility-scooters/"
+}
+],
+"tags": [
+{
+"id": 91,
+"name": "TGA Breeze S4 Mobility Scooter Swindon | Scooters At Discounted Prices",
+"slug": "tga-breeze-s4-mobility-scooter-swindon-scooters-at-discounted-prices",
+"link": "https://thehearingandmobilitystore.co.uk/product-tag/tga-breeze-s4-mobility-scooter-swindon-scooters-at-discounted-prices/"
+}
+],
+"brands": [],
+"attributes": [],
+"variations": [],
+"grouped_products": [],
+"has_options": false,
+"is_purchasable": true,
+"is_in_stock": true,
+"is_on_backorder": false,
+"low_stock_remaining": null,
+"stock_availability": {
+"text": "",
+"class": "in-stock"
+},
+"sold_individually": false,
+"weight": "",
+"dimensions": {
+"length": "",
+"width": "",
+"height": ""
+},
+"formatted_weight": "N/A",
+"formatted_dimensions": "N/A",
+"add_to_cart": {
+"text": "Add to cart",
+"description": "Add to cart: &ldquo;Second Hand Breeze S4 8mph Mobility Scooter&rdquo;",
+"url": "/wp-json/wc/store/v1/products?category=used-mobility-scooters&#038;per_page=100&#038;add-to-cart=29914",
+"single_text": "Add to cart",
+"minimum": 1,
+"maximum": 9999,
+"multiple_of": 1
+},
+"is_password_protected": false,
+"extensions": {},
+"_links": {
+"self": [
+{
+"href": "https://thehearingandmobilitystore.co.uk/wp-json/wc/store/v1/products/29914",
+"targetHints": {
+"allow": [
+"GET"
+]
+}
+}
+],
+"collection": [
+{
+"href": "https://thehearingandmobilitystore.co.uk/wp-json/wc/store/v1/products"
+}
+],
+"related": [
+{
+"embeddable": true,
+"href": "https://thehearingandmobilitystore.co.uk/wp-json/wc/store/v1/products?related=29914&per_page=10"
+}
+]
+}
+},
+{
+"id": 27509,
+"name": "Second Hand Motion Health Lithilite Mobility Scooter",
+"slug": "second-hand-motion-health-lithilite-mobility-scooter",
+"parent": 0,
+"type": "simple",
+"variation": "",
+"permalink": "https://thehearingandmobilitystore.co.uk/product/second-hand-motion-health-lithilite-mobility-scooter/",
+"sku": "",
+"short_description": "",
+"description": "<p data-start=\"822\" data-end=\"1143\">This Second Hand Lithilite combines innovative Lithium battery technology with a durable steel chassis, delivering the highest weight capacity of any travel scooter in our range. The powerful 20ah battery offers an impressive range of up to 15 miles, providing the freedom and reliability needed for longer journeys.</p>\n<p data-start=\"1145\" data-end=\"1500\">Every ride is smooth and comfortable, thanks to super soft tyres, full suspension, and a rotating padded seat. The Lithilite features dual controls with soft hand grips for ease of use and a quick-release T-bar for simple disassembly. It\u2019s the perfect balance of strength, comfort, and convenience \u2013 ideal for those who want to go further with confidence.</p>\n<h3>Features &amp; Benefits</h3>\n<p><strong class=\"rQesXe MPyX\" data-sfc-cp=\"\" data-sfc-root=\"ep\" data-epip=\"\" data-complete=\"true\">Top Speed:<!--TgQPHd|||[]--></strong> 4 mph (pavement legal)</p>\n<p><strong class=\"rQesXe MPyX\" data-sfc-cp=\"\" data-sfc-root=\"ep\" data-epip=\"\" data-complete=\"true\">Maximum User Weight:<!--TgQPHd|||[]--></strong> 23.5 stone (150 kg)</p>\n<p><strong class=\"rQesXe MPyX\" data-sfc-cp=\"\" data-sfc-root=\"ep\" data-epip=\"\" data-complete=\"true\">Weight:<!--TgQPHd|||[]--></strong> Total weight around 38.8\u201340 kg; the heaviest individual dissembled piece weighs approximately 15 kg</p>\n<p><strong class=\"rQesXe MPyX\" data-sfc-cp=\"\" data-sfc-root=\"ep\" data-epip=\"\" data-complete=\"true\">Ground Clearance:<!--TgQPHd|||[]--></strong> 5 cm (2 inches)</p>\n<p><strong class=\"rQesXe MPyX\" data-sfc-cp=\"\" data-sfc-root=\"ep\" data-epip=\"\" data-complete=\"true\">Portability:<!--TgQPHd|||[]--></strong> Features a tool-free quick-release T-bar to easily split the chassis for car boot storage.</p>\n<p><strong class=\"rQesXe MPyX\" data-sfc-cp=\"\" data-sfc-root=\"ep\" data-epip=\"\" data-complete=\"true\">Design:<!--TgQPHd|||[]--></strong> Long flat floorpan for extra legroom, adjustable tiller, and ergonomic dual controls suitable for left- or right-handed users.</p>\n<p><strong class=\"rQesXe MPyX\" data-sfc-cp=\"\" data-sfc-root=\"ep\" data-epip=\"\" data-complete=\"true\">Comfort:<!--TgQPHd|||[]--></strong> Equipped with full front and rear suspension, puncture-proof soft-compound tyres, a rotating padded swivel seat, and flip-up armrests.</p>",
+"on_sale": false,
+"prices": {
+"price": "89900",
+"regular_price": "89900",
+"sale_price": "89900",
+"price_range": null,
+"currency_code": "GBP",
+"currency_symbol": "\u00a3",
+"currency_minor_unit": 2,
+"currency_decimal_separator": ".",
+"currency_thousand_separator": ",",
+"currency_prefix": "\u00a3",
+"currency_suffix": ""
+},
+"price_html": "<span class=\"woocommerce-Price-amount amount\"><span class=\"woocommerce-Price-currencySymbol\" dir=\"auto\">&pound;</span>899.00</span>  <small> ex. VAT</small><br><div style=\"margin-right: 0.725em\" class=\"pr2row test579\"><span class=\"woocommerce-Price-amount amount\"><span class=\"woocommerce-Price-currencySymbol\" dir=\"auto\">&pound;</span>1,078.80</span> <small>inc. VAT</small></div>",
+"average_rating": "0",
+"review_count": 0,
+"images": [
+{
+"id": 30937,
+"src": "https://thehearingandmobilitystore.co.uk/wp-content/uploads/2024/05/motion-health-lithilite-pro.jpg",
+"thumbnail": "https://thehearingandmobilitystore.co.uk/wp-content/uploads/2024/05/motion-health-lithilite-pro-500x585.jpg",
+"srcset": "https://thehearingandmobilitystore.co.uk/wp-content/uploads/2024/05/motion-health-lithilite-pro-200x234.jpg 200w, https://thehearingandmobilitystore.co.uk/wp-content/uploads/2024/05/motion-health-lithilite-pro-256x300.jpg 256w, https://thehearingandmobilitystore.co.uk/wp-content/uploads/2024/05/motion-health-lithilite-pro-400x468.jpg 400w, https://thehearingandmobilitystore.co.uk/wp-content/uploads/2024/05/motion-health-lithilite-pro-500x585.jpg 500w, https://thehearingandmobilitystore.co.uk/wp-content/uploads/2024/05/motion-health-lithilite-pro.jpg 547w",
+"sizes": "(max-width: 547px) 100vw, 547px",
+"thumbnail_srcset": "https://thehearingandmobilitystore.co.uk/wp-content/uploads/2024/05/motion-health-lithilite-pro-200x234.jpg 200w, https://thehearingandmobilitystore.co.uk/wp-content/uploads/2024/05/motion-health-lithilite-pro-256x300.jpg 256w, https://thehearingandmobilitystore.co.uk/wp-content/uploads/2024/05/motion-health-lithilite-pro-400x468.jpg 400w, https://thehearingandmobilitystore.co.uk/wp-content/uploads/2024/05/motion-health-lithilite-pro-500x585.jpg 500w, https://thehearingandmobilitystore.co.uk/wp-content/uploads/2024/05/motion-health-lithilite-pro.jpg 547w",
+"thumbnail_sizes": "(max-width: 500px) 100vw, 500px",
+"name": "motion-health-lithilite-pro",
+"alt": "Motion Health Lithilite Pro 4mph mobility Scooter"
+}
+],
+"categories": [
+{
+"id": 182,
+"name": "Used Mobility Scooters",
+"slug": "used-mobility-scooters",
+"link": "https://thehearingandmobilitystore.co.uk/product-category/mobility-scooters/used-mobility-scooters/"
+}
+],
+"tags": [],
+"brands": [],
+"attributes": [],
+"variations": [],
+"grouped_products": [],
+"has_options": false,
+"is_purchasable": true,
+"is_in_stock": true,
+"is_on_backorder": false,
+"low_stock_remaining": null,
+"stock_availability": {
+"text": "",
+"class": "in-stock"
+},
+"sold_individually": false,
+"weight": "",
+"dimensions": {
+"length": "",
+"width": "",
+"height": ""
+},
+"formatted_weight": "N/A",
+"formatted_dimensions": "N/A",
+"add_to_cart": {
+"text": "Add to cart",
+"description": "Add to cart: &ldquo;Second Hand Motion Health Lithilite Mobility Scooter&rdquo;",
+"url": "/wp-json/wc/store/v1/products?category=used-mobility-scooters&#038;per_page=100&#038;add-to-cart=27509",
+"single_text": "Add to cart",
+"minimum": 1,
+"maximum": 9999,
+"multiple_of": 1
+},
+"is_password_protected": false,
+"extensions": {},
+"_links": {
+"self": [
+{
+"href": "https://thehearingandmobilitystore.co.uk/wp-json/wc/store/v1/products/27509",
+"targetHints": {
+"allow": [
+"GET"
+]
+}
+}
+],
+"collection": [
+{
+"href": "https://thehearingandmobilitystore.co.uk/wp-json/wc/store/v1/products"
+}
+],
+"related": [
+{
+"embeddable": true,
+"href": "https://thehearingandmobilitystore.co.uk/wp-json/wc/store/v1/products?related=27509&per_page=10"
+}
+]
+}
+},
+{
+"id": 26185,
+"name": "Second Hand Illusion Mobility Scooter",
+"slug": "second-hand-illusion-mobility-scooter",
+"parent": 0,
+"type": "simple",
+"variation": "",
+"permalink": "https://thehearingandmobilitystore.co.uk/product/second-hand-illusion-mobility-scooter/",
+"sku": "",
+"short_description": "",
+"description": "<p>This Second-hand Illusion is a revolutionary lightweight but strong scooter which can be disassembled into parts for easy lifting, the heaviest part weighing less than 10kg (similar to a bag of shopping) The complete chassis is manufactured from ultra-lightweight aircraft-grade aluminium for optimum durability, ensuring top quality. Taking around 30 seconds to reassemble it ensures you won\u2019t be wasting any of your valuable time. It also features an ultra-lightweight lithium battery that is both accessible and simple to remove so you can easily move it to a preferred charging location.</p>\n<p>A second charging port is located in the tiller which allows for easy access when disassembling is not needed. The scooter also has a powerful LED light for lower light driving conditions. The tiller is height adjustable, and the shallow floor plate helps provide exceptional legroom even for the taller users. Furthermore, not only super light, but the unique shrouding is also of contemporary design. The advanced engineered full front and rear suspension complete with the comfortable and spacious deep foam-covered seat gives a fantastically enjoyable driving experience. Together with the secure-grip delta handlebar, which gives you full control over manoeuvring the scooter and the Illusions many other key features, you can always be guaranteed a truly enjoyable and comfortable driving experience.</p>",
+"on_sale": false,
+"prices": {
+"price": "89900",
+"regular_price": "89900",
+"sale_price": "89900",
+"price_range": null,
+"currency_code": "GBP",
+"currency_symbol": "\u00a3",
+"currency_minor_unit": 2,
+"currency_decimal_separator": ".",
+"currency_thousand_separator": ",",
+"currency_prefix": "\u00a3",
+"currency_suffix": ""
+},
+"price_html": "<span class=\"woocommerce-Price-amount amount\"><span class=\"woocommerce-Price-currencySymbol\" dir=\"auto\">&pound;</span>899.00</span>  <small> ex. VAT</small><br><div style=\"margin-right: 0.725em\" class=\"pr2row test579\"><span class=\"woocommerce-Price-amount amount\"><span class=\"woocommerce-Price-currencySymbol\" dir=\"auto\">&pound;</span>1,078.80</span> <small>inc. VAT</small></div>",
+"average_rating": "0",
+"review_count": 0,
+"images": [
+{
+"id": 29228,
+"src": "https://thehearingandmobilitystore.co.uk/wp-content/uploads/2023/12/illusion-10ah-mobility-scooter.jpg",
+"thumbnail": "https://thehearingandmobilitystore.co.uk/wp-content/uploads/2023/12/illusion-10ah-mobility-scooter-500x485.jpg",
+"srcset": "https://thehearingandmobilitystore.co.uk/wp-content/uploads/2023/12/illusion-10ah-mobility-scooter-200x194.jpg 200w, https://thehearingandmobilitystore.co.uk/wp-content/uploads/2023/12/illusion-10ah-mobility-scooter-300x291.jpg 300w, https://thehearingandmobilitystore.co.uk/wp-content/uploads/2023/12/illusion-10ah-mobility-scooter-400x388.jpg 400w, https://thehearingandmobilitystore.co.uk/wp-content/uploads/2023/12/illusion-10ah-mobility-scooter-500x485.jpg 500w, https://thehearingandmobilitystore.co.uk/wp-content/uploads/2023/12/illusion-10ah-mobility-scooter-600x582.jpg 600w, https://thehearingandmobilitystore.co.uk/wp-content/uploads/2023/12/illusion-10ah-mobility-scooter.jpg 660w",
+"sizes": "(max-width: 660px) 100vw, 660px",
+"thumbnail_srcset": "https://thehearingandmobilitystore.co.uk/wp-content/uploads/2023/12/illusion-10ah-mobility-scooter-200x194.jpg 200w, https://thehearingandmobilitystore.co.uk/wp-content/uploads/2023/12/illusion-10ah-mobility-scooter-300x291.jpg 300w, https://thehearingandmobilitystore.co.uk/wp-content/uploads/2023/12/illusion-10ah-mobility-scooter-400x388.jpg 400w, https://thehearingandmobilitystore.co.uk/wp-content/uploads/2023/12/illusion-10ah-mobility-scooter-500x485.jpg 500w, https://thehearingandmobilitystore.co.uk/wp-content/uploads/2023/12/illusion-10ah-mobility-scooter-600x582.jpg 600w, https://thehearingandmobilitystore.co.uk/wp-content/uploads/2023/12/illusion-10ah-mobility-scooter.jpg 660w",
+"thumbnail_sizes": "(max-width: 500px) 100vw, 500px",
+"name": "illusion-10ah-mobility-scooter",
+"alt": "Illusion 10ah Mobility Scooter"
+}
+],
+"categories": [
+{
+"id": 182,
+"name": "Used Mobility Scooters",
+"slug": "used-mobility-scooters",
+"link": "https://thehearingandmobilitystore.co.uk/product-category/mobility-scooters/used-mobility-scooters/"
+}
+],
+"tags": [],
+"brands": [],
+"attributes": [],
+"variations": [],
+"grouped_products": [],
+"has_options": false,
+"is_purchasable": true,
+"is_in_stock": true,
+"is_on_backorder": false,
+"low_stock_remaining": null,
+"stock_availability": {
+"text": "",
+"class": "in-stock"
+},
+"sold_individually": false,
+"weight": "",
+"dimensions": {
+"length": "",
+"width": "",
+"height": ""
+},
+"formatted_weight": "N/A",
+"formatted_dimensions": "N/A",
+"add_to_cart": {
+"text": "Add to cart",
+"description": "Add to cart: &ldquo;Second Hand Illusion Mobility Scooter&rdquo;",
+"url": "/wp-json/wc/store/v1/products?category=used-mobility-scooters&#038;per_page=100&#038;add-to-cart=26185",
+"single_text": "Add to cart",
+"minimum": 1,
+"maximum": 9999,
+"multiple_of": 1
+},
+"is_password_protected": false,
+"extensions": {},
+"_links": {
+"self": [
+{
+"href": "https://thehearingandmobilitystore.co.uk/wp-json/wc/store/v1/products/26185",
+"targetHints": {
+"allow": [
+"GET"
+]
+}
+}
+],
+"collection": [
+{
+"href": "https://thehearingandmobilitystore.co.uk/wp-json/wc/store/v1/products"
+}
+],
+"related": [
+{
+"embeddable": true,
+"href": "https://thehearingandmobilitystore.co.uk/wp-json/wc/store/v1/products?related=26185&per_page=10"
+}
+]
+}
+},
+{
+"id": 25233,
+"name": "Second Hand Kymco Komfy 8",
+"slug": "second-hand-kymco-komfy-8",
+"parent": 0,
+"type": "simple",
+"variation": "",
+"permalink": "https://thehearingandmobilitystore.co.uk/product/second-hand-kymco-komfy-8/",
+"sku": "",
+"short_description": "",
+"description": "<p>This Komfy 8 mobility scooters have been designed to provide you with the ultimate in comfort, style, manoeuvrability and performance. Designed with particular attention to ergonomics and comfort, we have developed one of the most flexible and easy to use scooters on the market!</p>\n<p>Komfy 8 which has a top speed of 8mph (12.8Km) is packed with many features that you would naturally expect from a modern, advanced mobility scooter. Komfy will enhance your everyday life, independence and enjoyment of travel.</p>\n<p>The Komfy has many features that will enhance your everyday life:</p>\n<ul>\n<li>Recline-able captain style seat with headrest</li>\n<li>Up to 20-mile range</li>\n<li>Standard soft touch delta tiller handlebars</li>\n<li>Standard full lights and indicators</li>\n<li>Sliding swivel seat</li>\n<li>Alloy style wheels with low profile pneumatic tyres</li>\n<li>Fully adjustable suspension system</li>\n<li>LED lights and indicators</li>\n<li>Front and rear bumpers</li>\n<li>USB adaptor to connect your mobile devices</li>\n<li>Front basket</li>\n</ul>",
+"on_sale": false,
+"prices": {
+"price": "129900",
+"regular_price": "129900",
+"sale_price": "129900",
+"price_range": null,
+"currency_code": "GBP",
+"currency_symbol": "\u00a3",
+"currency_minor_unit": 2,
+"currency_decimal_separator": ".",
+"currency_thousand_separator": ",",
+"currency_prefix": "\u00a3",
+"currency_suffix": ""
+},
+"price_html": "<span class=\"woocommerce-Price-amount amount\"><span class=\"woocommerce-Price-currencySymbol\" dir=\"auto\">&pound;</span>1,299.00</span>  <small> ex. VAT</small><br><div style=\"margin-right: 0.725em\" class=\"pr2row test579\"><span class=\"woocommerce-Price-amount amount\"><span class=\"woocommerce-Price-currencySymbol\" dir=\"auto\">&pound;</span>1,558.80</span> <small>inc. VAT</small></div>",
+"average_rating": "0",
+"review_count": 0,
+"images": [
+{
+"id": 30935,
+"src": "https://thehearingandmobilitystore.co.uk/wp-content/uploads/2023/09/second-hand-kymco-komfy4.jpg",
+"thumbnail": "https://thehearingandmobilitystore.co.uk/wp-content/uploads/2023/09/second-hand-kymco-komfy4-500x577.jpg",
+"srcset": "https://thehearingandmobilitystore.co.uk/wp-content/uploads/2023/09/second-hand-kymco-komfy4-200x231.jpg 200w, https://thehearingandmobilitystore.co.uk/wp-content/uploads/2023/09/second-hand-kymco-komfy4-260x300.jpg 260w, https://thehearingandmobilitystore.co.uk/wp-content/uploads/2023/09/second-hand-kymco-komfy4-400x461.jpg 400w, https://thehearingandmobilitystore.co.uk/wp-content/uploads/2023/09/second-hand-kymco-komfy4-500x577.jpg 500w, https://thehearingandmobilitystore.co.uk/wp-content/uploads/2023/09/second-hand-kymco-komfy4.jpg 555w",
+"sizes": "(max-width: 555px) 100vw, 555px",
+"thumbnail_srcset": "https://thehearingandmobilitystore.co.uk/wp-content/uploads/2023/09/second-hand-kymco-komfy4-200x231.jpg 200w, https://thehearingandmobilitystore.co.uk/wp-content/uploads/2023/09/second-hand-kymco-komfy4-260x300.jpg 260w, https://thehearingandmobilitystore.co.uk/wp-content/uploads/2023/09/second-hand-kymco-komfy4-400x461.jpg 400w, https://thehearingandmobilitystore.co.uk/wp-content/uploads/2023/09/second-hand-kymco-komfy4-500x577.jpg 500w, https://thehearingandmobilitystore.co.uk/wp-content/uploads/2023/09/second-hand-kymco-komfy4.jpg 555w",
+"thumbnail_sizes": "(max-width: 500px) 100vw, 500px",
+"name": "second-hand-kymco-komfy4.",
+"alt": "Kymco Komfy 4 mobility Scooter"
+}
+],
+"categories": [
+{
+"id": 182,
+"name": "Used Mobility Scooters",
+"slug": "used-mobility-scooters",
+"link": "https://thehearingandmobilitystore.co.uk/product-category/mobility-scooters/used-mobility-scooters/"
+}
+],
+"tags": [],
+"brands": [],
+"attributes": [],
+"variations": [],
+"grouped_products": [],
+"has_options": false,
+"is_purchasable": true,
+"is_in_stock": true,
+"is_on_backorder": false,
+"low_stock_remaining": null,
+"stock_availability": {
+"text": "",
+"class": "in-stock"
+},
+"sold_individually": false,
+"weight": "",
+"dimensions": {
+"length": "",
+"width": "",
+"height": ""
+},
+"formatted_weight": "N/A",
+"formatted_dimensions": "N/A",
+"add_to_cart": {
+"text": "Add to cart",
+"description": "Add to cart: &ldquo;Second Hand Kymco Komfy 8&rdquo;",
+"url": "/wp-json/wc/store/v1/products?category=used-mobility-scooters&#038;per_page=100&#038;add-to-cart=25233",
+"single_text": "Add to cart",
+"minimum": 1,
+"maximum": 9999,
+"multiple_of": 1
+},
+"is_password_protected": false,
+"extensions": {},
+"_links": {
+"self": [
+{
+"href": "https://thehearingandmobilitystore.co.uk/wp-json/wc/store/v1/products/25233",
+"targetHints": {
+"allow": [
+"GET"
+]
+}
+}
+],
+"collection": [
+{
+"href": "https://thehearingandmobilitystore.co.uk/wp-json/wc/store/v1/products"
+}
+],
+"related": [
+{
+"embeddable": true,
+"href": "https://thehearingandmobilitystore.co.uk/wp-json/wc/store/v1/products?related=25233&per_page=10"
+}
+]
+}
+},
+{
+"id": 21327,
+"name": "Second Hand Invacare Comet Pro 8mph Mobility Scooter",
+"slug": "second-hand-invacare-comet-pro-8mph-mobility-scooter",
+"parent": 0,
+"type": "simple",
+"variation": "",
+"permalink": "https://thehearingandmobilitystore.co.uk/product/second-hand-invacare-comet-pro-8mph-mobility-scooter/",
+"sku": "",
+"short_description": "",
+"description": "<p>This Second Hand Comet Pro is a top of the range 8 mph scooter from leading manufacturer Invacare, with a stylish new appearance, it features outstanding suspension and safety features, modern technology such as an LCD screen, and a hefty range of up to 31 miles, making it one of the best scooters on the market.</p>\n<p>A high-performance scooter, the Comet Pro&#8217;s powerful motors allow a top speed of 8 mph, and the twin 75 Ah batteries provide a range of up to 31 miles on a single charge that is almost unmatched. The steering is improved over the classic Comet, with tighter turns possible &#8211; while the auto-speed reduction keeps you safe when driving around bends.</p>\n<p>&nbsp;</p>",
+"on_sale": false,
+"prices": {
+"price": "129900",
+"regular_price": "129900",
+"sale_price": "129900",
+"price_range": null,
+"currency_code": "GBP",
+"currency_symbol": "\u00a3",
+"currency_minor_unit": 2,
+"currency_decimal_separator": ".",
+"currency_thousand_separator": ",",
+"currency_prefix": "\u00a3",
+"currency_suffix": ""
+},
+"price_html": "<span class=\"woocommerce-Price-amount amount\"><span class=\"woocommerce-Price-currencySymbol\" dir=\"auto\">&pound;</span>1,299.00</span>  <small> ex. VAT</small><br><div style=\"margin-right: 0.725em\" class=\"pr2row test579\"><span class=\"woocommerce-Price-amount amount\"><span class=\"woocommerce-Price-currencySymbol\" dir=\"auto\">&pound;</span>1,558.80</span> <small>inc. VAT</small></div>",
+"average_rating": "0",
+"review_count": 0,
+"images": [
+{
+"id": 31005,
+"src": "https://thehearingandmobilitystore.co.uk/wp-content/uploads/2023/07/second-hand-invacare-comet-pro.jpg",
+"thumbnail": "https://thehearingandmobilitystore.co.uk/wp-content/uploads/2023/07/second-hand-invacare-comet-pro.jpg",
+"srcset": "https://thehearingandmobilitystore.co.uk/wp-content/uploads/2023/07/second-hand-invacare-comet-pro-200x290.jpg 200w, https://thehearingandmobilitystore.co.uk/wp-content/uploads/2023/07/second-hand-invacare-comet-pro-207x300.jpg 207w, https://thehearingandmobilitystore.co.uk/wp-content/uploads/2023/07/second-hand-invacare-comet-pro-400x580.jpg 400w, https://thehearingandmobilitystore.co.uk/wp-content/uploads/2023/07/second-hand-invacare-comet-pro.jpg 441w",
+"sizes": "(max-width: 441px) 100vw, 441px",
+"thumbnail_srcset": "https://thehearingandmobilitystore.co.uk/wp-content/uploads/2023/07/second-hand-invacare-comet-pro-200x290.jpg 200w, https://thehearingandmobilitystore.co.uk/wp-content/uploads/2023/07/second-hand-invacare-comet-pro-207x300.jpg 207w, https://thehearingandmobilitystore.co.uk/wp-content/uploads/2023/07/second-hand-invacare-comet-pro-400x580.jpg 400w, https://thehearingandmobilitystore.co.uk/wp-content/uploads/2023/07/second-hand-invacare-comet-pro.jpg 441w",
+"thumbnail_sizes": "(max-width: 441px) 100vw, 441px",
+"name": "second-hand-invacare-comet-pro",
+"alt": "Second hand Invacare Comet Pro Mobility Scooter"
+}
+],
+"categories": [
+{
+"id": 182,
+"name": "Used Mobility Scooters",
+"slug": "used-mobility-scooters",
+"link": "https://thehearingandmobilitystore.co.uk/product-category/mobility-scooters/used-mobility-scooters/"
+}
+],
+"tags": [
+{
+"id": 139,
+"name": "Invacare Mobility Scooter Swindon | Comet 8mph Scooter now in Ruby Red",
+"slug": "invacare-mobility-scooter-swindon-comet-8mph-scooter-now-in-ruby-red",
+"link": "https://thehearingandmobilitystore.co.uk/product-tag/invacare-mobility-scooter-swindon-comet-8mph-scooter-now-in-ruby-red/"
+}
+],
+"brands": [],
+"attributes": [],
+"variations": [],
+"grouped_products": [],
+"has_options": false,
+"is_purchasable": true,
+"is_in_stock": true,
+"is_on_backorder": false,
+"low_stock_remaining": null,
+"stock_availability": {
+"text": "",
+"class": "in-stock"
+},
+"sold_individually": false,
+"weight": "",
+"dimensions": {
+"length": "",
+"width": "",
+"height": ""
+},
+"formatted_weight": "N/A",
+"formatted_dimensions": "N/A",
+"add_to_cart": {
+"text": "Add to cart",
+"description": "Add to cart: &ldquo;Second Hand Invacare Comet Pro 8mph Mobility Scooter&rdquo;",
+"url": "/wp-json/wc/store/v1/products?category=used-mobility-scooters&#038;per_page=100&#038;add-to-cart=21327",
+"single_text": "Add to cart",
+"minimum": 1,
+"maximum": 9999,
+"multiple_of": 1
+},
+"is_password_protected": false,
+"extensions": {},
+"_links": {
+"self": [
+{
+"href": "https://thehearingandmobilitystore.co.uk/wp-json/wc/store/v1/products/21327",
+"targetHints": {
+"allow": [
+"GET"
+]
+}
+}
+],
+"collection": [
+{
+"href": "https://thehearingandmobilitystore.co.uk/wp-json/wc/store/v1/products"
+}
+],
+"related": [
+{
+"embeddable": true,
+"href": "https://thehearingandmobilitystore.co.uk/wp-json/wc/store/v1/products?related=21327&per_page=10"
+}
+]
+}
+},
+{
+"id": 30114,
+"name": "Second Hand Karma Blazer Power Chair",
+"slug": "second-hand-karma-blazer-power-chair",
+"parent": 0,
+"type": "simple",
+"variation": "",
+"permalink": "https://thehearingandmobilitystore.co.uk/product/second-hand-karma-blazer-power-chair/",
+"sku": "",
+"short_description": "",
+"description": "<p>This Second-Hand Karma Blazer Sling is the perfect blend of compact design and powerful performance, making it an ideal choice for both indoor and outdoor use. It can navigate tight spaces with ease while enjoying a smooth, stable ride thanks to rear suspension and large front castors. So, whether at home or on the go, this powerchair ensures comfort, control, and independence.</p>\n<h3>Features &amp; Benefits</h3>\n<ul>\n<li><strong>Compact Yet Powerful</strong>\u00a0\u2013 Manoeuvres effortlessly indoors while handling outdoor terrain with ease.</li>\n<li><strong>Flip-Back Armrests &amp; Footrests</strong>\u00a0\u2013 Ensures easy and comfortable transfers.</li>\n<li><strong>Excellent Indoor Manoeuvrability</strong>\u00a0\u2013 Perfect for tight spaces and small rooms.</li>\n<li><strong>Good Outdoor Performance</strong>\u00a0\u2013 Strong motors and large castors for stability.</li>\n<li><strong>Independent Rear Suspension</strong>\u00a0\u2013 Enjoy a smoother, more comfortable ride.</li>\n<li><strong>Seating Options</strong>\u00a0\u2013 Choose between a Sling Back Seat or a Captain Seat for personalized comfort.</li>\n<li><strong>Crash Test Approved</strong>\u00a0\u2013 Designed with safety and reliability in mind.</li>\n</ul>\n<p>&nbsp;</p>",
+"on_sale": false,
+"prices": {
+"price": "117500",
+"regular_price": "117500",
+"sale_price": "117500",
+"price_range": null,
+"currency_code": "GBP",
+"currency_symbol": "\u00a3",
+"currency_minor_unit": 2,
+"currency_decimal_separator": ".",
+"currency_thousand_separator": ",",
+"currency_prefix": "\u00a3",
+"currency_suffix": ""
+},
+"price_html": "<span class=\"woocommerce-Price-amount amount\"><span class=\"woocommerce-Price-currencySymbol\" dir=\"auto\">&pound;</span>1,175.00</span>  <small> ex. VAT</small><br><div style=\"margin-right: 0.725em\" class=\"pr2row test579\"><span class=\"woocommerce-Price-amount amount\"><span class=\"woocommerce-Price-currencySymbol\" dir=\"auto\">&pound;</span>1,410.00</span> <small>inc. VAT</small></div>",
+"average_rating": "0",
+"review_count": 0,
+"images": [
+{
+"id": 30652,
+"src": "https://thehearingandmobilitystore.co.uk/wp-content/uploads/2026/02/karma-blazer-powerchair.jpg",
+"thumbnail": "https://thehearingandmobilitystore.co.uk/wp-content/uploads/2026/02/karma-blazer-powerchair-500x596.jpg",
+"srcset": "https://thehearingandmobilitystore.co.uk/wp-content/uploads/2026/02/karma-blazer-powerchair-200x238.jpg 200w, https://thehearingandmobilitystore.co.uk/wp-content/uploads/2026/02/karma-blazer-powerchair-252x300.jpg 252w, https://thehearingandmobilitystore.co.uk/wp-content/uploads/2026/02/karma-blazer-powerchair-400x477.jpg 400w, https://thehearingandmobilitystore.co.uk/wp-content/uploads/2026/02/karma-blazer-powerchair-500x596.jpg 500w, https://thehearingandmobilitystore.co.uk/wp-content/uploads/2026/02/karma-blazer-powerchair.jpg 537w",
+"sizes": "(max-width: 537px) 100vw, 537px",
+"thumbnail_srcset": "https://thehearingandmobilitystore.co.uk/wp-content/uploads/2026/02/karma-blazer-powerchair-200x238.jpg 200w, https://thehearingandmobilitystore.co.uk/wp-content/uploads/2026/02/karma-blazer-powerchair-252x300.jpg 252w, https://thehearingandmobilitystore.co.uk/wp-content/uploads/2026/02/karma-blazer-powerchair-400x477.jpg 400w, https://thehearingandmobilitystore.co.uk/wp-content/uploads/2026/02/karma-blazer-powerchair-500x596.jpg 500w, https://thehearingandmobilitystore.co.uk/wp-content/uploads/2026/02/karma-blazer-powerchair.jpg 537w",
+"thumbnail_sizes": "(max-width: 500px) 100vw, 500px",
+"name": "karma-blazer-powerchair",
+"alt": "Second Hand Karma Blazer Powerchair"
+}
+],
+"categories": [
+{
+"id": 183,
+"name": "Used Electric Powered Wheelchairs",
+"slug": "used-electric-powered-wheelchairs",
+"link": "https://thehearingandmobilitystore.co.uk/product-category/electric-wheelchairs/used-electric-powered-wheelchairs/"
+},
+{
+"id": 206,
+"name": "Used Power Wheelchairs",
+"slug": "used-power-wheelchairs",
+"link": "https://thehearingandmobilitystore.co.uk/product-category/optimised-independence/used-power-wheelchairs/"
+}
+],
+"tags": [],
+"brands": [],
+"attributes": [],
+"variations": [],
+"grouped_products": [],
+"has_options": false,
+"is_purchasable": true,
+"is_in_stock": true,
+"is_on_backorder": false,
+"low_stock_remaining": null,
+"stock_availability": {
+"text": "",
+"class": "in-stock"
+},
+"sold_individually": false,
+"weight": "",
+"dimensions": {
+"length": "",
+"width": "",
+"height": ""
+},
+"formatted_weight": "N/A",
+"formatted_dimensions": "N/A",
+"add_to_cart": {
+"text": "Add to cart",
+"description": "Add to cart: &ldquo;Second Hand Karma Blazer Power Chair&rdquo;",
+"url": "/wp-json/wc/store/v1/products?category=used-power-wheelchairs&#038;per_page=100&#038;add-to-cart=30114",
+"single_text": "Add to cart",
+"minimum": 1,
+"maximum": 9999,
+"multiple_of": 1
+},
+"is_password_protected": false,
+"extensions": {},
+"_links": {
+"self": [
+{
+"href": "https://thehearingandmobilitystore.co.uk/wp-json/wc/store/v1/products/30114",
+"targetHints": {
+"allow": [
+"GET"
+]
+}
+}
+],
+"collection": [
+{
+"href": "https://thehearingandmobilitystore.co.uk/wp-json/wc/store/v1/products"
+}
+],
+"related": [
+{
+"embeddable": true,
+"href": "https://thehearingandmobilitystore.co.uk/wp-json/wc/store/v1/products?related=30114&per_page=10"
+}
+]
+}
+},
+{
+"id": 28477,
+"name": "Second Hand Invacare TDX SP2 Powerchair",
+"slug": "second-hand-invacare-tdx-sp2",
+"parent": 0,
+"type": "simple",
+"variation": "",
+"permalink": "https://thehearingandmobilitystore.co.uk/product/second-hand-invacare-tdx-sp2/",
+"sku": "",
+"short_description": "<h5 style=\"text-align: center\">For more info contact us via the form below.</h5>",
+"description": "<div>This Second Hand Invacare TDX SP2 has a range 18 miles and speed of 6mph</div>\n<div>User weight capacity 150kg / 23 stone</div>\n<div>Lights and Hazard Lights</div>\n<div>14&#8243; Centre Wheels</div>\n<div>16&#8243; Wide Seat and Back</div>\n<div></div>\n<div>One of the outstanding features in the Invacare TDX SP2 is its enhanced stability. The Invacare TDX SP2 offers maximum stability and safety; the stability lock function ensures all six wheels stay firmly on the ground on uneven terrain.</div>",
+"on_sale": false,
+"prices": {
+"price": "129500",
+"regular_price": "129500",
+"sale_price": "129500",
+"price_range": null,
+"currency_code": "GBP",
+"currency_symbol": "\u00a3",
+"currency_minor_unit": 2,
+"currency_decimal_separator": ".",
+"currency_thousand_separator": ",",
+"currency_prefix": "\u00a3",
+"currency_suffix": ""
+},
+"price_html": "<span class=\"woocommerce-Price-amount amount\"><span class=\"woocommerce-Price-currencySymbol\" dir=\"auto\">&pound;</span>1,295.00</span>  <small> ex. VAT</small><br><div style=\"margin-right: 0.725em\" class=\"pr2row test579\"><span class=\"woocommerce-Price-amount amount\"><span class=\"woocommerce-Price-currencySymbol\" dir=\"auto\">&pound;</span>1,554.00</span> <small>inc. VAT</small></div>",
+"average_rating": "0",
+"review_count": 0,
+"images": [
+{
+"id": 30966,
+"src": "https://thehearingandmobilitystore.co.uk/wp-content/uploads/2024/10/invacare-second-hand-tdx-sp2.jpg",
+"thumbnail": "https://thehearingandmobilitystore.co.uk/wp-content/uploads/2024/10/invacare-second-hand-tdx-sp2.jpg",
+"srcset": "https://thehearingandmobilitystore.co.uk/wp-content/uploads/2024/10/invacare-second-hand-tdx-sp2-200x267.jpg 200w, https://thehearingandmobilitystore.co.uk/wp-content/uploads/2024/10/invacare-second-hand-tdx-sp2-225x300.jpg 225w, https://thehearingandmobilitystore.co.uk/wp-content/uploads/2024/10/invacare-second-hand-tdx-sp2-400x533.jpg 400w, https://thehearingandmobilitystore.co.uk/wp-content/uploads/2024/10/invacare-second-hand-tdx-sp2.jpg 480w",
+"sizes": "(max-width: 480px) 100vw, 480px",
+"thumbnail_srcset": "https://thehearingandmobilitystore.co.uk/wp-content/uploads/2024/10/invacare-second-hand-tdx-sp2-200x267.jpg 200w, https://thehearingandmobilitystore.co.uk/wp-content/uploads/2024/10/invacare-second-hand-tdx-sp2-225x300.jpg 225w, https://thehearingandmobilitystore.co.uk/wp-content/uploads/2024/10/invacare-second-hand-tdx-sp2-400x533.jpg 400w, https://thehearingandmobilitystore.co.uk/wp-content/uploads/2024/10/invacare-second-hand-tdx-sp2.jpg 480w",
+"thumbnail_sizes": "(max-width: 480px) 100vw, 480px",
+"name": "invacare-second-hand-tdx-sp2",
+"alt": "Invacare TDX SP2 Powerchair"
+},
+{
+"id": 30967,
+"src": "https://thehearingandmobilitystore.co.uk/wp-content/uploads/2024/10/invacare-second-hand-tdx-sp2-lifted.jpg",
+"thumbnail": "https://thehearingandmobilitystore.co.uk/wp-content/uploads/2024/10/invacare-second-hand-tdx-sp2-lifted.jpg",
+"srcset": "https://thehearingandmobilitystore.co.uk/wp-content/uploads/2024/10/invacare-second-hand-tdx-sp2-lifted-200x267.jpg 200w, https://thehearingandmobilitystore.co.uk/wp-content/uploads/2024/10/invacare-second-hand-tdx-sp2-lifted-225x300.jpg 225w, https://thehearingandmobilitystore.co.uk/wp-content/uploads/2024/10/invacare-second-hand-tdx-sp2-lifted-400x533.jpg 400w, https://thehearingandmobilitystore.co.uk/wp-content/uploads/2024/10/invacare-second-hand-tdx-sp2-lifted.jpg 480w",
+"sizes": "(max-width: 480px) 100vw, 480px",
+"thumbnail_srcset": "https://thehearingandmobilitystore.co.uk/wp-content/uploads/2024/10/invacare-second-hand-tdx-sp2-lifted-200x267.jpg 200w, https://thehearingandmobilitystore.co.uk/wp-content/uploads/2024/10/invacare-second-hand-tdx-sp2-lifted-225x300.jpg 225w, https://thehearingandmobilitystore.co.uk/wp-content/uploads/2024/10/invacare-second-hand-tdx-sp2-lifted-400x533.jpg 400w, https://thehearingandmobilitystore.co.uk/wp-content/uploads/2024/10/invacare-second-hand-tdx-sp2-lifted.jpg 480w",
+"thumbnail_sizes": "(max-width: 480px) 100vw, 480px",
+"name": "invacare-second-hand-tdx-sp2-lifted",
+"alt": ""
+}
+],
+"categories": [
+{
+"id": 183,
+"name": "Used Electric Powered Wheelchairs",
+"slug": "used-electric-powered-wheelchairs",
+"link": "https://thehearingandmobilitystore.co.uk/product-category/electric-wheelchairs/used-electric-powered-wheelchairs/"
+},
+{
+"id": 206,
+"name": "Used Power Wheelchairs",
+"slug": "used-power-wheelchairs",
+"link": "https://thehearingandmobilitystore.co.uk/product-category/optimised-independence/used-power-wheelchairs/"
+}
+],
+"tags": [],
+"brands": [],
+"attributes": [],
+"variations": [],
+"grouped_products": [],
+"has_options": false,
+"is_purchasable": true,
+"is_in_stock": true,
+"is_on_backorder": false,
+"low_stock_remaining": null,
+"stock_availability": {
+"text": "",
+"class": "in-stock"
+},
+"sold_individually": false,
+"weight": "",
+"dimensions": {
+"length": "",
+"width": "",
+"height": ""
+},
+"formatted_weight": "N/A",
+"formatted_dimensions": "N/A",
+"add_to_cart": {
+"text": "Add to cart",
+"description": "Add to cart: &ldquo;Second Hand Invacare TDX SP2 Powerchair&rdquo;",
+"url": "/wp-json/wc/store/v1/products?category=used-power-wheelchairs&#038;per_page=100&#038;add-to-cart=28477",
+"single_text": "Add to cart",
+"minimum": 1,
+"maximum": 9999,
+"multiple_of": 1
+},
+"is_password_protected": false,
+"extensions": {},
+"_links": {
+"self": [
+{
+"href": "https://thehearingandmobilitystore.co.uk/wp-json/wc/store/v1/products/28477",
+"targetHints": {
+"allow": [
+"GET"
+]
+}
+}
+],
+"collection": [
+{
+"href": "https://thehearingandmobilitystore.co.uk/wp-json/wc/store/v1/products"
+}
+],
+"related": [
+{
+"embeddable": true,
+"href": "https://thehearingandmobilitystore.co.uk/wp-json/wc/store/v1/products?related=28477&per_page=10"
+}
+]
+}
+}
+],
+"warnings": []
+}
+}
