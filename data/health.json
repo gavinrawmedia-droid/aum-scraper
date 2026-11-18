@@ -1,5 +1,5 @@
 {
- "run_at": "2026-11-18T07:56:56+00:00",
+ "run_at": "2026-11-18T13:08:46+00:00",
  "mode": "live",
  "dealers": {
   "active-mobility": {
@@ -42,7 +42,7 @@
   },
   "mobility-giant": {
    "status": "ok",
-   "count": 65,
+   "count": 66,
    "previous_count": 65,
    "dropped": {},
    "messages": []
@@ -73,8 +73,36 @@
    "count": 12,
    "previous_count": 12,
    "dropped": {
+    "below minimum price": 3,
     "not mobility equipment": 1
    },
+   "messages": []
+  },
+  "gms-mobility": {
+   "status": "ok",
+   "count": 292,
+   "previous_count": null,
+   "dropped": {
+    "below minimum price": 18,
+    "listed as new": 1,
+    "not mobility equipment": 6
+   },
+   "messages": []
+  },
+  "the-mobility-shop": {
+   "status": "ok",
+   "count": 35,
+   "previous_count": null,
+   "dropped": {
+    "below minimum price": 4
+   },
+   "messages": []
+  },
+  "eden-mobility": {
+   "status": "ok",
+   "count": 167,
+   "previous_count": null,
+   "dropped": {},
    "messages": []
   }
  }

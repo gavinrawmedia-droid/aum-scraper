@@ -91,7 +91,7 @@
   "price_basis": "no_vat",
   "lat": 51.29538,
   "lng": 0.195154,
-  "listing_count": 65
+  "listing_count": 68
  },
  {
   "id": "mobility-station",
@@ -156,5 +156,54 @@
   "lat": 53.945759,
   "lng": -2.016909,
   "listing_count": 12
+ },
+ {
+  "id": "gms-mobility",
+  "name": "GMS Mobility",
+  "website": "https://www.gmsmobility.co.uk",
+  "address": "3 Phoenix Court, Hawkins Road",
+  "town": "Colchester",
+  "postcode": "CO2 8JY",
+  "phone": "01206 838888",
+  "other_branches": null,
+  "visit_note": null,
+  "price_basis": "check",
+  "lat": 51.882047,
+  "lng": 0.929895,
+  "listing_count": 292
+ },
+ {
+  "id": "the-mobility-shop",
+  "name": "The Mobility Shop",
+  "website": "https://themobilityshopuk.co.uk",
+  "address": "Four Ways, Ham Lane",
+  "town": "Ferndown",
+  "postcode": "BH22 9DP",
+  "phone": "01202 798942",
+  "other_branches": [
+   "Wimborne: 24 East Street, BH21 1DU"
+  ],
+  "visit_note": null,
+  "price_basis": "check",
+  "lat": 50.788484,
+  "lng": -1.911999,
+  "listing_count": 35
+ },
+ {
+  "id": "eden-mobility",
+  "name": "Eden Mobility",
+  "website": "https://eden-mobility.co.uk",
+  "address": "Unit 2, Brigg Road",
+  "town": "Scunthorpe",
+  "postcode": "DN15 6TZ",
+  "phone": "01724 855500",
+  "other_branches": [
+   "About 47 stores across the UK, including Liverpool (Belle Vale), St Helens, Hull, Rotherham, Portsmouth and Gosport"
+  ],
+  "visit_note": "Most used items are sold online and delivered. To see one first, ask which store has it.",
+  "price_basis": "vat_relief",
+  "lat": 53.595249,
+  "lng": -0.6416,
+  "listing_count": 167
  }
 ]
