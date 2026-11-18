@@ -87,7 +87,11 @@ function aum_listing_dealer( int $id ): int {
 }
 
 function aum_card_specs( int $id ): string {
-	$parts = array();
+	$parts  = array();
+	$detail = trim( (string) get_post_meta( $id, 'aum_type_detail', true ) );
+	if ( $detail ) {
+		$parts[] = $detail;
+	}
 	if ( aum_num( $id, 'aum_top_speed_mph' ) > 0 ) {
 		$parts[] = aum_fmt_number( aum_num( $id, 'aum_top_speed_mph' ) ) . ' mph';
 	}
@@ -707,8 +711,10 @@ function aum_render_no_results(): string {
 /* ================================================================== 3. listing page blocks */
 
 function aum_listing_facts( int $id ): array {
-	$f = static fn( string $k, string $unit ) => aum_num( $id, $k ) > 0 ? aum_fmt_number( aum_num( $id, $k ) ) . $unit : '';
-	return array(
+	$f      = static fn( string $k, string $unit ) => aum_num( $id, $k ) > 0 ? aum_fmt_number( aum_num( $id, $k ) ) . $unit : '';
+	$slug   = aum_equipment_slug( $id );
+	$detail = trim( (string) get_post_meta( $id, 'aum_type_detail', true ) );
+	$facts  = array(
 		'Type'            => aum_first_term( $id, 'aum_equipment' ),
 		'Brand'           => aum_first_term( $id, 'aum_brand' ),
 		'Year'            => aum_listing_virtual( $id, 'aum_year_text' ),
@@ -719,6 +725,19 @@ function aum_listing_facts( int $id ): array {
 		'Max user weight' => $f( 'aum_max_user_weight_kg', ' kg' ),
 		'Heaviest part'   => $f( 'aum_heaviest_part_kg', ' kg' ),
 	);
+	if ( in_array( $slug, array( 'stairlifts', 'riser-recliners' ), true ) || $detail ) {
+		// Straight or curved / how many motors goes straight after the type.
+		$facts = array_slice( $facts, 0, 1, true ) + array( aum_type_detail_label( $slug ) => $detail ) + array_slice( $facts, 1, null, true );
+	}
+	if ( aum_is_home_equipment( $id ) ) {
+		// Speed, range and a heaviest part to lift mean nothing for a stairlift or a chair: show them only if stated.
+		foreach ( array( 'Top speed', 'Range', 'Heaviest part' ) as $k ) {
+			if ( '' === $facts[ $k ] ) {
+				unset( $facts[ $k ] );
+			}
+		}
+	}
+	return $facts;
 }
 
 function aum_current_listing_id( $atts ): int {
@@ -785,6 +804,9 @@ function aum_render_buy_box( int $id ): string {
 		<?php if ( $price > 0 ) : ?>
 			<p class="aumd-basis"><?php echo esc_html( aum_price_basis_label( (string) get_post_meta( $id, 'aum_price_basis', true ) ) ); ?></p>
 		<?php endif; ?>
+		<?php if ( 'stairlifts' === aum_equipment_slug( $id ) ) : ?>
+			<p class="aumd-note aumd-stairlift-note">A stairlift's price depends on your stairs, so this is a starting price. The dealer will check your staircase before giving a final price. Ask whether fitting is included.</p>
+		<?php endif; ?>
 		<?php echo aum_render_go_button( $id ); // phpcs:ignore WordPress.Security.EscapeOutput ?>
 		<?php echo function_exists( 'aum_render_compare_button' ) ? aum_render_compare_button( $id, 'wide' ) : ''; // phpcs:ignore WordPress.Security.EscapeOutput ?>
 		<?php if ( $dealer ) : ?>
@@ -847,6 +869,9 @@ function aum_render_dealer_contact( int $dealer_id ): string {
 		<?php if ( $m( 'aum_other_branches' ) ) : ?>
 			<div class="aumd-contact-row"><span class="aumd-label">Other branches</span><p><?php echo esc_html( $m( 'aum_other_branches' ) ); ?></p></div>
 		<?php endif; ?>
+		<?php if ( $m( 'aum_visit_note' ) ) : ?>
+			<div class="aumd-contact-row"><span class="aumd-label">Before you visit</span><p><?php echo esc_html( $m( 'aum_visit_note' ) ); ?></p></div>
+		<?php endif; ?>
 		<?php if ( $m( 'aum_phone' ) ) : ?>
 			<div class="aumd-contact-row"><span class="aumd-label">Phone</span><p><a href="<?php echo esc_attr( $v( 'aum_phone_link' ) ); ?>"><?php echo esc_html( $m( 'aum_phone' ) ); ?></a></p></div>
 		<?php endif; ?>
@@ -879,6 +904,7 @@ function aum_dealer_map_data( string $which ): array {
 			'town'       => (string) get_post_meta( $p->ID, 'aum_town', true ),
 			'address'    => (string) aum_dealer_virtual( $p->ID, 'aum_address_full' ),
 			'other'      => (string) get_post_meta( $p->ID, 'aum_other_branches', true ),
+			'visitNote'  => (string) get_post_meta( $p->ID, 'aum_visit_note', true ),
 			'phone'      => (string) get_post_meta( $p->ID, 'aum_phone', true ),
 			'phoneLink'  => (string) aum_dealer_virtual( $p->ID, 'aum_phone_link' ),
 			'url'        => (string) get_permalink( $p ),
@@ -927,6 +953,7 @@ function aum_render_dealer_map( $atts ): string {
 							<h3 class="aumd-dealer-name"><a href="<?php echo esc_url( $d['url'] ); ?>"><?php echo esc_html( $d['name'] ); ?></a></h3>
 							<p class="aumd-dealer-addr"><?php echo esc_html( $d['address'] ); ?></p>
 							<?php if ( $d['other'] ) : ?><p class="aumd-small">Also: <?php echo esc_html( $d['other'] ); ?></p><?php endif; ?>
+							<?php if ( $d['visitNote'] ) : ?><p class="aumd-small aumd-visit-note"><?php echo esc_html( $d['visitNote'] ); ?></p><?php endif; ?>
 							<p class="aumd-dealer-dist" hidden></p>
 							<p class="aumd-dealer-links">
 								<a href="<?php echo esc_url( $d['stockUrl'] ); ?>"><?php echo esc_html( sprintf( _n( 'See %d listing', 'See all %d listings', $d['count'], 'aum-directory' ), $d['count'] ) ); ?></a>

@@ -204,3 +204,66 @@ def test_pipeline_offline_and_history(tmp_path):
     assert gone_id not in ids
     state = json.loads((out / "state.json").read_text())
     assert state["listings"][gone_id]["status"] == "removed"
+
+
+# ------------------------------------------------------------------ equipment for the home (18 Nov 2026)
+
+from aum_scraper.normalise import detect_type_detail  # noqa: E402
+
+
+@pytest.mark.parametrize("title,category,brand,condition,detail", [
+    ("Reconditioned Stannah Siena 260 Curved Stairlift", "Stairlift", "Stannah", "Reconditioned", "Curved"),
+    ("Acorn 130 Straight Stairlift - Red", "Stairlift", "Acorn", "Not stated", "Straight"),
+    ("Platinum Ergo Curve Stairlift", "Stairlift", "Platinum Stairlifts", "Not stated", "Curved"),
+    ("Multicare Pre-Used Straight Stairlifts", "Stairlift", None, "Used", "Straight"),
+    ("Handicare 1000 Perch Stairlift", "Stairlift", "Handicare", "Not stated", "Straight"),
+    ("Burlington fabric dual motor riser recliner chair - Blue - Ex Demo", "Riser recliner chair", None, "Ex-demo", "Dual motor"),
+    ("Bronte 4 Motor chair Compact Size Stafford oatmeal Fabric - Ex Demo", "Riser recliner chair", None, "Ex-demo", "4 motor"),
+    ("The Leather Ultra 5 Motor High leg Lift Rise Recliner Chair with Heat and Massage-Medium Demo",
+     "Riser recliner chair", None, "Ex-demo", "5 motor"),
+    ("Drive Neptune Bath Lift - Ex Demo", "Bath lift", "Drive", "Ex-demo", None),
+    ("Ex Demo Birdie Folding Hoists", "Patient hoist", None, "Ex-demo", None),
+    ("Smart Lifter LC Compact Hoist", "Other", None, "Not stated", None),          # a car boot hoist
+    ("Invacare Medley Ergo Medical Profiling Bed", "Profiling bed", "Invacare", "Not stated", None),
+    ("Sterling Sapphire 2 Portable Travel Mobility Scooter Ex Display - Red", "Boot / folding scooter", "Sterling", "Ex-demo", None),
+    ("Mini Crosser M2 8 Mph Mobility Scooter USED", "Road scooter (8mph)", "Mini Crosser", "Used", None),
+])
+def test_home_equipment(title, category, brand, condition, detail):
+    cat = detect_category(title)
+    assert cat == category
+    assert detect_brand(title) == brand
+    assert detect_condition(title) == condition
+    assert detect_type_detail(cat, title) == detail
+
+
+def test_clean_title_home_equipment():
+    assert clean_title("Multicare Pre-Used Straight Stairlifts") == "Multicare Straight Stairlifts"
+    assert clean_title("Reconditioned Stannah Siena 600 Straight Stairlift") == "Stannah Siena 600 Straight Stairlift"
+
+
+def _product(title, variants, **kw):
+    return {"id": 1, "handle": "x", "title": title, "body_html": "", "tags": [], "product_type": "",
+            "vendor": "", "images": [], "variants": variants, **kw}
+
+
+def test_shopify_keeps_only_reconditioned_variants_and_from_price():
+    dealer = {"id": "d", "website": "https://d.co.uk", "used_variants": r"recondition|pre[- ]?used"}
+    p = _product("Acorn 130 Straight Stairlift", [
+        {"title": "New", "option1": "New", "price": "2995.00", "available": True},
+        {"title": "Reconditioned / Red", "option1": "Reconditioned", "price": "1595.00", "available": True},
+        {"title": "Reconditioned / Green", "option1": "Reconditioned", "price": "1695.00", "available": True},
+    ])
+    [item] = shopify.parse(dealer, {"products": [p]})
+    assert item["price"] == 1595.0 and item["price_varies"] is True
+    assert item["variant_titles"] == ["Reconditioned / Red", "Reconditioned / Green"]
+    # a page sold new only is skipped
+    new_only = _product("Acorn 180 Curved Stairlift", [{"title": "New", "price": "4995", "available": True}])
+    assert shopify.parse(dealer, {"products": [new_only]}) == []
+
+
+def test_shopify_title_rules():
+    dealer = {"id": "d", "website": "https://d.co.uk",
+              "include": {"title_matches": r"ex[- ]?demo|\bdemo\b", "title_excludes": r"\bnew\b(?!\s*batt)"}}
+    keep = _product("Burlington Riser Recliner - Ex Demo", [{"title": "Default Title", "price": "399.99", "available": True}])
+    drop = _product("Kelbrook Rise Recliner Chair Dual Motor - NEW", [{"title": "Default Title", "price": "999", "available": True}])
+    assert [i["title"] for i in shopify.parse(dealer, {"products": [keep, drop]})] == ["Burlington Riser Recliner - Ex Demo"]

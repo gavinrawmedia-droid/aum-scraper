@@ -37,6 +37,14 @@ Turns the scraper's data into real pages on approvedusedmobility.co.uk.
 - The dealer's description text is **not** copied (it's their copyright). Photos are shown from
   the dealer's own site, credited. Get each dealer's OK before launch.
 
+## New in 0.4.0: equipment for the home
+
+- New equipment types: stairlifts, riser recliner chairs, profiling beds, hoists and bath lifts. Their pages appear at `/used/stairlifts/`, `/used/riser-recliners/` and so on as soon as stock arrives.
+- A new listing field, `aum_type_detail`: straight or curved for a stairlift, how many motors for a riser recliner. It shows on cards, in Key facts ("Stairlift type", "Motors") and as a row on the compare page.
+- Key facts leave out top speed, range and heaviest part for home equipment unless the dealer states them.
+- Stairlift prices always read "From £…", with a note that the final price depends on the staircase and to ask whether fitting is included.
+- Dealers can have a "Before you visit" note (for example "Viewing by appointment only"), shown on the dealer page and in the dealer map list.
+
 ## New in 0.3.0: compare
 
 - Visitors tick **Compare** on up to 3 listings (on listing cards and in the price box on a listing page). A bar along the bottom of the screen shows their picks, with a button to compare them side by side.

@@ -3,7 +3,16 @@ name: Scrape dealer stock
 on:
   schedule:
     - cron: "17 5 * * *"     # every day at 05:17 UTC
-  workflow_dispatch: {}       # "Run workflow" button on the Actions tab
+  workflow_dispatch:          # "Run workflow" button on the Actions tab
+    inputs:
+      test_dealers:
+        description: "Test run only: comma-separated dealer ids. Nothing is sent to WordPress or saved; the results are attached to the run."
+        required: false
+        default: ""
+      probe_urls:
+        description: "Test run only: space-separated web addresses to fetch and attach (to see how a new dealer's site works)."
+        required: false
+        default: ""
 
 permissions:
   contents: write             # lets the job commit the updated data/ folder
@@ -36,8 +45,33 @@ jobs:
       - name: Tests
         run: python -m pytest -q
 
+      # ---- test runs: try new dealers without touching WordPress or data/
+      - name: Test run
+        if: ${{ inputs.test_dealers != '' || inputs.probe_urls != '' }}
+        env:
+          TEST_DEALERS: ${{ inputs.test_dealers }}
+          PROBE_URLS: ${{ inputs.probe_urls }}
+        run: |
+          mkdir -p test-output
+          if [ -n "$PROBE_URLS" ]; then python -m aum_scraper probe $PROBE_URLS --out test-output/probe || true; fi
+          if [ -n "$TEST_DEALERS" ]; then
+            cp -r data test-data
+            python -m aum_scraper run --out test-data --only "$TEST_DEALERS" --save-raw test-output/raw || true
+            cp test-data/listings.json test-data/health.json test-output/
+          fi
+
+      - name: Attach test results
+        if: ${{ inputs.test_dealers != '' || inputs.probe_urls != '' }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: test-output
+          path: test-output
+          retention-days: 7
+
+      # ---- normal runs
       - name: Scrape all dealers
         id: scrape
+        if: ${{ inputs.test_dealers == '' && inputs.probe_urls == '' }}
         run: python -m aum_scraper run --out data --geocode
 
       # Runs even if one dealer failed: WordPress only takes stock down for dealers read successfully.
@@ -46,7 +80,7 @@ jobs:
         run: python -m aum_scraper push --data data
 
       - name: Save results
-        if: always()
+        if: ${{ always() && inputs.test_dealers == '' && inputs.probe_urls == '' }}
         run: |
           git config user.name "aum-scraper-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"

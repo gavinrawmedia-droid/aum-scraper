@@ -254,3 +254,7 @@ body.aumd-has-tray { padding-bottom: var(--aumd-tray-h, 96px); }
 	.aumd-tray-actions { gap: 12px; }
 	.aumd-tray .aumd-btn { min-height: 44px; padding: 0 18px; font-size: 16px; }
 }
+
+/* ---------------------------------------------------------------- 0.4.0 */
+.aumd-stairlift-note { margin: 0; font-size: 15px; }
+.aumd-visit-note { color: var(--aum-plum, #3A1C4E); font-weight: 600; }

@@ -14,15 +14,15 @@ import yaml
 
 from .adapters import ADAPTERS
 from .fetch import Fetcher
-from .normalise import (clean_title, detect_brand, detect_category, detect_condition, detect_year,
-                        extract_specs, extract_warranty_months)
+from .normalise import (clean_title, detect_brand, detect_category, detect_condition, detect_type_detail,
+                        detect_year, extract_specs, extract_warranty_months)
 
 MISSES_BEFORE_REMOVAL = 2      # an item must be missing from 2 runs in a row before we drop it
 HIDE_AFTER_DAYS = 7            # never show anything we haven't seen for a week
 
 CSV_FIELDS = [
     "id", "dealer_name", "dealer_town", "dealer_postcode", "dealer_phone", "title", "clean_title",
-    "brand", "year", "category", "condition", "price_gbp", "price_is_from", "was_price_gbp",
+    "brand", "year", "category", "type_detail", "condition", "price_gbp", "price_is_from", "was_price_gbp",
     "price_basis", "warranty_months", "warranty_source", "max_user_weight_kg", "range_miles",
     "top_speed_mph", "heaviest_part_kg", "spec_note", "url", "image_url", "first_seen", "last_seen",
 ]
@@ -51,6 +51,11 @@ def normalise(dealer: dict, item: dict, seen_at: str) -> dict:
         warranty_source = dealer["warranty_policy"]["source"]
     title = item["title"]
     images = item.get("images", [])
+    category = detect_category(title, item.get("tags"), item.get("product_type", ""),
+                               item.get("extra_category", ""), specs["top_speed_mph"])
+    # A stairlift's price always depends on the staircase, so it is a starting price.
+    price_is_from = bool(re.search(r"\bfrom\b\s*£|available from", title, re.I)
+                         or item.get("price_varies") or category == "Stairlift")
     return {
         "id": f"{dealer['id']}:{item['source_id']}",
         "dealer_id": dealer["id"],
@@ -62,12 +67,12 @@ def normalise(dealer: dict, item: dict, seen_at: str) -> dict:
         "clean_title": clean_title(title),
         "brand": detect_brand(title, item.get("vendor", ""), item.get("tags"), dealer["name"]),
         "year": detect_year(title),
-        "category": detect_category(title, item.get("tags"), item.get("product_type", ""),
-                                    item.get("extra_category", ""), specs["top_speed_mph"]),
+        "category": category,
+        "type_detail": detect_type_detail(category, title, text),
         "condition": detect_condition(title, item.get("tags"), item.get("product_type", ""),
                                       dealer.get("condition_default")),
         "price_gbp": item.get("price"),
-        "price_is_from": bool(re.search(r"\bfrom\b\s*£|available from", title, re.I)),
+        "price_is_from": price_is_from,
         "was_price_gbp": item.get("was_price"),
         "price_basis": dealer.get("price_basis", "check"),
         "warranty_months": warranty,
@@ -123,7 +128,8 @@ def geocode(postcodes: list[str], cache: dict) -> dict:
 
 
 def run(config_path: str | Path, out_dir: str | Path, offline_dir: str | Path | None = None,
-        only: list[str] | None = None, do_geocode: bool = False, fetcher: Fetcher | None = None) -> dict:
+        only: list[str] | None = None, do_geocode: bool = False, fetcher: Fetcher | None = None,
+        save_raw: str | Path | None = None) -> dict:
     cfg = load_config(config_path)
     out = Path(out_dir)
     out.mkdir(parents=True, exist_ok=True)
@@ -144,11 +150,16 @@ def run(config_path: str | Path, out_dir: str | Path, offline_dir: str | Path | 
         try:
             if offline_dir:
                 fixture = json.loads((Path(offline_dir) / f"{dealer['id']}.json").read_text())
-                raw = adapter.from_fixture(fixture)
+                # "raw" is a capture made with --save-raw; older fixtures use the adapter's own shape
+                raw = fixture["raw"] if "raw" in fixture else adapter.from_fixture(fixture)
                 seen_at_dealer = fixture.get("fetched_at", seen_at)
             else:
                 raw = adapter.fetch(dealer, fetcher)
                 seen_at_dealer = seen_at
+                if save_raw:
+                    Path(save_raw).mkdir(parents=True, exist_ok=True)
+                    (Path(save_raw) / f"{dealer['id']}.json").write_text(
+                        json.dumps({"fetched_at": seen_at, "raw": raw}, ensure_ascii=False))
             h["messages"] += raw.get("warnings", [])
             items = adapter.parse(dealer, raw)
         except Exception as exc:  # one broken dealer must not stop the others
@@ -216,7 +227,7 @@ def run(config_path: str | Path, out_dir: str | Path, offline_dir: str | Path | 
     for d in cfg["dealers"]:
         g = geo.get(d.get("postcode") or "")
         dealers_out.append({k: d.get(k) for k in ("id", "name", "website", "address", "town", "postcode",
-                                                  "phone", "other_branches", "price_basis")}
+                                                  "phone", "other_branches", "visit_note", "price_basis")}
                            | {"lat": g["lat"] if g else None, "lng": g["lng"] if g else None,
                               "listing_count": sum(1 for r in live if r["dealer_id"] == d["id"])})
     (out / "dealers.json").write_text(json.dumps(dealers_out, indent=1, ensure_ascii=False))

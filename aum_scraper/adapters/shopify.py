@@ -48,10 +48,33 @@ def _included(dealer: dict, p: dict) -> bool:
     if "product_type" in rule and p.get("product_type") not in rule["product_type"]:
         return False
     if "text_matches" in rule:
-        hay = " ".join([p.get("title", ""), " ".join(p.get("tags", [])), p.get("product_type", "")])
+        tags = p.get("tags", [])
+        hay = " ".join([p.get("title", ""), " ".join(tags) if isinstance(tags, list) else str(tags),
+                        p.get("product_type", "")])
         if not re.search(rule["text_matches"], hay, re.I):
             return False
+    if "title_matches" in rule and not re.search(rule["title_matches"], p.get("title", ""), re.I):
+        return False
+    if "title_excludes" in rule and re.search(rule["title_excludes"], p.get("title", ""), re.I):
+        return False
     return True
+
+
+def _variant_text(v: dict) -> str:
+    return " ".join(str(v.get(k) or "") for k in ("title", "option1", "option2", "option3"))
+
+
+def _used_variants(dealer: dict, p: dict, live: list[dict]) -> list[dict] | None:
+    """Some dealers sell one product page "reconditioned or new" with a variant for each.
+    With used_variants set, keep only the variants that match it. A product with no such
+    variant counts only if its own title says it is used; otherwise it is skipped (None)."""
+    pattern = dealer.get("used_variants")
+    if not pattern:
+        return live
+    matching = [v for v in live if re.search(pattern, _variant_text(v), re.I)]
+    if matching:
+        return matching
+    return live if re.search(pattern, p.get("title", ""), re.I) else None
 
 
 def parse(dealer: dict, raw: dict) -> list[dict]:
@@ -64,6 +87,10 @@ def parse(dealer: dict, raw: dict) -> list[dict]:
         live = [v for v in variants if v.get("available")]
         if not live:
             continue  # sold or hidden
+        live = _used_variants(dealer, p, live)
+        if not live:
+            continue  # only sold new
+        prices = {money(v.get("price")) for v in live if money(v.get("price"))}
         cheapest = min(live, key=lambda v: money(v.get("price")) or 1e9)
         price = money(cheapest.get("price"))
         was = money(cheapest.get("compare_at_price"))
@@ -80,7 +107,8 @@ def parse(dealer: dict, raw: dict) -> list[dict]:
             "tags": tags,
             "product_type": p.get("product_type") or "",
             "vendor": p.get("vendor") or "",
-            "variant_titles": [v.get("title", "") for v in variants if v.get("title") != "Default Title"],
+            "variant_titles": [v.get("title", "") for v in live if v.get("title") != "Default Title"],
+            "price_varies": len(prices) > 1,
             "images": [i["src"] for i in (p.get("images") or []) if i.get("src")][:6],
             "source_updated_at": p.get("updated_at"),
             "extra_category": "",
