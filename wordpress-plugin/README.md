@@ -37,6 +37,14 @@ Turns the scraper's data into real pages on approvedusedmobility.co.uk.
 - The dealer's description text is **not** copied (it's their copyright). Photos are shown from
   the dealer's own site, credited. Get each dealer's OK before launch.
 
+## New in 0.5.0: the "Browse equipment" menu
+
+- `[aum_type_menu]`: a "Browse equipment" button for the site header. It opens a full-width panel with the types in two groups, "Out and about" and "Around the home", each with a line icon and its number of listings, plus a "Find a dealer near you" postcode box and links to compare and to all listings. It opens on click and closes with Escape, a click outside or tabbing away.
+- `[aum_type_menu layout="drawer"]`: the same types as a list for the phone Menu drawer, with counts.
+- Types with no listings stay in the menu as "Coming soon" and become links by themselves when stock arrives. Counts are published listings only.
+- `[aum_compare_link]`: a "Compare" link that shows how many items the visitor has picked.
+- The postcode typed into the menu is passed to the dealers page in the visitor's browser (session storage), not in the web address, and the dealers page searches with it straight away.
+
 ## New in 0.4.2
 
 - "Questions to ask the dealer" fit the equipment: stairlifts (survey, fitting, rail, buy-back), riser recliners (seat size, weight, delivery), beds, hoists and bath lifts; scooters and chairs keep the battery questions.
