@@ -68,6 +68,18 @@ jobs:
           path: test-output
           retention-days: 7
 
+      # The same results on a "test-results" branch (replaced each test run), for tools that can't download attachments.
+      - name: Share test results on a branch
+        if: ${{ inputs.test_dealers != '' || inputs.probe_urls != '' }}
+        run: |
+          git config user.name "aum-scraper-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git checkout -q --orphan test-results
+          git rm -rq --cached .
+          git add -f test-output
+          git commit -qm "Test results from run $GITHUB_RUN_ID"
+          git push -qf origin HEAD:refs/heads/test-results
+
       # ---- normal runs
       - name: Scrape all dealers
         id: scrape
