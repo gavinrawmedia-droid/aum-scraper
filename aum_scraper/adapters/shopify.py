@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import re
+from urllib.parse import quote
 
 from ..fetch import BlockedByRobots, Fetcher
 from ..normalise import html_to_text, money
@@ -109,7 +110,8 @@ def parse(dealer: dict, raw: dict) -> list[dict]:
         out.append({
             "source_id": str(p["id"]),
             "title": (p.get("title") or "").strip(),
-            "url": f"{base}/products/{p['handle']}",
+            # Some handles hold emoji (GMS starts many with "✅"), so encode them for a valid address.
+            "url": f"{base}/products/{quote(p['handle'], safe='-_.~')}",
             "price": price,
             "was_price": was if (was and price and was > price * 1.02) else None,
             "text": p.get("body_text") or html_to_text(p.get("body_html")),

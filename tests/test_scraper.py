@@ -328,3 +328,11 @@ def test_category_falls_back_to_the_description():
         == "Boot / folding scooter"
     assert detect_category("Roma Sovereign scooter", text="Not suitable for a car boot.") \
         == "Mobility scooter (speed not stated)"
+
+
+def test_shopify_url_encodes_emoji_handles():
+    dealer = {"id": "d", "website": "https://d.co.uk"}
+    p = _product("CareCo Zoom", [{"title": "Default Title", "price": "449.00", "available": True}],
+                 handle="✅-careco-zoom-portable-mobility-scooter")
+    item = shopify.parse(dealer, {"products": [p]})[0]
+    assert item["url"] == "https://d.co.uk/products/%E2%9C%85-careco-zoom-portable-mobility-scooter"
