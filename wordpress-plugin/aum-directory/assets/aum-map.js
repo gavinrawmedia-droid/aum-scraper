@@ -112,5 +112,17 @@
 				})
 				.catch(function () { msg.textContent = 'The postcode search isn’t working right now. Please try again later.'; });
 		});
+
+		// A postcode typed into the header's "Find a dealer near you" box arrives here once.
+		var waiting = null;
+		try {
+			waiting = window.sessionStorage.getItem('aumNear');
+			window.sessionStorage.removeItem('aumNear');
+		} catch (e) { waiting = null; }
+		if (waiting) {
+			form.postcode.value = waiting;
+			form.dispatchEvent(new Event('submit', { cancelable: true }));
+			block.scrollIntoView({ block: 'start' });
+		}
 	});
 })();

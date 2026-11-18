@@ -44,6 +44,55 @@
 		});
 	});
 
+	/* ------------------------------------------------------------ header "Browse equipment" menu */
+	// Opens on click (not hover), closes with Escape, a click outside or tabbing away.
+	document.querySelectorAll('[data-aum-tm]').forEach(function (tm) {
+		var btn = tm.querySelector('.aumd-tm-btn');
+		var panel = btn && document.getElementById(btn.getAttribute('aria-controls'));
+		var scrim = tm.querySelector('[data-aum-tm-scrim]');
+		if (!panel) { return; }
+		function isOpen() { return btn.getAttribute('aria-expanded') === 'true'; }
+		function onKey(e) { if (e.key === 'Escape' || e.key === 'Esc') { close(true); } }
+		function onDoc(e) { if (!tm.contains(e.target) || e.target === scrim) { close(false); } }
+		function open() {
+			panel.hidden = false;
+			if (scrim) { scrim.hidden = false; }
+			btn.setAttribute('aria-expanded', 'true');
+			tm.classList.add('is-open');
+			document.addEventListener('keydown', onKey);
+			document.addEventListener('click', onDoc, true);
+		}
+		function close(focusButton) {
+			panel.hidden = true;
+			if (scrim) { scrim.hidden = true; }
+			btn.setAttribute('aria-expanded', 'false');
+			tm.classList.remove('is-open');
+			document.removeEventListener('keydown', onKey);
+			document.removeEventListener('click', onDoc, true);
+			if (focusButton) { btn.focus(); }
+		}
+		btn.addEventListener('click', function () { if (isOpen()) { close(false); } else { open(); } });
+		tm.addEventListener('focusout', function (e) {
+			if (isOpen() && e.relatedTarget && !tm.contains(e.relatedTarget)) { close(false); }
+		});
+		// The desktop menu is hidden on smaller screens, where the Menu drawer takes over.
+		var narrow = window.matchMedia('(max-width: 1119px)');
+		if (narrow.addEventListener) { narrow.addEventListener('change', function () { if (narrow.matches && isOpen()) { close(false); } }); }
+	});
+
+	// "Find a dealer near you" in the menu: the postcode goes to the dealers page through this
+	// browser's session storage, so it never appears in a web address or the site's logs.
+	document.querySelectorAll('[data-aum-tm-near]').forEach(function (f) {
+		f.addEventListener('submit', function (e) {
+			e.preventDefault();
+			var input = f.querySelector('input');
+			var pc = (input.value || '').trim();
+			if (!pc) { input.focus(); return; }
+			try { window.sessionStorage.setItem('aumNear', pc); } catch (err) { /* the dealers page opens with an empty box */ }
+			window.location.href = f.getAttribute('action');
+		});
+	});
+
 	/* ------------------------------------------------------------ compare */
 	// Picks are kept in this browser only (localStorage), as [{id, t: title, p: price}].
 	var cfg = window.aumCompare || { url: '/compare/', max: 3 };
@@ -159,6 +208,17 @@
 	function sync() {
 		var list = load();
 		boxes().forEach(function (b) { b.checked = has(list, parseInt(b.getAttribute('data-aum-cmp'), 10)); });
+		// The number beside "Compare" in the header and the phone menu.
+		document.querySelectorAll('[data-aum-cmp-count]').forEach(function (el) {
+			el.textContent = '';
+			el.hidden = list.length === 0;
+			if (!list.length) { return; }
+			el.appendChild(document.createTextNode(String(list.length)));
+			var sr = document.createElement('span');
+			sr.className = 'aumd-sr';
+			sr.textContent = ' picked';
+			el.appendChild(sr);
+		});
 		renderTray(list);
 	}
 	boxes().forEach(function (b) {
