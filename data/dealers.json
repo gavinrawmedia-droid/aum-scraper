@@ -91,7 +91,7 @@
   "price_basis": "no_vat",
   "lat": 51.29538,
   "lng": 0.195154,
-  "listing_count": 67
+  "listing_count": 68
  },
  {
   "id": "mobility-station",
@@ -205,5 +205,90 @@
   "lat": 53.595249,
   "lng": -0.6416,
   "listing_count": 167
+ },
+ {
+  "id": "unique-mobility",
+  "name": "Unique Mobility",
+  "website": "https://uniquemobility.co.uk",
+  "address": "2a Scarne Industrial Estate, Hurdon Road",
+  "town": "Launceston",
+  "postcode": "PL15 9HS",
+  "phone": "01566 774030",
+  "other_branches": [
+   "Exeter: Unit 5 Merriott House, Hennock Road, Marsh Barton, EX2 8NP (01392 824428)",
+   "Plymouth: Units 1 & 2 Drake Mill Business Park, Estover, PL6 7PS (01752 546222)"
+  ],
+  "visit_note": null,
+  "price_basis": "check",
+  "lat": 50.626221,
+  "lng": -4.358213,
+  "listing_count": 13
+ },
+ {
+  "id": "easy-living-mobility",
+  "name": "Easy Living Mobility",
+  "website": "https://store.easylivingmobility.co.uk",
+  "address": "11 Castle Walk",
+  "town": "Newcastle-under-Lyme",
+  "postcode": "ST5 1AN",
+  "phone": "0333 577 8085",
+  "other_branches": [
+   "15 stores in Staffordshire, the West Midlands and Shropshire, including Wolverhampton, Telford, Cannock and Hanley"
+  ],
+  "visit_note": "Used items are sold online and delivered. To see one first, ask which store has it.",
+  "price_basis": "check",
+  "lat": 53.011363,
+  "lng": -2.225252,
+  "listing_count": 16
+ },
+ {
+  "id": "etech-mobility",
+  "name": "Etech Mobility",
+  "website": "https://etechmobility.co.uk",
+  "address": "Unit 7 Mount Street Business Park",
+  "town": "Birmingham",
+  "postcode": "B7 5QU",
+  "phone": "0121 661 4336",
+  "other_branches": [
+   "Glasgow: 74 Brand Street, G51 1DG (0141 673 6558); no stock kept there"
+  ],
+  "visit_note": null,
+  "price_basis": "check",
+  "lat": 52.502144,
+  "lng": -1.859737,
+  "listing_count": 2
+ },
+ {
+  "id": "hearing-and-mobility-store",
+  "name": "The Hearing & Mobility Store",
+  "website": "https://thehearingandmobilitystore.co.uk",
+  "address": "6 Devizes Road, Wroughton",
+  "town": "Swindon",
+  "postcode": "SN4 0RZ",
+  "phone": "01793 815083",
+  "other_branches": [
+   "Marlborough: 56 George Lane, SN8 4BY (01672 511550)",
+   "Bourton-on-the-Water: Lansdowne, GL54 2AR"
+  ],
+  "visit_note": null,
+  "price_basis": "check",
+  "lat": 51.524234,
+  "lng": -1.789068,
+  "listing_count": 13
+ },
+ {
+  "id": "arb-mobility",
+  "name": "ARB Mobility",
+  "website": "https://www.arbmobility.co.uk",
+  "address": "The Carpenters, Cheats Road, Ruishton",
+  "town": "Taunton",
+  "postcode": "TA3 5JE",
+  "phone": "01823 442363",
+  "other_branches": null,
+  "visit_note": null,
+  "price_basis": "check",
+  "lat": 51.019249,
+  "lng": -3.046964,
+  "listing_count": 8
  }
 ]

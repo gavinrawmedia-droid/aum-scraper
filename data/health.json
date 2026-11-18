@@ -1,5 +1,5 @@
 {
- "run_at": "2026-11-18T13:13:31+00:00",
+ "run_at": "2026-11-18T13:24:23+00:00",
  "mode": "live",
  "dealers": {
   "active-mobility": {
@@ -42,8 +42,8 @@
   },
   "mobility-giant": {
    "status": "ok",
-   "count": 67,
-   "previous_count": 66,
+   "count": 68,
+   "previous_count": 67,
    "dropped": {},
    "messages": []
   },
@@ -80,7 +80,7 @@
   },
   "gms-mobility": {
    "status": "ok",
-   "count": 292,
+   "count": 291,
    "previous_count": 292,
    "dropped": {
     "below minimum price": 18,
@@ -102,6 +102,43 @@
    "status": "ok",
    "count": 167,
    "previous_count": 167,
+   "dropped": {},
+   "messages": []
+  },
+  "unique-mobility": {
+   "status": "ok",
+   "count": 13,
+   "previous_count": null,
+   "dropped": {},
+   "messages": []
+  },
+  "easy-living-mobility": {
+   "status": "ok",
+   "count": 16,
+   "previous_count": null,
+   "dropped": {
+    "below minimum price": 2
+   },
+   "messages": []
+  },
+  "etech-mobility": {
+   "status": "ok",
+   "count": 2,
+   "previous_count": null,
+   "dropped": {},
+   "messages": []
+  },
+  "hearing-and-mobility-store": {
+   "status": "ok",
+   "count": 13,
+   "previous_count": null,
+   "dropped": {},
+   "messages": []
+  },
+  "arb-mobility": {
+   "status": "ok",
+   "count": 8,
+   "previous_count": null,
    "dropped": {},
    "messages": []
   }
