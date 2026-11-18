@@ -1,5 +1,5 @@
 {
- "run_at": "2026-11-18T07:43:14+00:00",
+ "run_at": "2026-11-18T07:56:56+00:00",
  "mode": "live",
  "dealers": {
   "active-mobility": {
@@ -43,35 +43,35 @@
   "mobility-giant": {
    "status": "ok",
    "count": 65,
-   "previous_count": 64,
+   "previous_count": 65,
    "dropped": {},
    "messages": []
   },
   "mobility-station": {
    "status": "ok",
    "count": 10,
-   "previous_count": null,
+   "previous_count": 10,
    "dropped": {},
    "messages": []
   },
   "multicare": {
    "status": "ok",
    "count": 15,
-   "previous_count": null,
+   "previous_count": 15,
    "dropped": {},
    "messages": []
   },
   "millercare": {
    "status": "ok",
    "count": 4,
-   "previous_count": null,
+   "previous_count": 4,
    "dropped": {},
    "messages": []
   },
   "fenetic-wellbeing": {
    "status": "ok",
    "count": 12,
-   "previous_count": null,
+   "previous_count": 12,
    "dropped": {
     "not mobility equipment": 1
    },
