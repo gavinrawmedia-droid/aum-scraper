@@ -44,7 +44,9 @@ def load_config(path: str | Path) -> dict:
 def normalise(dealer: dict, item: dict, seen_at: str) -> dict:
     text = item.get("text", "")
     specs = extract_specs(item["title"] + "\n" + text)
-    warranty = extract_warranty_months(item["title"], " ".join(item.get("variant_titles", [])), text)
+    # When the same page also sells the item new, its description's warranty is likely the new one's.
+    warranty_texts = [item["title"], " ".join(item.get("variant_titles", []))] + ([] if item.get("sold_new_too") else [text])
+    warranty = extract_warranty_months(*warranty_texts)
     warranty_source = "Listing" if warranty else None
     if not warranty and dealer.get("warranty_policy"):
         warranty = dealer["warranty_policy"]["months"]
@@ -74,7 +76,7 @@ def normalise(dealer: dict, item: dict, seen_at: str) -> dict:
         "price_gbp": item.get("price"),
         "price_is_from": price_is_from,
         "was_price_gbp": item.get("was_price"),
-        "price_basis": dealer.get("price_basis", "check"),
+        "price_basis": item.get("price_basis") or dealer.get("price_basis", "check"),
         "warranty_months": warranty,
         "warranty_source": warranty_source,
         **{k: v for k, v in specs.items() if k != "spec_conflicts"},
@@ -95,6 +97,8 @@ def keep(dealer: dict, rec: dict) -> str | None:
         return "below minimum price"
     if rec["condition"] == "New":
         return "listed as new"
+    if rec["category"] in dealer.get("drop_categories", []):
+        return "not mobility equipment"
     if re.search(r"^(?!.*\bwith\b).*\b(spare|replacement)\b.*\b(battery|batteries|pack|parts?|charger)\b",
                  rec["title"], re.I):
         return "spare part or accessory"

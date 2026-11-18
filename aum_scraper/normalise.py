@@ -240,7 +240,8 @@ def detect_type_detail(category: str, title: str, text: str = "") -> str | None:
         hay = t + " " + (text or "").lower()[:600]
         words = {"single": 1, "one": 1, "1": 1, "dual": 2, "twin": 2, "two": 2, "2": 2,
                  "three": 3, "3": 3, "four": 4, "4": 4, "five": 5, "5": 5}
-        m = re.search(r"\b(single|one|dual|twin|two|three|four|five|[1-5])[- ]motors?\b", hay)
+        m = (re.search(r"\b(single|one|dual|twin|two|three|four|five|[1-5])[- ]motors?\b", hay)
+             or re.search(r"\b(single|dual|twin)[- ](?:riser|rise|lift)\b", hay))
         if m:
             n = words[m.group(1)]
             return "Single motor" if n == 1 else f"{'Dual' if n == 2 else n} motor"

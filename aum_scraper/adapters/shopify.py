@@ -87,9 +87,18 @@ def parse(dealer: dict, raw: dict) -> list[dict]:
         live = [v for v in variants if v.get("available")]
         if not live:
             continue  # sold or hidden
+        all_live = live
         live = _used_variants(dealer, p, live)
         if not live:
             continue  # only sold new
+        # Some shops sell each item twice, with and without VAT relief: price by the option named.
+        price_basis = None
+        if dealer.get("price_variants"):
+            chosen = [v for v in live if re.search(dealer["price_variants"], _variant_text(v), re.I)]
+            if chosen:
+                live = chosen
+            else:
+                price_basis = "check"   # only the full-price option is left
         prices = {money(v.get("price")) for v in live if money(v.get("price"))}
         cheapest = min(live, key=lambda v: money(v.get("price")) or 1e9)
         price = money(cheapest.get("price"))
@@ -109,6 +118,8 @@ def parse(dealer: dict, raw: dict) -> list[dict]:
             "vendor": p.get("vendor") or "",
             "variant_titles": [v.get("title", "") for v in live if v.get("title") != "Default Title"],
             "price_varies": len(prices) > 1,
+            "sold_new_too": len(live) < len(all_live) and bool(dealer.get("used_variants")),
+            "price_basis": price_basis,
             "images": [i["src"] for i in (p.get("images") or []) if i.get("src")][:6],
             "source_updated_at": p.get("updated_at"),
             "extra_category": "",

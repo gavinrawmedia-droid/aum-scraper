@@ -122,9 +122,9 @@ dealers:
     phone: "01202 287361"
     other_branches:
       - "Heathrow: 1-2 Horton Close, West Drayton, UB7 8EB (01895 520361)"
-    platform: shopify
-    collections:
-      - clearance                  # graded B/C used and ex-demo stock
+    platform: mobility_station     # their own shop (not Shopify): see adapters/mobility_station.py
+    pages:
+      - /clearance                 # graded used and ex-demo stock
     price_basis: vat_relief        # shown "ex. VAT" / "No VAT"
 
   - id: multicare
@@ -174,4 +174,7 @@ dealers:
     include:
       title_matches: "ex[- ]?demo|ex[- ]?display|ex[- ]?showroom|\\bdemo\\b|refurb|recondition|pre[- ]?owned|\\bused\\b"
       title_excludes: "\\bnew\\b(?!\\s*batt)"
-    price_basis: check
+    # Each item is listed twice, "VAT Exempt: Yes" and "No": show the VAT-relief price.
+    price_variants: "VAT Exempt: Yes"
+    drop_categories: ["Other"]     # sofas and other furniture
+    price_basis: vat_relief

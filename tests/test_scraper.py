@@ -271,3 +271,30 @@ def test_shopify_title_rules():
     keep = _product("Burlington Riser Recliner - Ex Demo", [{"title": "Default Title", "price": "399.99", "available": True}])
     drop = _product("Kelbrook Rise Recliner Chair Dual Motor - NEW", [{"title": "Default Title", "price": "999", "available": True}])
     assert [i["title"] for i in shopify.parse(dealer, {"products": [keep, drop]})] == ["Burlington Riser Recliner - Ex Demo"]
+
+
+def test_mobility_station_cards():
+    from aum_scraper.adapters import mobility_station
+    fx = json.loads((FIXTURES / "mobility-station.json").read_text())["raw"]
+    items = mobility_station.parse({"id": "mobility-station", "website": "https://mobilitystation.co.uk"}, fx)
+    assert len(items) == 10                                   # 16 on the page, 6 out of stock
+    mc = next(i for i in items if i["source_id"] == "mini-crosser-m2-8-mph-mobility-scooter-used")
+    assert mc["price"] == 1800.0 and mc["grade"] == "C" and "Grade C" in mc["tags"]
+    assert mc["url"] == "https://mobilitystation.co.uk/products/mini-crosser-m2-8-mph-mobility-scooter-used"
+    assert len(mc["images"]) > 1 and mc["text"]               # photos and description from the product page
+    assert all(i["images"][0].startswith("https://") for i in items)
+
+
+def test_shopify_price_variants_vat_relief():
+    dealer = {"id": "d", "website": "https://d.co.uk", "price_variants": "VAT Exempt: Yes"}
+    both = _product("Oakworth dual motor riser recliner chair - Ex Demo", [
+        {"title": "VAT Exempt: No", "price": "599.99", "compare_at_price": "1019.99", "available": True},
+        {"title": "VAT Exempt: Yes", "price": "499.99", "compare_at_price": "849.99", "available": True},
+    ])
+    only_full = _product("Karma Ergo 3 - Ex Demo", [
+        {"title": "Silver / VAT Exempt: No", "price": "442.80", "available": True},
+        {"title": "Silver / VAT Exempt: Yes", "price": "369.00", "available": False},
+    ])
+    a, b = shopify.parse(dealer, {"products": [both, only_full]})
+    assert (a["price"], a["was_price"], a["price_varies"], a["price_basis"]) == (499.99, 849.99, False, None)
+    assert (b["price"], b["price_basis"]) == (442.80, "check")
