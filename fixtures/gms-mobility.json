@@ -1,0 +1,2386 @@
+{
+"fetched_at": "2026-11-18T13:00:00Z",
+"raw": {
+"products": [
+{
+"id": 15971716628862,
+"title": "1 Year First Senior Insurance",
+"handle": "1-year-first-senior-insurance",
+"body_html": "",
+"published_at": "2026-06-19T16:26:18+01:00",
+"created_at": "2026-06-19T16:20:30+01:00",
+"updated_at": "2026-11-18T12:56:06+00:00",
+"vendor": "GMS Mobility",
+"product_type": "",
+"tags": [],
+"variants": [
+{
+"id": 57581178978686,
+"title": "Default Title",
+"option1": "Default Title",
+"option2": null,
+"option3": null,
+"sku": null,
+"requires_shipping": true,
+"taxable": true,
+"featured_image": null,
+"available": true,
+"price": "91.00",
+"grams": 0,
+"compare_at_price": null,
+"position": 1,
+"product_id": 15971716628862,
+"created_at": "2026-06-19T16:20:30+01:00",
+"updated_at": "2026-11-18T12:56:06+00:00"
+}
+],
+"images": [
+{
+"id": 84511640977790,
+"created_at": "2026-06-19T16:18:46+01:00",
+"position": 1,
+"updated_at": "2026-06-19T16:18:50+01:00",
+"product_id": 15971716628862,
+"variant_ids": [],
+"src": "https://cdn.shopify.com/s/files/1/0712/3265/1578/files/1YEARINSURANCE.png?v=1781882330",
+"width": 1254,
+"height": 1254
+}
+]
+},
+{
+"id": 8161153646906,
+"title": "GMS Mobility Scooter Rear Seat Storage Bag Flexi (Regular)",
+"handle": "gms-mobility-scooter-rear-seat-storage-bag-large",
+"body_html": "<p>The GMS Mobility Flexi (regular) is a flexible mobility scooter storage bag designed to be used on most small (but not the folding scooters), medium, or large sizes of wheelchairs, mobility scooters, and powerchairs.</p>\n<p>Images shown were taken on a Pride Apex Rapid mobility scooter.<br data-mce-fragment=\"1\"><br data-mce-fragment=\"1\">Constructed with a heavy-duty, waterproof, 1680 denier oxford fabric, the GMS Flexi regular offers a durable, multipurpose bag with easy grip zip pulls, plenty of storage, netted side pockets, and removable crutch/walking stick holders. The crutch/walking stick holders are large enough for the ferrules on NHS crutches and the popular Flexyfoot ferrules.<br data-mce-fragment=\"1\"><br data-mce-fragment=\"1\">The GMS Flexi regular boasts reflective trims for improved visibility, attractive handles, and a distinctive grey trim.<br data-mce-fragment=\"1\"><br data-mce-fragment=\"1\"></p>\n<ul>\n<li>\u200bColor: Black</li>\n<li>\u200bCode: FMBR01</li>\n<li>Size: W 31cm D 12cm</li>\n</ul>",
+"published_at": "2026-08-04T12:21:01+01:00",
+"created_at": "2023-02-23T12:27:46+00:00",
+"updated_at": "2026-11-18T12:56:06+00:00",
+"vendor": "MyWren",
+"product_type": "Accessory",
+"tags": [
+"Accessories"
+],
+"variants": [
+{
+"id": 44568892571962,
+"title": "Default Title",
+"option1": "Default Title",
+"option2": null,
+"option3": null,
+"sku": "FMBR01",
+"requires_shipping": true,
+"taxable": false,
+"featured_image": null,
+"available": true,
+"price": "39.95",
+"grams": 900,
+"compare_at_price": null,
+"position": 1,
+"product_id": 8161153646906,
+"created_at": "2023-02-23T12:27:46+00:00",
+"updated_at": "2026-11-18T12:56:06+00:00"
+}
+],
+"images": [
+{
+"id": 82446345634174,
+"created_at": "2026-02-27T16:13:37+00:00",
+"position": 1,
+"updated_at": "2026-02-27T16:14:28+00:00",
+"product_id": 8161153646906,
+"variant_ids": [],
+"src": "https://cdn.shopify.com/s/files/1/0712/3265/1578/files/E2325AB5-7E5C-44B5-80D4-141664A4DF2A.jpg?v=1772208868",
+"width": 3024,
+"height": 3024
+},
+{
+"id": 40698952352058,
+"created_at": "2023-02-23T13:03:01+00:00",
+"position": 2,
+"updated_at": "2026-02-27T16:14:28+00:00",
+"product_id": 8161153646906,
+"variant_ids": [],
+"src": "https://cdn.shopify.com/s/files/1/0712/3265/1578/products/IMG-4331.jpg?v=1772208868",
+"width": 3024,
+"height": 3024
+}
+]
+},
+{
+"id": 8161205944634,
+"title": "GMS Mobility Scooter Rear Seat Storage Bag High Vis (Regular)",
+"handle": "copy-of-gms-mobility-scooter-rear-seat-storage-bag-flexi-regular",
+"body_html": "<p data-mce-fragment=\"1\">The GMS Mobility Flexi (regular) is a flexible High Vis mobility scooter storage bag designed to be used on most small (but not folding scooters), medium, or large sizes of wheelchairs, mobility scooters, and powerchairs.</p>\n<p data-mce-fragment=\"1\">Images shown were taken on a Pride Apex Rapid mobility scooter.</p>\nConstructed with a heavy-duty, waterproof, 1680 denier oxford fabric, the GMS Flexi regular offers a durable, multipurpose bag with easy grip zip pulls, plenty of storage, netted side pockets, and removable crutch/walking stick holders. The crutch/walking stick holders are large enough for the ferrules on NHS crutches and the popular Flexyfoot ferrules.<br data-mce-fragment=\"1\"><br data-mce-fragment=\"1\">The GMS Flexi regular boasts reflective trims for improved visibility, attractive handles, and a distinctive grey trim.<br data-mce-fragment=\"1\"><br data-mce-fragment=\"1\">\n<ul>\n<li>\u200bColor: Black/High Vis</li>\n<li>\u200bCode: HVFMBR01</li>\n<li>Size: W 31cm D 12cm</li>\n</ul>",
+"published_at": "2026-06-09T13:11:14+01:00",
+"created_at": "2023-02-23T12:38:31+00:00",
+"updated_at": "2026-11-18T12:56:06+00:00",
+"vendor": "MyWren",
+"product_type": "Accessory",
+"tags": [
+"Accessories"
+],
+"variants": [
+{
+"id": 44568993431866,
+"title": "Default Title",
+"option1": "Default Title",
+"option2": null,
+"option3": null,
+"sku": "HVFMBR01",
+"requires_shipping": true,
+"taxable": false,
+"featured_image": null,
+"available": true,
+"price": "44.95",
+"grams": 900,
+"compare_at_price": null,
+"position": 1,
+"product_id": 8161205944634,
+"created_at": "2023-02-23T12:38:31+00:00",
+"updated_at": "2026-11-18T12:56:06+00:00"
+}
+],
+"images": [
+{
+"id": 82495189188990,
+"created_at": "2026-03-02T12:29:20+00:00",
+"position": 1,
+"updated_at": "2026-03-02T12:29:31+00:00",
+"product_id": 8161205944634,
+"variant_ids": [],
+"src": "https://cdn.shopify.com/s/files/1/0712/3265/1578/files/BFE7B6A2-1122-4DFC-ADA2-15317A2782BB.jpg?v=1772454571",
+"width": 3024,
+"height": 3024
+},
+{
+"id": 40698746274106,
+"created_at": "2023-02-23T12:42:34+00:00",
+"position": 2,
+"updated_at": "2026-03-02T12:29:31+00:00",
+"product_id": 8161205944634,
+"variant_ids": [],
+"src": "https://cdn.shopify.com/s/files/1/0712/3265/1578/products/IMG-4335.jpg?v=1772454571",
+"width": 3024,
+"height": 3024
+}
+]
+},
+{
+"id": 8161240318266,
+"title": "GMS Mobility Scooter Rear Seat Storage Bag (Extra large)",
+"handle": "gms-mobility-scooter-rear-seat-storage-bag-extra-large",
+"body_html": "<p>The GMS Mobility Flexi (extra large) is a flexible mobility bag designed to be used on large and extra large-size wheelchairs, mobility scooters and powerchairs (images shown were taken on a Pride Ranger scooter).</p>\n<p>This GMS super-sized Scooter bag is ideally suited to the largest mobility scooters on the market and bariatric wheelchairs and can fit a good grocery shop inside. Do not underestimate the size of the bag, please ensure it will fit between the pushing handles of your wheelchair and not obscure the lights on your scooter.<br data-mce-fragment=\"1\"><br data-mce-fragment=\"1\">Constructed with a heavy-duty, waterproof, 1680 denier oxford it is considerably larger than the regular version, proving a popular choice for larger scooters and wheelchairs or those who simply like to carry more.<br data-mce-fragment=\"1\"><br data-mce-fragment=\"1\">It also benefits from a simple fixing point at the base of the bag meaning that if you are a wheelchair user being pushed, your helper can secure the base of the bag together to prevent the bag from being in the way of their legs.<br data-mce-fragment=\"1\"><br data-mce-fragment=\"1\">The Flexi extra large is a durable multipurpose bag with easy grip zip pulls, removable crutch/walking stick holders, and side storage pockets. The crutch/walking stick holders are large enough for the ferrules on NHS crutches and the popular Flexyfoot ferrules.<br data-mce-fragment=\"1\"><br data-mce-fragment=\"1\">Everything about the extra large is supersized from the double-thickness velcro side fastenings for scooters to the double-thickness and super-sized buckles for fastening to your wheelchair.<br data-mce-fragment=\"1\"><br data-mce-fragment=\"1\">It also boasts reflective trims for improved visibility, attractive handles, and distinctive grey trims.<br data-mce-fragment=\"1\"><br data-mce-fragment=\"1\">Colour: Black<br data-mce-fragment=\"1\">Code: FMBXL01<br data-mce-fragment=\"1\">Size: H 57cm W 45cm D 15cm</p>",
+"published_at": "2026-02-27T19:25:58+00:00",
+"created_at": "2023-02-23T12:47:47+00:00",
+"updated_at": "2026-11-18T12:56:06+00:00",
+"vendor": "MyWren",
+"product_type": "Accessory",
+"tags": [
+"Accessories",
+"Shop All"
+],
+"variants": [
+{
+"id": 44569066242362,
+"title": "Default Title",
+"option1": "Default Title",
+"option2": null,
+"option3": null,
+"sku": "FMBXL01",
+"requires_shipping": true,
+"taxable": false,
+"featured_image": null,
+"available": true,
+"price": "59.95",
+"grams": 900,
+"compare_at_price": null,
+"position": 1,
+"product_id": 8161240318266,
+"created_at": "2023-02-23T12:47:47+00:00",
+"updated_at": "2026-11-18T12:56:06+00:00"
+}
+],
+"images": [
+{
+"id": 82446396424574,
+"created_at": "2026-02-27T16:14:55+00:00",
+"position": 1,
+"updated_at": "2026-02-27T16:17:56+00:00",
+"product_id": 8161240318266,
+"variant_ids": [],
+"src": "https://cdn.shopify.com/s/files/1/0712/3265/1578/files/2A4C85AD-A7C7-4029-B675-D56AB76E6C74.jpg?v=1772209076",
+"width": 2923,
+"height": 3024
+},
+{
+"id": 40698823475514,
+"created_at": "2023-02-23T12:52:04+00:00",
+"position": 2,
+"updated_at": "2026-02-27T16:17:56+00:00",
+"product_id": 8161240318266,
+"variant_ids": [],
+"src": "https://cdn.shopify.com/s/files/1/0712/3265/1578/products/IMG-4346.jpg?v=1772209076",
+"width": 3024,
+"height": 3024
+}
+]
+},
+{
+"id": 8163251388730,
+"title": "Weather Cover for Large Size Mobility Scooters",
+"handle": "copy-of-weather-cover-for-medium-large-size-mobility-scooters",
+"body_html": "<p>This mobility scooter cover is waterproof and constructed from 420D polyester. The elasticated hem ensures quick, easy usage and a snug fit. The cover helps to provide protection from elements such as dust and adverse weather, ensuring a smooth, rigid and secure fit for when your scooter is not in use. The cover is supplied with a draw string storage bag for when it is not in use.</p>\n<p>Colour: Light Green</p>\n<p>Product Dimensions (cm): 150x75x130</p>\n<p>Net Weight (kg): 2.15</p>",
+"published_at": "2026-03-12T17:27:37+00:00",
+"created_at": "2023-02-24T15:03:32+00:00",
+"updated_at": "2026-11-18T12:56:06+00:00",
+"vendor": "Aidapt",
+"product_type": "Accessory",
+"tags": [
+"Accessories"
+],
+"variants": [
+{
+"id": 44576076890426,
+"title": "Default Title",
+"option1": "Default Title",
+"option2": null,
+"option3": null,
+"sku": "GH092-LARGE",
+"requires_shipping": true,
+"taxable": true,
+"featured_image": null,
+"available": true,
+"price": "49.99",
+"grams": 2150,
+"compare_at_price": null,
+"position": 1,
+"product_id": 8163251388730,
+"created_at": "2023-02-24T15:03:32+00:00",
+"updated_at": "2026-11-18T12:56:06+00:00"
+}
+],
+"images": [
+{
+"id": 82784851919230,
+"created_at": "2026-03-17T11:02:04+00:00",
+"position": 1,
+"updated_at": "2026-03-17T11:02:37+00:00",
+"product_id": 8163251388730,
+"variant_ids": [],
+"src": "https://cdn.shopify.com/s/files/1/0712/3265/1578/files/9FC636CE-1018-473C-BE27-F46BAF7051F2.jpg?v=1773745357",
+"width": 2362,
+"height": 1574
+},
+{
+"id": 82784851886462,
+"created_at": "2026-03-17T11:02:04+00:00",
+"position": 2,
+"updated_at": "2026-03-17T11:02:37+00:00",
+"product_id": 8163251388730,
+"variant_ids": [],
+"src": "https://cdn.shopify.com/s/files/1/0712/3265/1578/files/8249D5F4-8405-4D67-AA3A-9CAE8690F7CA.jpg?v=1773745357",
+"width": 2456,
+"height": 2953
+}
+]
+},
+{
+"id": 8161308442938,
+"title": "GMS Mobility Scooter Rear Seat Storage Bag (Large)",
+"handle": "gms-mobility-scooter-rear-seat-storage-bag-large-1",
+"body_html": "<p>The GMS Flexi (large) is a flexible mobility bag designed to be used on most Medium and large-size wheelchairs, mobility scooters, and powerchairs.</p>\n<p>Images shown were taken on a CareCo Daytona Mobility Scooter.<br data-mce-fragment=\"1\"><br data-mce-fragment=\"1\">Constructed with a heavy-duty, waterproof, 1680 denier oxford it is considerably larger than the regular version, proving a popular choice for larger scooters and wheelchairs or those who simply like to carry more.<br data-mce-fragment=\"1\"><br data-mce-fragment=\"1\">It also benefits from a simple fixing point at the base of the bag meaning that if you are a wheelchair user being pushed, your helper can secure the base of the bag together to prevent the bag from being in the way of their legs.<br data-mce-fragment=\"1\"><br data-mce-fragment=\"1\">The Flexi large is a durable multipurpose bag with easy grip zip pulls, removable crutch/walking stick holders and side storage pockets. The crutch/walking stick holders are large enough for the ferrules on NHS crutches and the popular Flexyfoot ferrules. <br data-mce-fragment=\"1\"><br data-mce-fragment=\"1\">The Flexi large boasts reflective trims for improved visibility, attractive handles and distinctive grey trims.</p>\n<ul>\n<li>Colour: Black</li>\n<li>Code: FMBL01</li>\n<li>Size: H 50cm W 31cm D 15cm</li>\n</ul>",
+"published_at": "2026-02-27T19:24:47+00:00",
+"created_at": "2023-02-23T13:05:58+00:00",
+"updated_at": "2026-11-18T12:56:06+00:00",
+"vendor": "MyWren",
+"product_type": "Accessory",
+"tags": [
+"Accessories"
+],
+"variants": [
+{
+"id": 44569230508346,
+"title": "Default Title",
+"option1": "Default Title",
+"option2": null,
+"option3": null,
+"sku": "FMBL01",
+"requires_shipping": true,
+"taxable": false,
+"featured_image": null,
+"available": true,
+"price": "49.95",
+"grams": 1100,
+"compare_at_price": null,
+"position": 1,
+"product_id": 8161308442938,
+"created_at": "2023-02-23T13:05:58+00:00",
+"updated_at": "2026-11-18T12:56:06+00:00"
+}
+],
+"images": [
+{
+"id": 82446396424574,
+"created_at": "2026-02-27T16:14:55+00:00",
+"position": 1,
+"updated_at": "2026-02-27T16:17:56+00:00",
+"product_id": 8161308442938,
+"variant_ids": [],
+"src": "https://cdn.shopify.com/s/files/1/0712/3265/1578/files/2A4C85AD-A7C7-4029-B675-D56AB76E6C74.jpg?v=1772209076",
+"width": 2923,
+"height": 3024
+},
+{
+"id": 40699039482170,
+"created_at": "2023-02-23T13:08:49+00:00",
+"position": 2,
+"updated_at": "2026-02-27T16:15:40+00:00",
+"product_id": 8161308442938,
+"variant_ids": [],
+"src": "https://cdn.shopify.com/s/files/1/0712/3265/1578/products/IMG-4342_73c6bfab-138c-4155-a462-4aebb788898e.jpg?v=1772208940",
+"width": 3024,
+"height": 3024
+}
+]
+},
+{
+"id": 15566916682110,
+"title": "Ex Demo CareCo Minimus Mobility Scooter Buggy",
+"handle": "ex-demo-careco-minimus-mobility-scooter-buggy-14",
+"body_html": "<p>GMS Mobility is pleased to offer for sale, this fantastic value and super popular 2024 Ex Demo CareCo Minimus, a transportable 4 mph pavement mobility scooter that comes with a fully tested airline friendly lithium battery and charger (in excellent order), FREE UK delivery, and a 6-month warranty included. Ask us about Insurance, Extended Warranty and Part Exchange.<br><br>Some of the great features include an 18-stone weight capacity, puncture-proof tyres, a 9-mile range, is the lightest folding scooter in the UK, and is ideal for car boots, buses, planes, or trains!<br><br>The cosmetic condition is excellent!</p>\n<p>Great value as the new RRP is \u00a31999.99!</p>\n<p>The Minimus Lightweight Folding Mobility Scooter is the lightest folding 4-wheel mobility scooter in the UK, weighing in at just 17.8kg.<br><br>Its smart, stylish travel scooter features an innovative aluminium frame with sliding mechanisms for easy transport and storage.<br><br>This makes it ideal for short, everyday trips as well as holidays and for going around larger shops. <br><br>Please Note due to the size of the wheels and low ground clearance this is only suitable for smooth and flat surfaces.<br></p>\n<p>Battery Size (Ah) - 10.3<br>Battery Type - Lithium-ion<br>Battery Brand - Panasonic<br>Battery Certification - Lithium-ion battery designed to UK / EU regulations<br>Off Board Charging - Yes<br>Range up to (miles) \u00a0-8<br>Watt Hours - 259.56<br>Product Specs<br>Folded Height (inches) - 12<br>Folded Length (inches) - 27<br>Folded Width (inches) - 17<br>Front Wheel Size (inches) - 6<br>Ground Clearance (inches) - 1<br>Heaviest Part (Stone/Pounds) - 2st 11lbs<br>Incline Rating (Degrees) - 6<br>Max Speed (mp/h) - 4<br>Motor Wattage - 180<br>Number of Wheels - 4<br>Product Weight (Stone/Pounds) - 3st 0lbs<br>Rear Wheel Size (inches) - 6<br>Seat Width (inches) \u00a0 \u00a0 - 13<br>Swivel Seat - No<br>Tiller Type - Standard<br>Turning Radius (inches) - 56<br>Tyres - Solid<br>Height (inches) - 28<br>Length (inches) - 36<br>Width (inches) - 17<br>User Specs<br>Max User Weight (Stone/Pounds) - 18st 1lbs<br><br><strong>GMS Mobility 5-Star Warranty Information</strong><br><span>We pride ourselves here at GMS Mobility on aftercare. It\u2019s the after-sales service that is most important when dealing with Mobility Scooters and Powerchairs.</span><br><br><strong>What happens if I have a technical or operational issue within the warranty period?</strong><br><span>You simply email or call us for assistance. We are on hand to help with absolutely any query or issue that you have with your product, from just wanting to go through the operational controls to help if you believe the item is faulty. We want to help!</span><br><br><strong>What if my scooter or powerchair arrives faulty or develops a fault in the warranty period?</strong><br><span>The chances are, we are not local to you but we strongly believe that we offer a faster and more efficient warranty turnaround than your local mobility store!</span><b",
+"published_at": "2026-10-06T09:31:23+01:00",
+"created_at": "2025-09-09T09:50:31+01:00",
+"updated_at": "2026-11-18T12:56:06+00:00",
+"vendor": "CareCo",
+"product_type": "4-Wheeled Scooter",
+"tags": [
+"4-6 MPH SCOOTERS",
+"eBay",
+"Folding Scooters",
+"Just Arrived",
+"Portable Scooters",
+"Shop All",
+"tag__sale_Ex Demo"
+],
+"variants": [
+{
+"id": 56224939671934,
+"title": "Default Title",
+"option1": "Default Title",
+"option2": null,
+"option3": null,
+"sku": "MINIMUS-BLUEDEMO",
+"requires_shipping": true,
+"taxable": false,
+"featured_image": null,
+"available": true,
+"price": "1095.00",
+"grams": 19000,
+"compare_at_price": "1699.99",
+"position": 1,
+"product_id": 15566916682110,
+"created_at": "2025-09-09T09:50:32+01:00",
+"updated_at": "2026-11-18T12:56:06+00:00"
+}
+],
+"images": [
+{
+"id": 45742358921530,
+"created_at": "2024-04-26T20:34:06+01:00",
+"position": 1,
+"updated_at": "2024-04-26T20:34:15+01:00",
+"product_id": 15566916682110,
+"variant_ids": [],
+"src": "https://cdn.shopify.com/s/files/1/0712/3265/1578/files/BE207B96-9F0E-47E6-983E-2631816B26E5.jpg?v=1714160055",
+"width": 3024,
+"height": 3024
+},
+{
+"id": 45742357938490,
+"created_at": "2024-04-26T20:34:06+01:00",
+"position": 2,
+"updated_at": "2024-04-26T20:34:14+01:00",
+"product_id": 15566916682110,
+"variant_ids": [],
+"src": "https://cdn.shopify.com/s/files/1/0712/3265/1578/files/9D0A0F38-D8C6-4A5E-B511-02748EEB03A3.jpg?v=1714160054",
+"width": 3024,
+"height": 3024
+}
+]
+},
+{
+"id": 15976405565822,
+"title": "2 Year Extended Warranty",
+"handle": "2-year-extended-warranty-1",
+"body_html": "",
+"published_at": "2026-06-21T16:50:15+01:00",
+"created_at": "2026-06-21T16:50:15+01:00",
+"updated_at": "2026-11-18T12:56:06+00:00",
+"vendor": "GMS Mobility",
+"product_type": "",
+"tags": [],
+"variants": [
+{
+"id": 57593324142974,
+"title": "Default Title",
+"option1": "Default Title",
+"option2": null,
+"option3": null,
+"sku": "EW99",
+"requires_shipping": true,
+"taxable": true,
+"featured_image": null,
+"available": true,
+"price": "99.00",
+"grams": 0,
+"compare_at_price": null,
+"position": 1,
+"product_id": 15976405565822,
+"created_at": "2026-06-21T16:50:15+01:00",
+"updated_at": "2026-11-18T12:56:06+00:00"
+}
+],
+"images": [
+{
+"id": 84546061238654,
+"created_at": "2026-06-21T16:48:28+01:00",
+"position": 1,
+"updated_at": "2026-06-21T16:48:32+01:00",
+"product_id": 15976405565822,
+"variant_ids": [],
+"src": "https://cdn.shopify.com/s/files/1/0712/3265/1578/files/452E1613-B123-486E-9061-919BA3C4AFA8.png?v=1782056912",
+"width": 1254,
+"height": 1254
+}
+]
+},
+{
+"id": 15976397406590,
+"title": "1 Year First Senior Roadside Recovery",
+"handle": "1-year-first-senior-roadside-recovery",
+"body_html": "",
+"published_at": "2026-06-21T16:44:48+01:00",
+"created_at": "2026-06-21T16:44:48+01:00",
+"updated_at": "2026-11-18T12:56:06+00:00",
+"vendor": "GMS Mobility",
+"product_type": "",
+"tags": [],
+"variants": [
+{
+"id": 57593309921662,
+"title": "Default Title",
+"option1": "Default Title",
+"option2": null,
+"option3": null,
+"sku": null,
+"requires_shipping": true,
+"taxable": true,
+"featured_image": null,
+"available": true,
+"price": "59.00",
+"grams": 0,
+"compare_at_price": null,
+"position": 1,
+"product_id": 15976397406590,
+"created_at": "2026-06-21T16:44:48+01:00",
+"updated_at": "2026-11-18T12:56:06+00:00"
+}
+],
+"images": [
+{
+"id": 84546043609470,
+"created_at": "2026-06-21T16:45:15+01:00",
+"position": 1,
+"updated_at": "2026-06-21T16:45:20+01:00",
+"product_id": 15976397406590,
+"variant_ids": [],
+"src": "https://cdn.shopify.com/s/files/1/0712/3265/1578/files/F0A87D89-8320-4D79-A1E1-3C7DA7A04640.png?v=1782056720",
+"width": 1254,
+"height": 1254
+}
+]
+},
+{
+"id": 15828942061950,
+"title": "Weather Cover for Small Size Mobility Scooters",
+"handle": "weather-cover-for-small-size-mobility-scooters-copy",
+"body_html": "<p><span>This mobility scooter cover is waterproof and constructed from 420D polyester. The elasticated hem ensures quick, easy usage and a snug fit. The cover helps to provide protection from elements such as dust and adverse weather, ensuring a smooth, rigid and secure fit for when your scooter is not in use. The cover is supplied with a draw string storage bag for when it is not in use.</span></p>\n<p><span>Colour: Light Green</span></p>\n<p><span>Product Dimensions (cm): 121x56x80</span></p>\n<p>Net Weight (kg): 1.05</p>\n<p>\u00a0</p>",
+"published_at": "2026-03-17T11:26:48+00:00",
+"created_at": "2026-03-17T10:53:59+00:00",
+"updated_at": "2026-11-18T12:56:06+00:00",
+"vendor": "Aidapt",
+"product_type": "Accessory",
+"tags": [
+"Accessories"
+],
+"variants": [
+{
+"id": 57134080950654,
+"title": "Default Title",
+"option1": "Default Title",
+"option2": null,
+"option3": null,
+"sku": "GH090-SMALL",
+"requires_shipping": true,
+"taxable": false,
+"featured_image": null,
+"available": true,
+"price": "39.99",
+"grams": 1050,
+"compare_at_price": null,
+"position": 1,
+"product_id": 15828942061950,
+"created_at": "2026-03-17T10:54:00+00:00",
+"updated_at": "2026-11-18T12:56:06+00:00"
+}
+],
+"images": [
+{
+"id": 82784851919230,
+"created_at": "2026-03-17T11:02:04+00:00",
+"position": 1,
+"updated_at": "2026-03-17T11:02:37+00:00",
+"product_id": 15828942061950,
+"variant_ids": [],
+"src": "https://cdn.shopify.com/s/files/1/0712/3265/1578/files/9FC636CE-1018-473C-BE27-F46BAF7051F2.jpg?v=1773745357",
+"width": 2362,
+"height": 1574
+},
+{
+"id": 82784851886462,
+"created_at": "2026-03-17T11:02:04+00:00",
+"position": 2,
+"updated_at": "2026-03-17T11:02:37+00:00",
+"product_id": 15828942061950,
+"variant_ids": [],
+"src": "https://cdn.shopify.com/s/files/1/0712/3265/1578/files/8249D5F4-8405-4D67-AA3A-9CAE8690F7CA.jpg?v=1773745357",
+"width": 2456,
+"height": 2953
+}
+]
+},
+{
+"id": 15976406319486,
+"title": "2 Year Extended Warranty",
+"handle": "2-year-extended-warranty-2",
+"body_html": "",
+"published_at": "2026-06-21T16:50:52+01:00",
+"created_at": "2026-06-21T16:50:39+01:00",
+"updated_at": "2026-11-18T12:56:06+00:00",
+"vendor": "GMS Mobility",
+"product_type": "",
+"tags": [],
+"variants": [
+{
+"id": 57593325420926,
+"title": "Default Title",
+"option1": "Default Title",
+"option2": null,
+"option3": null,
+"sku": "EW149",
+"requires_shipping": true,
+"taxable": true,
+"featured_image": null,
+"available": true,
+"price": "149.00",
+"grams": 0,
+"compare_at_price": null,
+"position": 1,
+"product_id": 15976406319486,
+"created_at": "2026-06-21T16:50:39+01:00",
+"updated_at": "2026-11-18T12:56:06+00:00"
+}
+],
+"images": [
+{
+"id": 84546061238654,
+"created_at": "2026-06-21T16:48:28+01:00",
+"position": 1,
+"updated_at": "2026-06-21T16:48:32+01:00",
+"product_id": 15976406319486,
+"variant_ids": [],
+"src": "https://cdn.shopify.com/s/files/1/0712/3265/1578/files/452E1613-B123-486E-9061-919BA3C4AFA8.png?v=1782056912",
+"width": 1254,
+"height": 1254
+}
+]
+},
+{
+"id": 15976407630206,
+"title": "2 Year Extended Warranty",
+"handle": "2-year-extended-warranty-3",
+"body_html": "",
+"published_at": "2026-06-21T16:51:27+01:00",
+"created_at": "2026-06-21T16:51:27+01:00",
+"updated_at": "2026-11-18T12:56:06+00:00",
+"vendor": "GMS Mobility",
+"product_type": "",
+"tags": [],
+"variants": [
+{
+"id": 57593326829950,
+"title": "Default Title",
+"option1": "Default Title",
+"option2": null,
+"option3": null,
+"sku": "EW199",
+"requires_shipping": true,
+"taxable": true,
+"featured_image": null,
+"available": true,
+"price": "199.00",
+"grams": 0,
+"compare_at_price": null,
+"position": 1,
+"product_id": 15976407630206,
+"created_at": "2026-06-21T16:51:27+01:00",
+"updated_at": "2026-11-18T12:56:06+00:00"
+}
+],
+"images": [
+{
+"id": 84546061238654,
+"created_at": "2026-06-21T16:48:28+01:00",
+"position": 1,
+"updated_at": "2026-06-21T16:48:32+01:00",
+"product_id": 15976407630206,
+"variant_ids": [],
+"src": "https://cdn.shopify.com/s/files/1/0712/3265/1578/files/452E1613-B123-486E-9061-919BA3C4AFA8.png?v=1782056912",
+"width": 1254,
+"height": 1254
+}
+]
+},
+{
+"id": 8160889798970,
+"title": "Weather Cover for Medium Size Mobility Scooters",
+"handle": "weather-cover-for-large-mobility-scooter",
+"body_html": "<p>This mobility scooter cover is waterproof and constructed from 420D polyester. The elasticated hem ensures quick, easy usage and a snug fit. The cover helps to provide protection from elements such as dust and adverse weather, ensuring a smooth, rigid and secure fit for when your scooter is not in use. The cover is supplied with a draw string storage bag for when it is not in use.</p>\n<p>Colour: Light Green</p>\n<p>Product Dimensions (cm): 123x64x80</p>\n<p>Net Weight (kg): 1.2</p>",
+"published_at": "2023-02-23T10:24:21+00:00",
+"created_at": "2023-02-23T10:24:21+00:00",
+"updated_at": "2026-11-18T12:56:06+00:00",
+"vendor": "Aidapt",
+"product_type": "Accessory",
+"tags": [
+"Accessories"
+],
+"variants": [
+{
+"id": 44568117051706,
+"title": "Default Title",
+"option1": "Default Title",
+"option2": null,
+"option3": null,
+"sku": "GH091-MEDIUM",
+"requires_shipping": true,
+"taxable": true,
+"featured_image": null,
+"available": true,
+"price": "44.99",
+"grams": 1200,
+"compare_at_price": null,
+"position": 1,
+"product_id": 8160889798970,
+"created_at": "2023-02-23T10:24:21+00:00",
+"updated_at": "2026-11-18T12:56:06+00:00"
+}
+],
+"images": [
+{
+"id": 82784851919230,
+"created_at": "2026-03-17T11:02:04+00:00",
+"position": 1,
+"updated_at": "2026-03-17T11:02:37+00:00",
+"product_id": 8160889798970,
+"variant_ids": [],
+"src": "https://cdn.shopify.com/s/files/1/0712/3265/1578/files/9FC636CE-1018-473C-BE27-F46BAF7051F2.jpg?v=1773745357",
+"width": 2362,
+"height": 1574
+},
+{
+"id": 82784851886462,
+"created_at": "2026-03-17T11:02:04+00:00",
+"position": 2,
+"updated_at": "2026-03-17T11:02:37+00:00",
+"product_id": 8160889798970,
+"variant_ids": [],
+"src": "https://cdn.shopify.com/s/files/1/0712/3265/1578/files/8249D5F4-8405-4D67-AA3A-9CAE8690F7CA.jpg?v=1773745357",
+"width": 2456,
+"height": 2953
+}
+]
+},
+{
+"id": 15802749714814,
+"title": "GMS Mobility Black Scooter Contour Rear Seat Storage Bag",
+"handle": "gms-mobility-scooter-contour-rear-seat-storage-bag-black",
+"body_html": "<p><span>The GMS Mobility Contour Scooter Bag is designed for smaller scooters and boot scooters. The bag simply slides over the rounded seat of many popular</span><span>\u00a0and small sized scooters and its stretchy neoprene allows\u00a0for a great fit.</span><br><br><span>Constructed with heavy-duty, waterproof fabric the Contour Scooter Bag is easy to use, strong and durable.</span></p>\n<p><span style=\"font-size: 0.875rem;\">All size measurements in centimetres (cm)</span></p>\n<ul>\n<li><span>Size: H36 W45 D8</span></li>\n<li><span>Colour: Black</span></li>\n</ul>",
+"published_at": "2026-03-02T15:29:46+00:00",
+"created_at": "2026-03-02T12:31:46+00:00",
+"updated_at": "2026-11-18T12:56:06+00:00",
+"vendor": "GMS Mobility",
+"product_type": "Accessory",
+"tags": [
+"Accessories"
+],
+"variants": [
+{
+"id": 57001692266878,
+"title": "Default Title",
+"option1": "Default Title",
+"option2": null,
+"option3": null,
+"sku": "CONTOUR-BLACK",
+"requires_shipping": true,
+"taxable": true,
+"featured_image": null,
+"available": true,
+"price": "32.99",
+"grams": 900,
+"compare_at_price": null,
+"position": 1,
+"product_id": 15802749714814,
+"created_at": "2026-03-02T12:31:46+00:00",
+"updated_at": "2026-11-18T12:56:06+00:00"
+}
+],
+"images": [
+{
+"id": 82495216255358,
+"created_at": "2026-03-02T12:32:02+00:00",
+"position": 1,
+"updated_at": "2026-03-02T12:32:06+00:00",
+"product_id": 15802749714814,
+"variant_ids": [],
+"src": "https://cdn.shopify.com/s/files/1/0712/3265/1578/files/057EDAC5-41F0-4F08-A4CF-9D53E037C9D4.jpg?v=1772454726",
+"width": 3024,
+"height": 3024
+},
+{
+"id": 82495216222590,
+"created_at": "2026-03-02T12:32:02+00:00",
+"position": 2,
+"updated_at": "2026-03-02T12:32:06+00:00",
+"product_id": 15802749714814,
+"variant_ids": [],
+"src": "https://cdn.shopify.com/s/files/1/0712/3265/1578/files/90F5BFA2-B45E-4923-A787-C8CB923B22FE.jpg?v=1772454726",
+"width": 3024,
+"height": 3024
+}
+]
+},
+{
+"id": 15707643511166,
+"title": "MuickSandy ProFold SuperLite Mobility Scooter Buggy (Only 14.7kgs)",
+"handle": "2024-muick-sandy-profold-superlite-mobility-scooter-buggy-only-14-7kgs-1",
+"body_html": "<p>GMS Mobility is pleased to offer for sale, this fantastic value and super popular 2024 MuickSandy ProFold SuperLite, a transportable 4 mph pavement mobility scooter that comes with fully tested 10.4ah airline lithium battery and charger (in excellent order), a user manual, FREE UK delivery and a 6 month warranty included. Ask us about Insurance, Extended Warranty and Part Exchange.<br><br>Some of the great features include a 19.6-stone weight capacity, puncture-proof tyres, has a 7.5-mile range, is one of the lightest folding scooters in the UK (only 14.75kgs) and is ideal for car boots, buses, planes or trains!<br><br>The mechanical and cosmetic condition is excellent with a couple of marks.</p>\n<p><strong>Manufacturers info:</strong><br>Total Length: 102cm<br>Total Width: 43cm<br>Total Height: 87cm<br>Seat Width: 40cm<br>Seat Depth: 46cm<br>Backrest Height: 26cm<br>Handlebar Width: 39cm<br>Ground Clearance: 4cm<br>F. Wheel Diameter: 20cm<br>R. Wheel Diameter: 20cm<br>Battery: 10ah (airline friendly)<br>Weight: 14.7kgs<br>User weight: 19.6 stone<br>On/off board charging: Yes<br>Gradient: 8 degrees<br><br><strong>Weighs only 14kg</strong><br>Introducing the ProFold SuperLite, the epitome of lightweight mobility. Weighing in at an astonishing 14kg, this manual folding scooter offers unparalleled convenience and portability. Engineered with simplicity in mind, it is the ideal companion for individuals seeking the ultimate lightweight scooter.<br><br><strong>Rediscover the finer things in life</strong><br>After all, they are worth the trouble. Our scooters have been engineered and built from the ground up to provide a simple solution to modern mobility needs.<br><br><strong>Where will the next adventure unfold</strong><br>A world of adventure is about to unfold. With a clever, compact design and unique folding capabilities, our ProFold scooter is the perfect travel companion for those who love to explore. Easy to lift and transport, the ProFold opens up plenty of new opportunities...the world really is your oyster.<br><br><strong>Travel Approved</strong><br>Designed with travel in mind, the ProFold SuperLite meets airline regulations, allowing you to bring it on board as a carry-on item. And thanks to it's compact design, it's perfectly suited to bus and train travel, too.<br><br><strong>The Lightest One</strong><br>Discover the true meaning of lightweight mobility with the ProFold SuperLite, the epitome of portability weighing in at an astonishing 14kg. As the lightest folding scooter available, it sets a new standard for effortless travel making it the ultimate choice for individuals seeking a truly lightweight solution.<br><br><strong>Super Simple Fold</strong><br>With the ProFold SuperLite's simple manual fold, you can easily collapse the scooter into a compact size with just a few straightforward steps. No complex mechanisms or intricate procedures\u2014just a hassle-free folding process that saves you time and effort. This intuitive design empow",
+"published_at": "2026-09-08T12:19:00+01:00",
+"created_at": "2025-12-09T12:38:52+00:00",
+"updated_at": "2026-11-18T12:56:06+00:00",
+"vendor": "MuickSandy",
+"product_type": "4-Wheeled Scooter",
+"tags": [
+"4-6 MPH SCOOTERS",
+"eBay",
+"Folding Scooters",
+"Just Arrived",
+"Portable Scooters",
+"Shop All",
+"tag__new_USED"
+],
+"variants": [
+{
+"id": 56685542277502,
+"title": "Default Title",
+"option1": "Default Title",
+"option2": null,
+"option3": null,
+"sku": "PROFOLDSUPERLITE-94TZR",
+"requires_shipping": true,
+"taxable": false,
+"featured_image": null,
+"available": true,
+"price": "1195.00",
+"grams": 14700,
+"compare_at_price": null,
+"position": 1,
+"product_id": 15707643511166,
+"created_at": "2025-12-09T12:38:52+00:00",
+"updated_at": "2026-11-18T12:56:06+00:00"
+}
+],
+"images": [
+{
+"id": 80597497479550,
+"created_at": "2025-12-09T12:42:05+00:00",
+"position": 1,
+"updated_at": "2025-12-09T12:43:47+00:00",
+"product_id": 15707643511166,
+"variant_ids": [],
+"src": "https://cdn.shopify.com/s/files/1/0712/3265/1578/files/26FD6463-8F06-49C4-9A4D-618A05095E2D.jpg?v=1765284227",
+"width": 3024,
+"height": 3024
+},
+{
+"id": 80597497315710,
+"created_at": "2025-12-09T12:42:05+00:00",
+"position": 2,
+"updated_at": "2025-12-09T12:43:47+00:00",
+"product_id": 15707643511166,
+"variant_ids": [],
+"src": "https://cdn.shopify.com/s/files/1/0712/3265/1578/files/49DDBF53-1918-4AE6-8AA1-E938B4E20FB6.jpg?v=1765284227",
+"width": 3024,
+"height": 3024
+}
+]
+},
+{
+"id": 15528826044798,
+"title": "2025 Abilize Aethos SLE Lightweight Portable Mobility Scooter",
+"handle": "2024-ex-demo-abilize-aethos-sle-lightweight-portable-mobility-scooter-5",
+"body_html": "<p>GMS Mobility are pleased to offer for sale this 07/2025 Ex Display Abilize Aethos SLE, a 4 mph super portable medium size mobility scooter which comes with the charger, fully tested lithium battery (in excellent order), user manual and a 6-month warranty. Ask us about Insurance, Extended Warranty and Part Exchange.<br><br>Some of the great features include suspension, a 25-mile range, 21 stone weight capacity, LED front and rear light, a swivel seat, solid tyres, on or off-board charging and comes apart into 5 parts (the heaviest part only 13.8kgs!) for easy transportation for cars, buses or trains!<br><br>The cosmetic condition is excellent!<br><br>Great price! (new price circa \u00a33239.99)</p>\n<p>FREE, fast nationwide delivery!<br><br>Manufacturers description:</p>\n<p>The new ultra-lightweight Aethos SLE Mobility Scooter is a Which? Best Buy, boasting smart technology including lithium battery power and a luxuriously comfortable ride thanks to a completely redesigned seat. Forged from lightweight aluminium for effortless control, storage and transportability, designed right here in the UK and with a 5-year frame warranty for total peace of mind on the move, the Aethos is a challenge to the ethos of stuck-in-the-past mobility scooters<br><br>A Which? Best Buy Mobility Scooter<br><br>Hot on the heels of the Abilize Stride Sport, Stride Comforter and Aeron-Li, the Aethos Special Luxury Edition (SLE) promises a \u201csmooth, controlled and comfortable ride, indoors and outdoors.\u201d And with suspension to soak up unwanted jolts and shudders and a reimagined seat shaped for pinpoint pressure relief, you\u2019ll definitely be able to sit back and enjoy all 25 miles of this scooter\u2019s range in total comfort.<br><br>More power, more potential<br><br>With 25 miles on a full charge, this scooter is here to make your world bigger. Smaller, lighter and quicker to charge than standard batteries, the 30.15Ah lithium battery fitted in the Aethos SLE reduces the overall weight of the scooter without compromising on performance. Even the way you charge has been redesigned, with a tiller charging port available for quick and easy top-ups, as well as on and off board charging directly to the battery.<br><br>A lighter touch of luxury<br><br>With its completely redesigned seat, suspension and a delta tiller bar, the Aethos SLE turns up the dial to maximum comfort. The seat is contoured in all the right places and upholstered in premium breathable fabric. And like the frame itself, it manages to be lightweight without compromising on comfort. The suspension system protects you from potholed pavements and rugged terrain, while the delta tiller bar keeps you in control even if you\u2019ve got limited hand strength. It\u2019s a rare scooter that packs in features like that and still manages to weigh in at less than 45 kg fully assembled, but you\u2019ll find it all on the Aethos.<br><br>The ethos of smart design<br><br>The Abilize Aethos SLE Travel Mobility Scooter uses the latest tech to make you",
+"published_at": "2026-09-07T16:15:35+01:00",
+"created_at": "2025-08-12T16:54:20+01:00",
+"updated_at": "2026-11-18T12:56:06+00:00",
+"vendor": "Abilize",
+"product_type": "4-Wheeled Scooter",
+"tags": [
+"4-6 MPH SCOOTERS",
+"All-Terrain Scooters",
+"eBay",
+"Just Arrived",
+"Portable Scooters",
+"Shop All",
+"tag__sale_Ex Demo"
+],
+"variants": [
+{
+"id": 56087922508158,
+"title": "Default Title",
+"option1": "Default Title",
+"option2": null,
+"option3": null,
+"sku": "AETHOS-80170",
+"requires_shipping": true,
+"taxable": false,
+"featured_image": null,
+"available": true,
+"price": "2195.00",
+"grams": 45000,
+"compare_at_price": "2699.00",
+"position": 1,
+"product_id": 15528826044798,
+"created_at": "2025-08-12T16:54:20+01:00",
+"updated_at": "2026-11-18T12:56:06+00:00"
+}
+],
+"images": [
+{
+"id": 45304690868538,
+"created_at": "2024-04-03T16:04:39+01:00",
+"position": 1,
+"updated_at": "2024-04-03T16:04:44+01:00",
+"product_id": 15528826044798,
+"variant_ids": [],
+"src": "https://cdn.shopify.com/s/files/1/0712/3265/1578/files/868D82E0-C472-4398-BABB-79C9FC6A277D.jpg?v=1712156684",
+"width": 3024,
+"height": 3024
+},
+{
+"id": 45304690737466,
+"created_at": "2024-04-03T16:04:39+01:00",
+"position": 2,
+"updated_at": "2024-04-03T16:04:43+01:00",
+"product_id": 15528826044798,
+"variant_ids": [],
+"src": "https://cdn.shopify.com/s/files/1/0712/3265/1578/files/DDC9B40F-B66D-4FDC-B726-60102DBED3BD.jpg?v=1712156683",
+"width": 3024,
+"height": 3024
+}
+]
+},
+{
+"id": 15943287570814,
+"title": "Quickie Salsa Mini 2 Powerchair (Huge Spec!)",
+"handle": "clearance-quickie-salsa-mini-2-medium-powerchair-electric-powerchair",
+"body_html": "<p>GMS Mobility is pleased to offer for sale this immaculate 2020 Quickie Mini M2,\u00a0 4-mph mid-size deluxe powerchair, which comes with NEW 39ah batteries fitted, charger, manual and a 6-month warranty. Ask us about Insurance and Part Exchange.</p>\n<p>Some of the great features of this fantastic powerchair include having motorised tilt and lift footrest function, seat riser, backrest recline and more (see images), is crash tested, has indicators and lights, an incredibly comfortable seat, a 22 stone (140kg) weight capacity and solid puncture-proof tyres.\u00a0</p>\n<p>The cosmetic condition overall is excellent, as if hardly used.</p>\n<p>It arrives fully assembled and ready to go!</p>\n<p>Manufacturers' model description (spec may vary):</p>\n<p>The highly efficient Sunrise Medical Quickie M2 balances compact, manoeuvrable indoor performance with powerful and stable outdoor capability. Four castor wheels with independent suspension keep the Salsa M2 stable and a 7cm kerb climbing ability and top speed of 4-MPH make the M2 a versatile tool.</p>\n<p>The Salsa M2 also features an ultra low seat height of 43cm, powered seat lift of 30cm and powered seat tilt from 0\u00b0 to 30\u00b0. Flip up arm rests allow access to tables and desks and aid transfers, while a folding backrest makes for easy storage.</p>\n<p>Features:<br>- Powered seat tilt and lift as well as recline. The footrest has height and tilt adjustments via the controller too.</p>\n<p>- Compact mid wheel drive base<br>- 6 wheel independent suspension<br>- 7cm kerb climbing ability<br>- 13\" drive wheels<br>- Crash Tested</p>\n<p>Seat Width: 45.7cm<br>Seat Depth: 50.8cm<br>Seat Lift Height: 30<br>Backrest Recline:<br>-4\u00b0 to 16\u00b0 (Standard)<br>Armrest Height: 24.5<br>Speed: 4MPH<br>Battery Size: 39Ah x2<br>Max. Range: 20 mile range<br>Turning Radius: 67<br>Max. Safe Slope: 8\u00b0<br>Max. Kurb Climb: 7<br>Electronics: VR2 / R-Net<br>Maximum User Weight: 140 kg<br>Total Length: 115cm<br>Total Width: 61cm<br>Total Weight: 145 kg</p>\n<p><strong>GMS Mobility 5-Star Warranty Information</strong></p>\n<p>We pride ourselves here at GMS Mobility on aftercare. It\u2019s the after-sales service that is most important when dealing with Mobility Scooters and Powerchairs.</p>\n<p><strong>What happens if I have a technical or operational issue within the warranty period?</strong></p>\n<p>You simply email or call us for assistance. We are on hand to help with absolutely any query or issue that you have with your product, from just wanting to go through the operational controls to help if you believe the item is faulty. We want to help!</p>\n<p><strong>What if my scooter or powerchair arrives faulty or develops a fault in the warranty period?</strong></p>\n<p>The chances are, we are not local to you but we strongly believe that we offer a faster and more efficient warranty turnaround than your local mobility store!</p>\n<p>In the unlikely event that your scooter or powerchair develops a fault, you simply contact us and we will arrange for our trust",
+"published_at": "2026-09-23T16:53:00+01:00",
+"created_at": "2026-06-03T15:42:00+01:00",
+"updated_at": "2026-11-18T12:56:06+00:00",
+"vendor": "Quickie",
+"product_type": "Powerchair",
+"tags": [
+"eBay",
+"Just Arrived",
+"Powerchairs",
+"Shop All",
+"tag__new_USED"
+],
+"variants": [
+{
+"id": 57506340012414,
+"title": "Default Title",
+"option1": "Default Title",
+"option2": null,
+"option3": null,
+"sku": "MINI2-21135",
+"requires_shipping": true,
+"taxable": false,
+"featured_image": null,
+"available": true,
+"price": "1995.00",
+"grams": 75000,
+"compare_at_price": null,
+"position": 1,
+"product_id": 15943287570814,
+"created_at": "2026-06-03T15:42:01+01:00",
+"updated_at": "2026-11-18T12:56:06+00:00"
+}
+],
+"images": [
+{
+"id": 84358094094718,
+"created_at": "2026-06-10T16:13:04+01:00",
+"position": 1,
+"updated_at": "2026-06-10T16:13:08+01:00",
+"product_id": 15943287570814,
+"variant_ids": [],
+"src": "https://cdn.shopify.com/s/files/1/0712/3265/1578/files/EAF7E80A-3CE8-4B26-B446-A5AB1E88DDD1.jpg?v=1781104388",
+"width": 2962,
+"height": 3024
+},
+{
+"id": 84358093930878,
+"created_at": "2026-06-10T16:13:04+01:00",
+"position": 2,
+"updated_at": "2026-06-10T16:13:09+01:00",
+"product_id": 15943287570814,
+"variant_ids": [],
+"src": "https://cdn.shopify.com/s/files/1/0712/3265/1578/files/7B8328C1-9A72-4A6C-90C3-2AE3F48FA89B.jpg?v=1781104389",
+"width": 3024,
+"height": 2978
+}
+]
+},
+{
+"id": 16109461963134,
+"title": "CareCo I-Go Vertex Sport Portable Mobility Scooter (Purple)",
+"handle": "ex-demo-careco-i-go-vertex-sport-portable-mobility-scooter-purple-4",
+"body_html": "<p>GMS Mobility is pleased to offer for sale, this fantastic value and very popular 2023 CareCo I-Go Vertex Sport, an award-winning transportable 4 mph pavement mobility scooter that comes fully tested with charger, tested 20ah battery pack (in excellent order), user manual, Free nationwide fast delivery and a 6-month scooter warranty included. Ask us about Insurance, Extended Warranty and Part Exchange.<br><br>Some of the great features include suspension, front, and rear suspension, solid tyres, a 20 stone weight capacity, a 15-mile range, and disassembles for easy transportation (seat, batteries, rear wheels/motor section and the steering column tiller folds down).<br><br>The cosmetic condition is excellent!</p>\n<p>Great value as the new RRP is \u00a3999.99+VAT!<br><br>National courier delivery FREE and comes fully assembled and ready to go.<br><br>Details:<br><br>The Vertex Sport is all about comfort and simplicity. An all-round suspension system protects you from the bumps of rugged pavements, so a quick run to the shops won\u2019t leave you with those all too familiar aches and pains.<br><br>This is a highly portable model, too. Easy disassembly lets you break the scooter down into 5 pieces with just one hand. So, whether you\u2019re off on holiday or you\u2019re putting the scooter into storage for winter, you\u2019ll find this a quick and convenient scooter to manage.<br><br>The Vertex Sport is an agile mobility scooter, as capable in the limited spaces of a supermarket or busy high street as it is in your own home. The wraparound delta tiller bar is comfy for those with arthritis and other mobility-restricting conditions, helping you to stay completely in control.<br><br>Benefit from a 20Ah battery delivering over 15 miles of uninterrupted travel, impressive for a scooter in this class, as well as 8\u201d front and rear wheels, a ground clearance of 2.6\u201d and plenty of under-seat storage. The I-Go Vertex Sport Travel Scooter is a terrific everyday mobility scooter.<br><br>The Vertex Sport Mobility Scooter is available in striking Purple.<br><br>The seat height can be set to 22\" (56cm), 23\" (58.5cm), or 24\" (61cm) from the floor.<br>The Vertex Sport Mobility Scooter is available in striking Metallic Black or Purple.<br>Other features of the Vertex Sport include:<br>A generously padded swivel seat to help you on and off the scooter<br>Adjustable armrest to find the perfect driving position<br>A powerful LED kerb light to keep you safe and seen in the dark<br>Tiller charging port for easier, more accessible battery charging</p>\n<p>Colour - Purple (may appear blue in some images)<br>Battery Size (Ah) - 20<br>Battery Type - Dry Sealed Lead-Acid<br>Battery Type - Not specified<br>Off Board Charging - Yes<br>Range up to (miles) - 15<br>Watt Hours - 480<br>Product Specs<br>Front Wheel Size (inches) - 8<br>Ground Clearance (inches) - 3<br>Heaviest Part (Stone/Pounds) \u00a0 \u00a03st 3lbs<br>Incline Rating (Degrees) \u00a0 \u00a08<br>Max Speed (mp/h) \u00a0 \u00a04<br>Motor Wattage \u00a0 \u00a0270<br>Number of Whee",
+"published_at": "2026-11-17T13:47:16+00:00",
+"created_at": "2026-09-30T13:02:17+01:00",
+"updated_at": "2026-11-18T12:56:06+00:00",
+"vendor": "i-Go",
+"product_type": "4-Wheeled Scooter",
+"tags": [
+"4-6 MPH SCOOTERS",
+"eBay",
+"Just Arrived",
+"Portable Scooters",
+"Shop All",
+"tag__new_USED"
+],
+"variants": [
+{
+"id": 58132266221950,
+"title": "Default Title",
+"option1": "Default Title",
+"option2": null,
+"option3": null,
+"sku": "VERTEXSPORT-77660",
+"requires_shipping": true,
+"taxable": false,
+"featured_image": null,
+"available": true,
+"price": "695.00",
+"grams": 57000,
+"compare_at_price": "999.99",
+"position": 1,
+"product_id": 16109461963134,
+"created_at": "2026-09-30T13:02:17+01:00",
+"updated_at": "2026-11-18T12:56:06+00:00"
+}
+],
+"images": [
+{
+"id": 86241747009918,
+"created_at": "2026-09-30T14:06:14+01:00",
+"position": 1,
+"updated_at": "2026-09-30T14:06:17+01:00",
+"product_id": 16109461963134,
+"variant_ids": [],
+"src": "https://cdn.shopify.com/s/files/1/0712/3265/1578/files/8A1B3F3C-8196-404A-BAA1-28AF6D9D49D9.jpg?v=1790773577",
+"width": 2985,
+"height": 3024
+},
+{
+"id": 86241330200958,
+"created_at": "2026-09-30T13:03:02+01:00",
+"position": 2,
+"updated_at": "2026-09-30T13:03:06+01:00",
+"product_id": 16109461963134,
+"variant_ids": [],
+"src": "https://cdn.shopify.com/s/files/1/0712/3265/1578/files/A09327FD-A0D2-46B0-8973-5446EEF2B1FF.jpg?v=1790769786",
+"width": 2926,
+"height": 3024
+}
+]
+},
+{
+"id": 16111350874494,
+"title": "Li-Tech Spectrum Lightweight Portable Mobility Scooter (Black)",
+"handle": "ex-demo-li-tech-spectrum-lightweight-portable-mobility-scooter-black-3",
+"body_html": "<p>GMS Mobility are pleased to offer for sale this excellent late 2025 ex-demo Li-Tech Spectrum, a 4 mph super portable, mobility scooter which comes with a fully tested charger and lithium battery pack (in excellent order - 29.4v - as new), user manual and a 6-month warranty. Ask us about Insurance.<br><br>Some of the great features include a 26-mile range, 17 stone weight capacity, LED front light, an aluminium frame, a swivel seat, solid tyres, on or off-board charging and comes apart into 5 parts (the heaviest part only 10.5kgs!) for easy transportation for cars, buses and trains.</p>\n<p>The cosmetic condition is very good with just the odd minor mark.<br><br>This portable scooter ticks all the boxes in our opinion!<br><br>FREE, fast nationwide delivery and part exchange available!<br><br>Manufacturers description:<br></p>\n<p>It's ultra-lightweight thanks to its aluminium frame, fitted with a lithium battery for peak performance and packing a real punch in the style department.<br><br>This is the Li-Tech Spectrum, here to make every day better, brighter and bolder. Much lighter than regular scooter frames, the Spectrum\u2019s slick and stylish aluminium frame reduces the overall weight to add mileage and battery life. The heaviest part of this scooter is just 10.5kg \u2013 less than a packed suitcase \u2013 making it easier to lift into your car boot for your holidays and weekends away.<br><br>The Spectrum uses the most advanced scooter technology to deliver power, performance, convenience and comfort in one compact package. The aluminium frame is much lighter than regular scooter frames, designed to reduce the overall weight for an increase in mileage and battery life. It's easier to lift too, with the heaviest part weighing just 10.5kg \u2013 less than a packed suitcase \u2013 for car boot convenience on holiday.<br><br>Lighter, longer-lasting, less time to charge. We love lithium-ion batteries. They're better equipped for everyday use thanks to a longer life-cycle. The battery can be removed for off-board charging, so you can leave your scooter stored while you take the battery indoors for charging. And the 30Ah battery fitted in the Li-Tech Spectrum has the power to take you 26 miles (42km) on a single charge, putting longer journeys back on the cards.</p>\n<p>Battery size: 30</p>\n<p>On and off-board charging: yes</p>\n<p>Range: 26 miles</p>\n<p>Watt hours: 756</p>\n<p>Heaviest part: 10.5kgs</p>\n<p>Incline: 6 degrees</p>\n<p>Max speed: 4-mph</p>\n<p>Motor: 270 watts</p>\n<p>Seat width: 18 inches</p>\n<p>Tyres; solid rubber</p>\n<p>Height: 35 inches</p>\n<p>Length: 40 inches</p>\n<p>Width: 20 inches</p>\n<p>Max user weight: 17 stone 1 lbs</p>\n<p><strong>GMS Mobility 5-Star Warranty Information</strong></p>\n<p>We pride ourselves here at GMS Mobility on aftercare. It\u2019s the after-sales service that is most important when dealing with Mobility Scooters and Powerchairs.</p>\n<p><strong>What happens if I have a technical or operational issue within the warranty period?</strong></p>\n",
+"published_at": "2026-10-28T10:51:57+00:00",
+"created_at": "2026-10-01T17:07:56+01:00",
+"updated_at": "2026-11-18T12:56:06+00:00",
+"vendor": "Li-Tech",
+"product_type": "4-Wheeled Scooter",
+"tags": [
+"4-6 MPH SCOOTERS",
+"eBay",
+"Just Arrived",
+"Portable Scooters",
+"Shop All",
+"tag__sale_Ex Demo"
+],
+"variants": [
+{
+"id": 58140993880446,
+"title": "Default Title",
+"option1": "Default Title",
+"option2": null,
+"option3": null,
+"sku": "SPECTRUM-BLK-3061",
+"requires_shipping": true,
+"taxable": false,
+"featured_image": null,
+"available": true,
+"price": "1195.00",
+"grams": 33700,
+"compare_at_price": "1999.99",
+"position": 1,
+"product_id": 16111350874494,
+"created_at": "2026-10-01T17:07:57+01:00",
+"updated_at": "2026-11-18T12:56:06+00:00"
+}
+],
+"images": [
+{
+"id": 86251754717566,
+"created_at": "2026-10-01T17:08:42+01:00",
+"position": 1,
+"updated_at": "2026-10-01T17:08:46+01:00",
+"product_id": 16111350874494,
+"variant_ids": [],
+"src": "https://cdn.shopify.com/s/files/1/0712/3265/1578/files/F967C094-1F18-4ABD-A9AE-082D07F2776D.jpg?v=1790870926",
+"width": 2966,
+"height": 3001
+},
+{
+"id": 86251754684798,
+"created_at": "2026-10-01T17:08:42+01:00",
+"position": 2,
+"updated_at": "2026-10-01T17:08:47+01:00",
+"product_id": 16111350874494,
+"variant_ids": [],
+"src": "https://cdn.shopify.com/s/files/1/0712/3265/1578/files/0E1BAF8F-52E0-4124-8CB3-03B99DF747D4.jpg?v=1790870927",
+"width": 3024,
+"height": 2962
+}
+]
+},
+{
+"id": 16109544505726,
+"title": "Eden Pathmaster (Sovereign) Mobility Scooter Buggy",
+"handle": "eden-pathmaster-sovereign-mobility-scooter-buggy-3",
+"body_html": "<p>GMS Mobility has just taken in this popular pre-loved 2022 Eden Pathmaster (Sovereign). This is a 4-mph pavement mid-size mobility scooter that comes with fully tested 35ah batteries and charger (in excellent order), manual and with 6-month warranty. Ask us about Insurance, Extended Warranty and Part Exchange.<br><br>Some of the great features of this popular model include a 21-stone weight capacity, 20-mile range, a super comfortable chair, and excellent front/rear lights.<br><br>The overall cosmetic condition is excellent with the odd mark.<br><br>National courier delivery FREE, it comes fully assembled and ready to go!<br><br>The Eden Pathmaster (Sovereign) mobility scooter is a beautifully crafted and sturdily built mobility scooter, this is yet another addition to Eden Pathmaster (Shoprider's) unique line of mobility scooters. The floor of the scooter is designed with room enough for the larger rider as is the 20\" deluxe seat which is standard.<br><br>Looking for a comfortable and affordable way to get around? The Eden Pathmaster (Sovereign) 4-Wheel Mobility Scooter is an excellent all-round scooter from Eden Pathmaster (Shoprider) that will always let you enjoy a smooth ride.<br><br>The Eden Pathmaster (Sovereign) has a direct drive sealed transmission /gearbox for efficiency combined with electro-magnetic brakes for maximum safety. The control panel allows the Eden Pathmaster (Sovereign) scooter to be easily set to suit the users requirements. Speed settings are from 1-10 on the speed knob 6kmph (4mph) being the maximum. The Eden Pathmaster (Sovereign) Mobility Scooter has red coloured bar level indicators which shows battery charge levels, Off Board charger, An Automatic braking system will operate when the thumb levers are released.<br><br>A Free-wheeling device allows the Eden Pathmaster (Sovereign) scooter to be pushed if needed.<br><br>The Eden Pathmaster (Sovereign) Features:<br><br>Small turning circle<br>Dismantles for storage and transportation (parts are quite heavy)<br>Comfortable swivel seat<br>Single headlight<br>5 position tiller adjustment<br>Easy access through doorways<br>The Shoprider sovereign Specifications:<br><br>Length: 115cm (45\u2033)<br>Width: 60cm (24\u2033)<br>Height: 95.6cm (37.6\u2033)<br>Battery Capacity: 35ah<br>Speed: 4 mph<br>Weight: 53 kg (117 lbs)<br>Wheel Size: 10\u2033<br>Max range per charge: 20 miles<br>Maximum weight capacity: 136kgs (21 stone)<br>Maximum incline: 8\u00ba</p>\n<p><strong>GMS Mobility 5-Star Warranty Information</strong></p>\n<p>We pride ourselves here at GMS Mobility on aftercare. It\u2019s the after-sales service that is most important when dealing with Mobility Scooters and Powerchairs.</p>\n<p><strong>What happens if I have a technical or operational issue within the warranty period?</strong></p>\n<p>You simply email or call us for assistance. We are on hand to help with absolutely any query or issue that you have with your product, from just wanting to go through the operational controls to help if you believ",
+"published_at": "2026-10-28T10:43:16+00:00",
+"created_at": "2026-09-30T13:50:10+01:00",
+"updated_at": "2026-11-18T12:56:06+00:00",
+"vendor": "Eden",
+"product_type": "4-Wheeled Scooter",
+"tags": [
+"4-6 MPH SCOOTERS",
+"All-Terrain Scooters",
+"eBay",
+"Just Arrived",
+"Shop All",
+"tag__new_USED"
+],
+"variants": [
+{
+"id": 58132530725246,
+"title": "Default Title",
+"option1": "Default Title",
+"option2": null,
+"option3": null,
+"sku": "PATHMASTER-A0133",
+"requires_shipping": true,
+"taxable": false,
+"featured_image": null,
+"available": true,
+"price": "699.00",
+"grams": 90000,
+"compare_at_price": null,
+"position": 1,
+"product_id": 16109544505726,
+"created_at": "2026-09-30T13:50:11+01:00",
+"updated_at": "2026-11-18T12:56:06+00:00"
+}
+],
+"images": [
+{
+"id": 86241665483134,
+"created_at": "2026-09-30T13:51:12+01:00",
+"position": 1,
+"updated_at": "2026-09-30T13:51:16+01:00",
+"product_id": 16109544505726,
+"variant_ids": [],
+"src": "https://cdn.shopify.com/s/files/1/0712/3265/1578/files/F92F67D6-7692-4C5F-ABF6-AD1D70B33AA2.jpg?v=1790772676",
+"width": 2971,
+"height": 3004
+},
+{
+"id": 86241665450366,
+"created_at": "2026-09-30T13:51:12+01:00",
+"position": 2,
+"updated_at": "2026-09-30T13:51:16+01:00",
+"product_id": 16109544505726,
+"variant_ids": [],
+"src": "https://cdn.shopify.com/s/files/1/0712/3265/1578/files/70D34D95-4024-4A50-9EEF-90942AF0C9A8.jpg?v=1790772676",
+"width": 2906,
+"height": 3010
+}
+]
+},
+{
+"id": 15832986288510,
+"title": "NEW TGA Breeze S4 Mobility Scooter Buggy (Slate Grey)",
+"handle": "tga-breeze-s4-mobility-scooter-buggy-23-miles-on-the-clock-copy",
+"body_html": "<p>GMS Mobility is pleased to offer for sale, this super comfortable NEW TGA Breeze S4 road-legal 8-mph luxury large mobility scooter which comes with FREE nationwide delivery and a 1 year peace of mind warranty. Ask us about Insurance and Part Exchange.</p>\n<p>Some of the great features include super soft suspension, a rear storage box, walking stick holder clip on arm rest, a 31.4 stone weight capacity, a 24 mile range, pneumatic tyres and a swivel extra-large seat for easy access.<br><br>Want to drive this scooter on the road? No problem, we will arrange for a V5 logbook in your name free of charge. Just ask us after purchase.<br><br>FREE national delivery.<br><br>Breeze S4 is the ultimate scooter for people who don\u2019t want to make any compromises in life. Driving is a real pleasure thanks to the superb all-around suspension, the comfortable seat and the high ground clearance.<br><br>Its all-terrain capability gives you the freedom and the independence to do what you want on your own terms. When you add to that a range of up to 25-30 miles and a weight capacity of up to 31.4 stone you can easily see why it\u2019s widely regarded as the best scooter bar none.<br><br>Showing the same dramatic styling as the tremendously successful Breeze 3, the Breeze 4 is every bit as advanced and with the extra comfort and stability of 4 wheels. Eagerly awaited and a natural progression, its highly impressive features include the very latest electronic control technology, fully active adjustable suspension on all wheels and sufficient power and rugged ability to take you almost anywhere.<br><br>The backrest headrest and armrests are fully adjustable as is the very comfortable swivel seat which can be adjusted for height and fore and aft movement. The large alloy wheels and high ground clearance, coupled with the powerful transaxle motor system allow Breeze 4 to negotiate rough ground, awkward kerbs and street furniture and tackle steep and uneven hills with ease.<br><br>Breeze 4 can nip nimbly about the shops in town or cruise comfortably in the countryside at speeds of up to 8 mph. Finger tip controls, automatic braking, lights, indicators, brake lights and hazard warning lights are all fitted as standard, together with a very advanced safety system.<br><br>Driving Breeze is every bit as good as you would expect from its pedigree; light positive steering with acceleration and braking to match. All controls are easy to reach and use, and the driving position and seat are extremely comfortable for those long country runs.<br><br>The Breeze is very advanced and way ahead of the competition. Its in a class of its own in terms of design, comfort, equipment, suspension, steering and safety.<br><br>Heavy duty battery upgrade available to increase range (please call us on 01206 838888) - Fully adjustable comfort seat - Very high ground clearance<br><br>Highly dynamic stability and stable steering - Adjustable tiller with quick release action<br><br>Tilting tiller and fully",
+"published_at": "2026-10-08T14:21:58+01:00",
+"created_at": "2026-03-20T17:26:27+00:00",
+"updated_at": "2026-11-18T12:56:06+00:00",
+"vendor": "TGA",
+"product_type": "4-Wheeled Scooter",
+"tags": [
+"8 Mph Scooters",
+"All-Terrain Scooters",
+"eBay",
+"Just Arrived",
+"NEW",
+"Shop All"
+],
+"variants": [
+{
+"id": 57147552989566,
+"title": "Default Title",
+"option1": "Default Title",
+"option2": null,
+"option3": null,
+"sku": "BREEZES4-BRANDNEW",
+"requires_shipping": true,
+"taxable": false,
+"featured_image": null,
+"available": true,
+"price": "4495.00",
+"grams": 132000,
+"compare_at_price": null,
+"position": 1,
+"product_id": 15832986288510,
+"created_at": "2026-03-20T17:26:27+00:00",
+"updated_at": "2026-11-18T12:56:06+00:00"
+}
+],
+"images": [
+{
+"id": 82908232614270,
+"created_at": "2026-03-24T11:52:01+00:00",
+"position": 1,
+"updated_at": "2026-03-24T11:52:17+00:00",
+"product_id": 15832986288510,
+"variant_ids": [],
+"src": "https://cdn.shopify.com/s/files/1/0712/3265/1578/files/50830869958_ca0ec3bdcf_c_1681157f-533d-4b25-8dee-9364cd4bddd1.jpg?v=1774353137",
+"width": 799,
+"height": 533
+},
+{
+"id": 82908232548734,
+"created_at": "2026-03-24T11:52:01+00:00",
+"position": 2,
+"updated_at": "2026-03-24T11:52:17+00:00",
+"product_id": 15832986288510,
+"variant_ids": [],
+"src": "https://cdn.shopify.com/s/files/1/0712/3265/1578/files/49315447198_282f876646_c_45b16d37-894c-41bb-a27d-d62ae5a74d75.jpg?v=1774353137",
+"width": 799,
+"height": 533
+}
+]
+},
+{
+"id": 15984986063230,
+"title": "Ex-Demo CareCo Minimus Folding Mobility Scooter Buggy",
+"handle": "ex-demo-careco-minimus-mobility-scooter-buggy-16",
+"body_html": "<p>GMS Mobility is pleased to offer for sale, this fantastic value and super popular ex-demo CareCo Minimus, a transportable 4 mph pavement mobility scooter that comes with fully tested 10ah battery, manual, a charger, FREE UK delivery, and a 6-month warranty included. Ask us about insurance.<br><br>Some of the great features include an 18-stone weight capacity, puncture-proof tyres, a 9-mile range, is the lightest folding scooter in the UK, and is ideal for car boots, buses, planes, or trains!<br><br>The mechanical and cosmetic condition is very good indeed (as new) after being a demo model.</p>\n<p>Great value as the new RRP is \u00a31999.99!</p>\n<p>Part exchange available<br><br>The Minimus Lightweight Folding Mobility Scooter is the lightest folding 4-wheel mobility scooter in the UK, weighing in at just 17.8kg.<br><br>Its smart, stylish travel scooter features an innovative aluminum frame with sliding mechanisms for easy transport and storage.<br><br>This makes it ideal for short, everyday trips as well as holidays and for going around larger shops. <br><br>Please Note due to the size of the wheels and low ground clearance this is only suitable for smooth and flat surfaces.<br></p>\n<p>Battery Size (Ah) - 10.3<br>Battery Type - Lithium-ion<br>Battery Brand - Panasonic<br>Battery Certification - Lithium-ion battery designed to UK / EU regulations<br>Off Board Charging - Yes<br>Range up to (miles) \u00a0-8<br>Watt Hours - 259.56<br>Product Specs<br>Folded Height (inches) - 12<br>Folded Length (inches) - 27<br>Folded Width (inches) - 17<br>Front Wheel Size (inches) - 6<br>Ground Clearance (inches) - 1<br>Heaviest Part (Stone/Pounds) - 2st 11lbs<br>Incline Rating (Degrees) - 6<br>Max Speed (mp/h) - 4<br>Motor Wattage - 180<br>Number of Wheels - 4<br>Product Weight (Stone/Pounds) - 3st 0lbs<br>Rear Wheel Size (inches) - 6<br>Seat Width (inches) \u00a0 \u00a0 - 13<br>Swivel Seat - No<br>Tiller Type - Standard<br>Turning Radius (inches) - 56<br>Tyres - Solid<br>Height (inches) - 28<br>Length (inches) - 36<br>Width (inches) - 17<br>User Specs<br>Max User Weight (Stone/Pounds) - 18st 1lbs<br><br><strong>GMS Mobility 5-Star Warranty Information</strong><br><span>We pride ourselves here at GMS Mobility on aftercare. It\u2019s the after-sales service that is most important when dealing with Mobility Scooters and Powerchairs.</span><br><br><strong>What happens if I have a technical or operational issue within the warranty period?</strong><br><span>You simply email or call us for assistance. We are on hand to help with absolutely any query or issue that you have with your product, from just wanting to go through the operational controls to help if you believe the item is faulty. We want to help!</span><br><br><strong>What if my scooter or powerchair arrives faulty or develops a fault in the warranty period?</strong><br><span>The chances are, we are not local to you but we strongly believe that we offer a faster and more efficient warranty turnaround than your local mobility store!<",
+"published_at": "2026-10-07T17:11:50+01:00",
+"created_at": "2026-06-29T15:30:22+01:00",
+"updated_at": "2026-11-18T12:56:06+00:00",
+"vendor": "CareCo",
+"product_type": "4-Wheeled Scooter",
+"tags": [
+"4-6 MPH SCOOTERS",
+"eBay",
+"Folding Scooters",
+"Just Arrived",
+"Portable Scooters",
+"Shop All",
+"tag__sale_Ex Demo"
+],
+"variants": [
+{
+"id": 57624089461118,
+"title": "Default Title",
+"option1": "Default Title",
+"option2": null,
+"option3": null,
+"sku": "MINIMUS-26374",
+"requires_shipping": true,
+"taxable": false,
+"featured_image": null,
+"available": true,
+"price": "1095.00",
+"grams": 19000,
+"compare_at_price": null,
+"position": 1,
+"product_id": 15984986063230,
+"created_at": "2026-06-29T15:30:22+01:00",
+"updated_at": "2026-11-18T12:56:06+00:00"
+}
+],
+"images": [
+{
+"id": 84671392612734,
+"created_at": "2026-06-29T15:31:09+01:00",
+"position": 1,
+"updated_at": "2026-06-29T15:31:14+01:00",
+"product_id": 15984986063230,
+"variant_ids": [],
+"src": "https://cdn.shopify.com/s/files/1/0712/3265/1578/files/1D6DFA1A-266E-4347-8F35-21C314385E44.jpg?v=1782743474",
+"width": 3024,
+"height": 3024
+},
+{
+"id": 84671392776574,
+"created_at": "2026-06-29T15:31:09+01:00",
+"position": 2,
+"updated_at": "2026-06-29T15:31:14+01:00",
+"product_id": 15984986063230,
+"variant_ids": [],
+"src": "https://cdn.shopify.com/s/files/1/0712/3265/1578/files/26D80B8A-6F59-4FE8-8BC2-1F7E7BFF02F1.jpg?v=1782743474",
+"width": 2883,
+"height": 3024
+}
+]
+},
+{
+"id": 15738756104574,
+"title": "Van Os Travelux Quest Portable Electric Wheelchair Powerchair",
+"handle": "clearance-van-os-travelux-quest-portable-electric-wheelchair-powerchair",
+"body_html": "<p>2021 (sold new in 2022) Van Os Travelux Quest which is an up to 4-mph max small-size deluxe transportable powerchair which comes fully tested with charger, brand new pair of 22ah Leoch batteries fitted, charger and a 3-month warranty.<br><br>Some of the great features of this fantastic powerchair include having tie-down points, puncture-proof tyres, a 21 stone weight capacity, a swing-down footrest, can be manually pushed if needed, left or right-hand controls, a 15-mile range and under-seat storage for shopping.<br><br>The cosmetic condition is very good indeed with maybe just a few minor marks.<br><br>A fantastic portable powered wheelchair that ticks all the boxes!!<br><br>Arrives fully assembled and ready to go! <br><br>National courier delivery FREE<br><br>Manufacturers description:</p>\n<p>The Travelux Quest Midwheel Powerchair is a compact, highly manoeuvrable electric wheelchair, perfect for indoor use in tight spaces such as kitchens, hallways, and shopping centres. Its midwheel design allows it to turn around its own axis with an outstanding 25.9\u201d turning radius.</p>\n<p>This model comes with tie-down points for safe transport, and is fully transportable into smaller pieces for easy storage and car boot loading.</p>\n<p>Top Speed: 4 mph</p>\n<p>Range: Up to 15 miles</p>\n<p>Seat Size: Standard Seat</p>\n<p>User Weight Capacity: 21 stone (135kg)</p>\n<p>Tie-down points</p>\n<p>Transportable \u2013 breaks down into smaller parts</p>\n<p>Single flip-up footrest for easy access</p>\n<p>seat with swivel &amp; height adjustability</p>\n<p>Foldable, width-adjustable armrests</p>\n<p>Electromagnetic brakes for safety</p>\n<p>Top Speed: 4 mph</p>\n<p>Batteries: 2 x 12V 22Ah</p>\n<p>Charger: 24V / 3A</p>\n<p>Turning Radius: 25.9\u201d (66cm)</p>\n<p>Total Weight (with batteries): 55kg</p>\n<p>Max User Weight: 21 stone (135kg)</p>\n<p>Seat Height (elevating): 20\u201326\u201d (50\u201366cm)</p>\n<p>Wheel Size: Front 8\u201d, Rear 9\u201d</p>\n<p>Colour: Grey</p>\n<p>\u00a0</p>\n<ul></ul>",
+"published_at": "2026-10-07T09:01:43+01:00",
+"created_at": "2026-01-07T17:25:41+00:00",
+"updated_at": "2026-11-18T12:56:06+00:00",
+"vendor": "Travelux",
+"product_type": "Power Wheelchair",
+"tags": [
+"Clearance Bargains",
+"eBay"
+],
+"variants": [
+{
+"id": 56786560024958,
+"title": "Default Title",
+"option1": "Default Title",
+"option2": null,
+"option3": null,
+"sku": "TRAVELUX-000064",
+"requires_shipping": true,
+"taxable": false,
+"featured_image": null,
+"available": true,
+"price": "495.00",
+"grams": 55000,
+"compare_at_price": null,
+"position": 1,
+"product_id": 15738756104574,
+"created_at": "2026-01-07T17:25:41+00:00",
+"updated_at": "2026-11-18T12:56:06+00:00"
+}
+],
+"images": [
+{
+"id": 81193437757822,
+"created_at": "2026-01-07T17:26:11+00:00",
+"position": 1,
+"updated_at": "2026-01-07T17:27:40+00:00",
+"product_id": 15738756104574,
+"variant_ids": [],
+"src": "https://cdn.shopify.com/s/files/1/0712/3265/1578/files/C7CF5854-2A3C-473E-A720-AA6058EA09BF.jpg?v=1767806860",
+"width": 3024,
+"height": 3024
+},
+{
+"id": 81193437626750,
+"created_at": "2026-01-07T17:26:11+00:00",
+"position": 2,
+"updated_at": "2026-01-07T17:27:40+00:00",
+"product_id": 15738756104574,
+"variant_ids": [],
+"src": "https://cdn.shopify.com/s/files/1/0712/3265/1578/files/C0BF5C1B-E63F-4F92-98E3-5A55AAD396B8.jpg?v=1767806860",
+"width": 3024,
+"height": 3024
+}
+]
+},
+{
+"id": 16055823499646,
+"title": "Ex-Demo Careco iConnect ZR1 Carbon Fibre Portable Folding Electric Powerchair",
+"handle": "\u2705-ex-demo-careco-iconnect-zr1-carbon-fibre-portable-folding-electric-powerchair",
+"body_html": "<p>GMS Mobility is pleased to offer for sale this late 2025 ex-display iConnect ZR1 Carbon Fibre Portable Folding Electric Powerchair. This extremely light powerchair (14kgs!) has all the features that you would expect from a powerchair. Includes the fully tested 12ah airline friendly Lithium battery (in excellent order), user manual and charger. Ask us about Insurance, Extended Warranty and Part Exchange.</p>\n<p>FREE, fast national delivery and 12-month warranty included.</p>\n<p>The cosmetic condition is excellent with minor marks.</p>\n<p>Note: It will arrive fully assembled with the controller on the right side however we can also send it with the controller on the left if needed.<br><br>The ZR1 is the perfect balance of modern control and thoughtful comfort. The joystick and LCD display provide fluid and responsive control, while the foldable armrests make getting in and out easy and graceful. The ZR1\u2019s compact fold mechanism lets it tuck neatly into your car boot or on public transport with minimal fuss.<br></p>\n<p><span>With both its frame and wheels being made from lightweight carbon fibre, the ZR1 maintains exceptional strength without the bulk and offers delicate manoeuvrability to handle even the tightest spaces. This coupled with its compact fold mechanism lets it fit neatly into your car boot or cupboard.</span></p>\n<p><span>The ZR1\u2019s ergonomic joystick sits comfortably in your hand, providing smooth and accurate control without straining your wrists, while the LCD display gives you real-time information as you travel, as well as a helpful fault-finder if you run into any issues and a small headlight to light the path ahead. The ZR1 is powered by a reliable 12Ah lithium-ion battery, which is longer lasting and quicker to charge than traditional SLA batteries.</span></p>\n<p><span>The ZR1\u2019s is crafted in a sleek, curved design that delivers both strength and style, while the smooth contours give it a modern and stylish look. But the curves aren't all for show \u2013 the arms fold away easily as part of the ZR1's compact fold mechanism.</span></p>\n<p><span>For effortless transport and storage, the ZR1 comes with a compact fold mechanism that allows it to pack away neatly into your car boot or a cupboard.</span></p>\n<p><span>Battery Size (Ah) \u00a0 \u00a012<br>Battery Type \u00a0 \u00a0Lithium-ion<br>Battery Brand \u00a0 \u00a0Panasonic<br>Battery Certification \u00a0 \u00a0Lithium-ion battery designed to UK / EU regulations<br>Range up to (miles) \u00a0 \u00a010<br>Watt Hours \u00a0 \u00a0288<br>Product Specs<br>Folded Height (inches) \u00a0 \u00a028<br>Folded Length (inches) \u00a0 \u00a028<br>Folded Width (inches) \u00a0 \u00a012<br>Front Wheel Size (inches) \u00a0 \u00a07<br>Ground Clearance (inches) \u00a0 \u00a01<br>Half Folding Back \u00a0 \u00a0Yes<br>Incline Rating (Degrees) \u00a0 \u00a06<br>Max Speed (mp/h) \u00a0 \u00a04<br>Product Weight (Stone/Pounds)\u00a0 \u00a0 14kg<br>Rear Wheel Size (inches) \u00a0 \u00a011<br>Seat Depth (inches) \u00a0 \u00a016<br>Seat Height (inches) \u00a0 \u00a020<br>Seat Width (inches) \u00a0 \u00a018<br>Turning Radius (inches) \u00a0 \u00a035<br>Tyre type \u00a0 \u00a0Solid<br>Height (inches) \u00a0 \u00a039<br>Length",
+"published_at": "2026-09-22T13:31:14+01:00",
+"created_at": "2026-08-21T17:06:56+01:00",
+"updated_at": "2026-11-18T12:56:06+00:00",
+"vendor": "iConnect",
+"product_type": "Power Wheelchair",
+"tags": [
+"eBay",
+"Just Arrived",
+"Powerchairs",
+"Shop All",
+"tag__sale_Ex Demo"
+],
+"variants": [
+{
+"id": 57896899248510,
+"title": "Default Title",
+"option1": "Default Title",
+"option2": null,
+"option3": null,
+"sku": "ZR1-50048",
+"requires_shipping": true,
+"taxable": false,
+"featured_image": null,
+"available": true,
+"price": "2295.00",
+"grams": 14000,
+"compare_at_price": "2899.99",
+"position": 1,
+"product_id": 16055823499646,
+"created_at": "2026-08-21T17:06:57+01:00",
+"updated_at": "2026-11-18T12:56:06+00:00"
+}
+],
+"images": [
+{
+"id": 81450275930494,
+"created_at": "2026-01-18T11:56:12+00:00",
+"position": 1,
+"updated_at": "2026-01-18T11:57:22+00:00",
+"product_id": 16055823499646,
+"variant_ids": [],
+"src": "https://cdn.shopify.com/s/files/1/0712/3265/1578/files/58F56331-4BB3-4D00-8AAA-5489E639AB28.jpg?v=1768737442",
+"width": 3024,
+"height": 3024
+},
+{
+"id": 81450275799422,
+"created_at": "2026-01-18T11:56:12+00:00",
+"position": 2,
+"updated_at": "2026-01-18T11:57:22+00:00",
+"product_id": 16055823499646,
+"variant_ids": [],
+"src": "https://cdn.shopify.com/s/files/1/0712/3265/1578/files/4BA77A60-36B3-48CC-8C7D-F23D717773E6.jpg?v=1768737442",
+"width": 3024,
+"height": 3024
+}
+]
+},
+{
+"id": 16092356903294,
+"title": "Ex-Demo 2025 CareCo Libro Car Boot Portable Mobility Scooter Buggy",
+"handle": "ex-demo-2026-careco-libro-car-boot-portable-mobility-scooter-buggy",
+"body_html": "<p>GMS Mobility is pleased to offer for sale, this Ex Demo late 2025 CareCo Libro, a lightweight transportable 4 mph pavement mobility scooter that comes with fully tested charger and two 12ah batteries (in excellent order), user manual, FREE UK delivery and a 6 month warranty. Ask us about Insurance, Extended Warranty and Part Exchange.<br><br>Some of the great features include an 18stone 12lbs weight capacity, 8-inch puncture-proof tyres (larger than most scooters so better for pot holes), on or off-board charging, a 12-mile range and disassembles with the heaviest part being only 13kgs, making it ideal for car boots, buses, planes or trains!<br><br>The mechanical and cosmetic condition is very good with minor marks on the tiller head (please see images).</p>\n<p>The Libro is built for everyday travel without the cost or complexity of bigger scooters. A lightweight frame that disassembles quickly, an adjustable tiller bar with simple controls, solid wheels you don\u2019t have to think twice about \u2013 this travel mobility scooter does just what it says on the tin.</p>\n<p>The Libro comes apart into manageable sections, making it easier to lift, store and transport than a scooter that stays in one piece. Cleverly practical, and perfect for popping into your car boot or an out-the-way storage area at home.</p>\n<p><span>The front basket gives you the space you need for essentials \u2013 slide it off the scooter and use it as a separate shopping basket when you need to. Padded swing-away armrests and a swivel seat help you to get on and off the scooter without awkward twists.</span></p>\n<p><span>The Libro\u2019s battery has the range for everyday trips \u2013 popping to the shops for milk or nipping into town without planning around charging. When it does need topping up, off-board charging means you can take the battery inside while the scooter stays in the boot, the garage or outside.</span></p>\n<p><span>Battery Size (Ah) \u00a0 \u00a012<br>Battery Type \u00a0 \u00a0Dry Sealed Lead-Acid<br>Off Board Charging \u00a0 \u00a0Yes<br>Range up to (km) \u00a0 \u00a020<br>Watt Hours \u00a0 \u00a0244<br>Product Specs<br>Folded Height (cm) \u00a0 \u00a043<br>Folded Length (cm) \u00a0 \u00a0103<br>Folded Width (cm) \u00a0 \u00a050<br>Front Wheel Size (cm) \u00a0 \u00a020.3<br>Ground Clearance (cm) \u00a0 \u00a05<br>Incline Rating (Degrees) \u00a0 \u00a06<br>Max Speed (km/h) \u00a0 \u00a06.4<br>Motor Wattage \u00a0 \u00a0180<br>Number of Wheels \u00a0 \u00a04<br>Product Weight (kg) \u00a0 \u00a040<br>Rear Wheel Size (cm) \u00a0 \u00a020.3<br>Seat Depth (cm) \u00a0 \u00a035<br>Seat Height Max (cm) \u00a0 \u00a053<br>Seat Height Min (cm) \u00a0 \u00a046<br>Seat Width (cm) \u00a0 \u00a040<br>Swivel Seat \u00a0 \u00a0Yes<br>Tiller Type \u00a0 \u00a0Standard<br>Turning Radius (cm) \u00a0 \u00a0140<br>Tyres \u00a0 \u00a0Solid<br>Height (cm) \u00a0 \u00a084<br>Length (cm) \u00a0 \u00a0103<br>Width (cm) \u00a0 \u00a052<br>User Specs<br>Max User Weight (kg) \u00a0 \u00a0120</span></p>\n<p><strong>GMS Mobility 5-Star Warranty Information</strong></p>\n<p>We pride ourselves here at GMS Mobility on aftercare. It\u2019s the after-sales service that is most important when dealing with Mobility Scooters and Powerchairs.</p>\n<p><strong>What happens if I have a technical or operati",
+"published_at": "2026-10-21T13:40:37+01:00",
+"created_at": "2026-09-18T13:21:40+01:00",
+"updated_at": "2026-11-18T12:56:06+00:00",
+"vendor": "CareCo",
+"product_type": "4-Wheeled Scooter",
+"tags": [
+"4-6 MPH SCOOTERS",
+"eBay",
+"Just Arrived",
+"Portable Scooters",
+"Shop All",
+"tag__sale_Ex Demo"
+],
+"variants": [
+{
+"id": 58054582960510,
+"title": "Default Title",
+"option1": "Default Title",
+"option2": null,
+"option3": null,
+"sku": "LIBRO-90083",
+"requires_shipping": true,
+"taxable": false,
+"featured_image": null,
+"available": true,
+"price": "499.00",
+"grams": 40000,
+"compare_at_price": "999.99",
+"position": 1,
+"product_id": 16092356903294,
+"created_at": "2026-09-18T13:21:41+01:00",
+"updated_at": "2026-11-18T12:56:06+00:00"
+}
+],
+"images": [
+{
+"id": 86079555305854,
+"created_at": "2026-09-18T13:23:03+01:00",
+"position": 1,
+"updated_at": "2026-09-18T13:23:06+01:00",
+"product_id": 16092356903294,
+"variant_ids": [],
+"src": "https://cdn.shopify.com/s/files/1/0712/3265/1578/files/D32B4B5E-E066-4FC9-9DAC-78EA648A402C.jpg?v=1789734186",
+"width": 2916,
+"height": 2878
+},
+{
+"id": 86079555273086,
+"created_at": "2026-09-18T13:23:03+01:00",
+"position": 2,
+"updated_at": "2026-09-18T13:23:07+01:00",
+"product_id": 16092356903294,
+"variant_ids": [],
+"src": "https://cdn.shopify.com/s/files/1/0712/3265/1578/files/E3E2932C-05F1-49B5-82CD-2E0ACCF931AD.jpg?v=1789734187",
+"width": 2974,
+"height": 2846
+}
+]
+},
+{
+"id": 15703329833342,
+"title": "eFOLDi Lite Folding Lithium Portable Mobility Scooter",
+"handle": "efoldi-lite-folding-lithium-portable-mobility-scooter-5",
+"body_html": "<p>GMS Mobility is pleased to offer for sale, this brilliant 2021 eFOLDi Lite transportable folding 4 mph pavement mobility scooter which comes with charger, a tested 10ah airline friendly lithium battery, a user manual and a 6 month warranty included. Ask us about Insurance and Part Exchange.</p>\n<p>Some of the great features include fast folding/unfolding, weighing only 15kgs, has an 19 stone weight capacity, optional footplates, puncture-proof tyres, has a 10 mile range and being ideal for car boots, buses, planes or trains!</p>\n<p>The cosmetic condition is good overall with minor marks.</p>\n<p>Great value as the new RRP is \u00a32699+VAT!</p>\n<p>In our opinion, one of the easiest-to-use compact folding portable mobility scooters!</p>\n<p>FREE, fast national courier delivery.</p>\n<p>The eFOLDi Lite is one of the world\u2019s lightest, most compact folding scooters.<br>Its revolutionary design makes the eFOLDi Lite one of the lightest, most compact folding travel-scooters available \u2013 weighing just 15kg*. It folds and unfolds in just a few seconds and is easy to store and transport. No complex assembly is required - just unfold and go.</p>\n<p>Easy to use, folding travel scooter<br>Exceptionally lightweight at only 15kg yet remarkably robust carrying passengers up to 120kg/19 Stone<br>Folds with ease, fits into most car boots and is Airline safe<br>Lightweight - Portable \u2013 Compact - Robust</p>\n<p>Ground clearance: 7cm</p>\n<p>Folded dimensions: 26x22x15 inches</p>\n<p>Battery: 10ah Lithium (airline friendly)</p>\n<p>Motor: 180w</p>\n<p>weight capacity: 19 stone</p>\n<p>Speed 4mph</p>\n<p>Range: 10 miles</p>\n<p>Tyres; Front is solid and rear are pneumatic</p>\n<p><span style=\"text-decoration: underline;\"><strong>GMS Mobility 5-Star Warranty Information</strong></span></p>\n<p>We pride ourselves here at GMS Mobility on aftercare. It\u2019s the after-sales service that is most important when dealing with Mobility Scooters and Powerchairs.</p>\n<p><span style=\"text-decoration: underline;\"><strong>What happens if I have a technical or operational issue within the warranty period?</strong></span></p>\n<p>You simply email or call us for assistance. We are on hand to help with absolutely any query or issue that you have with your product, from just wanting to go through the operational controls to help if you believe the item is faulty. We want to help!</p>\n<p><span style=\"text-decoration: underline;\"><strong>What if my scooter or powerchair arrives faulty or develops a fault in the warranty period?</strong></span></p>\n<p>The chances are, we are not local to you but we strongly believe that we offer a faster and more efficient warranty turnaround than your local mobility store!</p>\n<p>In the unlikely event that your scooter or powerchair develops a fault, you simply contact us and we will arrange for our trusted specialist collection firm to come to your door usually the very next day! We receive it back to our HQ in Colchester within a couple of working days where our engineer l",
+"published_at": "2026-08-21T14:20:50+01:00",
+"created_at": "2025-12-04T13:59:51+00:00",
+"updated_at": "2026-11-18T12:56:06+00:00",
+"vendor": "eFOLDi",
+"product_type": "3-Wheeled Scooter",
+"tags": [
+"4-6 MPH SCOOTERS",
+"eBay",
+"Folding Scooters",
+"Just Arrived",
+"Portable Scooters",
+"Shop All",
+"tag__new_USED"
+],
+"variants": [
+{
+"id": 56670010376574,
+"title": "Default Title",
+"option1": "Default Title",
+"option2": null,
+"option3": null,
+"sku": "EFOLDILITE-085AA",
+"requires_shipping": true,
+"taxable": false,
+"featured_image": null,
+"available": true,
+"price": "1395.00",
+"grams": 15000,
+"compare_at_price": "2699.00",
+"position": 1,
+"product_id": 15703329833342,
+"created_at": "2025-12-04T13:59:51+00:00",
+"updated_at": "2026-11-18T12:56:06+00:00"
+}
+],
+"images": [
+{
+"id": 46523060388154,
+"created_at": "2024-06-13T14:29:04+01:00",
+"position": 1,
+"updated_at": "2024-06-13T14:29:07+01:00",
+"product_id": 15703329833342,
+"variant_ids": [],
+"src": "https://cdn.shopify.com/s/files/1/0712/3265/1578/files/B42429CA-2222-453B-B71D-5A48BC8F1278.jpg?v=1718285347",
+"width": 3024,
+"height": 3024
+},
+{
+"id": 46523060158778,
+"created_at": "2024-06-13T14:29:04+01:00",
+"position": 2,
+"updated_at": "2024-06-13T14:29:07+01:00",
+"product_id": 15703329833342,
+"variant_ids": [],
+"src": "https://cdn.shopify.com/s/files/1/0712/3265/1578/files/DDB9D0D3-5562-4CB6-84B3-8A7C62AB3D5F.jpg?v=1718285347",
+"width": 3024,
+"height": 3024
+}
+]
+},
+{
+"id": 15632368107902,
+"title": "TGA Minimo Plus Portable Folding Mobility Scooter Buggy",
+"handle": "tga-minimo-plus-portable-folding-mobility-scooter-buggy-2",
+"body_html": "<p>GMS Mobility is pleased to offer for sale, this 2016 TGA Minimo Plus, a transportable easy manual folding 4 mph pavement mobility scooter that comes fully tested Lithium battery and charger (in excellent order), user manual and a 6-month warranty. Ask us about Insurance and Part Exchange.</p>\n<p>Some of the great features include an 18-stone weight capacity, a 14-mile range, solid tyres, has a fantastic turning circle and folds making it Ideal for cars, buses, trains, and cruises!</p>\n<p>The cosmetic condition is good with some marks to the tiller and paintwork. The charger cap on the battery pack is missing but does not affect functionality (please see images).</p>\n<p>Overall a fantastic, comfortable small transportable folding scooter!</p>\n<p>The Minimo Plus is the latest generation of compact, foldable mobility scooter design. Borrowing from the established heritage of the pioneering 4mph Minimo, it is extremely light weight and packed full of additional features. Its unique, single action folding mechanism can be operated with just one hand and requires no dismantling of parts or fiddly connections for compact storage in one easy motion.</p>\n<p>Fitted as standard with cutting-edge lithium battery technology it is so lightweight, it can be lifted with one finger. The battery can be effortlessly removed for off-board charging allowing you to store the Minimo in a car boot for ultimate convenience.<br>The new Minimo Plus incorporates all these features along with additional features including larger pneumatic tyres, a more powerful motor and controller, integrated super bright maintenance free LED light, higher ground clearance and enhanced batteries. It also provides a rider weight capacity accommodating users weighing up to 115kg (250lbs).</p>\n<p>The Minimo Plus folding car boot scooter delivers the ultimate driving experience and pushes mobility to a new level through the latest in assistive design.</p>\n<p>The sturdy pneumatic tyres provide a smoother, more comfortable ride and extra range when compared to solid tyres and can include our puncture sealant for extra peace of mind. These tyres are combined with larger 228mm (9\u201d) rear alloys so the Minimo Plus chassis provides a higher ground clearance of 70mm (2.8\u201d). Fitted as standard with the reliable 70amp S-Drive controller and a 4 pole 270w motor the Minimo Plus has added performance whilst the Minimo\u2019s market-leading manoeuvrability is retained. Its 820mm turning circle ensures driving around town and in shops is hassle-free and the Lithium-ion battery ensures a range of up to 15 miles (24km) on a single charge. Active rear suspension adds to the stability of the Minimo Plus and anti-tip side castors provide safety when negotiating uneven surfaces or lowered kerbs.</p>\n<p>Despite all these extra features, the 25kg (55lbs) Minimo Plus remains easy-to-lift when folded for storage in the majority of car boots. The unlocking levers are quick to engage and once folded, Minimo can be effortle",
+"published_at": "2026-08-04T13:20:48+01:00",
+"created_at": "2025-10-19T11:55:06+01:00",
+"updated_at": "2026-11-18T12:56:06+00:00",
+"vendor": "TGA",
+"product_type": "4-Wheeled Scooter",
+"tags": [
+"4-6 MPH SCOOTERS",
+"eBay",
+"Folding Scooters",
+"Just Arrived",
+"Portable Scooters",
+"Shop All",
+"tag__new_USED"
+],
+"variants": [
+{
+"id": 56431754019198,
+"title": "Default Title",
+"option1": "Default Title",
+"option2": null,
+"option3": null,
+"sku": "MINIMOPLUS-64081",
+"requires_shipping": true,
+"taxable": false,
+"featured_image": null,
+"available": true,
+"price": "695.00",
+"grams": 28000,
+"compare_at_price": null,
+"position": 1,
+"product_id": 15632368107902,
+"created_at": "2025-10-19T11:55:06+01:00",
+"updated_at": "2026-11-18T12:56:06+00:00"
+}
+],
+"images": [
+{
+"id": 78847127683454,
+"created_at": "2025-10-19T11:55:43+01:00",
+"position": 1,
+"updated_at": "2025-10-19T11:57:43+01:00",
+"product_id": 15632368107902,
+"variant_ids": [],
+"src": "https://cdn.shopify.com/s/files/1/0712/3265/1578/files/5C749F83-735D-420D-AA80-E8C06EFA811F.jpg?v=1760871463",
+"width": 3024,
+"height": 3024
+},
+{
+"id": 78847127519614,
+"created_at": "2025-10-19T11:55:43+01:00",
+"position": 2,
+"updated_at": "2025-10-19T11:57:43+01:00",
+"product_id": 15632368107902,
+"variant_ids": [],
+"src": "https://cdn.shopify.com/s/files/1/0712/3265/1578/files/C04BB3A0-122F-424D-B334-D5E7A91F6B4F.jpg?v=1760871463",
+"width": 3024,
+"height": 3024
+}
+]
+},
+{
+"id": 15970853060990,
+"title": "Ex-Demo ProLite Evisu Carbon Fibre Powerchair",
+"handle": "2025-prolite-evisu-carbon-fibre-powerchair-1",
+"body_html": "<p><span>GMS Mobility is pleased to offer for sale this excellent 2024 (went on display in 2025) ProLite Evisu Carbon Fibre Powerchair that comes with a fully tested airline-friendly lithium battery (in excellent order), a charger, a manual, 6-month warranty and a FREE Nationwide delivery. Part exchange available. Ask us about Insurance.</span></p>\n<p><span>Some of the great features include smartphone remote control app functionality, suspension, a 16-mile range, 23 stone 8lb weight capacity, on or off-board charging, folds for easy transportation for cars, buses, planes and trains!</span></p>\n<p><span>The cosmetic condition is very good with the odd mark.</span></p>\n<p><span>Great value as the new RRP is \u00a32599.99+VAT!</span></p>\n<p>Connect with the future of mobility</p>\n<p>With the JBH Health app, you can remotely control your powerchair from your smartphone, adjusting speed and direction with precision, or parking it with ease all from your phone. It folds down in seconds, boasts a 16-mile range, and features a thick padded seat for unmatched comfort. Its airline-friendly battery and clever carbon frame helps your powerchair go with you, everywhere.</p>\n<p>Remote-controlled mobility\u00a0</p>\n<p>The Evisu Powerchair is the cornerstone of smart health and mobility. The JBH Health app puts you in command, letting you control speed, direction, and parking remotely from your smartphone. The Evisu\u2019s dedicated app allows for remote manoeuvring, which is particularly helpful in tight spaces, \u00a0and you can position the chair exactly where you need it without assistance</p>\n<p>Comfort is king</p>\n<p>The proLite Evisu combines sleek design with everyday comfort. The padded seat is perfect for pressure-free rides, while the flip-up armrests make getting in and out effortless. The one-piece backrest offers reliable support to keep you comfortable on longer journeys, and with 16 miles to cover on a full battery, you'll certainly be enjoying a few of those.</p>\n<p>Travel in style\u00a0</p>\n<p>The proLite Evisu Powerchair makes life wonderfully simple. At just 17.5 kg, it\u2019s light enough for lifting into your car boot or a storage space, and its carbon fibre frame is far stronger than aluminium powerchairs. Thanks to its fold-down frame and an airline-friendly battery, it helps you tackle whatever life throws your way.</p>\n<p>Specifications</p>\n<p>Battery<br>Battery Size (Ah) \u00a0 \u00a012<br>Battery Type \u00a0 \u00a0Lithium-ion<br>Battery Brand \u00a0 \u00a0New Energy Technology<br>Battery Certification \u00a0 \u00a0Lithium-ion battery designed to UK / EU regulations<br>Range up to (miles) \u00a0 \u00a016<br>Watt Hours \u00a0 \u00a0288<br>Product Specs<br>Folded Height (inches) \u00a0 \u00a031<br>Folded Length (inches) \u00a0 \u00a011<br>Folded Width (inches) \u00a0 \u00a024<br>Front Wheel Size (inches) \u00a0 \u00a07<br>Ground Clearance (inches) \u00a0 \u00a03<br>Incline Rating (Degrees) \u00a0 \u00a08<br>Max Speed (mp/h) \u00a0 \u00a04<br>Motor Wattage \u00a0 \u00a0180<br>Product Weight (Stone/Pounds) \u00a0 \u00a02st 10lbs<br>Rear Wheel Size (inches) \u00a0 \u00a08<br>Seat Height (inches) \u00a0 \u00a020<br>Seat Width (inches) \u00a0",
+"published_at": "2026-07-25T16:00:25+01:00",
+"created_at": "2026-06-19T11:08:51+01:00",
+"updated_at": "2026-11-18T12:56:06+00:00",
+"vendor": "ProLite",
+"product_type": "Power Wheelchair",
+"tags": [
+"eBay",
+"Just Arrived",
+"Powerchairs",
+"Shop All",
+"tag__new_USED"
+],
+"variants": [
+{
+"id": 57577643245950,
+"title": "Default Title",
+"option1": "Default Title",
+"option2": null,
+"option3": null,
+"sku": "EVISU-2058",
+"requires_shipping": true,
+"taxable": false,
+"featured_image": null,
+"available": true,
+"price": "1595.00",
+"grams": 17500,
+"compare_at_price": "2599.99",
+"position": 1,
+"product_id": 15970853060990,
+"created_at": "2026-06-19T11:08:51+01:00",
+"updated_at": "2026-11-18T12:56:06+00:00"
+}
+],
+"images": [
+{
+"id": 84507255243134,
+"created_at": "2026-06-19T11:09:16+01:00",
+"position": 1,
+"updated_at": "2026-06-19T11:09:21+01:00",
+"product_id": 15970853060990,
+"variant_ids": [],
+"src": "https://cdn.shopify.com/s/files/1/0712/3265/1578/files/72DBCDA1-1697-4049-8499-EF53320E158B.jpg?v=1781863761",
+"width": 3024,
+"height": 3024
+},
+{
+"id": 84507255439742,
+"created_at": "2026-06-19T11:09:16+01:00",
+"position": 2,
+"updated_at": "2026-06-19T11:09:21+01:00",
+"product_id": 15970853060990,
+"variant_ids": [],
+"src": "https://cdn.shopify.com/s/files/1/0712/3265/1578/files/952A663B-4E7A-4B2F-9E2B-7430ADEAC8ED.jpg?v=1781863761",
+"width": 2926,
+"height": 3024
+}
+]
+},
+{
+"id": 15863288889726,
+"title": "Ex-Demo proLite Alluvium Portable Folding Electric Powerchair",
+"handle": "ex-demo-prolite-alluvium-portable-folding-electric-powerchair-3",
+"body_html": "<p><span>GMS Mobility is pleased to offer for sale this ex-demo proLite Alluvium Powerchair. FREE, fast nationwide delivery. Also comes with fully tested 12ah airline friendly lithium battery and charger (in excellent order), a user manual and 6-month warranty. Ask us about Insurance, Extended Warranty and Part Exchange.</span></p>\n<p><span>Some of the great features include front suspension, up to 15 mile range, 18st 12lbs maximum user weight capacity, solid puncture proof tyres and off-board charging.</span></p>\n<p>The mechanical and cosmetic condition is excellent 'as new'!</p>\n<p><span>Great value as the new RRP is \u00a31999.99+VAT!</span></p>\n<p><span>Crafted from aerospace-grade aluminium and fitted with a futureproof lithium-ion battery, this lightweight powerchair pairs comfort with style and a sturdy design that\u2019s built to last. The proLite Alluvium's stripped back design is proof that sometimes less really is more, with a frame forged from aerospace aluminium for a light carry weight but impressive control, comfort and strength.<br><br>The Alluvium is fitted with high performance lithium-ion batteries. We love lithium-ion batteries. For a start, they charge up to 25% quicker. The life cycle of the battery is up to 300% longer than a standard battery, too. And it\u2019s 55% lighter, reducing the overall weight of your powerchair. Plus, with a range of 15 miles (24.3km), they help you spend less time charging and more time moving, day after day.<br><br>The Alluvium uses a remarkably simple push-pull folding frame, transforming the powerchair into a compact size for easy stowage. Ideal for hopping on and off public transport or sliding into a car boot, it also suits those who don\u2019t want to deal with taking apart a bigger, heavier powerchair. The backrest\u2019s push bar doubles as a handle when the Alluvium is folded, helpful for wheeling through busy train stations and airports.<br><br>This stylishly stripped-back lightweight design hides one big secret. It's still incredibly comfortable. The removable seat padding is contoured for superior pressure relief, so longer rides won't be a chore. It's fitted with front castor suspension to take rough and uneven ground in its stride without rattling your bones. And the larger rear wheels are fitted with flip-away anti-rollback wheels for safety on steep hills.<br><br>The rapid charging time is more than welcome if you\u2019re heading out in a hurry, the longer life cycle means you get more charges before replacement, and the lighter weight makes off-board charging more convenient. The battery slots in under the seat in an easy to get to place, and it\u2019s fitted with a charging socket right on the battery itself. It\u2019s airline-safe as well, so if you love to travel, you\u2019ll love the Alluvium.<br><br>Battery<br>Battery Size 12<br>Range (km) 24.3<br>Product Specs<br>Folded Height (cm) 33<br>Folded Length (cm) 80<br>Folded Width (cm) 62<br>Front Wheel Size (cm) 15<br>Heaviest Part (kg) 19.5<br>Incline Rating (Degrees) 6<b",
+"published_at": "2026-07-07T10:17:08+01:00",
+"created_at": "2026-04-17T17:40:57+01:00",
+"updated_at": "2026-11-18T12:56:06+00:00",
+"vendor": "ProLite",
+"product_type": "Power Wheelchair",
+"tags": [
+"eBay",
+"Just Arrived",
+"Powerchairs",
+"Shop All",
+"tag__sale_Ex Demo"
+],
+"variants": [
+{
+"id": 57271488184702,
+"title": "Default Title",
+"option1": "Default Title",
+"option2": null,
+"option3": null,
+"sku": "ALLUVIUM-110089",
+"requires_shipping": true,
+"taxable": false,
+"featured_image": null,
+"available": true,
+"price": "895.00",
+"grams": 23100,
+"compare_at_price": "1299.99",
+"position": 1,
+"product_id": 15863288889726,
+"created_at": "2026-04-17T17:40:57+01:00",
+"updated_at": "2026-11-18T12:56:06+00:00"
+}
+],
+"images": [
+{
+"id": 83332496163198,
+"created_at": "2026-04-17T17:41:16+01:00",
+"position": 1,
+"updated_at": "2026-04-17T19:33:03+01:00",
+"product_id": 15863288889726,
+"variant_ids": [],
+"src": "https://cdn.shopify.com/s/files/1/0712/3265/1578/files/EB5B7525-62D2-4693-B83E-A40F306569BA.jpg?v=1776450783",
+"width": 3024,
+"height": 3024
+},
+{
+"id": 83332495999358,
+"created_at": "2026-04-17T17:41:16+01:00",
+"position": 2,
+"updated_at": "2026-04-17T22:55:01+01:00",
+"product_id": 15863288889726,
+"variant_ids": [],
+"src": "https://cdn.shopify.com/s/files/1/0712/3265/1578/files/7ACC3558-03CE-4F79-AC7A-AF38C67624DC.jpg?v=1776462901",
+"width": 3017,
+"height": 3024
+}
+]
+},
+{
+"id": 15976402452862,
+"title": "2 Year Extended Warranty",
+"handle": "2-year-extended-warranty",
+"body_html": "",
+"published_at": "2026-06-21T16:49:23+01:00",
+"created_at": "2026-06-21T16:48:03+01:00",
+"updated_at": "2026-11-18T12:56:06+00:00",
+"vendor": "GMS Mobility",
+"product_type": "",
+"tags": [],
+"variants": [
+{
+"id": 57593319326078,
+"title": "Default Title",
+"option1": "Default Title",
+"option2": null,
+"option3": null,
+"sku": "EW49",
+"requires_shipping": true,
+"taxable": true,
+"featured_image": null,
+"available": true,
+"price": "49.00",
+"grams": 0,
+"compare_at_price": null,
+"position": 1,
+"product_id": 15976402452862,
+"created_at": "2026-06-21T16:48:03+01:00",
+"updated_at": "2026-11-18T12:56:06+00:00"
+}
+],
+"images": [
+{
+"id": 84546061238654,
+"created_at": "2026-06-21T16:48:28+01:00",
+"position": 1,
+"updated_at": "2026-06-21T16:48:32+01:00",
+"product_id": 15976402452862,
+"variant_ids": [],
+"src": "https://cdn.shopify.com/s/files/1/0712/3265/1578/files/452E1613-B123-486E-9061-919BA3C4AFA8.png?v=1782056912",
+"width": 1254,
+"height": 1254
+}
+]
+},
+{
+"id": 15971773809022,
+"title": "1 Year First Senior Insurance",
+"handle": "1-year-first-senior-insurance-1",
+"body_html": "",
+"published_at": "2026-06-19T16:37:23+01:00",
+"created_at": "2026-06-19T16:36:42+01:00",
+"updated_at": "2026-11-18T12:56:06+00:00",
+"vendor": "GMS Mobility",
+"product_type": "",
+"tags": [],
+"variants": [
+{
+"id": 57581751665022,
+"title": "Default Title",
+"option1": "Default Title",
+"option2": null,
+"option3": null,
+"sku": null,
+"requires_shipping": true,
+"taxable": true,
+"featured_image": null,
+"available": true,
+"price": "150.00",
+"grams": 0,
+"compare_at_price": null,
+"position": 1,
+"product_id": 15971773809022,
+"created_at": "2026-06-19T16:36:43+01:00",
+"updated_at": "2026-11-18T12:56:06+00:00"
+}
+],
+"images": [
+{
+"id": 84511902138750,
+"created_at": "2026-06-19T16:37:02+01:00",
+"position": 1,
+"updated_at": "2026-06-19T16:37:07+01:00",
+"product_id": 15971773809022,
+"variant_ids": [],
+"src": "https://cdn.shopify.com/s/files/1/0712/3265/1578/files/D8834828-02B1-4188-AEC3-306DE46AB47A.png?v=1781883427",
+"width": 1254,
+"height": 1254
+}
+]
+},
+{
+"id": 15802747748734,
+"title": "GMS Mobility High Vis Scooter Contour Rear Seat Storage Bag",
+"handle": "gms-mobility-scooter-contour-rear-seat-storage-bag-high-vis",
+"body_html": "<p><span>The GMS Mobility High Vis Contour Scooter Bag is designed for smaller scooters and boot scooters. The bag simply slides over the rounded seat of many popular</span><span>\u00a0and small sized scooters and its stretchy neoprene allows\u00a0for a great fit.</span><br><br><span>Constructed with heavy-duty, waterproof fabric the Contour Scooter Bag is easy to use, strong and durable.</span></p>\n<p><span style=\"font-size: 0.875rem;\">All size measurements in centimetres (cm)</span></p>\n<ul>\n<li><span>Size: H36 W45</span></li>\n<li><span>Colour: High Vis</span></li>\n</ul>",
+"published_at": "2026-03-02T15:34:30+00:00",
+"created_at": "2026-03-02T12:30:28+00:00",
+"updated_at": "2026-11-18T12:56:06+00:00",
+"vendor": "GMS Mobility",
+"product_type": "Accessory",
+"tags": [
+"Accessories"
+],
+"variants": [
+{
+"id": 57001689153918,
+"title": "Default Title",
+"option1": "Default Title",
+"option2": null,
+"option3": null,
+"sku": "CONTOUR-HIGHVIS",
+"requires_shipping": true,
+"taxable": false,
+"featured_image": null,
+"available": true,
+"price": "29.99",
+"grams": 900,
+"compare_at_price": null,
+"position": 1,
+"product_id": 15802747748734,
+"created_at": "2026-03-02T12:30:28+00:00",
+"updated_at": "2026-11-18T12:56:06+00:00"
+}
+],
+"images": [
+{
+"id": 82495202132350,
+"created_at": "2026-03-02T12:30:44+00:00",
+"position": 1,
+"updated_at": "2026-03-02T12:30:48+00:00",
+"product_id": 15802747748734,
+"variant_ids": [],
+"src": "https://cdn.shopify.com/s/files/1/0712/3265/1578/files/CA63AD81-0C80-4B54-B087-46060CD514A9.jpg?v=1772454648",
+"width": 3024,
+"height": 3024
+},
+{
+"id": 82495202099582,
+"created_at": "2026-03-02T12:30:44+00:00",
+"position": 2,
+"updated_at": "2026-03-02T12:30:48+00:00",
+"product_id": 15802747748734,
+"variant_ids": [],
+"src": "https://cdn.shopify.com/s/files/1/0712/3265/1578/files/58548010-586F-4680-9F8A-EA39474818C0.jpg?v=1772454648",
+"width": 3024,
+"height": 3024
+}
+]
+},
+{
+"id": 15477342765438,
+"title": "Monarch Solax MobiFree Manual Folding Mobility Scooter",
+"handle": "monarch-solax-mobifree-manual-folding-mobility-scooter",
+"body_html": "<p class=\"p1\">GMS Mobility is pleased to offer for sale, this pre-loved 2023 (purchased new for \u00a32274.00) Solax MobiFree, a transportable manual-folding (lighter than the auto folding versions) 4 mph pavement mobility scooter that comes with a fully tested lithium battery (in excellent order), a charger and a 3-month warranty included. Part exchange available. Ask us about Insurance.</p>\n<p class=\"p1\"><span size=\"4\">Some of the great features include, adjustable tiller (up/down), weighs only 19kgs, LED battery level display, a 18 stone weight capacity, puncture-proof tyres, arm rests, has a 9-mile range and is ideal for car boots, buses, planes, ships or trains.</span></p>\n<p class=\"p1\"><span size=\"4\"><span>The mechanical and cosmetic condition is excellent as if never used!</span></span></p>\n<p class=\"p1\"><span size=\"4\"><span>FREE national courier delivery.</span></span></p>\n<p>One of the features which makes the MobiFree so appealing is its unique manual folding system. Opening and closing in only 5 seconds, it\u2019s the most user-friendly folding mobility scooter on the market.</p>\n<p>This makes it perfect for shopping and getting out and about, with each unit easily fitting within the boot of your car.</p>\n<p>In addition to its compact design, this Mobility Scooter tips the scales at a feather-light 19kg (battery excluded). This makes MobiFree the go-to mobility scooter for those who like to be active and get out and about.</p>\n<p><br>Technical Specification</p>\n<p><br>\u2022 19kg total weight without battery</p>\n<p>\u2022 Adjustable tiller</p>\n<p>\u2022 Maximum speed 4 mph</p>\n<p>\u2022 Up to 9 mile range per battery</p>\n<p>\u2022 18 Stones maximum user weight</p>\n<p>\u2022 Ready in 5 seconds</p>\n<p>\u2022 Reliable and dependable</p>\n<p>\u2022 Key operated and speed dial control</p>\n<p>Dimensions\u00a0</p>\n<p>When Folded</p>\n<p>\u2022 L 43cm</p>\n<p>\u2022 W 46cm</p>\n<p>\u2022 H 58cm</p>\n<p><br>When Unfolded</p>\n<p>\u2022 L 99cm</p>\n<p>\u2022 W 46cm</p>\n<p>\u2022 H 88cm</p>\n<p><strong>GMS Mobility 5-Star Warranty Information</strong></p>\n<p>We pride ourselves here at GMS Mobility on aftercare. It\u2019s the after-sales service that is most important when dealing with Mobility Scooters and Powerchairs.</p>\n<p><strong>What happens if I have a technical or operational issue within the warranty period?</strong></p>\n<p>You simply email or call us for assistance. We are on hand to help with absolutely any query or issue that you have with your product, from just wanting to go through the operational controls to help if you believe the item is faulty. We want to help!</p>\n<p><strong>What if my scooter or powerchair arrives faulty or develops a fault in the warranty period?</strong></p>\n<p>The chances are, we are not local to you but we strongly believe that we offer a faster and more efficient warranty turnaround than your local mobility store!</p>\n<p>In the unlikely event that your scooter or powerchair develops a fault, you simply contact us and we will arrange for our trusted specialist collection firm to come to your door usual",
+"published_at": "2026-01-23T19:55:26+00:00",
+"created_at": "2025-07-09T16:07:41+01:00",
+"updated_at": "2026-11-18T12:56:06+00:00",
+"vendor": "Solax",
+"product_type": "4-Wheeled Scooter",
+"tags": [
+"4-6 MPH SCOOTERS",
+"eBay",
+"Folding Scooters",
+"Just Arrived",
+"Portable Scooters",
+"Shop All",
+"tag__new_USED"
+],
+"variants": [
+{
+"id": 55928245092734,
+"title": "Default Title",
+"option1": "Default Title",
+"option2": null,
+"option3": null,
+"sku": "MOBIFREE-900467",
+"requires_shipping": true,
+"taxable": false,
+"featured_image": null,
+"available": true,
+"price": "795.00",
+"grams": 19000,
+"compare_at_price": null,
+"position": 1,
+"product_id": 15477342765438,
+"created_at": "2025-07-09T16:07:42+01:00",
+"updated_at": "2026-11-18T12:56:06+00:00"
+}
+],
+"images": [
+{
+"id": 77098810540414,
+"created_at": "2025-07-09T16:08:28+01:00",
+"position": 1,
+"updated_at": "2025-07-09T16:10:04+01:00",
+"product_id": 15477342765438,
+"variant_ids": [],
+"src": "https://cdn.shopify.com/s/files/1/0712/3265/1578/files/3098E752-9D47-4EA8-BAF5-0E62DF541028.jpg?v=1752073804",
+"width": 3024,
+"height": 3024
+},
+{
+"id": 77098809819518,
+"created_at": "2025-07-09T16:08:27+01:00",
+"position": 2,
+"updated_at": "2025-07-09T16:10:04+01:00",
+"product_id": 15477342765438,
+"variant_ids": [],
+"src": "https://cdn.shopify.com/s/files/1/0712/3265/1578/files/0F7B6B7A-E847-4456-8E6C-A3F3B4BD963B.jpg?v=1752073804",
+"width": 3024,
+"height": 3024
+}
+]
+},
+{
+"id": 16195532358014,
+"title": "Kymco Maxi XLS Large Size Mobility Scooter Buggy",
+"handle": "\u2705-kymco-maxi-xls-large-size-mobility-scooter-buggy",
+"body_html": "<p>GMS Mobility is pleased to offer for sale, this pre loved 2024 Kymco Maxi XLS 4-8mph large size, all-terrain road legal mobility scooter which comes with the charger, fully tested 80ah batteries (in excellent order), manual and a 6-month warranty. Ask us about Insurance, Part Exchange and Extended Warranty.</p>\n<div style=\"box-sizing: inherit; margin-top: 1rem; color: #505050;\" class=\"product-tabs__content__slice\">\n<div style=\"box-sizing: inherit;\" class=\"product-tabs__content__cms\" id=\"product__description\">Some of the great features include the pneumatic tyre's,\u00a0 a very powerful motor, full high-quality adjustable suspension, a 31-stone weight capacity, a massive 35-mile range, a super comfortable captain's seat, and excellent front/rear lighting and indicators.<br>\n</div>\n<div style=\"box-sizing: inherit;\" class=\"product-tabs__content__cms\"><br></div>\n<div style=\"box-sizing: inherit;\" class=\"product-tabs__content__cms\">The cosmetic condition is very good with a few very minor marks (please see images).</div>\n<div style=\"box-sizing: inherit;\" class=\"product-tabs__content__cms\"><br></div>\n<div style=\"box-sizing: inherit;\" class=\"product-tabs__content__cms\">The key features of the KYMCO Maxi XLS are:<br><br>Front and rear suspension<br>Adjustable handlebar angle,<br>Fully adjustable captains seat, head rest, adjustable/removable arm rests and swivelling function,<br>Simple to use controls and an automatic braking system,<br>Wing mirrors,<br>Front and rear lights including indicators, hazard lights and an automatic braking light,<br>80ah batteries providing a range of up to 35miles,<br>Technical Specifications<br>Length 1450mm<br><br>Width 670mm<br><br>Height 1090mm<br><br>Max Speed 8mph<br><br>Range Up to 57km /35 miles<br><br>Wheel size 305mm/ 12\u201d<br><br>Heaviest single part 52.5kg<br><br>Total weight inc batteries 138kg<br><br>Batteries 80ah AGM x2<br><br>Seat Height deck to seat 450mm-510mm<br><br>Lights? yes<br><br>Turning radius 1650mm<br><br>Maximum climbing incline: 12degrees<br><br>The Kymco Maxi XLS mobility scooter is the newest version of the highly successful Kymco Maxi XL mobility scooter. This is a high performance mobility scooter packed full of features that you would expect from Kymco mobility scooters at their best.<br><br>There is an extremely comfortable, fully adjustable seat to support you on your journey. The level of comfort is added to by the all-round, fully adjustable suspension system to iron out those bumps and lumps of rougher terrain. Aided of course, by the very respectable 4\" of ground clearance on the Kymco Maxi XLS mobility scooter.<br><br>There are bright lights front and rear, which are low consumption units that draw very little power from the batteries*. The Kymco Maxi XLS mobility scooter also comes with a comfort grip delta control at the tiller head. More comfortable than standard handlebar type grips, the delta tiller is ideal for those with arthritis in the hands or issues with grip.<br><br>Even in th",
+"published_at": "2026-11-18T12:53:34+00:00",
+"created_at": "2026-11-17T17:07:36+00:00",
+"updated_at": "2026-11-18T12:56:06+00:00",
+"vendor": "KYMCO",
+"product_type": "4-Wheeled Scooter",
+"tags": [
+"8 Mph Scooters",
+"All-Terrain Scooters",
+"eBay",
+"Just Arrived",
+"Shop All",
+"tag__new_USED"
+],
+"variants": [
+{
+"id": 58491236680062,
+"title": "Default Title",
+"option1": "Default Title",
+"option2": null,
+"option3": null,
+"sku": "MAXIXLS-00782",
+"requires_shipping": true,
+"taxable": false,
+"featured_image": null,
+"available": true,
+"price": "1495.00",
+"grams": 123000,
+"compare_at_price": null,
+"position": 1,
+"product_id": 16195532358014,
+"created_at": "2026-11-17T17:07:36+00:00",
+"updated_at": "2026-11-18T12:56:06+00:00"
+}
+],
+"images": [
+{
+"id": 86874710770046,
+"created_at": "2026-11-17T17:08:51+00:00",
+"position": 1,
+"updated_at": "2026-11-17T17:08:55+00:00",
+"product_id": 16195532358014,
+"variant_ids": [],
+"src": "https://cdn.shopify.com/s/files/1/0712/3265/1578/files/IMG_5655.jpg?v=1794935335",
+"width": 2965,
+"height": 3024
+},
+{
+"id": 86874714243454,
+"created_at": "2026-11-17T17:08:51+00:00",
+"position": 2,
+"updated_at": "2026-11-17T17:08:55+00:00",
+"product_id": 16195532358014,
+"variant_ids": [],
+"src": "https://cdn.shopify.com/s/files/1/0712/3265/1578/files/IMG_5662.jpg?v=1794935335",
+"width": 3024,
+"height": 3024
+}
+]
+},
+{
+"id": 16195533767038,
+"title": "Kymco Agility Medium Size Mobility Scooter Black",
+"handle": "\u2705-kymco-agility-medium-size-mobility-scooter-black-1",
+"body_html": "<p>GMS Mobility is pleased to offer for sale, this stunning 2017 Kymco Agility 4-8mph medium-to-large size, all-terrain road legal mobility scooter which comes with the charger, rear-view mirrors, brand NEW 53ah batteries and a 6-month warranty. Part exchange and Insurance available.<br><br>Some of the great features include a very powerful motor, pneumatic tyres, full high-quality suspension, a 26-stone weight capacity, a massive 25-mile range, a super comfortable captain's seat, and excellent front/rear LED lighting and indicators.<br><br>The cosmetic condition is very good with a couple of very minor marks (please see images). 240 miles on the clock.<br><br>This scooter comes fully assembled and ready to go!<br><strong></strong></p>\n<p>The Kymco Agility is the more compact version of the extremely popular Kymco Maxer. With full front and rear suspension and a range of 25 miles the Kymco Agility really is the ideal town and off road scooter.<br><br>Equipped with an LED Screen which displays information such as your speed, battery gauge, temperature and time. A high/low button makes for a safe journey for the user and for other members of public when riding on the pavement allowing you to control and slow down your mobility scooters speed.<br><br>The Kymco Agility is a superb all round scooter which can really do it all.<br><br>Specifications<br>Total Weight<br>107 Kg<br>Frame Material<br>Steel<br>Heaviest Part (Kg)<br>107 Kg<br>Battery Weight (Kg)<br>18 kg<br>Length (cm)<br>128 cm<br>Width (cm)<br>57 cm<br>Height (cm)<br>110 cm<br>Clearance (cm)<br>8 cm<br>Front Wheel Size (inches)<br>12 in<br>Rear Wheel Size (inches)<br>12 in<br>Weight Limit (kg)<br>165 kg<br>Weight Limit (stone)<br>26<br>Max Speed (mph)<br>8 MPH<br>Max Range (miles)<br>26 Miles<br>Max Safe Climbing Angle (degrees)<br>12\u00b0 (21.2%)<br>Motor Wattage (watts)<br>600w<br>Airline Friendly<br>No<br>Battery Size (amps)<br>53<br>Battery Type<br>Lead Acid<br>Tyres<br>Pneumatic / Air Filled<br>Tiller Type<br>Delta<br>Turning Radius (cm)<br>156cm<br>Lighting<br>Yes<br>Suspension<br>Yes<br></p>\n<p><strong>GMS Mobility 5-Star Warranty Information</strong></p>\n<p>We pride ourselves here at GMS Mobility on aftercare. It\u2019s the after-sales service that is most important when dealing with Mobility Scooters and Powerchairs.</p>\n<p><strong>What happens if I have a technical or operational issue within the warranty period?</strong></p>\n<p>You simply email or call us for assistance. We are on hand to help with absolutely any query or issue that you have with your product, from just wanting to go through the operational controls to help if you believe the item is faulty. We want to help!</p>\n<p><strong>What if my scooter or powerchair arrives faulty or develops a fault in the warranty period?</strong></p>\n<p>The chances are, we are not local to you but we strongly believe that we offer a faster and more efficient warranty turnaround than your local mobility store!</p>\n<p>In the unlikely event that you",
+"published_at": "2026-11-18T12:39:16+00:00",
+"created_at": "2026-11-17T17:10:48+00:00",
+"updated_at": "2026-11-18T12:56:06+00:00",
+"vendor": "Kymco",
+"product_type": "8 Mph Scooters",
+"tags": [
+"8 Mph Scooters",
+"All-Terrain Scooters",
+"eBay",
+"Just Arrived",
+"Shop All",
+"tag__new_USED"
+],
+"variants": [
+{
+"id": 58491243069822,
+"title": "Default Title",
+"option1": "Default Title",
+"option2": null,
+"option3": null,
+"sku": "AGILITY-02288",
+"requires_shipping": true,
+"taxable": false,
+"featured_image": null,
+"available": true,
+"price": "1195.00",
+"grams": 125000,
+"compare_at_price": "2275.00",
+"position": 1,
+"product_id": 16195533767038,
+"created_at": "2026-11-17T17:10:48+00:00",
+"updated_at": "2026-11-18T12:56:06+00:00"
+}
+],
+"images": [
+{
+"id": 86874734526846,
+"created_at": "2026-11-17T17:11:55+00:00",
+"position": 1,
+"updated_at": "2026-11-17T17:11:58+00:00",
+"product_id": 16195533767038,
+"variant_ids": [],
+"src": "https://cdn.shopify.com/s/files/1/0712/3265/1578/files/IMG_5685.jpg?v=1794935518",
+"width": 2965,
+"height": 3024
+},
+{
+"id": 86874734297470,
+"created_at": "2026-11-17T17:11:55+00:00",
+"position": 2,
+"updated_at": "2026-11-17T17:11:57+00:00",
+"product_id": 16195533767038,
+"variant_ids": [],
+"src": "https://cdn.shopify.com/s/files/1/0712/3265/1578/files/IMG_5691.jpg?v=1794935517",
+"width": 3024,
+"height": 3024
+}
+]
+},
+{
+"id": 16195534586238,
+"title": "Shoprider Cadiz Mobility Scooter Buggy (Red)",
+"handle": "\u2705-shoprider-cadiz-mobility-scooter-buggy-red",
+"body_html": "<p>GMS Mobility is pleased to offer for sale, this preowned 2021 Shoprider Cadiz, a medium-to-large size road legal 4 to 8-mph luxury all-terrain large mobility scooter which comes with brand NEW 53ah batteries, charger, FREE nationwide delivery, a manual and a 6-month warranty. Ask us about Insurance, extended warranty and Part Exchange.</p>\n<p>Some of the great features include super soft suspension, a 25-stone weight capacity, bright lights and indicators, a 20 mile range, pneumatic tires for ultimate comfort, a larger-than-average front basket, and a swivel seat for easy access. One of the best scooters in its class!</p>\n<p><span>The cosmetic condition is very good with a couple of very minor marks (please see images).</span></p>\n<p>Want to drive this scooter on the road? No problem, we will arrange for a V5 logbook in your name free of charge. Just ask us after purchase.</p>\n<p>FREE national pallet service delivery!</p>\n<p>Model No - S889SL \u00a0 \u00a0<br>Maximum User Weight - 160kg / 25 stone<br>Class - 3<br>Battery Size - 12v x 2 53ah<br>Length - 130cm \u00a0 \u00a0<br>Range - 20 miles*<br>Width - 64cm \u00a0 \u00a0<br>Weight - 100kg<br>Height - 112cm<br>Seat Width - 46cm \u00a0 \u00a0<br>Maximum Speed - 4 &amp; 8 mph \u00a0 \u00a0<br>Front Wheel Size - 33cm<br>Seat Height - 63-70.5cm \u00a0 \u00a0<br>Rear Wheel Size - 33cm<br>Armrest Height - 21cm \u00a0 \u00a0<br>Turning Radius - 150cm<br>Backrest Height - 50-65cm \u00a0 \u00a0<br>Charger - 3 amp off board<br>Seat Height From Floorplan - 43-50.5cm \u00a0 \u00a0<br>Ground Clearance - 15cm<br>Colour - Red/Black<br>Safe Working Slope - 8 \u0366</p>\n<p>The Shoprider Cadiz Mobility Scooter is a luxurious 8mph, class 3, road legal model with a modern design, and many unique features. It is beautifully styled, reliable and has some excellent luxury features.</p>\n<p>The Shoprider Cadiz mobility scooter has large 13\" / 33cm pneumatic tyres and a full suspension system. Add this to an extremely comfortable, and fully adjustable Captain seat and you have a very comfortable ride wherever your journey may take you.</p>\n<p>The Shoprider Cadiz mobility scooter also has a Hi / Lo speed switch to reduce the speed from 8mph to 4mph, so that it can be legally used on the pavement as well as the road.</p>\n<p>The easy to reach controls make driving the Shoprider Cadiz very easy, and the adjustable Delta tiller allows the scooter to be driven using just one hand. With safety in mind, the Shoprider Cadiz scooter also has front and rear lights, indicators, hazard warning lights and a horn for your additional safety. ROMA medical even provide you with both rear view mirrors at no extra charge!</p>\n<p>The Shoprider Cadiz mobility scooter has a maximum range of 20 miles, and a very respectable maximum user weight of 25 stone / 160Kg. Add this to its larger than usual ground clearance of 6\", and you begin to see why this is one of Shoprider's best selling 8 mph scooters.</p>\n<p>Weight 211 lbs / 96 kg<br>Height 48\" / 120cm<br>Overall Length 51\" / 127.5 cm<br>Max. Range 20-25 miles<br>Max. Speed 8 mph<br>Max",
+"published_at": "2026-11-18T12:21:04+00:00",
+"created_at": "2026-11-17T17:12:41+00:00",
+"updated_at": "2026-11-18T12:56:06+00:00",
+"vendor": "Shoprider",
+"product_type": "4-Wheeled Scooter",
+"tags": [
+"8 Mph Scooters",
+"All-Terrain Scooters",
+"eBay",
+"Just Arrived",
+"Shop All",
+"tag__new_USED"
+],
+"variants": [
+{
+"id": 58491250475390,
+"title": "Default Title",
+"option1": "Default Title",
+"option2": null,
+"option3": null,
+"sku": "CADIZ-A0067",
+"requires_shipping": true,
+"taxable": false,
+"featured_image": null,
+"available": true,
+"price": "1195.00",
+"grams": 100000,
+"compare_at_price": null,
+"position": 1,
+"product_id": 16195534586238,
+"created_at": "2026-11-17T17:12:41+00:00",
+"updated_at": "2026-11-18T12:56:06+00:00"
+}
+],
+"images": [
+{
+"id": 86874759496062,
+"created_at": "2026-11-17T17:13:40+00:00",
+"position": 1,
+"updated_at": "2026-11-17T17:13:43+00:00",
+"product_id": 16195534586238,
+"variant_ids": [],
+"src": "https://cdn.shopify.com/s/files/1/0712/3265/1578/files/IMG_5621.jpg?v=1794935623",
+"width": 3024,
+"height": 3024
+},
+{
+"id": 86874759135614,
+"created_at": "2026-11-17T17:13:39+00:00",
+"position": 2,
+"updated_at": "2026-11-17T17:13:42+00:00",
+"product_id": 16195534586238,
+"variant_ids": [],
+"src": "https://cdn.shopify.com/s/files/1/0712/3265/1578/files/IMG_5627.jpg?v=1794935622",
+"width": 3024,
+"height": 3024
+}
+]
+},
+{
+"id": 16194894102910,
+"title": "TGA Zest Portable Mobility Scooter Buggy",
+"handle": "\u2705-clearance-tga-zest-portable-mobility-scooter-buggy",
+"body_html": "<p>This 2021 (sold new in 2022) TGA Zest Portable Mobility Scooter came to us via a part exchange and is being sold fully tested to clear at a bargain price and with a 3 month warranty.</p>\n<p>PLEASE READ THE BELOW INFO:</p>\n<p>What we know about this scooter:</p>\n<p>We have checked all functions and are working.</p>\n<ul>\n<li>22ah batteries have been tested and passed at 114% and 114% (in excellent order).</li>\n<li>The solid puncture proof tyres are in good condition.</li>\n<li>The tiller has play in it.<br>\n</li>\n<li>There is a crack in the foot-well (please see last image).</li>\n<li>The scooter has 4 blue panels and 2 red ones.</li>\n</ul>\n<p>The 3.5amp charger has been tested.</p>\n<p>We have driven it around our car park and it is very comfortable to drive!</p>\n<p>National courier delivery FREE and comes fully assembled and ready to go.<br><br>The TGA Zest Mobility Scooter is a top-of-the-range boot scooter that comes equipped with a whole host of features typically found on much larger, premium models. Built with an ergonomically shaped frame, the Zest is designed to provide maximum comfort levels and is suitable for both indoor and outdoor use.</p>\n<p>To provide an incredibly smooth ride, especially when travelling outdoors, this scooter comes fitted with all-round suspension and large solid tyres. The Zest offers exceptional stability and manoeuvrability, while its quick and easy disassembly into five compact, lightweight pieces\u2014even with the use of just one hand\u2014allows for simple storage and transportation in a car boot. With a maximum user weight of 134 kgs (21 stone) and an optional extended range of 15 miles (24 kms), the TGA Zest combines portability with exceptional performance.</p>\n<p>Key Features &amp; Benefits: Premium Features: Fitted with many features often found on more premium scooters, providing extreme performance levels for a compact boot model. Superior Comfort: Equipped with all-round suspension and large solid tyres to ensure a smooth and stable ride and maximum comfort. Ergonomics &amp; Control: Features Delta handlebars with lightweight thumb controls, alongside a fully adjustable padded seat for an optimal driving position. Ultra-Easy Disassembly: Can be quickly and easily disassembled into five compact, lightweight pieces. High Capacity and Range: Supports a maximum user weight of 134 kgs (21 stone) and offers an upgradeable range up to 15 miles. Manoeuvrability: Offers exceptional stability and manoeuvrability with a tight 1200mm turning radius.</p>\n<p>Specification \u00a0 \u00a0Detail</p>\n<ul>\n<li>Model \u00a0 \u00a0TGA Zest Mobility Scooter</li>\n<li>Maximum user weight \u00a0 \u00a0134 kgs (21 stone)</li>\n<li>Maximum range (upgraded battery) \u00a0 \u00a015 miles</li>\n<li>Top speed \u00a0 \u00a04 mph</li>\n<li>Suspension \u00a0 \u00a0All-round</li>\n<li>Ground clearance \u00a0 \u00a080mm (3\")</li>\n<li>Mobility Scooter length x width \u00a0 \u00a01050mm x 540mm (41\" x 19\")</li>\n<li>Turning radius \u00a0 \u00a01200mm (47\")</li>\n<li>Mobility Scooter weight \u00a0 \u00a050 kgs (110 lbs)</li>\n<li>Battery options \u00a0 \u00a012 Ah",
+"published_at": "2026-11-18T12:20:24+00:00",
+"created_at": "2026-11-17T11:04:32+00:00",
+"updated_at": "2026-11-18T12:56:06+00:00",
+"vendor": "TGA",
+"product_type": "4-Wheeled Scooter",
+"tags": [
+"Clearance Bargains",
+"eBay"
+],
+"variants": [
+{
+"id": 58488212259198,
+"title": "Default Title",
+"option1": "Default Title",
+"option2": null,
+"option3": null,
+"sku": "CLR-ZEST-3MW-03101",
+"requires_shipping": true,
+"taxable": false,
+"featured_image": null,
+"available": true,
+"price": "595.00",
+"grams": 50000,
+"compare_at_price": null,
+"position": 1,
+"product_id": 16194894102910,
+"created_at": "2026-11-17T11:04:33+00:00",
+"updated_at": "2026-11-18T12:56:06+00:00"
+}
+],
+"images": [
+{
+"id": 86867828146558,
+"created_at": "2026-11-17T11:06:11+00:00",
+"position": 1,
+"updated_at": "2026-11-17T11:06:15+00:00",
+"product_id": 16194894102910,
+"variant_ids": [],
+"src": "https://cdn.shopify.com/s/files/1/0712/3265/1578/files/IMG_5392.jpg?v=1794913575",
+"width": 3024,
+"height": 3024
+},
+{
+"id": 86867828408702,
+"created_at": "2026-11-17T11:06:11+00:00",
+"position": 2,
+"updated_at": "2026-11-17T11:06:16+00:00",
+"product_id": 16194894102910,
+"variant_ids": [],
+"src": "https://cdn.shopify.com/s/files/1/0712/3265/1578/files/IMG_5398.jpg?v=1794913576",
+"width": 3024,
+"height": 3024
+}
+]
+},
+{
+"id": 16194882765182,
+"title": "Rascal 388XL Mobility Scooter Buggy",
+"handle": "\u2705-clearance-rascal-388xl-mobility-scooter-buggy",
+"body_html": "<p>This 2022 (sold new in 2023) Rascal 388XL 4-6mph road legal Mobility Scooter came to us via a part exchange and is being sold fully tested to clear at a bargain price and with a 3 month warranty.</p>\n<p>PLEASE READ THE BELOW INFO:</p>\n<p>What we know about this scooter:</p>\n<p>We have checked all functions and are working.</p>\n<p>This scooter has scratches and the seat arms have cosmetic wear (please see images).</p>\n<p>The pneumatic tyres are in good condition.</p>\n<p>NEW 39ah Leoch batteries fitted and a NEW 5amp charger is with the scooter.</p>\n<p>We have driven it around our car park and it is very comfortable to drive!</p>\n<p>The Rascal 388 XL is the perfect Class 3 scooter with 6 mph top speed, stylish 11\u2019\u2019 wheels, full road lighting and with its narrow chassis it combines safety with performance and manoeuvrability. Sturdier in build and ideal for people requiring additional comfort on those slightly longer journeys - a superb scooter for days out and leisure trips. With a comfortable high back seat with headrest, width adjustable armrests and tiller, this scooter can be \u2018adapted\u2019 to suit the individual\u2019s requirements.</p>\n<p>Main Features:</p>\n<p>6mph Rascal XL mobility Scooter<br>Outstanding reliability<br>Flip-up width adjustable armrests<br>Comfortable high back, height adjustable, sliding swivel seat<br>Narrow compact chassis<br>Lift-up tiller head for easy access<br>Upgraded captains seat<br>Smooth controls</p>\n<p>Specifications:</p>\n<p>Type Class - C / 3<br>Overall length - 125cm / 49\u2019\u2019<br>Overall width - 54cm / 21\u2019\u2019<br>Floor to seat height - 58-65cm (min-max)<br>Seat width - 45.7cm / 18\u2019\u2019<br>Seat depth - 45.7cm / 18\u2019\u2019<br>Maximum carrying capacity - 136kgs / 21 stone<br>Battery voltage and capacity - 12V / 39Ah x 2<br>Maximum speed - 9.65km/h / 6mph<br>Ground clearance - 13cm / 5\u2019\u2019<br>Maximum kerb height - 5cm / 2\u2019\u2019<br>Range* - up to 32km / 20 miles<br>The maximum safe slope - 8 Degrees<br>Turn-around width - 2.87m / 9\u20195\u2019\u2019<strong></strong></p>",
+"published_at": "2026-11-17T16:57:53+00:00",
+"created_at": "2026-11-17T10:55:14+00:00",
+"updated_at": "2026-11-18T12:56:06+00:00",
+"vendor": "Rascal",
+"product_type": "4-Wheeled Scooter",
+"tags": [
+"Clearance Bargains",
+"eBay"
+],
+"variants": [
+{
+"id": 58488045207934,
+"title": "Default Title",
+"option1": "Default Title",
+"option2": null,
+"option3": null,
+"sku": "CLR-388XL-3MW-N2276",
+"requires_shipping": true,
+"taxable": false,
+"featured_image": null,
+"available": true,
+"price": "599.00",
+"grams": 85000,
+"compare_at_price": null,
+"position": 1,
+"product_id": 16194882765182,
+"created_at": "2026-11-17T10:55:14+00:00",
+"updated_at": "2026-11-18T12:56:06+00:00"
+}
+],
+"images": [
+{
+"id": 86867788333438,
+"created_at": "2026-11-17T11:03:09+00:00",
+"position": 1,
+"updated_at": "2026-11-17T11:03:13+00:00",
+"product_id": 16194882765182,
+"variant_ids": [],
+"src": "https://cdn.shopify.com/s/files/1/0712/3265/1578/files/IMG_5366.jpg?v=1794913393",
+"width": 3024,
+"height": 3024
+},
+{
+"id": 86867788169598,
+"created_at": "2026-11-17T11:03:09+00:00",
+"position": 2,
+"updated_at": "2026-11-17T11:03:13+00:00",
+"product_id": 16194882765182,
+"variant_ids": [],
+"src": "https://cdn.shopify.com/s/files/1/0712/3265/1578/files/IMG_5372.jpg?v=1794913393",
+"width": 2985,
+"height": 3024
+}
+]
+},
+{
+"id": 16190259921278,
+"title": "CareCo Vorex 8 Mobility Scooter Buggy",
+"handle": "careco-vorex-8-mobility-scooter-buggy",
+"body_html": "<p>GMS Mobility is pleased to offer for sale this 2025 (sold new in 2026) CareCo Vorex 8 road- legal 4 to 8mph luxury all-terrain mobility scooter. This super smooth scooter comes with fully tested 50ah batteries (in excellent order), manual, a 5A charger and a 6-month warranty. Ask us about Insurance, Extended Warranty and Part Exchange.</p>\n<p>Some of the great features include super soft front suspension, delta tiller, large pneumatic all-terrain wheels, super bright front and rear lights, 23 stone weight capacity &amp; a luxury super comfortable swivel captain's seat and a 28-mile range!</p>\n<p>The cosmetic condition is very good with the odd mark.</p>\n<p>Great value as the new RPP is \u00a32399.99+VAT!</p>\n<p>Want to drive this scooter on the road? We can arrange the V5 logbook free of charge for you. Just message us after purchase.</p>\n<p>The Vorex is a road-ready 8mph scooter built for comfort and confidence. The Vorex scooter gives you a smooth ride thanks to its suspension and strong pneumatic tyres, handling any ground with ease. The Vorex can be disassembled for easy storage or transport, making every trip, big or small, even more convenient. The steady delta tiller bar moves with the lightest touch, so you can go smoothly, safely, and in total control, wherever you're headed.</p>\n<p>Whether you're navigating tough trails, or weaving through cobbled city streets, the Vorex delivers a ride that\u2019s impressively smooth, thanks to its precision-engineered suspension system. The ergonomic, ultra-cushioned leather seat alleviates pressure on long rides, keeping you comfy from start to finish. Practical, reliable, and built for life on the move, the Vorex makes every journey feel effortless.</p>\n<p>The Vorex 8mph scooter gives you the freedom to go further, with comfort and confidence built in. The Vorex\u2019s pneumatic tyres are perfect for tough terrain. They don't just give you a smoother ride over every little bump, their deep tread also means they can properly grip onto all sorts of surfaces. So, even if you hit a bit of mud or gravel, you won't get stuck \u2013 the Vorex just keeps on going, giving you more confidence to explore.</p>\n<p>Steering the Vorex feels effortless, thanks to an ergonomic delta tiller that offers a natural, comfortable grip. You only need a light push with your thumb or finger to get going, which means less strain on your hands and wrists, even during longer rides. It\u2019s ideal if your grip isn\u2019t what it once was or if you just want something that\u2019s easier to control, so you can reach your destination without worrying about the journey.\u00a0</p>\n<p>Folded Height (cm) \u00a0 \u00a0 - 37.5<br>Folded Length (cm) - 127<br>Folded Width (cm) - 59<br>Front Wheel Size (cm) - 25.4<br>Ground Clearance (cm) - 8<br>Heaviest Part (kg) - 28<br>Incline Rating (Degrees) - 9<br>Max Speed (km/h) - 12.8<br>Motor Wattage - 340<br>Number of Wheels - 4<br>Product Weight (kg) - 91<br>Rear Wheel Size (cm) - 25.4<br>Seat Height Max (cm) - 59<br>Seat Height Min (cm) - ",
+"published_at": "2026-11-17T16:20:45+00:00",
+"created_at": "2026-11-13T17:34:20+00:00",
+"updated_at": "2026-11-18T12:56:06+00:00",
+"vendor": "CareCo",
+"product_type": "4-Wheeled Scooter",
+"tags": [
+"8 Mph Scooters",
+"All-Terrain Scooters",
+"eBay",
+"Just Arrived",
+"Portable Scooters",
+"Shop All",
+"tag__new_USED"
+],
+"variants": [
+{
+"id": 58461324706174,
+"title": "Default Title",
+"option1": "Default Title",
+"option2": null,
+"option3": null,
+"sku": "VOREX8-50014",
+"requires_shipping": true,
+"taxable": false,
+"featured_image": null,
+"available": true,
+"price": "1295.00",
+"grams": 91000,
+"compare_at_price": "2399.99",
+"position": 1,
+"product_id": 16190259921278,
+"created_at": "2026-11-13T17:34:20+00:00",
+"updated_at": "2026-11-18T12:56:06+00:00"
+}
+],
+"images": [
+{
+"id": 86812248670590,
+"created_at": "2026-11-13T17:35:35+00:00",
+"position": 1,
+"updated_at": "2026-11-13T17:35:38+00:00",
+"product_id": 16190259921278,
+"variant_ids": [],
+"src": "https://cdn.shopify.com/s/files/1/0712/3265/1578/files/IMG_5245.jpg?v=1794591338",
+"width": 3024,
+"height": 3024
+},
+{
+"id": 86812248375678,
+"created_at": "2026-11-13T17:35:34+00:00",
+"position": 2,
+"updated_at": "2026-11-13T17:35:37+00:00",
+"product_id": 16190259921278,
+"variant_ids": [],
+"src": "https://cdn.shopify.com/s/files/1/0712/3265/1578/files/IMG_5252.jpg?v=1794591337",
+"width": 3024,
+"height": 3024
+}
+]
+},
+{
+"id": 16194880799102,
+"title": "Komfi Rider Marlin Lithium Mobility Scooter",
+"handle": "\u2705-clearance-komfi-rider-marlin-lithium-mobility-scooter",
+"body_html": "<p>This Komfi Rider Marlin portable Mobility Scooter came to us via a part exchange and is being sold fully tested to clear at a bargain price and with a 3 month warranty.</p>\n<p>PLEASE READ THE BELOW INFO:</p>\n<p>What we know about this scooter:</p>\n<p>The foot area pads have cosmetic wear and there are marks and scratches in various places (please see images).</p>\n<p>Fully tested lithium 21ah battery have passed at 28.9v (in excellent order).</p>\n<p>Includes solid puncture proof tyres with good tread, 1 key and manual.</p>\n<p>We have checked the functions and they seem to be working fine.</p>\n<p>Comes with the original 2amp charger and is working as it should.</p>\n<p>We have driven it around our car park and it is very comfortable to drive. It really is an amazing scooter in terms of comfort and all-terrain capability due to its great ground clearance!</p>\n<p>Please note: We are a large mobility scooter retailer that accepts part exchange. We do not however, always have the time to service/refurb the part exchanges so prefer to sell them at a cheap price to clear and without warranty.</p>\n<p>FREE, fast nationwide delivery!<br><br>Manufacturer's description:<br></p>\n<p>Built around the Travelite range, the Komfi Rider Marlin is a more robust and stable machine for use on more challenging terrain.<br><br>All-around and very effective suspension distributes the user\u2019s weight through to the thick pneumatic tyres for a stable and comfortable ride. A delta tiller gives the option of finger or thumb controls and the removable battery box with integrated charging socket lets you charge it separately if you want to leave the scooter in a car boot.<br><br>A long and spacious non-slip footboard rounds out the specifications on one of the best transportable scooter options for larger users.<br><br>Top Speed -\u00a04 mph<br>Range -\u00a021 Ah: 20 Miles<br>Max User Weight -\u00a021 Stone<br>Total Product Weight Incl Batteries -\u00a039.6 Kg<br>Heaviest Part -\u00a011.9 Kg<br>Overall Width -\u00a022\"<br>Overall Length -\u00a045.5\"<br>Overall Height -\u00a036\"<br>Battery Type -\u00a0Lithium<br>Battery Size -\u00a021 Ah<br>Off Board Charging -\u00a0Yes<br>Tyres -\u00a0Solid<br>Wheel Size -\u00a09\"<br>Suspension -\u00a0Yes<br>Swivel Seat -\u00a0Yes<br>Tiller Type -\u00a0Delta Tiller Bar<br>Ground Clearance -\u00a04.5\"<br>Turning Radius -\u00a059\"<br>Head Light -\u00a0Yes<br>Max Climbing Gradient -\u00a06\u00b0<br>Seat Height -\u00a017\" - 19.7\"<br>Seat Width - 18\"</p>",
+"published_at": "2026-11-17T15:38:38+00:00",
+"created_at": "2026-11-17T10:51:47+00:00",
+"updated_at": "2026-11-18T12:56:06+00:00",
+"vendor": "Komfi-Rider",
+"product_type": "4-Wheeled Scooter",
+"tags": [
+"Clearance Bargains",
+"eBay"
+],
+"variants": [
+{
+"id": 58488034492798,
+"title": "Default Title",
+"option1": "Default Title",
+"option2": null,
+"option3": null,
+"sku": "CLR-MARLIN-3MW-23021",
+"requires_shipping": true,
+"taxable": false,
+"featured_image": null,
+"available": true,
+"price": "1495.00",
+"grams": 39000,
+"compare_at_price": null,
+"position": 1,
+"product_id": 16194880799102,
+"created_at": "2026-11-17T10:51:47+00:00",
+"updated_at": "2026-11-18T12:56:06+00:00"
+}
+],
+"images": [
+{
+"id": 86867353895294,
+"created_at": "2026-11-17T10:53:41+00:00",
+"position": 1,
+"updated_at": "2026-11-17T10:53:45+00:00",
+"product_id": 16194880799102,
+"variant_ids": [],
+"src": "https://cdn.shopify.com/s/files/1/0712/3265/1578/files/IMG_5341.jpg?v=1794912825",
+"width": 3024,
+"height": 3024
+},
+{
+"id": 86867353862526,
+"created_at": "2026-11-17T10:53:41+00:00",
+"position": 2,
+"updated_at": "2026-11-17T10:53:45+00:00",
+"product_id": 16194880799102,
+"variant_ids": [],
+"src": "https://cdn.shopify.com/s/files/1/0712/3265/1578/files/IMG_5347.jpg?v=1794912825",
+"width": 3024,
+"height": 3024
+}
+]
+}
+],
+"warnings": []
+}
+}

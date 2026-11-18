@@ -54,7 +54,7 @@ def normalise(dealer: dict, item: dict, seen_at: str) -> dict:
     title = item["title"]
     images = item.get("images", [])
     category = detect_category(title, item.get("tags"), item.get("product_type", ""),
-                               item.get("extra_category", ""), specs["top_speed_mph"])
+                               item.get("extra_category", ""), specs["top_speed_mph"], text)
     # A stairlift's price always depends on the staircase, so it is a starting price.
     price_is_from = bool(re.search(r"\bfrom\b\s*£|available from", title, re.I)
                          or item.get("price_varies") or category == "Stairlift")

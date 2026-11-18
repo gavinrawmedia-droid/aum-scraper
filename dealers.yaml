@@ -178,3 +178,54 @@ dealers:
     price_variants: "VAT Exempt: Yes"
     drop_categories: ["Other"]     # sofas and other furniture
     price_basis: vat_relief
+
+  # ---- added 18 Nov 2026 (ticked on the shortlist; permission emails still to go)
+
+  - id: gms-mobility
+    name: GMS Mobility
+    website: https://www.gmsmobility.co.uk     # not gms-mobility.co.uk, which is a parked address
+    address: 3 Phoenix Court, Hawkins Road
+    town: Colchester
+    postcode: CO2 8JY
+    phone: "01206 838888"
+    platform: shopify
+    collections:
+      - shop-all                   # the whole shop is used, ex-demo and part-exchange stock
+    condition_default: Used        # condition is in the description; titles only say ex-demo/ex-display
+    drop_categories: ["Other"]     # accessories, insurance, covers
+    price_basis: check
+
+  - id: the-mobility-shop
+    name: The Mobility Shop
+    website: https://themobilityshopuk.co.uk
+    address: Four Ways, Ham Lane
+    town: Ferndown
+    postcode: BH22 9DP
+    phone: "01202 798942"
+    other_branches:
+      - "Wimborne: 24 East Street, BH21 1DU"
+    platform: shopify
+    collections:
+      - used-scooters
+      - used-powerchairs
+    condition_default: Used
+    drop_categories: ["Other"]     # a walker sometimes sits in the used scooters
+    price_basis: check
+
+  - id: eden-mobility
+    name: Eden Mobility
+    website: https://eden-mobility.co.uk
+    address: Unit 2, Brigg Road
+    town: Scunthorpe
+    postcode: DN15 6TZ
+    phone: "01724 855500"
+    other_branches:
+      - "About 47 stores across the UK, including Liverpool (Belle Vale), St Helens, Hull, Rotherham, Portsmouth and Gosport"
+    visit_note: "Most used items are sold online and delivered. To see one first, ask which store has it."
+    platform: shopify
+    collections:
+      - pre-owned-mobility-scooters   # refurbished scooters and powerchairs
+    condition_default: Reconditioned
+    # Some items are listed twice, "VAT Exempt" and "VAT Included": show the VAT-relief price.
+    price_variants: "VAT Exempt"
+    price_basis: vat_relief
