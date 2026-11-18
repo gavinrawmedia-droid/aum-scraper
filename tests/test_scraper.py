@@ -176,9 +176,13 @@ def test_mobility_giant_parse_merges_categories():
 
 # ------------------------------------------------------------------ whole pipeline
 
+# Every dealer that has a saved capture in fixtures/ (a new dealer gets one from a test run).
+CAPTURED = sorted(p.stem for p in FIXTURES.glob("*.json"))
+
+
 def test_pipeline_offline_and_history(tmp_path):
     out = tmp_path / "data"
-    h = run(ROOT / "dealers.yaml", out, offline_dir=FIXTURES)
+    h = run(ROOT / "dealers.yaml", out, offline_dir=FIXTURES, only=CAPTURED)
     assert all(d["status"] == "ok" for d in h["dealers"].values())
     listings = json.loads((out / "listings.json").read_text())["listings"]
     assert len(listings) > 150
@@ -196,10 +200,10 @@ def test_pipeline_offline_and_history(tmp_path):
     mw = json.loads((fx_dir / "mobility-world.json").read_text())
     gone_id = "mobility-world:" + str(mw["collections"]["approved-used-mobility-scooters"].pop(0)["id"])
     (fx_dir / "mobility-world.json").write_text(json.dumps(mw))
-    run(ROOT / "dealers.yaml", out, offline_dir=fx_dir)
+    run(ROOT / "dealers.yaml", out, offline_dir=fx_dir, only=CAPTURED)
     ids = {r["id"] for r in json.loads((out / "listings.json").read_text())["listings"]}
     assert gone_id in ids and gone_id in first_ids
-    run(ROOT / "dealers.yaml", out, offline_dir=fx_dir)
+    run(ROOT / "dealers.yaml", out, offline_dir=fx_dir, only=CAPTURED)
     ids = {r["id"] for r in json.loads((out / "listings.json").read_text())["listings"]}
     assert gone_id not in ids
     state = json.loads((out / "state.json").read_text())
