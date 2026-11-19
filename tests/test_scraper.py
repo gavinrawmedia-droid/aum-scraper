@@ -490,3 +490,9 @@ def test_price_drop_needs_a_week_old_price_and_shows_for_two_weeks():
 def test_reduced_counts_the_dealers_was_price():
     assert is_reduced({"price_gbp": 900, "was_price_gbp": 1200})
     assert not is_reduced({"price_gbp": 900, "was_price_gbp": None})
+
+
+def test_title_drops_trailing_new_and_reduced():
+    assert clean_title("Kelbrook Rise Recliner Chair Dual Motor - NEW") == "Kelbrook Rise Recliner Chair Dual Motor"
+    assert clean_title("Karma Ergo 3 Transit Wheelchair - Ex Demo - Reduced") == "Karma Ergo 3 Transit Wheelchair"
+    assert clean_title("Pride Colt New Batts") == "Pride Colt"
