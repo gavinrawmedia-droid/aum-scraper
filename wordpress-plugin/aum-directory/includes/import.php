@@ -37,6 +37,11 @@ function aum_clean_value( $value, string $type ) {
 			return is_numeric( $value ) ? (int) $value : null;
 		case 'boolean':
 			return (bool) $value;
+		case 'url':
+			// Not sanitize_text_field: it deletes percent-encoded characters, which turned GMS's
+			// "/products/%E2%9C%85-drive-..." (a ✅ in the address) into "/products/-drive-...", a 404.
+			$url = esc_url_raw( trim( (string) $value ), array( 'http', 'https' ) );
+			return '' === $url ? null : $url;
 		case 'flag':
 			return ( $value && 'false' !== $value ) ? true : null;   // not flagged: the field is removed
 		case 'array':
