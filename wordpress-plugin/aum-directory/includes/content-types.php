@@ -108,7 +108,7 @@ function aum_register_content_types(): void {
 }
 
 function aum_register_meta( string $post_type, string $key, string $type ): void {
-	$type = 'flag' === $type ? 'boolean' : $type;   // a flag is stored as "1" or not at all
+	$type = 'flag' === $type ? 'boolean' : ( 'url' === $type ? 'string' : $type );   // a flag is stored as "1" or not at all
 	$args = array(
 		'type'          => $type,
 		'single'        => true,

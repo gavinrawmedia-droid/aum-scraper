@@ -34,7 +34,7 @@ function aum_listing_fields(): array {
 		'aum_top_speed_mph'      => array( 'number', 'Top speed (mph)', 'top_speed_mph' ),
 		'aum_heaviest_part_kg'   => array( 'number', 'Heaviest part (kg)', 'heaviest_part_kg' ),
 		'aum_spec_note'          => array( 'string', 'Spec note', 'spec_note' ),
-		'aum_dealer_url'         => array( 'string', "Dealer's page for this item", 'url' ),
+		'aum_dealer_url'         => array( 'url', "Dealer's page for this item", 'url' ),
 		'aum_image_url'          => array( 'string', 'Main photo URL', null ),
 		'aum_image_urls'         => array( 'array', 'Photo URLs', 'image_urls' ),
 		'aum_first_seen'         => array( 'string', 'First seen', 'first_seen' ),
@@ -46,7 +46,7 @@ function aum_listing_fields(): array {
 function aum_dealer_fields(): array {
 	return array(
 		'aum_ext_id'         => array( 'string', 'Dealer ID', 'id' ),
-		'aum_website'        => array( 'string', 'Website', 'website' ),
+		'aum_website'        => array( 'url', 'Website', 'website' ),
 		'aum_address'        => array( 'string', 'Address', 'address' ),
 		'aum_town'           => array( 'string', 'Town', 'town' ),
 		'aum_postcode'       => array( 'string', 'Postcode', 'postcode' ),

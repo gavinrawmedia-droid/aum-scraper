@@ -37,6 +37,12 @@ Turns the scraper's data into real pages on approvedusedmobility.co.uk.
 - The dealer's description text is **not** copied (it's their copyright). Photos are shown from
   the dealer's own site, credited. Get each dealer's OK before launch.
 
+## New in 0.6.1
+
+- Dealer addresses with encoded characters now survive the import. WordPress's text cleaning
+  deleted them, so GMS addresses that start with a ✅ (`/products/%E2%9C%85-...`) were saved as
+  `/products/-...` and went to a 404. The next stock update after installing rewrites them.
+
 ## New in 0.6.0: Clearance, kept apart
 
 Dealers mark some stock as clearance (in its title or tags, or by putting it in a collection or
