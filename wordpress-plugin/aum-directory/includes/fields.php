@@ -22,6 +22,11 @@ function aum_listing_fields(): array {
 		'aum_was_price_gbp'      => array( 'number', 'Was price (£)', 'was_price_gbp' ),
 		'aum_previous_price_gbp' => array( 'number', 'Previous price (£)', 'previous_price_gbp' ),
 		'aum_price_basis'        => array( 'string', 'Price basis', 'price_basis' ),
+		'aum_clearance'          => array( 'flag', 'Clearance (the dealer marks it so)', 'clearance' ),
+		'aum_clearance_only'     => array( 'flag', 'Clearance section only (not approved used)', 'clearance_only' ),
+		'aum_reduced'            => array( 'flag', 'Reduced (was price or a recent price drop)', 'reduced' ),
+		'aum_price_drop_from_gbp' => array( 'number', 'Price before the drop (£)', 'price_drop_from_gbp' ),
+		'aum_price_dropped_at'   => array( 'string', 'Price dropped on', 'price_dropped_at' ),
 		'aum_warranty_months'    => array( 'integer', 'Warranty (months)', 'warranty_months' ),
 		'aum_warranty_source'    => array( 'string', 'Warranty source', 'warranty_source' ),
 		'aum_max_user_weight_kg' => array( 'number', 'Max user weight (kg)', 'max_user_weight_kg' ),
@@ -52,6 +57,7 @@ function aum_dealer_fields(): array {
 		'aum_lat'            => array( 'number', 'Latitude', 'lat' ),
 		'aum_lng'            => array( 'number', 'Longitude', 'lng' ),
 		'aum_listing_count'  => array( 'integer', 'Live listings', 'listing_count' ),
+		'aum_clearance_count' => array( 'integer', 'Clearance listings', 'clearance_count' ),
 	);
 }
 
@@ -78,6 +84,8 @@ function aum_condition_terms(): array {
 		'Ex-demo'       => array( 'ex-demo', 'Ex-demo' ),
 		'Used'          => array( 'used', 'Used' ),
 		'Reconditioned' => array( 'reconditioned', 'Reconditioned' ),
+		// Only ever on clearance stock, which the site keeps in its own section.
+		'New'           => array( 'new-end-of-line', 'New (end of line)' ),
 		'Not stated'    => array( 'not-stated', 'Condition not stated' ),
 	);
 }

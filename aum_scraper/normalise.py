@@ -417,6 +417,7 @@ _TITLE_NOISE = [
     r"\breconditioned\b", r"\brefurbished\b", r"\bdemo\s*$",
     r"\b\d{1,2} months? (back to shop |on-?site )?warranty\b", r"\bnew batts?\b", r"\bnew batteries\b",
     r"\bnew (?:\d+\s?ah |lithium )batter(?:y|ies)\b", r"\bclearance\b",
+    r"[-–|]\s*new\s*$",          # "... Recliner Chair - NEW": the condition label says it
 ]
 
 

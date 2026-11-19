@@ -6,6 +6,7 @@
  *    worked out when the page is shown, so nothing extra is stored.
  *      Listings: aum_price_text, aum_was_text, aum_saving_text, aum_year_text, aum_warranty_text,
  *                aum_card_specs, aum_condition_name, aum_equipment_name, aum_brand_name,
+ *                aum_clearance_text ("Clearance"), aum_drop_text ("Price dropped £150"),
  *                aum_dealer_name, aum_dealer_town, aum_dealer_place, aum_dealer_link,
  *                aum_go_url, aum_photo_credit
  *      Dealers:  aum_address_full, aum_directions_url, aum_phone_link, aum_website_host,
@@ -13,7 +14,8 @@
  *
  * 2. Filtering from the address bar on /listings/, /used/<type>/ and /brand/<brand>/:
  *      ?type=road-scooters&brand=pride&dealer=mobility-world&condition[]=ex-demo
- *      &min_price=500&max_price=2000&warranty=1&sort=price_asc|price_desc|newest|year
+ *      &min_price=500&max_price=2000&warranty=1&reduced=1&sort=price_asc|price_desc|newest|year
+ *    The same filters work on the Clearance page (/clearance/, see clearance.php).
  *
  * 3. Shortcodes for templates:
  *      [aum_filters] [aum_active_filters] [aum_results_count] [aum_no_results]
@@ -33,6 +35,7 @@ function aum_virtual_keys(): array {
 			array(
 				'aum_price_text', 'aum_was_text', 'aum_saving_text', 'aum_year_text', 'aum_warranty_text',
 				'aum_card_specs', 'aum_condition_name', 'aum_equipment_name', 'aum_brand_name',
+				'aum_clearance_text', 'aum_drop_text',
 				'aum_dealer_name', 'aum_dealer_town', 'aum_dealer_place', 'aum_dealer_link', 'aum_go_url', 'aum_photo_credit',
 				'aum_address_full', 'aum_directions_url', 'aum_phone_link', 'aum_website_host',
 				'aum_listing_count_text', 'aum_stock_url',
@@ -126,11 +129,18 @@ function aum_listing_virtual( int $id, string $key ): ?string {
 		case 'aum_card_specs':
 			return aum_card_specs( $id );
 		case 'aum_condition_name':
-			return aum_first_term( $id, 'aum_condition' );
+			// On clearance-only stock the condition matters most, so say when it isn't stated.
+			$name = aum_first_term( $id, 'aum_condition' );
+			return ( '' === $name && get_post_meta( $id, 'aum_clearance_only', true ) ) ? 'Condition not stated' : $name;
 		case 'aum_equipment_name':
 			return aum_first_term( $id, 'aum_equipment' );
 		case 'aum_brand_name':
 			return aum_first_term( $id, 'aum_brand' );
+		case 'aum_clearance_text':
+			return get_post_meta( $id, 'aum_clearance', true ) ? 'Clearance' : '';
+		case 'aum_drop_text':
+			$drop = aum_price_drop( $id );
+			return $drop ? 'Price dropped ' . aum_money( $drop['amount'] ) : '';
 	}
 	$dealer = aum_listing_dealer( $id );
 	switch ( $key ) {
@@ -209,6 +219,7 @@ function aum_request_filters(): array {
 		'min_price' => max( 0, (int) $get( 'min_price' ) ),
 		'max_price' => max( 0, (int) $get( 'max_price' ) ),
 		'warranty'  => '1' === $get( 'warranty' ),
+		'reduced'   => '1' === $get( 'reduced' ),
 		'sort'      => isset( aum_sort_options()[ $sort ] ) ? $sort : 'price_asc',
 	);
 	if ( $f['max_price'] && $f['min_price'] > $f['max_price'] ) {
@@ -230,8 +241,9 @@ function aum_context_terms( ?WP_Query $q = null ): array {
 }
 
 function aum_effective_filters( ?WP_Query $q = null ): array {
-	$f   = aum_request_filters();
-	$ctx = aum_context_terms( $q );
+	$f         = aum_request_filters();
+	$f['view'] = aum_view();
+	$ctx       = aum_context_terms( $q );
 	foreach ( $ctx as $k => $v ) {
 		if ( $v ) {
 			$f[ $k ] = $v;
@@ -245,64 +257,71 @@ function aum_is_listing_archive( ?WP_Query $q = null ): bool {
 	return $q instanceof WP_Query && ( $q->is_post_type_archive( 'aum_listing' ) || $q->is_tax( array( 'aum_equipment', 'aum_brand' ) ) );
 }
 
+/**
+ * Query arguments for a set of filters: the equipment types, brands and conditions as a tax
+ * query, dealer, price, warranty and "reduced" as a meta query, and the sort order. Used for
+ * the listing archives' main query and for the Clearance page's own query.
+ */
+function aum_filter_query_args( array $f, array $ctx = array( 'type' => '', 'brand' => '' ) ): array {
+	$args = array();
+	$tax  = array();
+	if ( $f['type'] && empty( $ctx['type'] ) ) {
+		$tax[] = array( 'taxonomy' => 'aum_equipment', 'field' => 'slug', 'terms' => array( $f['type'] ) );
+	}
+	if ( $f['brand'] && empty( $ctx['brand'] ) ) {
+		$tax[] = array( 'taxonomy' => 'aum_brand', 'field' => 'slug', 'terms' => array( $f['brand'] ) );
+	}
+	if ( $f['condition'] ) {
+		$tax[] = array( 'taxonomy' => 'aum_condition', 'field' => 'slug', 'terms' => $f['condition'] );
+	}
+	if ( $tax ) {
+		$args['tax_query'] = array_merge( array( 'relation' => 'AND' ), $tax ); // phpcs:ignore WordPress.DB.SlowDBQuery
+	}
+
+	$meta = array();
+	if ( $f['dealer'] ) {
+		$meta[] = array( 'key' => 'aum_dealer_ext_id', 'value' => $f['dealer'] );
+	}
+	if ( $f['min_price'] ) {
+		$meta[] = array( 'key' => 'aum_price_gbp', 'value' => $f['min_price'], 'type' => 'NUMERIC', 'compare' => '>=' );
+	}
+	if ( $f['max_price'] ) {
+		$meta[] = array( 'key' => 'aum_price_gbp', 'value' => array( 1, $f['max_price'] ), 'type' => 'NUMERIC', 'compare' => 'BETWEEN' );
+	}
+	if ( $f['warranty'] ) {
+		$meta[] = array( 'key' => 'aum_warranty_months', 'value' => 0, 'type' => 'NUMERIC', 'compare' => '>' );
+	}
+	if ( ! empty( $f['reduced'] ) ) {
+		$meta[] = array( 'key' => 'aum_reduced', 'value' => '1' );
+	}
+	if ( $meta ) {
+		$args['meta_query'] = array_merge( array( 'relation' => 'AND' ), $meta ); // phpcs:ignore WordPress.DB.SlowDBQuery
+	}
+
+	switch ( $f['sort'] ) {
+		case 'price_desc':
+			$args += array( 'meta_key' => 'aum_price_gbp', 'orderby' => 'meta_value_num', 'order' => 'DESC' ); // phpcs:ignore WordPress.DB.SlowDBQuery
+			break;
+		case 'newest':
+			$args += array( 'meta_key' => '', 'orderby' => 'date', 'order' => 'DESC' ); // phpcs:ignore WordPress.DB.SlowDBQuery
+			break;
+		case 'year':
+			$args += array( 'meta_key' => 'aum_year', 'orderby' => array( 'meta_value_num' => 'DESC', 'date' => 'DESC' ) ); // phpcs:ignore WordPress.DB.SlowDBQuery
+			break;
+		default:
+			$args += array( 'meta_key' => 'aum_price_gbp', 'orderby' => 'meta_value_num', 'order' => 'ASC' ); // phpcs:ignore WordPress.DB.SlowDBQuery
+	}
+	return $args;
+}
+
 add_action(
 	'pre_get_posts',
 	function ( WP_Query $q ) {
 		if ( is_admin() || ! $q->is_main_query() || ! aum_is_listing_archive( $q ) ) {
 			return;
 		}
-		$f   = aum_effective_filters( $q );
-		$ctx = aum_context_terms( $q );
-		$tax = array();
-		if ( $f['type'] && ! $ctx['type'] ) {
-			$tax[] = array( 'taxonomy' => 'aum_equipment', 'field' => 'slug', 'terms' => array( $f['type'] ) );
-		}
-		if ( $f['brand'] && ! $ctx['brand'] ) {
-			$tax[] = array( 'taxonomy' => 'aum_brand', 'field' => 'slug', 'terms' => array( $f['brand'] ) );
-		}
-		if ( $f['condition'] ) {
-			$tax[] = array( 'taxonomy' => 'aum_condition', 'field' => 'slug', 'terms' => $f['condition'] );
-		}
-		if ( $tax ) {
-			$q->set( 'tax_query', array_merge( array( 'relation' => 'AND' ), $tax ) ); // phpcs:ignore WordPress.DB.SlowDBQuery
-		}
-
-		$meta = array();
-		if ( $f['dealer'] ) {
-			$meta[] = array( 'key' => 'aum_dealer_ext_id', 'value' => $f['dealer'] );
-		}
-		if ( $f['min_price'] ) {
-			$meta[] = array( 'key' => 'aum_price_gbp', 'value' => $f['min_price'], 'type' => 'NUMERIC', 'compare' => '>=' );
-		}
-		if ( $f['max_price'] ) {
-			$meta[] = array( 'key' => 'aum_price_gbp', 'value' => array( 1, $f['max_price'] ), 'type' => 'NUMERIC', 'compare' => 'BETWEEN' );
-		}
-		if ( $f['warranty'] ) {
-			$meta[] = array( 'key' => 'aum_warranty_months', 'value' => 0, 'type' => 'NUMERIC', 'compare' => '>' );
-		}
-		if ( $meta ) {
-			$q->set( 'meta_query', array_merge( array( 'relation' => 'AND' ), $meta ) ); // phpcs:ignore WordPress.DB.SlowDBQuery
-		}
-
-		switch ( $f['sort'] ) {
-			case 'price_desc':
-				$q->set( 'meta_key', 'aum_price_gbp' ); // phpcs:ignore WordPress.DB.SlowDBQuery
-				$q->set( 'orderby', 'meta_value_num' );
-				$q->set( 'order', 'DESC' );
-				break;
-			case 'newest':
-				$q->set( 'meta_key', '' ); // phpcs:ignore WordPress.DB.SlowDBQuery
-				$q->set( 'orderby', 'date' );
-				$q->set( 'order', 'DESC' );
-				break;
-			case 'year':
-				$q->set( 'meta_key', 'aum_year' ); // phpcs:ignore WordPress.DB.SlowDBQuery
-				$q->set( 'orderby', array( 'meta_value_num' => 'DESC', 'date' => 'DESC' ) );
-				break;
-			default:
-				$q->set( 'meta_key', 'aum_price_gbp' ); // phpcs:ignore WordPress.DB.SlowDBQuery
-				$q->set( 'orderby', 'meta_value_num' );
-				$q->set( 'order', 'ASC' );
+		foreach ( aum_filter_query_args( aum_effective_filters( $q ), aum_context_terms( $q ) ) as $k => $v ) {
+			$q->set( $k, $v );
 		}
 	},
 	20
@@ -330,7 +349,7 @@ add_filter(
 
 /** One small row per live listing, cached until stock changes. */
 function aum_facet_rows(): array {
-	$ver    = md5( (string) wp_json_encode( get_option( 'aum_last_sync' ) ) . '|' . get_option( 'aum_facets_ver', '0' ) );
+	$ver    = md5( 'rows-v2|' . (string) wp_json_encode( get_option( 'aum_last_sync' ) ) . '|' . get_option( 'aum_facets_ver', '0' ) );
 	$cached = get_transient( 'aum_facet_rows' );
 	if ( is_array( $cached ) && ( $cached['ver'] ?? '' ) === $ver ) {
 		return $cached['rows'];
@@ -339,6 +358,7 @@ function aum_facet_rows(): array {
 		array(
 			'post_type'      => 'aum_listing',
 			'post_status'    => 'publish',
+			'aum_section'    => 'all',        // every row knows its section; aum_row_matches picks
 			'fields'         => 'ids',
 			'posts_per_page' => -1,
 			'no_found_rows'  => true,
@@ -356,6 +376,10 @@ function aum_facet_rows(): array {
 			'dealer'    => (string) get_post_meta( $id, 'aum_dealer_ext_id', true ),
 			'price'     => (float) get_post_meta( $id, 'aum_price_gbp', true ),
 			'warranty'  => (int) get_post_meta( $id, 'aum_warranty_months', true ),
+			'reduced'   => (bool) get_post_meta( $id, 'aum_reduced', true ),
+			'clearance' => (bool) get_post_meta( $id, 'aum_clearance', true ),
+			// not approved used: shown in the Clearance section only
+			'clearance_only' => (bool) get_post_meta( $id, 'aum_clearance_only', true ),
 		);
 	}
 	set_transient( 'aum_facet_rows', array( 'ver' => $ver, 'rows' => $rows ), 12 * HOUR_IN_SECONDS );
@@ -370,6 +394,10 @@ add_action( 'deleted_post', 'aum_bump_facets' );
 add_action( 'set_object_terms', 'aum_bump_facets' );
 
 function aum_row_matches( array $r, array $f, string $skip = '' ): bool {
+	// The main site never counts clearance-only stock; the Clearance page counts clearance only.
+	if ( 'clearance' === ( $f['view'] ?? 'main' ) ? ! $r['clearance'] : $r['clearance_only'] ) {
+		return false;
+	}
 	foreach ( array( 'type', 'brand', 'dealer' ) as $k ) {
 		if ( $skip !== $k && $f[ $k ] && $r[ $k ] !== $f[ $k ] ) {
 			return false;
@@ -389,6 +417,9 @@ function aum_row_matches( array $r, array $f, string $skip = '' ): bool {
 	if ( 'warranty' !== $skip && $f['warranty'] && $r['warranty'] <= 0 ) {
 		return false;
 	}
+	if ( 'reduced' !== $skip && ! empty( $f['reduced'] ) && ! $r['reduced'] ) {
+		return false;
+	}
 	return true;
 }
 
@@ -397,7 +428,13 @@ function aum_facet_counts( array $f, string $facet ): array {
 	$counts = array();
 	foreach ( aum_facet_rows() as $r ) {
 		if ( aum_row_matches( $r, $f, $facet ) ) {
-			$key            = 'warranty' === $facet ? ( $r['warranty'] > 0 ? '1' : '0' ) : (string) $r[ $facet ];
+			if ( 'warranty' === $facet ) {
+				$key = $r['warranty'] > 0 ? '1' : '0';
+			} elseif ( 'reduced' === $facet ) {
+				$key = $r['reduced'] ? '1' : '0';
+			} else {
+				$key = (string) $r[ $facet ];
+			}
 			$counts[ $key ] = ( $counts[ $key ] ?? 0 ) + 1;
 		}
 	}
@@ -407,6 +444,9 @@ function aum_facet_counts( array $f, string $facet ): array {
 /* ------------------------------------------------------------------ filter shortcodes */
 
 function aum_filters_action_url(): string {
+	if ( 'clearance' === aum_view() ) {
+		return aum_clearance_base_url();
+	}
 	if ( is_tax( array( 'aum_equipment', 'aum_brand' ) ) ) {
 		$link = get_term_link( get_queried_object() );
 		if ( ! is_wp_error( $link ) ) {
@@ -436,6 +476,9 @@ function aum_filter_args( array $f, array $drop = array() ): array {
 	}
 	if ( $f['warranty'] ) {
 		$args['warranty'] = 1;
+	}
+	if ( ! empty( $f['reduced'] ) ) {
+		$args['reduced'] = 1;
 	}
 	if ( 'price_asc' !== $f['sort'] ) {
 		$args['sort'] = $f['sort'];
@@ -560,7 +603,8 @@ function aum_render_filters(): string {
 
 				<?php
 				$counts = aum_facet_counts( $f, 'condition' );
-				$conds  = array_filter( aum_condition_terms(), static fn( $c ) => 'not-stated' !== $c[0] && ( ! empty( $counts[ $c[0] ] ) || in_array( $c[0], $f['condition'], true ) ) );
+				// "Condition not stated" is a choice in Clearance only, where it means "ask the dealer".
+				$conds  = array_filter( aum_condition_terms(), static fn( $c ) => ( 'not-stated' !== $c[0] || 'clearance' === $f['view'] ) && ( ! empty( $counts[ $c[0] ] ) || in_array( $c[0], $f['condition'], true ) ) );
 				if ( $conds ) :
 					?>
 					<fieldset class="aumd-field">
@@ -582,6 +626,18 @@ function aum_render_filters(): string {
 						<span><?php echo esc_html( sprintf( 'Warranty stated by the dealer (%d)', (int) ( $counts['1'] ?? 0 ) ) ); ?></span>
 					</label>
 				</fieldset>
+
+				<?php $counts = aum_facet_counts( $f, 'reduced' ); ?>
+				<?php if ( ! empty( $counts['1'] ) || $f['reduced'] ) : ?>
+					<fieldset class="aumd-field">
+						<legend class="aumd-label">Price cuts</legend>
+						<label class="aumd-check">
+							<input type="checkbox" name="reduced" value="1" <?php checked( $f['reduced'] ); ?>>
+							<span><?php echo esc_html( sprintf( 'Reduced (%d)', (int) ( $counts['1'] ?? 0 ) ) ); ?></span>
+						</label>
+						<p class="aumd-small aumd-check-note">A "was" price from the dealer, or a price cut we've seen in the last two weeks.</p>
+					</fieldset>
+				<?php endif; ?>
 
 				<div class="aumd-field">
 					<label class="aumd-label" for="<?php echo esc_attr( $uid ); ?>-sort">Sort by</label>
@@ -658,6 +714,9 @@ function aum_active_filter_list( array $f ): array {
 	if ( $f['warranty'] ) {
 		$items[] = array( 'Warranty stated', $link( array( 'warranty' ) ) );
 	}
+	if ( ! empty( $f['reduced'] ) ) {
+		$items[] = array( 'Reduced', $link( array( 'reduced' ) ) );
+	}
 	return $items;
 }
 
@@ -681,16 +740,16 @@ function aum_render_active_filters(): string {
 }
 
 function aum_render_results_count(): string {
-	global $wp_query;
-	if ( ! aum_is_listing_archive() ) {
+	$query = aum_results_query();
+	if ( ! $query ) {
 		return '';
 	}
-	$total = (int) $wp_query->found_posts;
+	$total = (int) $query->found_posts;
 	if ( ! $total ) {
 		return '<p class="aumd-count" role="status">No listings match these filters</p>';
 	}
-	$per   = max( 1, (int) $wp_query->get( 'posts_per_page' ) );
-	$page  = max( 1, (int) get_query_var( 'paged' ) );
+	$per   = max( 1, (int) $query->get( 'posts_per_page' ) );
+	$page  = aum_results_page();
 	$first = ( $page - 1 ) * $per + 1;
 	$last  = min( $total, $page * $per );
 	$text  = $total <= $per ? sprintf( _n( '%d listing', '%d listings', $total, 'aum-directory' ), $total ) : sprintf( 'Showing %1$d to %2$d of %3$d listings', $first, $last, $total );
@@ -698,13 +757,19 @@ function aum_render_results_count(): string {
 }
 
 function aum_render_no_results(): string {
-	global $wp_query;
-	if ( ! aum_is_listing_archive() || (int) $wp_query->found_posts > 0 ) {
+	$query = aum_results_query();
+	if ( ! $query || (int) $query->found_posts > 0 ) {
 		return '';
 	}
-	$active = aum_active_filter_list( aum_effective_filters() );
+	$f      = aum_effective_filters();
+	$active = aum_active_filter_list( $f );
 	$out    = '<div class="aumd-empty"><h2 class="aumd-empty-title">Nothing matches all of those filters</h2>';
-	$out   .= $active ? '<p>Try removing a filter, or start again with everything shown.</p><p><a class="aumd-btn" href="' . esc_url( aum_filters_action_url() ) . '">Clear all filters</a></p>' : '<p>There are no listings here at the moment. New stock is added every morning.</p><p><a class="aumd-btn" href="' . esc_url( (string) get_post_type_archive_link( 'aum_listing' ) ) . '">See all listings</a></p>';
+	if ( 'clearance' === $f['view'] ) {
+		$out .= $active ? '<p>Try removing a filter, or look through the approved-used stock instead.</p><p><a class="aumd-btn" href="' . esc_url( aum_filters_action_url() ) . '">Clear all filters</a></p>' : '<p>No dealer has clearance stock listed at the moment. New stock is added every morning.</p><p><a class="aumd-btn" href="' . esc_url( (string) get_post_type_archive_link( 'aum_listing' ) ) . '">See the approved-used stock</a></p>';
+		return $out . '</div>';
+	}
+	$out .= $active ? '<p>Try removing a filter, or start again with everything shown.</p><p><a class="aumd-btn" href="' . esc_url( aum_filters_action_url() ) . '">Clear all filters</a></p>' : '<p>There are no listings here at the moment. New stock is added every morning.</p><p><a class="aumd-btn" href="' . esc_url( (string) get_post_type_archive_link( 'aum_listing' ) ) . '">See all listings</a></p>';
+	$out .= aum_clearance_suggestion( $f, 'empty' );
 	return $out . '</div>';
 }
 
@@ -797,9 +862,14 @@ function aum_render_buy_box( int $id ): string {
 	ob_start();
 	?>
 	<div class="aumd-buybox">
+		<?php echo aum_render_clearance_note( $id ); // phpcs:ignore WordPress.Security.EscapeOutput -- escaped inside. ?>
 		<p class="aumd-buy-price"><?php echo esc_html( aum_listing_virtual( $id, 'aum_price_text' ) ); ?></p>
 		<?php if ( $was ) : ?>
 			<p class="aumd-buy-was"><span class="aumd-strike"><?php echo esc_html( $was ); ?></span> <span class="aumd-saving"><?php echo esc_html( $saving ); ?></span></p>
+		<?php endif; ?>
+		<?php $drop = aum_price_drop( $id ); ?>
+		<?php if ( $drop ) : ?>
+			<p class="aumd-drop"><span class="aumd-drop-tag"><?php echo esc_html( 'Price dropped ' . aum_money( $drop['amount'] ) ); ?></span> <span class="aumd-small"><?php echo esc_html( sprintf( 'It was %1$s on the dealer\'s website until %2$s.', aum_money( $drop['from'] ), wp_date( 'j F', $drop['at'] ) ) ); ?></span></p>
 		<?php endif; ?>
 		<?php if ( $price > 0 ) : ?>
 			<p class="aumd-basis"><?php echo esc_html( aum_price_basis_label( (string) get_post_meta( $id, 'aum_price_basis', true ) ) ); ?></p>

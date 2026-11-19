@@ -7,6 +7,7 @@
  *   [aum_go_button]         just the button
  *   [aum_dealer_details]    address, phone and website for a dealer page
  *   [aum_listings equipment="road-scooters" dealer="mobility-world" limit="12"]
+ *   [aum_listings section="clearance" limit="6"]   clearance stock (default: the main site's)
  *
  * Only figures the dealer states are shown. Missing ones say "Not stated".
  */
@@ -177,7 +178,7 @@ function aum_render_dealer_details( int $dealer_id ): string {
 /* ------------------------------------------------------------------ grid */
 
 function aum_render_listing_grid( array $atts ): string {
-	$atts = shortcode_atts( array( 'equipment' => '', 'brand' => '', 'dealer' => '', 'limit' => 12, 'orderby' => 'price', 'exclude' => '', 'empty' => 'No listings at the moment.' ), $atts, 'aum_listings' );
+	$atts = shortcode_atts( array( 'equipment' => '', 'brand' => '', 'dealer' => '', 'limit' => 12, 'orderby' => 'price', 'exclude' => '', 'section' => 'main', 'empty' => 'No listings at the moment.' ), $atts, 'aum_listings' );
 	// "current" means: the same as the listing or dealer page being viewed.
 	$here = get_queried_object_id();
 	if ( 'current' === $atts['dealer'] ) {
@@ -194,6 +195,7 @@ function aum_render_listing_grid( array $atts ): string {
 		'post_status'    => 'publish',
 		'posts_per_page' => max( 1, min( 100, (int) $atts['limit'] ) ),
 		'no_found_rows'  => true,
+		'aum_section'    => 'clearance' === $atts['section'] ? 'clearance' : 'main',
 	);
 	if ( 'current' === $atts['exclude'] && $here ) {
 		$query['post__not_in'] = array( $here );
@@ -245,8 +247,10 @@ function aum_render_card( int $id ): string {
 		</a>
 		<div class="aum-card-body">
 			<div class="aum-card-tags">
+				<span class="aum-pill-apricot"><?php echo esc_html( $v( 'aum_clearance_text' ) ); ?></span>
 				<span class="aum-pill"><?php echo esc_html( $v( 'aum_condition_name' ) ); ?></span>
 				<span class="aum-pill-green"><?php echo esc_html( $v( 'aum_warranty_text' ) ); ?></span>
+				<span class="aum-pill-lilac"><?php echo esc_html( $v( 'aum_drop_text' ) ); ?></span>
 			</div>
 			<h3 class="aum-card-title"><a class="aum-card-link" href="<?php echo esc_url( $link ); ?>"><?php echo esc_html( get_the_title( $id ) ); ?></a></h3>
 			<p class="aum-card-specs"><?php echo esc_html( $v( 'aum_card_specs' ) ); ?></p>

@@ -37,6 +37,8 @@ function aum_clean_value( $value, string $type ) {
 			return is_numeric( $value ) ? (int) $value : null;
 		case 'boolean':
 			return (bool) $value;
+		case 'flag':
+			return ( $value && 'false' !== $value ) ? true : null;   // not flagged: the field is removed
 		case 'array':
 			$out = array();
 			foreach ( (array) $value as $url ) {
@@ -75,7 +77,10 @@ function aum_listing_summary( array $l, string $dealer_name, string $town ): str
 	$cond    = $l['condition'] ?? '';
 	$cat     = trim( preg_replace( '/\s*\(speed not stated\)/', '', strtolower( $l['category'] ?? '' ) ) );
 	$title   = $l['clean_title'] ?? $l['title'] ?? '';
-	$lead    = ( in_array( $cond, array( 'Ex-demo', 'Used', 'Reconditioned' ), true ) ? $cond . ' ' : '' ) . $title;
+	$lead    = ( in_array( $cond, array( 'Ex-demo', 'Used', 'Reconditioned' ), true ) ? $cond . ' ' : ( 'New' === $cond ? 'New end-of-line ' : '' ) ) . $title;
+	if ( ! empty( $l['clearance'] ) ) {
+		$lead = 'Clearance: ' . $lead;
+	}
 	$parts[] = trim( $lead ) . ( $cat && 'other' !== $cat ? " ($cat)" : '' );
 	if ( ! empty( $l['price_gbp'] ) ) {
 		$parts[] = ( ! empty( $l['price_is_from'] ) ? 'from ' : 'for ' ) . '£' . number_format( (float) $l['price_gbp'], ( floor( (float) $l['price_gbp'] ) == (float) $l['price_gbp'] ) ? 0 : 2 );
@@ -247,6 +252,7 @@ function aum_rest_finalize( WP_REST_Request $req ) {
 			array(
 				'post_type'      => 'aum_listing',
 				'post_status'    => 'publish',
+				'aum_section'    => 'all',          // clearance stock is taken down when sold too
 				'meta_key'       => 'aum_dealer_ext_id', // phpcs:ignore WordPress.DB.SlowDBQuery
 				'meta_value'     => $dealer_id,          // phpcs:ignore WordPress.DB.SlowDBQuery
 				'fields'         => 'ids',
@@ -274,9 +280,17 @@ function aum_rest_finalize( WP_REST_Request $req ) {
 		}
 		$dealer_post = aum_dealer_post_for( $dealer_id );
 		if ( $dealer_post ) {
-			update_post_meta( $dealer_post, 'aum_listing_count', count( $published ) - count( $gone ) );
+			// "See all N listings" opens the main site, so clearance-only stock isn't counted.
+			$kept    = array_diff( $published, $gone );
+			$main    = array_filter( $kept, static fn( $id ) => ! get_post_meta( $id, 'aum_clearance_only', true ) );
+			$cleared = array_filter( $kept, static fn( $id ) => (bool) get_post_meta( $id, 'aum_clearance', true ) );
+			update_post_meta( $dealer_post, 'aum_listing_count', count( $main ) );
+			update_post_meta( $dealer_post, 'aum_clearance_count', count( $cleared ) );
 		}
 	}
+	// A listing can move in or out of the main site without changing type or brand, so recount.
+	aum_recount_listing_terms();
+	aum_bump_facets();
 	update_option(
 		'aum_last_sync',
 		array(
@@ -295,6 +309,8 @@ function aum_rest_status() {
 		array(
 			'plugin_version' => AUM_DIR_VERSION,
 			'live_listings'  => (int) ( $counts->publish ?? 0 ),
+			'clearance'      => count( array_filter( aum_facet_rows(), static fn( $r ) => $r['clearance'] ) ),
+			'clearance_only' => count( array_filter( aum_facet_rows(), static fn( $r ) => $r['clearance_only'] ) ),
 			'sold_listings'  => (int) ( $counts->aum_sold ?? 0 ),
 			'dealers'        => (int) ( wp_count_posts( 'aum_dealer' )->publish ?? 0 ),
 			'last_sync'      => get_option( 'aum_last_sync', null ),
