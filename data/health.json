@@ -1,5 +1,5 @@
 {
- "run_at": "2026-11-19T12:00:10+00:00",
+ "run_at": "2026-11-19T14:27:07+00:00",
  "mode": "live",
  "dealers": {
   "active-mobility": {
@@ -80,7 +80,7 @@
   },
   "gms-mobility": {
    "status": "ok",
-   "count": 297,
+   "count": 301,
    "previous_count": 297,
    "dropped": {
     "below minimum price": 18,
