@@ -1,0 +1,50 @@
+{
+ "run_at": "2026-11-19T11:04:50+00:00",
+ "mode": "live",
+ "dealers": {
+  "mobility-station": {
+   "status": "ok",
+   "count": 10,
+   "previous_count": 10,
+   "dropped": {},
+   "messages": []
+  },
+  "fenetic-wellbeing": {
+   "status": "ok",
+   "count": 18,
+   "previous_count": 12,
+   "dropped": {
+    "below minimum price": 5,
+    "not mobility equipment": 2
+   },
+   "messages": []
+  },
+  "gms-mobility": {
+   "status": "ok",
+   "count": 296,
+   "previous_count": 291,
+   "dropped": {
+    "below minimum price": 18,
+    "listed as new": 1,
+    "not mobility equipment": 6
+   },
+   "messages": []
+  },
+  "the-mobility-shop": {
+   "status": "ok",
+   "count": 36,
+   "previous_count": 35,
+   "dropped": {
+    "below minimum price": 4
+   },
+   "messages": []
+  },
+  "unique-mobility": {
+   "status": "ok",
+   "count": 13,
+   "previous_count": 13,
+   "dropped": {},
+   "messages": []
+  }
+ }
+}
