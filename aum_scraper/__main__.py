@@ -46,6 +46,8 @@ def main(argv: list[str] | None = None) -> int:
         for e in l["errors"][:20]:
             print("  rejected:", e)
         print(f"Taken down (sold or removed): {f['removed']}")
+        if summary.get("held_back"):
+            print("  Note:", summary["held_back"])
         for s in f.get("skipped_dealers", []):
             print("  NOT taken down, check the scraper:", s)
         return 1 if l["errors"] else 0

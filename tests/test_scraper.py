@@ -368,3 +368,125 @@ def test_woocommerce_parse():
     assert items[0]["price"] == 1150.0 and items[0]["was_price"] == 1250.0
     assert "Used Mobility Scooters" in items[0]["product_type"]
     assert "3 month warranty" in items[0]["text"]
+
+
+# ------------------------------------------------------------------ clearance
+
+from aum_scraper.normalise import condition_from_text, detect_clearance  # noqa: E402
+from aum_scraper.pipeline import PRICE_DROP_SHOW_DAYS, is_reduced, track_price_drop  # noqa: E402
+
+
+@pytest.mark.parametrize("title,tags,expected", [
+    ("Pride Colt Executive - Clearance", [], True),
+    ("CareCo Frontier Boot Mobility Scooter | Ex-Demo Clearance", [], True),
+    ("Quingo Toura 2 Mobility Scooter Buggy", ["Clearance Bargains", "eBay"], True),
+    ("Kymco Agility - End of Line", [], True),
+    ("TGA Breeze S4 with 10cm ground clearance", [], False),
+    ("Pride Colt Executive", ["Used", "Used scooters"], False),
+])
+def test_clearance_comes_from_the_dealers_own_label(title, tags, expected):
+    assert detect_clearance(title, tags) is expected
+
+
+@pytest.mark.parametrize("text,expected", [
+    ("Brand new and boxed. End of line colour.", "New"),
+    ("This chair is new and unused, an end of line model.", "New"),
+    ("Pre-owned, fitted with brand new batteries.", "Used"),
+    ("Ex-display model in excellent condition.", "Ex-demo"),
+    ("Can be used indoors and outdoors.", None),
+    ("Ex-demo, brand new and unused.", None),      # says both: leave it unstated
+])
+def test_condition_from_a_clearance_description(text, expected):
+    assert condition_from_text(text) == expected
+
+
+def _shop_product(pid, title, price, tags=(), body=""):
+    return {"id": pid, "title": title, "handle": f"item-{pid}", "tags": list(tags), "product_type": "",
+            "vendor": "", "body_html": body, "images": [],
+            "variants": [{"title": "Default Title", "price": str(price), "available": True}]}
+
+
+def test_clearance_collection_keeps_new_end_of_line_stock_apart(tmp_path):
+    dealers = tmp_path / "dealers.yaml"
+    dealers.write_text("""
+defaults: {min_price: 300}
+dealers:
+  - id: shop
+    name: Test Mobility
+    website: https://shop.example
+    platform: shopify
+    collections: [used-scooters]
+    clearance_collections: [clearance]
+    clearance_include: {title_excludes: "\\\\bsofa\\\\b"}
+    condition_default: Used
+""")
+    fx = tmp_path / "fx"
+    fx.mkdir()
+    both = _shop_product(3, "Sterling Sapphire 2 - Ex Display", 899)
+    (fx / "shop.json").write_text(json.dumps({"fetched_at": "2026-11-19T05:17:00Z", "collections": {
+        "used-scooters": [_shop_product(1, "Pride Colt Executive", 995), both,
+                          _shop_product(6, "TGA Zest", 600, tags=["Clearance"])],
+        "clearance": [both,
+                      _shop_product(2, "Kelbrook Rise Recliner Chair Dual Motor - NEW", 399),
+                      _shop_product(4, "Dashi Carbon Powerchair", 1199, body="<p>Brand new, boxed.</p>"),
+                      _shop_product(5, "Burlington Riser Recliner Chair", 449),
+                      _shop_product(7, "Cullingworth 2 seat sofa", 1399)],
+    }}))
+    run(dealers, tmp_path / "out", offline_dir=fx)
+    out = {r["id"].split(":")[1]: r for r in json.loads((tmp_path / "out" / "listings.json").read_text())["listings"]}
+
+    assert set(out) == {"1", "2", "3", "4", "5", "6"}                       # the sofa is left out
+    assert not out["1"]["clearance"] and not out["1"]["clearance_only"]      # ordinary used stock
+    assert out["3"]["clearance"] and out["3"]["condition"] == "Ex-demo" and not out["3"]["clearance_only"]
+    assert out["6"]["clearance"] and out["6"]["condition"] == "Used" and not out["6"]["clearance_only"]
+    assert out["2"]["condition"] == "New" and out["2"]["clearance_only"]     # "- NEW" in the title
+    assert out["4"]["condition"] == "New" and out["4"]["clearance_only"]     # from the description
+    # The dealer's "everything is used" default doesn't reach its clearance page.
+    assert out["5"]["condition"] == "Not stated" and out["5"]["clearance_only"]
+    dealers_out = json.loads((tmp_path / "out" / "dealers.json").read_text())
+    assert dealers_out[0]["listing_count"] == 3 and dealers_out[0]["clearance_count"] == 5
+
+
+def test_new_stock_outside_clearance_is_still_left_out(tmp_path):
+    dealers = tmp_path / "dealers.yaml"
+    dealers.write_text("""
+dealers:
+  - {id: shop, name: Shop, website: "https://shop.example", platform: shopify, collections: [used]}
+""")
+    fx = tmp_path / "fx"
+    fx.mkdir()
+    (fx / "shop.json").write_text(json.dumps({"fetched_at": "2026-11-19T05:17:00Z", "collections": {
+        "used": [_shop_product(1, "New Pride Colt", 1995), _shop_product(2, "Used Pride Colt", 995)]}}))
+    h = run(dealers, tmp_path / "out", offline_dir=fx)
+    assert h["dealers"]["shop"]["dropped"] == {"listed as new": 1}
+
+
+def test_price_drop_needs_a_week_old_price_and_shows_for_two_weeks():
+    def step(prev, price, at):
+        rec = {"price_gbp": price}
+        track_price_drop(rec, prev, at)
+        return rec
+
+    first = step({}, 1000, "2026-11-01T05:00:00+00:00")
+    assert first["price_since"] == "2026-11-01T05:00:00+00:00"
+    held = step({**first, "price_gbp": 1000}, 1000, "2026-11-09T05:00:00+00:00")
+    assert held["price_since"] == "2026-11-01T05:00:00+00:00" and "price_drop_from_gbp" not in held
+
+    cut = step({**held, "price_gbp": 1000}, 900, "2026-11-09T05:00:00+00:00")
+    assert cut["price_drop_from_gbp"] == 1000 and cut["price_dropped_at"].startswith("2026-11-09")
+    assert is_reduced(cut)
+    again = step({**cut, "price_gbp": 900}, 850, "2026-11-11T05:00:00+00:00")   # a second cut
+    assert again["price_drop_from_gbp"] == 1000 and again["price_dropped_at"].startswith("2026-11-09")
+    late = step({**again, "price_gbp": 850}, 850, f"2026-11-{9 + PRICE_DROP_SHOW_DAYS + 1}T05:00:00+00:00")
+    assert "price_drop_from_gbp" not in late and not is_reduced(late)
+    back_up = step({**cut, "price_gbp": 900}, 950, "2026-11-10T05:00:00+00:00")
+    assert "price_drop_from_gbp" not in back_up
+
+    # A price that only held for two days is not a real "before" price.
+    brief = step({"price_gbp": 1200, "price_since": "2026-11-07T05:00:00+00:00"}, 1000, "2026-11-09T05:00:00+00:00")
+    assert "price_drop_from_gbp" not in brief
+
+
+def test_reduced_counts_the_dealers_was_price():
+    assert is_reduced({"price_gbp": 900, "was_price_gbp": 1200})
+    assert not is_reduced({"price_gbp": 900, "was_price_gbp": None})

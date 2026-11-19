@@ -16,14 +16,28 @@ import httpx
 BATCH_SIZE = 50
 LISTING_FIELDS = [
     "id", "dealer_id", "title", "clean_title", "brand", "year", "category", "type_detail", "condition",
+    "clearance", "clearance_only", "reduced", "price_drop_from_gbp", "price_dropped_at",
     "price_gbp", "price_is_from", "was_price_gbp", "previous_price_gbp", "price_basis",
     "warranty_months", "warranty_source", "max_user_weight_kg", "range_miles", "top_speed_mph",
     "heaviest_part_kg", "spec_note", "url", "image_urls", "first_seen", "last_seen",
 ]
 
 
+CLEARANCE_PLUGIN = (0, 6, 0)
+
+
 class PushError(Exception):
     pass
+
+
+def _plugin_version(client: httpx.Client) -> tuple:
+    """The AUM Directory plugin's version, from /status. (0,) if it can't be read."""
+    try:
+        r = client.get("/status")
+        r.raise_for_status()
+        return tuple(int(x) for x in str(r.json().get("plugin_version", "0")).split(".")[:3])
+    except (httpx.HTTPError, ValueError):
+        return (0,)
 
 
 def _post(client: httpx.Client, path: str, payload: dict) -> dict:
@@ -48,6 +62,14 @@ def push(data_dir: str | Path, site_url: str, user: str, app_password: str,
                "finalize": None}
     with httpx.Client(base_url=base, auth=(user, app_password), timeout=120, transport=transport,
                       headers={"User-Agent": "ApprovedUsedMobilityBot/0.1 (importer)"}) as client:
+        # Clearance-only stock (new end-of-line items) needs plugin 0.6.0, which keeps it in its
+        # own section. An older plugin would show it with the approved-used stock, so hold it back.
+        version = _plugin_version(client)
+        if version < CLEARANCE_PLUGIN:
+            held = sum(1 for r in listings if r.get("clearance_only"))
+            listings = [r for r in listings if not r.get("clearance_only")]
+            summary["held_back"] = (f"{held} clearance-only listings held back until plugin "
+                                    f"{'.'.join(map(str, CLEARANCE_PLUGIN))} is installed") if held else None
         summary["dealers"] = _post(client, "/dealers", {"dealers": dealers})
 
         rows = [{k: r.get(k) for k in LISTING_FIELDS} for r in listings]

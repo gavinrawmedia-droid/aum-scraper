@@ -32,7 +32,7 @@ def fetch(dealer: dict, fetcher: Fetcher) -> dict:
     return {"pages": pages, "products": products, "warnings": []}
 
 
-def from_fixture(fixture: dict) -> dict:
+def from_fixture(fixture: dict, dealer: dict | None = None) -> dict:
     return {"pages": fixture.get("pages", []), "products": fixture.get("products", []), "warnings": []}
 
 
@@ -92,7 +92,9 @@ def parse(dealer: dict, raw: dict) -> list[dict]:
     base = dealer["website"].rstrip("/")
     details = {p["url"].rstrip("/").rsplit("/", 1)[-1]: _product_details(p["html"]) for p in raw.get("products", [])}
     items: dict[str, dict] = {}
+    clearance_pages = tuple(base + path for path in dealer.get("clearance_pages", []))
     for page in raw["pages"]:
+        is_clearance = bool(clearance_pages) and page["url"].rstrip("/").endswith(clearance_pages)
         for c in _cards(page["html"]):
             if not c["slug"] or not c["in_stock"] or not c["price"]:
                 continue
@@ -114,5 +116,6 @@ def parse(dealer: dict, raw: dict) -> list[dict]:
                 "source_updated_at": None,
                 "extra_category": c["category"],
                 "grade": c["grade"],
+                "in_clearance_collection": is_clearance,   # a page the dealer names clearance
             }
     return list(items.values())

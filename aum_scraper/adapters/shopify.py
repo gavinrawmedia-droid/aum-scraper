@@ -11,12 +11,20 @@ from ..normalise import html_to_text, money
 PAGE_SIZE = 250
 
 
+CLEARANCE = "clearance"   # marks a product read from one of the dealer's clearance_collections
+
+
 def fetch(dealer: dict, fetcher: Fetcher) -> dict:
+    """Read the used collections (or the whole store), then any clearance collections.
+    Each product records where it was found under "_aum_from": "used", "clearance" or both."""
     base = dealer["website"].rstrip("/")
     paths = (["/products.json"] if dealer.get("whole_store")
              else [f"/collections/{h}/products.json" for h in dealer.get("collections", [])])
+    sources: dict[str, set] = {p: {"used"} for p in paths}
+    for h in dealer.get("clearance_collections", []):   # a collection in both lists is read once
+        sources.setdefault(f"/collections/{h}/products.json", set()).add(CLEARANCE)
     products, warnings = {}, []
-    for path in paths:
+    for path, found_as in sources.items():
         page = 1
         while True:
             # Page 1 without a page= parameter: some stores' robots.txt blocks "?page=".
@@ -29,19 +37,38 @@ def fetch(dealer: dict, fetcher: Fetcher) -> dict:
                 break
             batch = data.get("products", [])
             for p in batch:
-                products[p["id"]] = p
+                for source in found_as:
+                    _add(products, p, source)
             if len(batch) < PAGE_SIZE or page >= 20:
                 break
             page += 1
     return {"products": list(products.values()), "warnings": warnings}
 
 
-def from_fixture(fixture: dict) -> dict:
-    products = {}
-    for items in fixture.get("collections", {}).values():
+def _add(products: dict, p: dict, source: str) -> None:
+    sources = set(products.get(p["id"], {}).get("_aum_from", [])) | {source}
+    products[p["id"]] = {**p, "_aum_from": sorted(sources)}
+
+
+def from_fixture(fixture: dict, dealer: dict | None = None) -> dict:
+    """Older captures keep each collection's products under its handle."""
+    clearance = set((dealer or {}).get("clearance_collections", []))
+    products: dict = {}
+    for handle, items in fixture.get("collections", {}).items():
         for p in items:
-            products[p["id"]] = p
+            _add(products, p, CLEARANCE if handle in clearance else "used")
     return {"products": list(products.values()), "warnings": []}
+
+
+def _source(dealer: dict, p: dict) -> str | None:
+    """"used" if the product counts as the dealer's used stock, "clearance" if it only comes
+    from a clearance collection (where the used-stock rules don't apply), None to skip it."""
+    found = set(p.get("_aum_from") or ["used"])   # captures from before clearance: all used
+    if "used" in found and _included(dealer, p):
+        return "used"
+    if CLEARANCE in found and _included({"include": dealer.get("clearance_include")}, p):
+        return CLEARANCE
+    return None
 
 
 def _included(dealer: dict, p: dict) -> bool:
@@ -82,14 +109,16 @@ def parse(dealer: dict, raw: dict) -> list[dict]:
     base = dealer["website"].rstrip("/")
     out = []
     for p in raw["products"]:
-        if not _included(dealer, p):
+        source = _source(dealer, p)
+        if not source:
             continue
         variants = p.get("variants") or []
         live = [v for v in variants if v.get("available")]
         if not live:
             continue  # sold or hidden
         all_live = live
-        live = _used_variants(dealer, p, live)
+        if source != CLEARANCE:
+            live = _used_variants(dealer, p, live)
         if not live:
             continue  # only sold new
         # Some shops sell each item twice, with and without VAT relief: price by the option named.
@@ -125,5 +154,9 @@ def parse(dealer: dict, raw: dict) -> list[dict]:
             "images": [i["src"] for i in (p.get("images") or []) if i.get("src")][:6],
             "source_updated_at": p.get("updated_at"),
             "extra_category": "",
+            # Only on a clearance page: the used-stock rules (such as "everything here is used")
+            # don't apply. Also on a used page: still flagged clearance, condition rules as usual.
+            "clearance_source": source == CLEARANCE,
+            "in_clearance_collection": CLEARANCE in (p.get("_aum_from") or []),
         })
     return out
