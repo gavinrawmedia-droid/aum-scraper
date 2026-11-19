@@ -250,7 +250,7 @@ function aum_render_card( int $id ): string {
 				<span class="aum-pill-apricot"><?php echo esc_html( $v( 'aum_clearance_text' ) ); ?></span>
 				<span class="aum-pill"><?php echo esc_html( $v( 'aum_condition_name' ) ); ?></span>
 				<span class="aum-pill-green"><?php echo esc_html( $v( 'aum_warranty_text' ) ); ?></span>
-				<span class="aum-pill-lilac"><?php echo esc_html( $v( 'aum_drop_text' ) ); ?></span>
+				<span class="aum-pill-outline"><?php echo esc_html( $v( 'aum_drop_text' ) ); ?></span>
 			</div>
 			<h3 class="aum-card-title"><a class="aum-card-link" href="<?php echo esc_url( $link ); ?>"><?php echo esc_html( get_the_title( $id ) ); ?></a></h3>
 			<p class="aum-card-specs"><?php echo esc_html( $v( 'aum_card_specs' ) ); ?></p>

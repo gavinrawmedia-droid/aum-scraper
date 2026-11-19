@@ -322,7 +322,8 @@ a.aumd-tm-tile:hover .aumd-tm-ico, a.aumd-tm-tile:focus-visible .aumd-tm-ico { b
 
 /* ---------------------------------------------------------------- clearance and price cuts (0.6.0) */
 .aum-card-tags > :empty { display: none; }
-.aum-pill-lilac { display: inline-flex; align-items: center; min-height: 28px; padding: 3px 12px; border-radius: 999px; background: var(--aum-lilac, #EEE6F7); color: var(--aum-plum, #3A1C4E); font-size: 14px; font-weight: 600; line-height: 1.2; }
+/* Fallback for "Price dropped £150" on plugin cards; the site's design system styles .aum-pill-outline too. */
+.aum-pill-outline { display: inline-flex; align-items: center; padding: 3px 11px; border: 1px solid var(--aum-plum, #3A1C4E); border-radius: 999px; background: #fff; color: var(--aum-plum, #3A1C4E); font-size: 14px; font-weight: 600; line-height: 1.4; }
 .aumd-check-note { margin: 2px 0 0 32px; }
 
 /* "Not found what you need? Try clearance." under the last page of results */
