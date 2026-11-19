@@ -1,5 +1,5 @@
 {
- "run_at": "2026-11-18T14:00:04+00:00",
+ "run_at": "2026-11-19T11:31:22+00:00",
  "mode": "live",
  "dealers": {
   "active-mobility": {
@@ -42,8 +42,8 @@
   },
   "mobility-giant": {
    "status": "ok",
-   "count": 72,
-   "previous_count": 68,
+   "count": 70,
+   "previous_count": 72,
    "dropped": {},
    "messages": []
   },
@@ -70,17 +70,17 @@
   },
   "fenetic-wellbeing": {
    "status": "ok",
-   "count": 12,
+   "count": 18,
    "previous_count": 12,
    "dropped": {
-    "below minimum price": 3,
-    "not mobility equipment": 1
+    "below minimum price": 5,
+    "not mobility equipment": 2
    },
    "messages": []
   },
   "gms-mobility": {
    "status": "ok",
-   "count": 291,
+   "count": 297,
    "previous_count": 291,
    "dropped": {
     "below minimum price": 18,
@@ -91,7 +91,7 @@
   },
   "the-mobility-shop": {
    "status": "ok",
-   "count": 35,
+   "count": 36,
    "previous_count": 35,
    "dropped": {
     "below minimum price": 4

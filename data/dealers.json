@@ -12,7 +12,8 @@
   "price_basis": "vat_relief",
   "lat": 52.201098,
   "lng": -1.722163,
-  "listing_count": 46
+  "listing_count": 46,
+  "clearance_count": 0
  },
  {
   "id": "aspire2",
@@ -27,7 +28,8 @@
   "price_basis": "vat_relief",
   "lat": 52.678875,
   "lng": -0.734028,
-  "listing_count": 22
+  "listing_count": 22,
+  "clearance_count": 0
  },
  {
   "id": "mobility-solutions",
@@ -42,7 +44,8 @@
   "price_basis": "vat_relief",
   "lat": 55.886959,
   "lng": -4.251486,
-  "listing_count": 34
+  "listing_count": 34,
+  "clearance_count": 0
  },
  {
   "id": "mobility-world",
@@ -59,7 +62,8 @@
   "price_basis": "vat_relief",
   "lat": 51.982375,
   "lng": -0.219895,
-  "listing_count": 9
+  "listing_count": 9,
+  "clearance_count": 0
  },
  {
   "id": "seacroft-mobility",
@@ -76,7 +80,8 @@
   "price_basis": "check",
   "lat": 53.11106,
   "lng": 0.24569,
-  "listing_count": 29
+  "listing_count": 29,
+  "clearance_count": 0
  },
  {
   "id": "mobility-giant",
@@ -91,7 +96,8 @@
   "price_basis": "no_vat",
   "lat": 51.29538,
   "lng": 0.195154,
-  "listing_count": 72
+  "listing_count": 74,
+  "clearance_count": 0
  },
  {
   "id": "mobility-station",
@@ -108,7 +114,8 @@
   "price_basis": "vat_relief",
   "lat": 50.806106,
   "lng": -1.918664,
-  "listing_count": 10
+  "listing_count": 10,
+  "clearance_count": 10
  },
  {
   "id": "multicare",
@@ -123,7 +130,8 @@
   "price_basis": "check",
   "lat": 53.858929,
   "lng": -2.173593,
-  "listing_count": 15
+  "listing_count": 15,
+  "clearance_count": 0
  },
  {
   "id": "millercare",
@@ -140,7 +148,8 @@
   "price_basis": "vat_relief",
   "lat": 53.748157,
   "lng": -2.389567,
-  "listing_count": 4
+  "listing_count": 4,
+  "clearance_count": 0
  },
  {
   "id": "fenetic-wellbeing",
@@ -155,7 +164,8 @@
   "price_basis": "vat_relief",
   "lat": 53.945759,
   "lng": -2.016909,
-  "listing_count": 12
+  "listing_count": 12,
+  "clearance_count": 18
  },
  {
   "id": "gms-mobility",
@@ -170,7 +180,8 @@
   "price_basis": "check",
   "lat": 51.882047,
   "lng": 0.929895,
-  "listing_count": 291
+  "listing_count": 299,
+  "clearance_count": 42
  },
  {
   "id": "the-mobility-shop",
@@ -187,7 +198,8 @@
   "price_basis": "check",
   "lat": 50.788484,
   "lng": -1.911999,
-  "listing_count": 35
+  "listing_count": 36,
+  "clearance_count": 2
  },
  {
   "id": "eden-mobility",
@@ -204,7 +216,8 @@
   "price_basis": "vat_relief",
   "lat": 53.595249,
   "lng": -0.6416,
-  "listing_count": 167
+  "listing_count": 167,
+  "clearance_count": 0
  },
  {
   "id": "unique-mobility",
@@ -222,7 +235,8 @@
   "price_basis": "check",
   "lat": 50.626221,
   "lng": -4.358213,
-  "listing_count": 13
+  "listing_count": 13,
+  "clearance_count": 13
  },
  {
   "id": "easy-living-mobility",
@@ -239,7 +253,8 @@
   "price_basis": "check",
   "lat": 53.011363,
   "lng": -2.225252,
-  "listing_count": 16
+  "listing_count": 16,
+  "clearance_count": 0
  },
  {
   "id": "etech-mobility",
@@ -256,7 +271,8 @@
   "price_basis": "check",
   "lat": 52.502144,
   "lng": -1.859737,
-  "listing_count": 2
+  "listing_count": 2,
+  "clearance_count": 0
  },
  {
   "id": "hearing-and-mobility-store",
@@ -274,7 +290,8 @@
   "price_basis": "check",
   "lat": 51.524234,
   "lng": -1.789068,
-  "listing_count": 13
+  "listing_count": 13,
+  "clearance_count": 0
  },
  {
   "id": "arb-mobility",
@@ -289,6 +306,7 @@
   "price_basis": "check",
   "lat": 51.019249,
   "lng": -3.046964,
-  "listing_count": 8
+  "listing_count": 8,
+  "clearance_count": 0
  }
 ]
