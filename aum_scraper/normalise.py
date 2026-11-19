@@ -162,9 +162,40 @@ def detect_condition(title: str, tags: list[str] | None = None, product_type: st
              or _condition_in(" ".join([" ".join(tags or []), product_type or ""]).lower()))
     if found:
         return found
-    if re.match(r"\s*new\b(?!\s*batt)", (title or "").lower()):
+    if re.match(r"\s*new\b(?!\s*batt)", (title or "").lower()) or re.search(_END_OF_LINE, (title or "").lower()):
         return "New"
     return default or "Not stated"
+
+
+# ---------------------------------------------------------------- clearance
+
+# "Ground clearance" is a scooter spec, not a sale, so it never counts.
+_CLEARANCE = r"(?<!ground )(?<!ground-)\bclearance\b"
+_END_OF_LINE = r"\bend[- ]of[- ](?:line|range)\b|\bdiscontinued\b"
+USED_CONDITIONS = ("Used", "Reconditioned", "Ex-demo")
+
+
+def detect_clearance(title: str, tags: list[str] | None = None, product_type: str = "") -> bool:
+    """The dealer marks this item itself as clearance or end of line (in its title, tags or type).
+    A dealer's description is not read for this: it mentions ground clearance too often."""
+    hay = " ".join([title or "", " ".join(tags or []), product_type or ""]).lower()
+    return bool(re.search(_CLEARANCE, hay) or re.search(_END_OF_LINE, hay))
+
+
+def condition_from_text(text: str) -> str | None:
+    """For clearance stock only, where the title often names no condition: what the description
+    says, if it says one thing clearly. "Brand new batteries" on a used scooter isn't "new"."""
+    t = re.sub(r"\s+", " ", (text or "").lower())
+    new = re.search(r"\bbrand[- ]new\b(?!\s+(?:batter|tyre|tire|seat|charger|cover|basket|parts?|motor|controller|"
+                    r"upholster|fabric|handset|inner))|\bnew (?:and|&) unused\b|\bunused\b|\bboxed new\b|"
+                    r"\bnew in (?:the )?box\b|" + _END_OF_LINE, t)
+    used = _condition_in(re.sub(r"\b(?:can|could|be|is|are|was|being|been|get|gets|getting) used\b|"
+                                r"\bused (?:to|for|by|as|with|on|in)\b|\beasy to use\b", " ", t))
+    if new and not used:
+        return "New"
+    if used and not new:
+        return used
+    return None
 
 
 # ---------------------------------------------------------------- category
@@ -386,6 +417,7 @@ _TITLE_NOISE = [
     r"\breconditioned\b", r"\brefurbished\b", r"\bdemo\s*$",
     r"\b\d{1,2} months? (back to shop |on-?site )?warranty\b", r"\bnew batts?\b", r"\bnew batteries\b",
     r"\bnew (?:\d+\s?ah |lithium )batter(?:y|ies)\b", r"\bclearance\b",
+    r"[-–|]\s*new\s*$",          # "... Recliner Chair - NEW": the condition label says it
 ]
 
 

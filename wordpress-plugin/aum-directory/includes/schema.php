@@ -25,7 +25,9 @@ function aum_listing_schema( int $id ): array {
 		return array();
 	}
 	$conditions  = wp_get_post_terms( $id, 'aum_condition', array( 'fields' => 'slugs' ) );
-	$condition   = in_array( 'reconditioned', (array) $conditions, true ) ? 'RefurbishedCondition' : 'UsedCondition';
+	$condition   = in_array( 'reconditioned', (array) $conditions, true ) ? 'RefurbishedCondition'
+		: ( in_array( 'new-end-of-line', (array) $conditions, true ) ? 'NewCondition'
+		: ( in_array( 'not-stated', (array) $conditions, true ) && get_post_meta( $id, 'aum_clearance_only', true ) ? '' : 'UsedCondition' ) );
 	$brands      = wp_get_post_terms( $id, 'aum_brand', array( 'fields' => 'names' ) );
 	$equipment   = wp_get_post_terms( $id, 'aum_equipment', array( 'fields' => 'names' ) );
 	$dealer_post = aum_dealer_post_for( (string) get_post_meta( $id, 'aum_dealer_ext_id', true ) );
@@ -41,11 +43,13 @@ function aum_listing_schema( int $id ): array {
 			'@type'         => 'Offer',
 			'price'         => number_format( (float) $price, 2, '.', '' ),
 			'priceCurrency' => 'GBP',
-			'itemCondition' => 'https://schema.org/' . $condition,
 			'availability'  => 'https://schema.org/InStock',
 			'url'           => get_permalink( $id ),
 		),
 	);
+	if ( $condition ) {   // a clearance item whose condition the dealer doesn't state gets none
+		$data['offers']['itemCondition'] = 'https://schema.org/' . $condition;
+	}
 	if ( $image ) {
 		$data['image'] = $image;
 	}

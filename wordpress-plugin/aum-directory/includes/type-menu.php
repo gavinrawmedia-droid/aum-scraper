@@ -89,9 +89,9 @@ function aum_type_menu_data(): array {
 	return $out;
 }
 
+/** Live listings on the main site (clearance-only stock has its own section). */
 function aum_type_menu_total(): int {
-	$counts = wp_count_posts( 'aum_listing' );
-	return (int) ( $counts->publish ?? 0 );
+	return count( array_filter( aum_facet_rows(), static fn( $r ) => ! $r['clearance_only'] ) );
 }
 
 function aum_type_menu_listings_url(): string {
@@ -162,6 +162,10 @@ function aum_render_type_menu_panel(): string {
 					<div class="aumd-tm-sep" aria-hidden="true"></div>
 					<a class="aumd-tm-side-link" href="<?php echo esc_url( aum_compare_base_url() ); ?>">Compare up to <?php echo (int) aum_compare_max(); ?> side by side<span aria-hidden="true"> →</span></a>
 					<a class="aumd-tm-side-link" href="<?php echo esc_url( aum_type_menu_listings_url() ); ?>">Browse all <?php echo esc_html( number_format_i18n( $total ) ); ?> listings<span aria-hidden="true"> →</span></a>
+					<?php $clearance = aum_clearance_total(); ?>
+					<?php if ( $clearance ) : ?>
+						<a class="aumd-tm-side-link aumd-tm-quiet" href="<?php echo esc_url( aum_clearance_base_url() ); ?>">Clearance and end of line (<?php echo esc_html( number_format_i18n( $clearance ) ); ?>)<span aria-hidden="true"> →</span></a>
+					<?php endif; ?>
 				</div>
 			</div>
 		</div>
@@ -197,6 +201,10 @@ function aum_render_type_menu_drawer(): string {
 		<div class="aumd-tmd-sep" aria-hidden="true"></div>
 		<a class="aumd-tmd-link" href="<?php echo esc_url( aum_type_menu_dealers_url() ); ?>"><span>Find a dealer near you</span><?php echo $chev; // phpcs:ignore WordPress.Security.EscapeOutput ?></a>
 		<a class="aumd-tmd-link" href="<?php echo esc_url( aum_compare_base_url() ); ?>"><span>Compare side by side</span><span class="aumd-cmp-count" data-aum-cmp-count hidden></span></a>
+		<?php $clearance = aum_clearance_total(); ?>
+		<?php if ( $clearance ) : ?>
+			<a class="aumd-tmd-link aumd-tmd-quiet" href="<?php echo esc_url( aum_clearance_base_url() ); ?>"><span>Clearance and end of line</span><span class="aumd-tmd-count"><span class="aumd-sr">, </span><?php echo esc_html( number_format_i18n( $clearance ) ); ?><span class="aumd-sr"> listings</span><?php echo $chev; // phpcs:ignore WordPress.Security.EscapeOutput -- fixed markup ?></span></a>
+		<?php endif; ?>
 		<a class="aumd-btn aumd-tmd-cta" href="<?php echo esc_url( aum_type_menu_listings_url() ); ?>">Browse all <?php echo esc_html( number_format_i18n( $total ) ); ?> listings</a>
 	</div>
 	<?php

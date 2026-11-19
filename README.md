@@ -44,6 +44,12 @@ on any computer with Python 3.10+.
 | `health.json` | Per-dealer status: ok / warning / error, item counts, and what went wrong |
 | `state.json` | History used to track first-seen, last-seen, sold and price changes |
 
+Each listing also says whether the dealer marks it as **clearance** (`clearance`), whether it
+belongs in the site's Clearance section only (`clearance_only`: new end-of-line stock, or a
+clearance item whose condition isn't stated), and whether it is **reduced** (`reduced`: the
+dealer's own "was" price, or a price cut the scraper saw itself, recorded in
+`price_drop_from_gbp` / `price_dropped_at` when the old price had held for a week).
+
 ## Running it
 
 ```bash
@@ -52,7 +58,7 @@ python -m aum_scraper run                    # live run, all dealers
 python -m aum_scraper run --only aspire2     # one dealer
 python -m aum_scraper run --geocode          # also look up dealer postcodes (postcodes.io)
 python -m aum_scraper run --offline fixtures # re-run on the saved test captures, no internet
-python -m pytest -q                          # 26 tests; run after any change
+python -m pytest -q                          # run after any change
 ```
 
 ## Running it every day automatically

@@ -319,3 +319,45 @@ a.aumd-tm-tile:hover .aumd-tm-ico, a.aumd-tm-tile:focus-visible .aumd-tm-ico { b
 .aumd-tmd-soon { margin: 4px 14px 0; font-size: 14px; line-height: 1.45; color: var(--aum-text-2, #5D5466); }
 .aumd-tmd-sep { height: 1px; background: var(--aum-line, #DDD3C6); margin: 12px 14px 6px; }
 .aumd-tmd-cta { margin: 12px 4px 4px; }
+
+/* ---------------------------------------------------------------- clearance and price cuts (0.6.0) */
+.aum-card-tags > :empty { display: none; }
+/* Fallback for "Price dropped £150" on plugin cards; the site's design system styles .aum-pill-outline too. */
+.aum-pill-outline { display: inline-flex; align-items: center; padding: 3px 11px; border: 1px solid var(--aum-plum, #3A1C4E); border-radius: 999px; background: #fff; color: var(--aum-plum, #3A1C4E); font-size: 14px; font-weight: 600; line-height: 1.4; }
+.aumd-check-note { margin: 2px 0 0 32px; }
+
+/* "Not found what you need? Try clearance." under the last page of results */
+.aumd-try { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 16px 24px; margin-top: 32px; padding: 24px 28px; border: 1.5px dashed var(--aum-line, #DDD3C6); border-radius: var(--aum-radius, 18px); background: transparent; }
+.aumd-try-copy { flex: 1 1 360px; display: flex; flex-direction: column; gap: 6px; }
+.aumd-try-h { margin: 0; font-family: var(--aum-font-head, 'Bricolage Grotesque', sans-serif); font-size: 21px; line-height: 1.25; font-weight: 600; color: var(--aum-plum, #3A1C4E); }
+.aumd-try-p { margin: 0; font-size: 16px; line-height: 1.5; color: var(--aum-text-2, #5D5466); }
+.aumd-try-btn { flex: 0 0 auto; }
+.aumd-try-inline { margin: 4px 0 0; padding-top: 14px; border-top: 1px solid var(--aum-line, #DDD3C6); font-size: 16px; line-height: 1.5; }
+.aumd-try-pill { margin-right: 4px; }
+
+/* the clearance box at the top of a clearance listing's buy box */
+.aumd-cl-note { display: flex; flex-direction: column; gap: 8px; width: 100%; box-sizing: border-box; padding: 16px 18px; border-radius: 14px; background: #FFF4EC; border: 1px solid var(--aum-apricot, #FFD6BF); font-size: 16px; line-height: 1.5; color: var(--aum-ink, #231A2B); }
+.aumd-cl-note.is-used { padding: 12px 16px; }
+.aumd-cl-note p { margin: 0; }
+.aumd-cl-note a { font-weight: 600; }
+
+/* "Price dropped £150" in the buy box */
+.aumd-drop { display: flex; flex-wrap: wrap; align-items: center; gap: 6px 10px; }
+.aumd-drop-tag { padding: 3px 10px; border-radius: 999px; background: var(--aum-lilac, #EEE6F7); color: var(--aum-plum, #3A1C4E); font-weight: 600; font-size: 15px; }
+
+/* page numbers under the clearance cards, matching the archive's */
+.aumd-pages { grid-column: 1 / -1; display: flex; flex-wrap: wrap; justify-content: center; gap: 8px; margin-top: 32px; }
+.aumd-pages .page-numbers { display: inline-flex; align-items: center; justify-content: center; min-width: 44px; min-height: 44px; padding: 0 12px; box-sizing: border-box; border-radius: 999px; border: 1px solid var(--aum-line, #DDD3C6); background: #fff; color: var(--aum-plum, #3A1C4E); font-weight: 600; text-decoration: none; }
+.aumd-pages .page-numbers.current { background: var(--aum-plum, #3A1C4E); border-color: var(--aum-plum, #3A1C4E); color: #fff; }
+.aumd-pages a.page-numbers:hover, .aumd-pages a.page-numbers:focus-visible { background: var(--aum-lilac, #EEE6F7); color: var(--aum-plum, #3A1C4E); }
+.aumd-pages .dots { border: 0; background: transparent; min-width: 24px; }
+
+/* the quiet Clearance link in the Browse panel and the phone menu */
+.aumd-tm-side-link.aumd-tm-quiet { font-weight: 500; color: var(--aum-lilac, #EEE6F7); }
+.aumd-tm-side-link.aumd-tm-quiet:hover, .aumd-tm-side-link.aumd-tm-quiet:focus-visible { color: #fff; }
+.aumd-tmd-link.aumd-tmd-quiet { font-size: 16px; color: var(--aum-text-2, #5D5466); }
+
+@media (max-width: 767px) {
+	.aumd-try { padding: 20px; }
+	.aumd-try-btn { width: 100%; }
+}

@@ -66,6 +66,8 @@ function aum_register_content_types(): void {
 		'hierarchical'      => false,
 		'show_admin_column' => true,
 		'show_in_rest'      => true,
+		// Counts (in the menu, type chips and home tiles) leave out clearance-only stock.
+		'update_count_callback' => 'aum_update_listing_term_count',
 	);
 	register_taxonomy(
 		'aum_equipment',
@@ -106,6 +108,7 @@ function aum_register_content_types(): void {
 }
 
 function aum_register_meta( string $post_type, string $key, string $type ): void {
+	$type = 'flag' === $type ? 'boolean' : $type;   // a flag is stored as "1" or not at all
 	$args = array(
 		'type'          => $type,
 		'single'        => true,
@@ -148,11 +151,46 @@ add_action(
 	function () {
 		if ( get_option( 'aum_terms_version' ) !== AUM_DIR_VERSION && taxonomy_exists( 'aum_equipment' ) ) {
 			aum_create_default_terms();
+			aum_recount_listing_terms();
 			update_option( 'aum_terms_version', AUM_DIR_VERSION );
 		}
 	},
 	30
 );
+
+/**
+ * Term counts for equipment types, brands and conditions: published listings that belong on
+ * the main (approved-used) site. Clearance-only stock has its own section, so it isn't counted.
+ */
+function aum_update_listing_term_count( $terms, $taxonomy ): void {
+	global $wpdb;
+	foreach ( (array) $terms as $tt_id ) {
+		$count = (int) $wpdb->get_var( // phpcs:ignore WordPress.DB.DirectDatabaseQuery
+			$wpdb->prepare(
+				"SELECT COUNT(DISTINCT p.ID) FROM {$wpdb->term_relationships} tr
+				 JOIN {$wpdb->posts} p ON p.ID = tr.object_id AND p.post_type = 'aum_listing' AND p.post_status = 'publish'
+				 LEFT JOIN {$wpdb->postmeta} m ON m.post_id = p.ID AND m.meta_key = 'aum_clearance_only'
+				 WHERE tr.term_taxonomy_id = %d AND ( m.meta_value IS NULL OR m.meta_value IN ( '', '0' ) )",
+				(int) $tt_id
+			)
+		);
+		$name = is_object( $taxonomy ) ? $taxonomy->name : (string) $taxonomy;
+		do_action( 'edit_term_taxonomy', $tt_id, $name );
+		$wpdb->update( $wpdb->term_taxonomy, array( 'count' => $count ), array( 'term_taxonomy_id' => $tt_id ) ); // phpcs:ignore WordPress.DB.DirectDatabaseQuery
+		do_action( 'edited_term_taxonomy', $tt_id, $name );
+	}
+}
+
+/** Recount every equipment, brand and condition term (after an import, or a new version). */
+function aum_recount_listing_terms(): void {
+	foreach ( array( 'aum_equipment', 'aum_brand', 'aum_condition' ) as $tax ) {
+		$ids = get_terms( array( 'taxonomy' => $tax, 'hide_empty' => false, 'fields' => 'tt_ids' ) );
+		if ( $ids && ! is_wp_error( $ids ) ) {
+			aum_update_listing_term_count( $ids, $tax );
+			clean_term_cache( $ids, $tax );
+		}
+	}
+}
 
 /**
  * The scraper signs in as its own user with the "Stock importer" role. That role can
@@ -174,6 +212,7 @@ function aum_find_post_id( string $post_type, string $meta_key, string $value ):
 		array(
 			'post_type'              => $post_type,
 			'post_status'            => 'any',
+			'aum_section'            => 'all',
 			'meta_key'               => $meta_key, // phpcs:ignore WordPress.DB.SlowDBQuery
 			'meta_value'             => $value,    // phpcs:ignore WordPress.DB.SlowDBQuery
 			'fields'                 => 'ids',
@@ -188,6 +227,7 @@ function aum_find_post_id( string $post_type, string $meta_key, string $value ):
 			array(
 				'post_type'      => $post_type,
 				'post_status'    => array( 'aum_sold', 'draft', 'trash' ),
+				'aum_section'    => 'all',
 				'meta_key'       => $meta_key, // phpcs:ignore WordPress.DB.SlowDBQuery
 				'meta_value'     => $value,    // phpcs:ignore WordPress.DB.SlowDBQuery
 				'fields'         => 'ids',

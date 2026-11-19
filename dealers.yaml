@@ -13,6 +13,14 @@
 #
 # warranty_policy is only for a warranty the dealer states for ALL its used stock.
 # The scraper prefers a warranty stated on the item itself.
+#
+# Clearance (the site's separate Clearance section): an item is clearance when the dealer
+# marks it so itself, in its title or tags ("Clearance", "End of line"), or when it sits in
+# a collection or page the dealer names clearance. List those under clearance_collections
+# (Shopify) or clearance_pages (Mobility Station). A clearance collection can hold NEW
+# end-of-line stock: that is kept, but only for the Clearance section, never the main site.
+# clearance_include works like include, for the clearance collections only.
+# Sale and "special offers" collections of new stock are not clearance and are not read.
 
 defaults:
   min_price: 300          # ignore anything cheaper (accessories, spares)
@@ -126,6 +134,8 @@ dealers:
     platform: mobility_station     # their own shop (not Shopify): see adapters/mobility_station.py
     pages:
       - /clearance                 # graded used and ex-demo stock
+    clearance_pages:
+      - /clearance                 # the dealer calls its used stock page "clearance"
     price_basis: vat_relief        # shown "ex. VAT" / "No VAT"
 
   - id: multicare
@@ -178,6 +188,10 @@ dealers:
     # Each item is listed twice, "VAT Exempt: Yes" and "No": show the VAT-relief price.
     price_variants: "VAT Exempt: Yes"
     drop_categories: ["Other"]     # sofas and other furniture
+    clearance_collections:
+      - clearance                  # ex-display and new end-of-line chairs, scooters and powerchairs
+    clearance_include:
+      title_excludes: "\\bsofa\\b|\\bdivan\\b|\\bdrawers?\\b"   # household furniture
     price_basis: vat_relief
 
   # ---- added 18 Nov 2026 (ticked on the shortlist; permission emails still to go)
@@ -246,6 +260,8 @@ dealers:
     platform: shopify
     collections:
       - ex-display-clearance-stock   # ex-display riser recliners and approved used scooters
+    clearance_collections:
+      - ex-display-clearance-stock   # the dealer names this collection "Clearance Stock"
     price_basis: check
 
   - id: easy-living-mobility

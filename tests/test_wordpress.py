@@ -23,9 +23,11 @@ def _data(tmp_path, health):
     return d
 
 
-def _recorder(calls, status=200):
+def _recorder(calls, status=200, version="0.6.0"):
     def handler(request: httpx.Request):
         body = json.loads(request.content or b"{}")
+        if request.url.path.endswith("/status"):
+            return httpx.Response(200, json={"plugin_version": version})
         calls.append((request.url.path, body, request.headers.get("authorization", "")))
         if status != 200:
             return httpx.Response(status, json={"code": "rest_forbidden"})
@@ -65,3 +67,23 @@ def test_push_explains_a_missing_plugin(tmp_path):
     health = {"dealers": {"shop-a": {"status": "ok", "count": 1}}}
     with pytest.raises(PushError, match="plugin installed"):
         push(_data(tmp_path, health), "https://site.example", "importer", "pw", transport=_recorder([], 404))
+
+
+def test_push_holds_back_clearance_only_stock_until_the_plugin_can_keep_it_apart(tmp_path):
+    health = {"run_at": "2026-11-19T05:17:00+00:00", "dealers": {"shop-a": {"status": "ok", "count": 120}}}
+    d = _data(tmp_path, health)
+    rows = json.loads((d / "listings.json").read_text())
+    rows["listings"][0].update(clearance=True, clearance_only=True, condition="New")
+    rows["listings"][1].update(clearance=True, clearance_only=False)
+    (d / "listings.json").write_text(json.dumps(rows))
+
+    old, new = [], []
+    summary = push(d, "https://site.example", "importer", "pw", transport=_recorder(old, version="0.5.0"))
+    sent = [r["id"] for path, body, _ in old if path.endswith("/listings") for r in body["listings"]]
+    assert "shop-a:0" not in sent and "shop-a:1" in sent      # used clearance stock is fine on 0.5.0
+    assert "shop-a:0" not in old[-1][1]["active_ids"]
+    assert "1 clearance-only" in summary["held_back"]
+
+    push(d, "https://site.example", "importer", "pw", transport=_recorder(new, version="0.6.0"))
+    sent = {r["id"]: r for path, body, _ in new if path.endswith("/listings") for r in body["listings"]}
+    assert sent["shop-a:0"]["clearance_only"] is True and sent["shop-a:0"]["condition"] == "New"

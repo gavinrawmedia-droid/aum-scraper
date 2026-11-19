@@ -37,6 +37,34 @@ Turns the scraper's data into real pages on approvedusedmobility.co.uk.
 - The dealer's description text is **not** copied (it's their copyright). Photos are shown from
   the dealer's own site, credited. Get each dealer's OK before launch.
 
+## New in 0.6.0: Clearance, kept apart
+
+Dealers mark some stock as clearance (in its title or tags, or by putting it in a collection or
+page they call clearance). The scraper sends two flags with each listing:
+
+- `clearance`: the dealer marks it as clearance. Approved-used items (used, reconditioned,
+  ex-demo) with this flag stay on the main site and also appear in Clearance, with a
+  "Clearance" label.
+- `clearance_only`: clearance stock that isn't approved used: new end-of-line items (condition
+  "New (end of line)") or items whose condition the dealer doesn't state. These appear **only**
+  in the Clearance section and on their own listing pages. Every listing query on the site
+  (archives, Breakdance loops, `[aum_listings]`, filter counts, the header menu, type counts,
+  dealer counts) leaves them out unless it asks for `'aum_section' => 'clearance'` (or `'all'`).
+
+The Clearance page is the page with the address `/clearance/`. It holds the same shortcodes as
+the listings archive (`[aum_results_count]`, `[aum_filters]`, `[aum_active_filters]`,
+`[aum_no_results]`), which switch to clearance stock there, plus `[aum_clearance_grid]` for the
+cards and page numbers (`?pg=2`).
+
+- `[aum_try_clearance]` goes under the archive's results. On the last page it says how many
+  matching items are only in Clearance and links there with the same filters. The "nothing
+  matches" message mentions matching clearance stock too.
+- The Browse panel and the phone menu get a quiet "Clearance and end of line" link.
+- New card fields: `aum_clearance_text` ("Clearance") and `aum_drop_text` ("Price dropped £150").
+- New filter: "Reduced" (`?reduced=1`), a dealer's own "was" price or a price cut the scraper
+  saw itself (the old price held for at least 7 days; shown for 14 days after the cut).
+- The scraper holds clearance-only stock back until this version is installed.
+
 ## New in 0.5.0: the "Browse equipment" menu
 
 - `[aum_type_menu]`: a "Browse equipment" button for the site header. It opens a full-width panel with the types in two groups, "Out and about" and "Around the home", each with a line icon and its number of listings, plus a "Find a dealer near you" postcode box and links to compare and to all listings. It opens on click and closes with Escape, a click outside or tabbing away.

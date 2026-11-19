@@ -29,7 +29,7 @@ def fetch(dealer: dict, fetcher: Fetcher) -> dict:
     return {"pages": pages, "warnings": warnings}
 
 
-def from_fixture(fixture: dict) -> dict:
+def from_fixture(fixture: dict, dealer: dict | None = None) -> dict:
     return {"pages": fixture.get("pages", []), "warnings": []}
 
 
