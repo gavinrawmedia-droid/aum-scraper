@@ -32,6 +32,12 @@ def now_utc() -> str:
     return datetime.now(timezone.utc).replace(microsecond=0).isoformat()
 
 
+def parse_time(value: str) -> datetime:
+    """An ISO time as written by us or a capture ("...Z" or "+00:00"), always in UTC."""
+    t = datetime.fromisoformat(str(value).replace("Z", "+00:00"))
+    return t if t.tzinfo else t.replace(tzinfo=timezone.utc)
+
+
 def load_config(path: str | Path) -> dict:
     cfg = yaml.safe_load(Path(path).read_text())
     defaults = cfg.get("defaults", {})
@@ -147,6 +153,9 @@ def run(config_path: str | Path, out_dir: str | Path, offline_dir: str | Path | 
                           delay_seconds=defaults.get("delay_seconds", 3))
 
     health = {"run_at": seen_at, "mode": "offline" if offline_dir else "live", "dealers": {}}
+    # The 7-day "not seen" cut-off counts back from the newest reading in this run: the clock
+    # in a live run, the newest capture in an offline (test) run, so tests don't age.
+    newest_seen = "" if offline_dir else seen_at
     for dealer in dealers:
         adapter = ADAPTERS[dealer["platform"]]
         h = {"status": "ok", "count": 0, "previous_count": state["dealer_counts"].get(dealer["id"]),
@@ -171,6 +180,7 @@ def run(config_path: str | Path, out_dir: str | Path, offline_dir: str | Path | 
             health["dealers"][dealer["id"]] = h
             continue
 
+        newest_seen = max(newest_seen, seen_at_dealer)
         present = set()
         for item in items:
             rec = normalise(dealer, item, seen_at_dealer)
@@ -212,7 +222,7 @@ def run(config_path: str | Path, out_dir: str | Path, offline_dir: str | Path | 
         geocode([d.get("postcode") for d in cfg["dealers"]], state.setdefault("geo", {}))
 
     # ---- outputs
-    cutoff = (datetime.now(timezone.utc) - timedelta(days=HIDE_AFTER_DAYS)).isoformat()
+    cutoff = (parse_time(newest_seen or seen_at) - timedelta(days=HIDE_AFTER_DAYS)).isoformat()
     live = [r for r in state["listings"].values()
             if r.get("status") == "active" and r.get("last_seen", "") >= cutoff[:10]]
     geo = state.get("geo", {})
