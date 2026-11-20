@@ -19,7 +19,8 @@ defined( 'ABSPATH' ) || exit;
 /** The menu's two groups and the types in each, in display order. */
 function aum_type_menu_groups(): array {
 	return array(
-		'Out and about'   => array( 'road-scooters', 'pavement-scooters', 'boot-scooters', 'powerchairs', 'wheelchairs' ),
+		// "mobility-scooters" holds scooters whose dealer doesn't give a top speed (added in 0.7.0).
+		'Out and about'   => array( 'road-scooters', 'pavement-scooters', 'boot-scooters', 'mobility-scooters', 'powerchairs', 'wheelchairs' ),
 		'Around the home' => array( 'stairlifts', 'riser-recliners', 'profiling-beds', 'hoists', 'bath-lifts' ),
 	);
 }
@@ -29,6 +30,7 @@ function aum_type_menu_label( string $slug, string $fallback ): string {
 	$labels = array(
 		'road-scooters'     => 'Road scooters',
 		'pavement-scooters' => 'Pavement scooters',
+		'mobility-scooters' => 'Other scooters',
 	);
 	return $labels[ $slug ] ?? $fallback;
 }
@@ -37,6 +39,7 @@ function aum_type_menu_note( string $slug ): string {
 	$notes = array(
 		'road-scooters'     => '8mph',
 		'pavement-scooters' => '4mph',
+		'mobility-scooters' => 'Speed not stated',
 		'stairlifts'        => 'Straight and curved',
 	);
 	return $notes[ $slug ] ?? '';
@@ -48,6 +51,7 @@ function aum_type_menu_icon( string $slug ): string {
 	$paths   = array(
 		'road-scooters'     => $scooter,
 		'pavement-scooters' => $scooter,
+		'mobility-scooters' => $scooter,
 		'boot-scooters'     => '<circle cx="6" cy="18.5" r="2"/><circle cx="18" cy="18.5" r="2"/><path d="M3.5 15.5h5M11.5 15.5h5.7M8.5 13.5v4M11.5 13.5v4M18 18.5 15.4 6.5M13.4 6.5h4M6.5 15.5v-4M4.5 11.5h4M4.5 11.5V8"/>',
 		'powerchairs'       => '<path d="M6 4.5V12h8M6 8.5h7M13 8.5V6.8M10 12v3.5M4.5 15.5h12M14 12l3.5 5"/><circle cx="13" cy="6" r=".8"/><circle cx="9.5" cy="18.5" r="2.5"/><circle cx="4.5" cy="19.5" r="1.4"/><circle cx="17.5" cy="19.5" r="1.4"/>',
 		'wheelchairs'       => '<path d="M4 4h2v8h8l3 6.5h2"/><circle cx="9.5" cy="15.5" r="5"/><circle cx="9.5" cy="15.5" r="1"/><circle cx="19" cy="20.2" r="1.3"/>',
@@ -76,6 +80,9 @@ function aum_type_menu_data(): array {
 			$count = ( $term && ! is_wp_error( $term ) ) ? (int) $term->count : 0;
 			$url   = $count ? get_term_link( $term ) : '';
 			$name  = ( $term && ! is_wp_error( $term ) && $term->name !== $slug ) ? $term->name : ( $names[ $slug ] ?? $slug );
+			if ( 'mobility-scooters' === $slug ) {
+				$name = 'Other scooters (speed not stated)';   // the phone menu's full name
+			}
 			$out[ $group ][] = array(
 				'slug'  => $slug,
 				'name'  => $name,

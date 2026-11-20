@@ -2,7 +2,7 @@
 /**
  * Plugin Name:       AUM Directory
  * Description:       Approved-used mobility listings and dealers for Approved Used Mobility. Receives stock from the dealer scraper, tracks clicks through to dealers and adds structured data for search engines.
- * Version:           0.6.1
+ * Version:           0.7.0
  * Requires at least: 6.5
  * Requires PHP:      8.0
  * Author:            Raw Media
@@ -12,7 +12,7 @@
 
 defined( 'ABSPATH' ) || exit;
 
-define( 'AUM_DIR_VERSION', '0.6.1' );
+define( 'AUM_DIR_VERSION', '0.7.0' );
 define( 'AUM_DIR_FILE', __FILE__ );
 define( 'AUM_DIR_PATH', plugin_dir_path( __FILE__ ) );
 define( 'AUM_DIR_URL', plugin_dir_url( __FILE__ ) );
@@ -27,6 +27,7 @@ require_once AUM_DIR_PATH . 'includes/frontend.php';
 require_once AUM_DIR_PATH . 'includes/compare.php';
 require_once AUM_DIR_PATH . 'includes/type-menu.php';
 require_once AUM_DIR_PATH . 'includes/clearance.php';
+require_once AUM_DIR_PATH . 'includes/seo.php';
 require_once AUM_DIR_PATH . 'includes/admin.php';
 
 register_activation_hook( __FILE__, 'aum_dir_activate' );
