@@ -1,5 +1,5 @@
 {
- "run_at": "2026-11-19T14:27:07+00:00",
+ "run_at": "2026-11-20T14:01:56+00:00",
  "mode": "live",
  "dealers": {
   "active-mobility": {
@@ -42,7 +42,7 @@
   },
   "mobility-giant": {
    "status": "ok",
-   "count": 70,
+   "count": 71,
    "previous_count": 70,
    "dropped": {},
    "messages": []
@@ -70,7 +70,7 @@
   },
   "fenetic-wellbeing": {
    "status": "ok",
-   "count": 18,
+   "count": 17,
    "previous_count": 18,
    "dropped": {
     "below minimum price": 5,
@@ -80,8 +80,8 @@
   },
   "gms-mobility": {
    "status": "ok",
-   "count": 301,
-   "previous_count": 297,
+   "count": 298,
+   "previous_count": 301,
    "dropped": {
     "below minimum price": 18,
     "listed as new": 1,
@@ -107,7 +107,7 @@
   },
   "unique-mobility": {
    "status": "ok",
-   "count": 13,
+   "count": 12,
    "previous_count": 13,
    "dropped": {},
    "messages": []
@@ -117,7 +117,7 @@
    "count": 16,
    "previous_count": 16,
    "dropped": {
-    "below minimum price": 2
+    "below minimum price": 1
    },
    "messages": []
   },
