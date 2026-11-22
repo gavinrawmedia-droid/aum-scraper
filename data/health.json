@@ -1,13 +1,15 @@
 {
- "run_at": "2026-11-21T13:29:06+00:00",
+ "run_at": "2026-11-22T13:22:30+00:00",
  "mode": "live",
  "dealers": {
   "active-mobility": {
-   "status": "ok",
-   "count": 46,
+   "status": "warning",
+   "count": 8,
    "previous_count": 46,
    "dropped": {},
-   "messages": []
+   "messages": [
+    "Item count fell from 46 to 8"
+   ]
   },
   "aspire2": {
    "status": "ok",
@@ -43,16 +45,18 @@
   "mobility-giant": {
    "status": "ok",
    "count": 73,
-   "previous_count": 71,
+   "previous_count": 73,
    "dropped": {},
    "messages": []
   },
   "mobility-station": {
-   "status": "ok",
-   "count": 10,
+   "status": "warning",
+   "count": 0,
    "previous_count": 10,
    "dropped": {},
-   "messages": []
+   "messages": [
+    "No items found - the dealer may have changed their site"
+   ]
   },
   "multicare": {
    "status": "ok",
@@ -71,7 +75,7 @@
   "fenetic-wellbeing": {
    "status": "ok",
    "count": 16,
-   "previous_count": 17,
+   "previous_count": 16,
    "dropped": {
     "below minimum price": 5,
     "not mobility equipment": 2
@@ -80,8 +84,8 @@
   },
   "gms-mobility": {
    "status": "ok",
-   "count": 299,
-   "previous_count": 298,
+   "count": 298,
+   "previous_count": 299,
    "dropped": {
     "below minimum price": 18,
     "listed as new": 1,
