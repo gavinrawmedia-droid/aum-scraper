@@ -1,15 +1,13 @@
 {
- "run_at": "2026-11-22T13:22:30+00:00",
+ "run_at": "2026-11-23T15:59:53+00:00",
  "mode": "live",
  "dealers": {
   "active-mobility": {
-   "status": "warning",
+   "status": "ok",
    "count": 8,
-   "previous_count": 46,
+   "previous_count": 8,
    "dropped": {},
-   "messages": [
-    "Item count fell from 46 to 8"
-   ]
+   "messages": []
   },
   "aspire2": {
    "status": "ok",
@@ -44,7 +42,7 @@
   },
   "mobility-giant": {
    "status": "ok",
-   "count": 73,
+   "count": 65,
    "previous_count": 73,
    "dropped": {},
    "messages": []
@@ -52,7 +50,7 @@
   "mobility-station": {
    "status": "warning",
    "count": 0,
-   "previous_count": 10,
+   "previous_count": 0,
    "dropped": {},
    "messages": [
     "No items found - the dealer may have changed their site"
@@ -84,8 +82,8 @@
   },
   "gms-mobility": {
    "status": "ok",
-   "count": 298,
-   "previous_count": 299,
+   "count": 300,
+   "previous_count": 298,
    "dropped": {
     "below minimum price": 18,
     "listed as new": 1,
@@ -95,7 +93,7 @@
   },
   "the-mobility-shop": {
    "status": "ok",
-   "count": 36,
+   "count": 34,
    "previous_count": 36,
    "dropped": {
     "below minimum price": 4

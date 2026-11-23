@@ -12,7 +12,7 @@
   "price_basis": "vat_relief",
   "lat": 52.201098,
   "lng": -1.722163,
-  "listing_count": 52,
+  "listing_count": 8,
   "clearance_count": 0
  },
  {
@@ -96,7 +96,7 @@
   "price_basis": "no_vat",
   "lat": 51.29538,
   "lng": 0.195154,
-  "listing_count": 73,
+  "listing_count": 74,
   "clearance_count": 0
  },
  {
@@ -114,8 +114,8 @@
   "price_basis": "vat_relief",
   "lat": 50.806106,
   "lng": -1.918664,
-  "listing_count": 10,
-  "clearance_count": 10
+  "listing_count": 0,
+  "clearance_count": 0
  },
  {
   "id": "multicare",
@@ -180,7 +180,7 @@
   "price_basis": "check",
   "lat": 51.882047,
   "lng": 0.929895,
-  "listing_count": 299,
+  "listing_count": 302,
   "clearance_count": 43
  },
  {
