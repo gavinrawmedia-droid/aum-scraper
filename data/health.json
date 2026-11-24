@@ -1,5 +1,5 @@
 {
- "run_at": "2026-11-23T15:59:53+00:00",
+ "run_at": "2026-11-24T15:54:30+00:00",
  "mode": "live",
  "dealers": {
   "active-mobility": {
@@ -42,8 +42,8 @@
   },
   "mobility-giant": {
    "status": "ok",
-   "count": 65,
-   "previous_count": 73,
+   "count": 74,
+   "previous_count": 65,
    "dropped": {},
    "messages": []
   },
@@ -82,8 +82,8 @@
   },
   "gms-mobility": {
    "status": "ok",
-   "count": 300,
-   "previous_count": 298,
+   "count": 303,
+   "previous_count": 300,
    "dropped": {
     "below minimum price": 18,
     "listed as new": 1,
@@ -94,7 +94,7 @@
   "the-mobility-shop": {
    "status": "ok",
    "count": 34,
-   "previous_count": 36,
+   "previous_count": 34,
    "dropped": {
     "below minimum price": 4
    },
@@ -102,14 +102,14 @@
   },
   "eden-mobility": {
    "status": "ok",
-   "count": 167,
+   "count": 169,
    "previous_count": 167,
    "dropped": {},
    "messages": []
   },
   "unique-mobility": {
    "status": "ok",
-   "count": 12,
+   "count": 10,
    "previous_count": 12,
    "dropped": {},
    "messages": []

@@ -96,7 +96,7 @@
   "price_basis": "no_vat",
   "lat": 51.29538,
   "lng": 0.195154,
-  "listing_count": 74,
+  "listing_count": 77,
   "clearance_count": 0
  },
  {
@@ -180,7 +180,7 @@
   "price_basis": "check",
   "lat": 51.882047,
   "lng": 0.929895,
-  "listing_count": 302,
+  "listing_count": 305,
   "clearance_count": 43
  },
  {
@@ -198,8 +198,8 @@
   "price_basis": "check",
   "lat": 50.788484,
   "lng": -1.911999,
-  "listing_count": 36,
-  "clearance_count": 2
+  "listing_count": 34,
+  "clearance_count": 1
  },
  {
   "id": "eden-mobility",
@@ -216,7 +216,7 @@
   "price_basis": "vat_relief",
   "lat": 53.595249,
   "lng": -0.6416,
-  "listing_count": 167,
+  "listing_count": 169,
   "clearance_count": 0
  },
  {
@@ -290,7 +290,7 @@
   "price_basis": "check",
   "lat": 51.524234,
   "lng": -1.789068,
-  "listing_count": 13,
+  "listing_count": 14,
   "clearance_count": 0
  },
  {
