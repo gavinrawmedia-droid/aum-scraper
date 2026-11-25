@@ -235,8 +235,8 @@
   "price_basis": "check",
   "lat": 50.626221,
   "lng": -4.358213,
-  "listing_count": 12,
-  "clearance_count": 12
+  "listing_count": 10,
+  "clearance_count": 10
  },
  {
   "id": "easy-living-mobility",
@@ -290,7 +290,7 @@
   "price_basis": "check",
   "lat": 51.524234,
   "lng": -1.789068,
-  "listing_count": 14,
+  "listing_count": 13,
   "clearance_count": 0
  },
  {
