@@ -1,5 +1,5 @@
 {
- "run_at": "2026-11-25T15:37:25+00:00",
+ "run_at": "2026-11-26T15:18:36+00:00",
  "mode": "live",
  "dealers": {
   "active-mobility": {
@@ -32,8 +32,8 @@
   },
   "seacroft-mobility": {
    "status": "ok",
-   "count": 28,
-   "previous_count": 29,
+   "count": 27,
+   "previous_count": 28,
    "dropped": {
     "listed as new": 1,
     "spare part or accessory": 1
@@ -42,8 +42,8 @@
   },
   "mobility-giant": {
    "status": "ok",
-   "count": 73,
-   "previous_count": 74,
+   "count": 70,
+   "previous_count": 73,
    "dropped": {},
    "messages": []
   },
@@ -72,7 +72,7 @@
   },
   "fenetic-wellbeing": {
    "status": "ok",
-   "count": 16,
+   "count": 15,
    "previous_count": 16,
    "dropped": {
     "below minimum price": 6,
@@ -82,8 +82,8 @@
   },
   "gms-mobility": {
    "status": "ok",
-   "count": 304,
-   "previous_count": 303,
+   "count": 300,
+   "previous_count": 304,
    "dropped": {
     "below minimum price": 18,
     "listed as new": 1,
@@ -102,7 +102,7 @@
   },
   "eden-mobility": {
    "status": "ok",
-   "count": 169,
+   "count": 170,
    "previous_count": 169,
    "dropped": {},
    "messages": []
@@ -131,11 +131,14 @@
    "messages": []
   },
   "hearing-and-mobility-store": {
-   "status": "ok",
-   "count": 13,
+   "status": "error",
+   "count": 0,
    "previous_count": 13,
    "dropped": {},
-   "messages": []
+   "messages": [
+    "HTTPStatusError: Client error '403 Forbidden' for url 'https://thehearingandmobilitystore.co.uk/wp-json/wc/store/v1/products?category=used-mobility-scooters&per_page=100'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+   ],
+   "trace": "Traceback (most recent call last):\n  File \"/home/runner/work/aum-scraper/aum-scraper/aum_scraper/pipeline.py\", line 228, in run\n    raw = adapter.fetch(dealer, fetcher)\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/aum-scraper/aum-scraper/aum_scraper/adapters/woocommerce.py\", line 28, in fetch\n    batch = fetcher.get_json(url)\n            ^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/aum-scraper/aum-scraper/aum_scraper/fetch.py\", line 87, in get_json\n    return self.get(url).json()\n           ^^^^^^^^^^^^^\nhttpx.HTTPStatusError: Client error '403 Forbidden' for url 'https://thehearingandmobilitystore.co.uk/wp-json/wc/store/v1/products?category=used-mobility-scooters&per_page=100'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403\n"
   },
   "arb-mobility": {
    "status": "ok",
