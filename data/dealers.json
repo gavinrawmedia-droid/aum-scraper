@@ -80,7 +80,7 @@
   "price_basis": "check",
   "lat": 53.11106,
   "lng": 0.24569,
-  "listing_count": 28,
+  "listing_count": 27,
   "clearance_count": 0
  },
  {
@@ -96,7 +96,7 @@
   "price_basis": "no_vat",
   "lat": 51.29538,
   "lng": 0.195154,
-  "listing_count": 77,
+  "listing_count": 82,
   "clearance_count": 0
  },
  {
@@ -164,8 +164,8 @@
   "price_basis": "vat_relief",
   "lat": 53.945759,
   "lng": -2.016909,
-  "listing_count": 10,
-  "clearance_count": 16
+  "listing_count": 9,
+  "clearance_count": 15
  },
  {
   "id": "gms-mobility",
@@ -180,8 +180,8 @@
   "price_basis": "check",
   "lat": 51.882047,
   "lng": 0.929895,
-  "listing_count": 304,
-  "clearance_count": 43
+  "listing_count": 302,
+  "clearance_count": 44
  },
  {
   "id": "the-mobility-shop",
@@ -216,7 +216,7 @@
   "price_basis": "vat_relief",
   "lat": 53.595249,
   "lng": -0.6416,
-  "listing_count": 170,
+  "listing_count": 172,
   "clearance_count": 0
  },
  {
@@ -235,8 +235,8 @@
   "price_basis": "check",
   "lat": 50.626221,
   "lng": -4.358213,
-  "listing_count": 10,
-  "clearance_count": 10
+  "listing_count": 14,
+  "clearance_count": 14
  },
  {
   "id": "easy-living-mobility",

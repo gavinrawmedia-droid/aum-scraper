@@ -1,5 +1,5 @@
 {
- "run_at": "2026-11-26T15:18:36+00:00",
+ "run_at": "2026-11-27T15:06:47+00:00",
  "mode": "live",
  "dealers": {
   "active-mobility": {
@@ -33,7 +33,7 @@
   "seacroft-mobility": {
    "status": "ok",
    "count": 27,
-   "previous_count": 28,
+   "previous_count": 27,
    "dropped": {
     "listed as new": 1,
     "spare part or accessory": 1
@@ -42,8 +42,8 @@
   },
   "mobility-giant": {
    "status": "ok",
-   "count": 70,
-   "previous_count": 73,
+   "count": 80,
+   "previous_count": 70,
    "dropped": {},
    "messages": []
   },
@@ -73,7 +73,7 @@
   "fenetic-wellbeing": {
    "status": "ok",
    "count": 15,
-   "previous_count": 16,
+   "previous_count": 15,
    "dropped": {
     "below minimum price": 6,
     "not mobility equipment": 2
@@ -83,7 +83,7 @@
   "gms-mobility": {
    "status": "ok",
    "count": 300,
-   "previous_count": 304,
+   "previous_count": 300,
    "dropped": {
     "below minimum price": 18,
     "listed as new": 1,
@@ -102,16 +102,18 @@
   },
   "eden-mobility": {
    "status": "ok",
-   "count": 170,
-   "previous_count": 169,
+   "count": 172,
+   "previous_count": 170,
    "dropped": {},
    "messages": []
   },
   "unique-mobility": {
    "status": "ok",
-   "count": 10,
+   "count": 14,
    "previous_count": 10,
-   "dropped": {},
+   "dropped": {
+    "below minimum price": 1
+   },
    "messages": []
   },
   "easy-living-mobility": {
