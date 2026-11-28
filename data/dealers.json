@@ -96,7 +96,7 @@
   "price_basis": "no_vat",
   "lat": 51.29538,
   "lng": 0.195154,
-  "listing_count": 82,
+  "listing_count": 84,
   "clearance_count": 0
  },
  {
@@ -180,8 +180,8 @@
   "price_basis": "check",
   "lat": 51.882047,
   "lng": 0.929895,
-  "listing_count": 302,
-  "clearance_count": 44
+  "listing_count": 303,
+  "clearance_count": 45
  },
  {
   "id": "the-mobility-shop",
